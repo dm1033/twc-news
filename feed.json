@@ -1,1 +1,57 @@
-PLACEHOLDER
+{
+  "updated": "2026-08-20T19:05:00+01:00",
+  "source": "Temporary Works Consulting & Design Ltd — daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-08-20-sequence-changes-and-formwork-control",
+      "date": "2026-08-20",
+      "kicker": "Daily briefing",
+      "title": "Sequence changes and formwork control still decide temporary stability",
+      "excerpt": "CROSS-UK Report 1479 and the ONR extension of improvement notices at Hinkley Point C both underline the same contractor reality: late changes to construction sequence and incomplete control of formwork create temporary stability risks that design drawings alone cannot absorb.",
+      "tags": ["CROSS", "Formwork", "Sequence", "BS 5975", "ONR"],
+      "linkedinReady": "Late changes to construction sequence are still creating temporary stability risks that the permanent works drawings never intended.\n\nCROSS-UK Report 1479 (January 2026) describes a filler-beam bridge deck where the contractor moved from lifting beams in connected pairs to individual lifts. The Category II checker identified lateral-torsional buckling risk under wet concrete at utilisation over 200%. Temporary bracing had to be designed under programme pressure once most of the deck reinforcement was already fixed.\n\nSeparately, the Office for Nuclear Regulation has extended two CDM 2015 improvement notices on the BYLOR joint venture at Hinkley Point C after a formwork panel fell approximately 29 metres and seriously injured a worker. The notices remain focused on planning, managing and monitoring construction work so far as reasonably practicable.\n\nThe lesson for principal contractors and TWCs is practical:\n• Any change to method or sequence must be notified to the TWC and assessed before it is executed.\n• Formwork and falsework are temporary works items — design, check, permit and competent inspection apply.\n• Verbal agreement that “we will brace it later” is not control.\n\nIf the Temporary Works Register does not reflect the actual sequence on site today, the control system has already failed.\n\nEducational only — not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #CROSS #Formwork #BS5975 #CDM2015 #ConstructionSafety",
+      "body": [
+        {
+          "h": "What the latest published material shows",
+          "p": "Two recent public sources illustrate the same control gap. CROSS-UK Report 1479 (published 13 January 2026) records a near-miss on an approximately 20 m span filler-beam bridge deck. Shortly before Category II check completion the contractor altered the intended construction sequence, moving from lifting steel beams in connected pairs to individual lifts. The change introduced a significant temporary stability concern: lateral-torsional buckling of the beams under the weight of wet concrete. The Category II checker calculated utilisation over 200% if the beams remained unbraced and without rotational restraint. Temporary LTB restraints were required. Later challenges to the need for bracing, commercial negotiations over design responsibility, and a compressed design period once deck reinforcement was largely fixed all increased risk."
+        },
+        {
+          "h": "Formwork control at Hinkley Point C",
+          "p": "On 11 August 2026 the Office for Nuclear Regulation published the extension of two improvement notices served in June 2026 on Bouygues Travaux Publics SAS and Laing O’Rourke Delivery Limited (BYLOR JV). A formwork panel fell approximately 29 metres and caused serious injury to a worker. ONR established that the contractor had failed to ensure construction work was planned, managed and monitored so far as reasonably practicable without risks to health and safety. Both notices were issued under CDM 2015 Regulation 15(2). The deadline for compliance was extended to 14 September 2026. ONR confirmed there was no risk to nuclear safety, the public or the environment."
+        },
+        {
+          "h": "Contractor and TWC actions that close the gap",
+          "ul": [
+            "Treat any proposed change to construction sequence or method as a temporary works change: notify the TWC, assess stability at every stage, and obtain revised design or check before the change is implemented.",
+            "Keep formwork, falsework and related platforms on the Temporary Works Register with clear design status, check category, permit-to-load/use and competent inspection records.",
+            "Do not accept verbal “we will brace it later” or “the designer will sort the temporary condition”. Design responsibility and hold points must be named and documented.",
+            "When permanent works drawings assume a sequence that the site later changes, the permanent works designer, temporary works designer and TWC must close the interface in writing before load is applied.",
+            "Network Rail’s B&S Engineering advice note EAN03/2025 on temporary conditions (September 2025) is a useful reference for bridge and similar staged works — register and read it where the project interfaces with Network Rail standards."
+          ]
+        },
+        {
+          "h": "Why this remains a live issue",
+          "p": "BS 5975-1:2024 places procedural control of temporary works — including changes — squarely with the Temporary Works Coordinator and the project procedure. CDM 2015 duties on planning, managing and monitoring construction work are not discharged by a method statement that is never updated when the sequence changes. Formwork panels, crash decks and unbraced beams during construction are high-consequence temporary works. The published near-miss and the regulatory notices show that control still fails when sequence, design responsibility and inspection are treated as secondary to programme."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "CROSS-UK Report 1479, 13 January 2026 — Temporary stability risk due to construction changes on bridge deck",
+              "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-stability-risk-due-construction-changes-1479"
+            },
+            {
+              "label": "Office for Nuclear Regulation, 11 August 2026 — Extension of two improvement notices after Hinkley Point C incident",
+              "url": "https://www.onr.org.uk/news/all-news/2026/08/extension-of-two-improvement-notices-after-hinkley-point-c-incident"
+            },
+            {
+              "label": "Construction Enquirer, 12 August 2026 — Formwork panel hits Hinkley worker after falling 29 metres",
+              "url": "https://www.constructionenquirer.com/2026/08/12/formwork-panel-hits-hinkley-worker-after-falling-29-metres/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
