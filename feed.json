@@ -1,1 +1,70 @@
-LOADING
+{
+  "updated": "2026-09-02T19:00:00+01:00",
+  "source": "Temporary Works Consulting & Design Ltd — daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-09-02-formwork-falsework-cdm-planning-management",
+      "date": "2026-09-02",
+      "kicker": "ONR & CDM temporary works",
+      "title": "Formwork panel falls and debris platforms: the same planning and management gap",
+      "excerpt": "ONR has extended improvement notices on the BYLOR joint venture at Hinkley Point C after a formwork panel fell approximately 29 m and seriously injured a worker. The notices cite failure to ensure construction work was planned, managed and monitored under CDM 2015 Regulation 15(2). The same duty language appears in recent HSE platform prosecutions. Temporary works — formwork, falsework, crash decks and working platforms — must sit under a live BS 5975 procedure with competent design, checking and hold points, not verbal assumptions.",
+      "tags": ["ONR", "CDM", "Formwork", "Falsework", "HSE", "BS 5975", "Working platforms", "TWC", "Competence"],
+      "linkedinReady": "Formwork, falsework and debris platforms keep producing the same enforcement picture: the temporary structure was foreseeable, the load was foreseeable, and the control was missing or informal.\n\nIn August 2026 the Office for Nuclear Regulation extended two improvement notices on Bouygues Travaux Publics SAS and Laing O’Rourke Delivery Limited (BYLOR JV) at Hinkley Point C. A formwork panel fell approximately 29 metres and left a worker with serious injuries. ONR found that, as contractor, BYLOR failed to ensure construction work was planned, managed and monitored so far as reasonably practicable under CDM 2015 Regulation 15(2). There was no nuclear safety risk; the notices remain a clear signal on ordinary construction-phase temporary works control. Compliance deadline is 14 September 2026.\n\nThat language matches the HSE outcomes already familiar to Temporary Works Coordinators. At Paxton House (prosecution published June 2026) temporary wooden platforms collecting concrete debris had no design and no calculated safe load. A drilling operative sustained fractures to his neck and back. Inspection paperwork existed but was not completed by a competent Temporary Works Coordinator. Verbal instructions not to overload the platforms did not close the gap.\n\nCROSS continues to record parallel near-misses: temporary works that transfer load into existing structure without checking the existing beams and slabs; sequence changes that introduce lateral-torsional buckling; ad-hoc bracing treated as “temporary” rather than a designed control. The pattern is consistent. The item is treated as background construction activity instead of a structure that must resist foreseeable loads under a managed procedure.\n\nFor principal contractors, TWCs and site managers this week:\n• Treat formwork, falsework, crash decks, debris platforms and working platforms as temporary works items on the live register under BS 5975-1:2024.\n• Issue a design brief that states the temporary condition, loads, support and sequence constraints. Do not accept “we’ll manage it on site”.\n• Require appropriate design and check category, competent installation against the approved arrangement, and closed permit-to-load / inspection hold points before people work under or on the system.\n• Confirm that supervision and monitoring match the RAMS and the Temporary Works Register — not verbal clearance alone.\n• When sequence or method changes, route the change through the TWC and design interface before the temporary condition is created.\n\nEducational only — not for construction; subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #Formwork #Falsework #CDM #HSE #ONR #TWC #ConstructionSafety",
+      "body": [
+        {
+          "h": "What ONR recorded at Hinkley Point C",
+          "p": "On 11 August 2026 the Office for Nuclear Regulation published the extension of two improvement notices served on Bouygues Travaux Publics SAS and Laing O’Rourke Delivery Limited, operating as the BYLOR joint venture, following an incident at Hinkley Point C. A formwork panel fell approximately 29 metres and left a worker with serious injuries. The incident was reportable under RIDDOR. ONR established that BYLOR JV, in its role as contractor, failed to ensure that construction work was planned, managed and monitored so that, so far as reasonably practicable, it was carried out without risks to health and safety. Both notices were issued under Regulation 15(2) of the Construction (Design and Management) Regulations 2015. ONR stated there was no risk to nuclear safety, the public or the environment. Progress had been made, so an extension was granted to 14 September 2026 for BYLOR to demonstrate full compliance."
+        },
+        {
+          "h": "The same duty language in HSE platform prosecutions",
+          "p": "HSE’s June 2026 prosecution of Roots Contractors Limited and Diacutt Limited after the Paxton House temporary platform collapse used the same core message. Temporary wooden platforms had been built to collect concrete cores and debris during floor-cutting works. There was no design for the platforms and no calculation of a safe loading level. An inspection form was completed but the person who completed it was not a competent Temporary Works Coordinator. Verbal instructions to clear platforms and not overload them were not backed by a known safe load or effective monitoring. Roots pleaded guilty to CDM 2015 Regulation 16(2); Diacutt to Regulation 15(2). The injured operative described being ‘folded up like a concertina’ and has not returned to work. HSE guidance remains clear: any temporary structure must be designed, installed and maintained to withstand any foreseeable loads and inspected by a competent person."
+        },
+        {
+          "h": "Why formwork and platforms sit under BS 5975",
+          "p": "Formwork, falsework, crash decks and working platforms are temporary works. They carry people, concrete, debris or equipment and must provide a verified load path for the temporary condition. BS 5975-1:2024 sets out the management procedure: identify the item, place it on the Temporary Works Register, issue a design brief, obtain an appropriate design and independent check where required, permit loading or use only after competent inspection, and maintain control until strike or dismantling. Treating these items as informal site arrangements — or relying on verbal supervision alone — is the recurring control failure that appears in both ONR improvement notices and HSE prosecutions. CROSS reports on temporary works that transfer load into existing structure without checking that structure, and on sequence changes that introduce buckling risks, show the same process gap from a different angle."
+        },
+        {
+          "h": "What a competent contractor and TWC should check this week",
+          "ul": [
+            "Walk the Temporary Works Register against live formwork, falsework, crash decks, debris platforms and working platforms; add any missing items immediately.",
+            "Require a design brief that states the temporary condition, loads, support conditions and sequence constraints; reject “we’ll manage it on site”.",
+            "Confirm appropriate design and check category, competent installation against the approved arrangement, and closed permit-to-load / inspection hold points before people work under or on the system.",
+            "Ensure supervision and monitoring match the RAMS and the register — documented, not assumed.",
+            "Route any sequence or method change through the Temporary Works Coordinator and design interface before the temporary condition is created.",
+            "Verify that the person signing inspections is competent for the specific item, not merely available."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Office for Nuclear Regulation, 11 August 2026 — Extension of two improvement notices after Hinkley Point C incident",
+              "url": "https://www.onr.org.uk/news/all-news/2026/08/extension-of-two-improvement-notices-after-hinkley-point-c-incident"
+            },
+            {
+              "label": "Construction Enquirer, 12 August 2026 — Formwork panel hits Hinkley worker after falling 29 metres",
+              "url": "https://www.constructionenquirer.com/2026/08/12/formwork-panel-hits-hinkley-worker-after-falling-29-metres/"
+            },
+            {
+              "label": "HSE Media Centre, 15 June 2026 — Two firms fined after worker fractures neck during platform collapse (Paxton House)",
+              "url": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+            },
+            {
+              "label": "HSE guidance — Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            },
+            {
+              "label": "CROSS Safety Report 1539 — Temporary works failed to consider possibility of existing RC slab and beam failing (14 May 2026)",
+              "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-works-fail-consider-possibility-concrete-failing-1539"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact clause references and design categorisation are to be confirmed against the project’s licensed copies of the relevant standards and the project temporary works procedure."
+        }
+      ]
+    }
+  ]
+}
