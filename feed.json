@@ -1,1 +1,58 @@
-PLACEHOLDER
+{
+  "updated": "2026-09-13T08:00:00+01:00",
+  "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-09-13-banstead-unsupported-trench-collapse",
+      "date": "2026-09-13",
+      "kicker": "HSE prosecutions",
+      "title": "Unsupported trench, spoil at the edge: Banstead collapse sentenced at the Old Bailey",
+      "excerpt": "On 9 September 2026 the Old Bailey sentenced two companies and a contracts manager after Gheorghita Arsene, 33, was buried under about two tonnes of soil in an unsupported trench at Park Road, Banstead on 24 June 2020. HSE and Surrey Police found no trench support and spoil piled immediately next to the edge. A manager had already seen another worker in the same unsupported excavation that day. T Vaughan Limited was fined \u00a3650,000 plus \u00a340,000 costs; Appledorn Developments Limited was fined \u00a3500,000. Anthony O\u2019Connor received a 10-month sentence, suspended for 18 months, plus 150 hours unpaid work. Every trench is a temporary works item until the project procedure says otherwise.",
+      "tags": ["HSE", "Excavations", "Trench support", "BS 5975", "TWC", "CDM", "Temporary works"],
+      "linkedinReady": "An excavation is not a hole in the ground. It is a temporary works item with a collapse consequence that is routinely fatal.\n\nOn 9 September 2026 the Old Bailey sentenced principal contractor Appledorn Developments Limited and subcontractor T Vaughan Limited after Gheorghita Arsene, 33, died at Park Road, Banstead on 24 June 2020. He was replacing a damaged pipe in a deep trench dug with a three-tonne excavator. The walls collapsed without warning. He was buried under about two tonnes of soil and died at the scene.\n\nA five-year joint investigation by HSE and Surrey Police found no supports in the trench and excavated soil deposited immediately next to the edge. Earlier that day, contracts manager Anthony O\u2019Connor had seen another worker in the same unsupported excavation and did not stop the work. Both companies were convicted under section 3(1) of the Health and Safety at Work etc. Act 1974. T Vaughan Limited was fined \u00a3650,000 plus \u00a340,000 costs. Appledorn Developments Limited was fined \u00a3500,000. O\u2019Connor pleaded guilty to section 7 and received 10 months imprisonment, suspended for 18 months, and 150 hours unpaid work.\n\nHSE\u2019s own excavation guidance is unambiguous: no ground can be relied upon to stand unsupported in all circumstances; a cubic metre of soil can weigh more than 1.5 tonnes; support or a safe batter must be decided before digging; spoil and plant must be kept off the edge; a competent person must inspect at the start of every shift.\n\nControl points for the TWC and TWS: put every trench and service pit on the Temporary Works Register; do not permit entry until support or batter is in accordance with the design or accepted standard solution; keep spoil and plant surcharge off the edge; hold the permit if the inspection is missing. Do not proceed until reviewed and accepted by the competent person under the project temporary works procedure.\n\nEducational only \u2014 not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Excavations #HSE #BS5975 #TWC #CDM",
+      "body": [
+        {
+          "h": "What happened",
+          "p": "On 24 June 2020 Gheorghita Arsene, 33, known as Geo, was working at Park Road, Banstead, Surrey to replace a damaged pipe at the bottom of a deep trench excavated with a three-tonne digger. He was clearing soil with a shovel and pickaxe when the trench walls collapsed without warning. Rescue was attempted. He was buried under approximately two tonnes of soil and died at the scene. Following a trial at the Old Bailey on 9 September 2026, principal contractor Appledorn Developments Limited and subcontractor T Vaughan Limited were convicted of breaching section 3(1) of the Health and Safety at Work etc. Act 1974. T Vaughan Limited was fined \u00a3650,000 and ordered to pay \u00a340,000 costs. Appledorn Developments Limited was fined \u00a3500,000. Anthony O\u2019Connor, a self-employed contracts manager working for T Vaughan Limited, had pleaded guilty on 22 May 2026 to breaching section 7 of the same Act. He was sentenced to 10 months\u2019 imprisonment, suspended for 18 months, and 150 hours of unpaid work. The Crown Prosecution Service brought the prosecution. HSE described the death as preventable."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "This is not an unusual geometry and it is not a rare failure mode. HSE\u2019s published excavation guidance states that no ground can be relied upon to stand unsupported in all circumstances and that a cubic metre of soil can weigh in excess of 1.5 tonnes. The Banstead findings match the classic control failures: no trench support, spoil immediately at the edge, a person in the excavation, and a supervisor who had already seen the same unsupported condition earlier that day and did not stop the work. Under BS 5975-1:2024 an excavation of this type belongs on the Temporary Works Register with a design brief or accepted standard solution, a check category confirmed by the Temporary Works Coordinator, a permit to excavate or enter, and inspection by a competent person. Standard equipment does not automatically mean low risk. Consequence of collapse is burial. Provisional category only \u2014 to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Register every trench, pit, service excavation and battered slope before digging starts. Do not treat pipe repair as outside the temporary works procedure.",
+            "Decide support or safe batter before the bucket goes in the ground. Trench sheets, boxes, props or a designed batter must be on site first. HSE: no work should take place until the excavation is safe.",
+            "Keep spoil, plant and surcharge off the edge. The Banstead investigation found soil deposited immediately next to the unsupported trench.",
+            "If a supervisor sees a person in an unsupported excavation, that is a stop and hold point, not a note for later. The competent person under the project procedure must close the item.",
+            "Inspect at the start of every shift and after any event that may have affected stability. Record the inspection. Correct faults before re-entry.",
+            "Plan access, egress, services, groundwater and rescue before entry. A pickaxe at the invert is not a method if the sides are open."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Not a design, not a check and not a permit. Subject to project-specific verification of drawings, ground conditions, services, surcharge, water and sequence, and to acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site. Do not proceed until reviewed and accepted by the competent person under the project temporary works procedure."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "HSE Media Centre, Two companies and an individual sentenced after worker crushed by two tonnes of soil in trench collapse, 9 September 2026",
+              "url": "https://press.hse.gov.uk/2026/09/09/two-companies-and-an-individual-sentenced-after-worker-crushed-by-two-tonnes-of-soil-in-trench-collapse/"
+            },
+            {
+              "label": "HSE, Excavations \u2014 construction safety topic",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/excavations.htm"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
