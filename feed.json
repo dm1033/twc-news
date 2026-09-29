@@ -1,8 +1,24 @@
 {
-  "updated": "2026-09-28T08:30:00+01:00",
+  "updated": "2026-09-29T08:00:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-09-29-cisrs-cscs-card-competence",
+      "date": "2026-09-29",
+      "kicker": "Guidance",
+      "title": "A CSCS logo is not a scaffold design — competence cards do not replace the TWC",
+      "excerpt": "Construction News, 25 September 2026, and ScaffMag, 28 September 2026: CISRS has given notice that it will leave the CSCS card scheme on 1 June 2027, citing legal advice on Construction Leadership Council card rules and work outside construction. CSCS disputes that reading and says the notice was unexpected. CISRS says existing cards remain valid for their five-year term and that qualifications will not change. For contractors the lesson is procedural: site access cards evidence training, not that the scaffold is designed, inspected or permitted under BS 5975-1:2024.",
+      "tags": ["CISRS", "CSCS", "Scaffolding", "Competence", "Temporary works", "BS 5975"],
+      "linkedinReady": "A CISRS or CSCS card is evidence of training. It is not a design, not an inspection and not a permit to use the scaffold.\n\nOn 25 September 2026 Construction News reported that CISRS has given notice it will leave the CSCS scheme on 1 June 2027. CISRS cites legal advice on Construction Leadership Council card rules and the fact that a large share of scaffolding work sits outside construction. CSCS Group chief executive Sean Kearns has called the notice unexpected and does not accept that the CLC wording creates an immediate conflict. ScaffMag on 28 September set out both positions. CISRS says existing cards remain valid for their full term and that qualifications will not change. The exit can still be withdrawn if CLC wording is agreed.\n\nFor the TWC and TWS the control point does not move. CDM 2015 still requires competent people. BS 5975-1:2024 still requires the scaffold on the register, a brief when it is not a TG20:21 compliance sheet, inspection and a permit before load or public interface. Do not treat a gate-pass logo as proof the ties, sheeting, public protection or loadings have been checked.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #CISRS #CSCS #BS5975",
+      "body": [
+        {"h": "What was published", "p": "Construction News reported on 25 September 2026 that the Construction Industry Scaffolders Record Scheme (CISRS) has given notice that it will withdraw from the Construction Skills Certification Scheme (CSCS) on 1 June 2027. CISRS, overseen by the National Access and Scaffolding Confederation, said legal advice found it at risk of breaching Construction Leadership Council industry card scheme rules that cards will not be issued for non-construction-related occupations. CISRS chief executive Clive Dickin said research showed between 30 and 80 per cent of scaffolding contractors' work is outside construction. From 1 January 2027 CISRS intends to rename itself the Competence in Scaffolding Record Scheme. It says qualifications, training routes and existing five-year cards will not change. New and renewed cards from June 2027 would be issued without the CSCS logo if the licence ends. CSCS group chief executive Sean Kearns described the notice as unexpected, said CSCS had been waiting for an update on outstanding licence obligations, and rejected the reading that CLC wording forces CISRS out. ScaffMag on 28 September 2026 reported CSCS confirming formal notice with a proposed termination date of 31 May 2027, and CISRS saying the exit can still be reversed if CLC Clause 4 is amended so one card can cover construction and other sectors."},
+        {"h": "Why it matters for contractors", "p": "Scaffolding is temporary works. The card debate is about how competence is recorded across construction, utilities, petrochemical, marine and aviation. It is not a change to TG20:21, EN 12811-1, Work at Height Regulations or BS 5975-1:2024. Principal contractors still have to satisfy themselves that the people erecting, altering and inspecting scaffolds are competent for the actual task. The TWC still has to put the scaffold on the register, decide whether it is a standard solution or needs a design brief, and hold inspection and permit-to-use before the public or the follow-on trade walks underneath. A logo on a card does not confirm ties into the facade, sheeting wind loads, TG20 compliance sheets, or that last week's alteration was inspected. CDM 2015 competence duties do not wait for 2027."},
+        {"h": "Practical TWC and TWS control points", "ul": ["Treat CISRS/CSCS cards as one input to competence — not as design acceptance or a permit to use.", "Keep scaffolds, sheeting, fans, loading bays and public-interface lifts on the temporary works register.", "If the scaffold is not a documented TG20:21 compliance sheet for the actual geometry and wind, issue a design brief.", "Do not load, sheet or hand over until the competent person has inspected and the project procedure has issued the permit.", "Record who erected and who inspected. A gate-pass scan is not that record.", "If your induction or procurement text currently says 'CSCS-logoed CISRS card only', plan how you will word competence after June 2027 — and keep the current wording under review during the notice period.", "Provisional category only — confirm under the project temporary works procedure. Public interface, sheeting and unusual geometry push the category up.", "Do not proceed until reviewed and accepted by the competent person under the project temporary works procedure."]},
+        {"h": "Limitations", "p": "Educational briefing only. Not for construction. Not a design, not a check and not a permit. Subject to project-specific verification and the project temporary works procedure. Facts taken from Construction News (25 September 2026), the CISRS announcement (8 September 2026) and ScaffMag (28 September 2026). This briefing does not take sides on the legal dispute between CISRS and CSCS. Card policy is not a substitute for design, inspection or permit control. AI-assisted drafting requires competent review before use on site."},
+        {"h": "Sources", "sources": [{"label": "Construction News, 25 September 2026", "url": "https://www.constructionnews.co.uk/skills/scaffolders-body-set-to-leave-cscs-card-scheme-25-09-2026/"}, {"label": "CISRS announcement, 8 September 2026", "url": "https://cisrs.org.uk/resource/cisrs-announces-cscs-licence-termination-to-ensure-inclusive-working-practices.html"}, {"label": "ScaffMag, 28 September 2026", "url": "https://scaffmag.com/scaffold-training/cscs-challenges-cisrs-case-for-leaving-card-scheme/"}, {"label": "HSE temporary works", "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"}, {"label": "BS 5975-1:2024", "url": "https://www.bsigroup.com/"}]}
+      ]
+    },
     {
       "id": "2026-09-28-corniche-falling-window-hse",
       "date": "2026-09-28",
@@ -19,6 +35,56 @@
         {"h": "Limitations", "p": "Educational briefing only. Not for construction. Not a design, not a check and not a permit. Subject to project-specific verification and the project temporary works procedure. Facts taken from the HSE Media Centre pages dated 24 September 2026. Confirm against those pages. This briefing does not re-try the case or add findings beyond the published HSE account. AI-assisted drafting requires competent review before use on site."},
         {"h": "Sources", "sources": [{"label": "HSE Media Centre, 24 September 2026", "url": "https://press.hse.gov.uk/2026/09/24/"}, {"label": "HSE Media Centre home", "url": "https://press.hse.gov.uk/"}, {"label": "HSE temporary works", "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"}, {"label": "CDM 2015", "url": "https://www.hse.gov.uk/construction/cdm/2015/index.htm"}, {"label": "BS 5975-1:2024", "url": "https://www.bsigroup.com/"}]}
       ]
+    },
+    {
+      "id": "2026-09-27-scaffold-wind-ultimo-cross-1413",
+      "date": "2026-09-27",
+      "kicker": "Site news / CROSS-UK",
+      "title": "Wind on a sheeted façade is a temporary works load — not a weather inconvenience",
+      "excerpt": "ABC News and 7NEWS, 27 September 2026: scaffolding at Wattle Street, Ultimo, fell onto parked cars. SafeWork NSW issued a prohibition notice. CROSS-UK Report 1413 on temporary works wind loads.",
+      "tags": ["Scaffolding", "Wind", "CROSS-UK", "Temporary works", "BS 5975"],
+      "linkedinReady": "A sheeted scaffold on a public street is not a weather inconvenience. It is a temporary works structure with a wind load and a third-party risk.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #Wind #CROSSUK #BS5975",
+      "body": [{"h": "See previous briefing", "p": "Full Ultimo / CROSS-UK 1413 briefing remains as published 27 September 2026. Educational only. Not for construction. Subject to the project temporary works procedure."}]
+    },
+    {
+      "id": "2026-09-26-cross-1539-propping-existing-structure",
+      "date": "2026-09-26",
+      "kicker": "CROSS-UK / HSE",
+      "title": "Props that can take the load are still unsafe if the slab they sit on cannot",
+      "excerpt": "CROSS-UK Report 1539 (14 May 2026) and HSE 15 June 2026 Paxton House: props and platforms fail when the receiving structure or the load is not designed.",
+      "tags": ["CROSS-UK", "HSE", "Propping", "Temporary works", "BS 5975"],
+      "linkedinReady": "A pair of heavy-duty props is not a temporary works scheme if nobody has checked the slab they sit on.\n\nhttps://www.temporaryworksconsulting.com/news.html",
+      "body": [{"h": "See previous briefing", "p": "Full CROSS-UK 1539 briefing remains as published 26 September 2026. Educational only."}]
+    },
+    {
+      "id": "2026-09-25-stairwell-opening-hillbeck",
+      "date": "2026-09-25",
+      "kicker": "HSE prosecutions",
+      "title": "Loose boards over a stairwell are not a cover — they are a missing temporary works item",
+      "excerpt": "HSE 21 September 2026 Hillbeck Homes stairwell prosecution.",
+      "tags": ["HSE", "Work at height", "Openings", "Temporary works"],
+      "linkedinReady": "A stairwell waiting for a flight is not an empty hole.\n\nhttps://www.temporaryworksconsulting.com/news.html",
+      "body": [{"h": "See previous briefing", "p": "Full Hillbeck Homes briefing remains as published 25 September 2026. Educational only."}]
+    },
+    {
+      "id": "2026-09-24-cross-1552-crane-base-shear",
+      "date": "2026-09-24",
+      "kicker": "CROSS-UK",
+      "title": "Do not copy CIRIA C761 shear enhancement onto the tension side of a piled crane base",
+      "excerpt": "CROSS-UK Report 1552 (29 June 2026).",
+      "tags": ["CROSS-UK", "Tower cranes", "CIRIA C761", "Temporary works"],
+      "linkedinReady": "A tower crane base is a single, safety-critical temporary works element.\n\nhttps://www.temporaryworksconsulting.com/news.html",
+      "body": [{"h": "See previous briefing", "p": "Full CROSS-UK 1552 briefing remains as published 24 September 2026. Educational only."}]
+    },
+    {
+      "id": "2026-09-23-banstead-trench-collapse",
+      "date": "2026-09-23",
+      "kicker": "HSE prosecutions",
+      "title": "Unsupported trench, spoil at the edge, and a contracts manager who walked past it",
+      "excerpt": "HSE 9 September 2026 Banstead trench outcome.",
+      "tags": ["HSE", "Excavations", "Temporary works"],
+      "linkedinReady": "An unsupported trench with spoil stacked at the lip is not a small civils job.\n\nhttps://www.temporaryworksconsulting.com/news.html",
+      "body": [{"h": "See previous briefing", "p": "Full Banstead briefing remains as published 23 September 2026. Educational only."}]
     }
   ]
 }
