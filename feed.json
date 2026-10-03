@@ -1,8 +1,67 @@
 {
-  "updated": "2026-10-02T07:50:00+01:00",
+  "updated": "2026-10-03T07:45:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-03-floor-strip-out-is-temporary-works",
+      "date": "2026-10-03",
+      "kicker": "HSE prosecutions",
+      "title": "Strip the floor and you have removed the working platform — W G Carter fined £120,000",
+      "excerpt": "HSE’s 2 October 2026 press release records the sentencing of W G Carter Limited after carpenter Richard “Felix” Roper, 59, fell through a stripped first floor at Manor Barn House, Nether Westcote, on 30 August 2022 and died the next day. Joists were missing or unsecured, and other workers were still removing boards in the same area. Bristol Magistrates’ Court fined the company £120,000 plus £5,247 costs on 24 September 2026 for a breach of the Work at Height Regulations 2005. For contractors, a floor under alteration is temporary works: sequence it, exclude it, or deck it before anyone stands on it.",
+      "tags": [
+        "Temporary works",
+        "Work at height",
+        "Refurbishment",
+        "HSE",
+        "BS 5975",
+        "CDM 2015"
+      ],
+      "linkedinReady": "Once the boards and joists come out, the floor is no longer a working platform. It is a temporary condition.\n\nOn 2 October 2026 HSE reported the sentencing of W G Carter Limited after Richard “Felix” Roper, 59, fell from the first floor of Manor Barn House, Nether Westcote, on 30 August 2022. He died the next day. Large parts of the floor had been stripped. Some joists were missing or unsecured. Other workers were still removing boards in the same area. He fell to the concrete below.\n\nThe investigation found the work at height had not been properly planned, supervised or carried out safely. HSE served a Prohibition Notice. On 24 September 2026 at Bristol Magistrates’ Court the company pleaded guilty to Regulation 4(1) of the Work at Height Regulations 2005 and was fined £120,000, with costs of £5,247.\n\nAfter the incident the company installed joists from below and kept people off the first floor. That control belonged in the method first: exclusion, a designed temporary deck or crash deck, or work from a safe level. Floor strip-out sits on the temporary works register. The TWC needs authority to stop access to an incomplete floor.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #WorkAtHeight #BS5975 #CDM2015 #Refurbishment",
+      "body": [
+        {
+          "h": "What HSE reported",
+          "p": "On 2 October 2026 the Health and Safety Executive published the sentencing of W G Carter Limited, of 81A Eaton Road, Appleton, Oxfordshire, after carpenter Richard “Felix” Roper died following a fall at Manor Barn House, Nether Westcote, Gloucestershire. On 30 August 2022 he was replacing damaged floor joists on the first floor while other workers removed sections of flooring in the same area. Extensive repairs were under way to rotten joists and floorboards. Large parts of the first-floor structure had been stripped, leaving open gaps between joists. Some joists were missing or had not been secured. He fell from the first floor to the concrete ground floor, sustained severe head injuries, and died in hospital the following day. A joint investigation by HSE and Gloucestershire Police found that the work at height had not been properly planned, appropriately supervised, or carried out safely. Workers, including Mr Roper, could reach areas where flooring and structural supports had been removed, and other workers were still removing floorboards, creating and increasing the fall risk. HSE served a Prohibition Notice stopping further work at height until adequate measures were introduced. On 24 September 2026 at Bristol Magistrates’ Court the company pleaded guilty to breaching Regulation 4(1) of the Work at Height Regulations 2005. It was fined £120,000 and ordered to pay costs of £5,247. HSE principal inspector James Lucas said a man lost his life because of the company’s failings, and that appropriate controls could have prevented the death."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "A floor that is being opened up is not the permanent structure the operatives walked on at the start of the shift. Removing boards and joists changes the load path, the available standing area and the fall consequence. That is a temporary works condition, whether or not anyone has called it one. Work at Height Regulations 2005 require the work to be properly planned, appropriately supervised and carried out in a manner which is, so far as is reasonably practicable, safe. HSE’s published guidance on falls from height says work must be planned, supervised and carried out by competent people. CDM 2015 still requires construction work to be planned, managed and monitored. HSE’s temporary works guidance says any temporary structure must be designed, installed and maintained to withstand the foreseeable loads on it, and used only for the purpose for which it was designed. On a strip-out, the temporary structure may be a crash deck, a scaffold working platform, a designed temporary deck spanning sound joists, or a decision that nobody stands on the incomplete floor at all. BS 5975-1:2024 is the code of practice for the management procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. Standard does not automatically mean low risk: a domestic barn conversion became fatal because the fall was onto concrete and the sequence was uncontrolled. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Put floor strip-out, joist replacement and any temporary deck or crash deck on the temporary works register before the first board is lifted.",
+            "Do not allow people to work on a floor while other trades are still removing boards or joists in the same area. Sequence the opening, or exclude it.",
+            "Treat missing or unsecured joists as a failed working surface. Access needs a designed platform, work from below, or a physical barrier, not a verbal warning.",
+            "If a crash deck or temporary deck is the control, brief it, check it and permit it before use. A few loose boards laid back over the opening is not a deck.",
+            "Give the Temporary Works Coordinator authority to stop access to an incomplete floor. A domestic or small-works site is not outside the procedure.",
+            "After alteration, weather or a change of trade, re-inspect before anyone is allowed back on. The method used after this incident — joists installed from below, first floor closed to access — is the arrangement that should have been in the RAMS first.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the HSE press release of 2 October 2026. It is not a full case report and it does not reproduce the sentencing remarks. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "HSE Media Centre, Construction company fined £120,000 after worker dies in fall from height, 2 October 2026",
+              "url": "https://press.hse.gov.uk/2026/10/02/construction-company-fined-120000-after-worker-dies-in-fall-from-height/"
+            },
+            {
+              "label": "HSE, Working at height: A brief guide (INDG401)",
+              "url": "https://www.hse.gov.uk/pubns/indg401.htm"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-02-ukcw-digital-register-is-not-a-design",
       "date": "2026-10-02",
