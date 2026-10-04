@@ -1,8 +1,71 @@
 {
-  "updated": "2026-10-03T07:45:00+01:00",
+  "updated": "2026-10-04T07:45:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-04-freestanding-tower-wind-is-not-a-ratio",
+      "date": "2026-10-04",
+      "kicker": "Guidance",
+      "title": "A 3:1 height-to-base ratio is not a wind design — Queensland coroner on a freestanding tower in a public place",
+      "excerpt": "On 30 September 2026 the Queensland Coroners Court delivered findings into the death of Andrew Stephen Jones, 37, struck by a freestanding aluminium tower scaffold at Mitchelton Football Club, Brisbane, on 25 July 2021. The tower was about 3.1 m overall, with a working platform about 2.1 m and a minimum base of 1.28 m, a height-to-base ratio of about 1.6:1 and no outriggers. It sat inside the three-times rule of thumb. The coroner found that ratio, used alone, did not assess strong-wind risk. For UK contractors the point is the same: a mobile tower left in a public place, or left standing through weather, is temporary works. Match the sheet, the ties and the ballast to the wind, the duration and the people underneath.",
+      "tags": [
+        "Temporary works",
+        "Scaffolding",
+        "Wind",
+        "Public interface",
+        "TG20",
+        "BS 5975"
+      ],
+      "linkedinReady": "A height-to-base ratio is not a wind design.\n\nOn 30 September 2026 the Queensland Coroners Court delivered findings into the death of Andrew Stephen Jones, 37. On 25 July 2021 he was struck by a freestanding aluminium tower scaffold at Mitchelton Football Club in Brisbane. It was a filming platform in an open public area, expected to stay for several months. Overall height was about 3.1 m, the platform about 2.1 m, the minimum base 1.28 m. The ratio was about 1.6:1, inside the three-times rule of thumb. There were no outriggers.\n\nThe coroner found that ratio, used alone, did not assess strong-wind risk. Expert evidence put the critical wind for toppling at 47 to 54 km/h. Gusts on the day were put between 41 and 68 km/h.\n\nThis is not UK law. The control is the same on a UK site. A mobile tower left in a public place, or through weather, is temporary works. TG20 and the manufacturer’s instructions set the configuration. Wind, duration and public interface can take it outside a standard sheet. Outriggers, ties and ballast belong in the brief. The TWC needs a weather trigger and authority to stop use.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #TG20 #BS5975 #PublicProtection",
+      "body": [
+        {
+          "h": "What the coroner reported",
+          "p": "On 30 September 2026 Coroner Megan Fairweather delivered findings, in chambers, into the death of Andrew Stephen Jones, 37. He died at the Royal Brisbane and Women’s Hospital at 2.19pm on 25 July 2021 from blunt force chest injuries after he was struck by a freestanding aluminium tower scaffold while watching his son play football at Mitchelton Football Club in Brisbane. The tower had been installed in April 2021 as a filming platform for matches. It stood in an open, publicly accessible area between two pitches and was expected to remain for several months. Scaffmag’s report of the findings, which links the coroner’s PDF, records an overall height of about 3.1 m, a working platform just over 2.1 m, a minimum base of 1.28 m and a height-to-base ratio of about 1.6:1. The coroner’s findings record the platform at 2145 mm above ground, on four swivel jacks on timber boards to suit a slight slope, and no outriggers. The inquest heard that this was inside the widely used guidance that a tower with a base greater than 1.2 m could be treated as stable where the working height did not exceed three times the minimum base dimension. The coroner found that relying on that ratio alone did not provide an adequate assessment of wind risk. Senior structural engineer Aaron Poole estimated a critical wind range for toppling of 47 to 54 km/h. Evidence before the inquest placed likely gusts on the day between 41 and 68 km/h. AS/NZS 4576:2020 advises that freestanding tower scaffolds should not be operated or left unattended where wind speeds may exceed 40 km/h. Queensland’s Scaffolding Code referred to “strong winds” without defining the term or giving installers a simple method for deciding when extra controls were required. Mr Poole’s evidence was that outriggers, tie-downs, tube-and-clip restraints and additional dead load could substantially increase stability, could withstand wind above 70 km/h, and would very likely have prevented the incident. Because the working platform was below four metres, erection did not require a Queensland High Risk Work Licence for scaffolding, routine inspections were not required, and there was no requirement for a formal handover certificate. The coroner found there had been no formal plan for ongoing monitoring after installation, and that the circumstances raised issues broader than the actions of any individual."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "This is a Queensland coronial finding. It is not UK law, and it does not amend TG20, BS EN 12811-1 or the Work at Height Regulations 2005. The temporary works point travels. A low freestanding tower that satisfies a height-to-base rule of thumb can still be unstable in wind, particularly if it is unclad or sheeted, left unattended, standing for months, or placed where the public can be underneath or beside it. Standard does not automatically mean low risk. Consequence here was a member of the public, not an operative on the platform. On a UK site the same arrangement is a temporary works item: design or configure it, check it against the manufacturer’s instructions and the applicable TG20 compliance sheet, and manage it under the project temporary works procedure. BS 5975-1:2024 is the code of practice for that procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. HSE’s scaffolding guidance expects scaffolds to be designed, erected, altered and dismantled by competent people, and inspected by a competent person before first use, after alteration, after an event that may have affected stability, and at intervals not exceeding seven days. A weather event is that kind of event. Provisional category only — to be confirmed by the TWC and the project temporary works procedure. Public interface, duration and wind exposure can take a mobile tower out of a default low category."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Put freestanding and mobile towers on the temporary works register, including towers hired for filming, inspection or short-duration access, and towers left standing between uses.",
+            "Do not treat a 3:1 height-to-base ratio as a wind design. Match the configuration to the manufacturer’s instructions and the TG20 sheet. If the sheet does not cover the height, the ties, the sheeting or the location, it is outside the sheet.",
+            "Brief wind, exposure, duration and public interface in the design brief. Outriggers, kentledge and ties are design controls, not site improvisation after the forecast arrives.",
+            "Set a weather trigger before erection: who checks the forecast, what wind speed stops use, and who has authority to dismantle, tie or exclude. AS/NZS 4576:2020’s 40 km/h figure is Australian guidance, not a UK limit. Use the manufacturer’s limit and the project procedure.",
+            "Where the public can reach the tower, exclusion and stability are both required. A tower between pitches, on a pavement or beside a site hoarding is a public-protection item.",
+            "Inspect before first use and after wind, alteration or a period left unattended. A tower below a licensing threshold in another jurisdiction is not outside inspection on a UK site.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the Queensland Coroners Court findings delivered on 30 September 2026 and the Scaffmag report of those findings dated 2 October 2026. It is not a full transcript and it does not apply Queensland licensing thresholds to UK sites. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Coroners Court of Queensland, Inquest into the death of Andrew Stephen Jones, findings delivered 30 September 2026",
+              "url": "https://www.coronerscourt.qld.gov.au/__data/assets/pdf_file/0009/917433/Inquest-into-the-death-of-Andrew-Stephen-Jones.pdf"
+            },
+            {
+              "label": "Scaffmag, Queensland coroner calls for mandatory tower scaffold controls after fatal collapse, 2 October 2026",
+              "url": "https://scaffmag.com/scaffolding-news/global-news/australia-new-zealand/queensland-coroner-calls-for-mandatory-tower-scaffold-controls-after-fatal-collapse/"
+            },
+            {
+              "label": "HSE, Scaffolding",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/scaffolding.htm"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-03-floor-strip-out-is-temporary-works",
       "date": "2026-10-03",
