@@ -1,8 +1,68 @@
 {
-  "updated": "2026-10-04T07:45:00+01:00",
+  "updated": "2026-10-05T08:20:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-05-scaffold-is-not-the-formwork",
+      "date": "2026-10-05",
+      "kicker": "Guidance",
+      "title": "An access scaffold is not the formwork — the HS2 dive-under is a designed interface",
+      "excerpt": "Scaffmag reported on 29 September 2026 that PERI UK is supplying access scaffold, wall formwork and high-level bracket platforms for Balfour Beatty VINCI’s Birmingham Spur Dive-Under, where reinforced concrete walls rise to 11 m. PERI UP Flex platforms are being used for reinforcement to those walls. VARIO girder formwork is configured with closer spacing for the taller pours, and pressure sensors on selected pours are being compared with the design pressures. SCS brackets anchored to the completed walls then provide the roof-slab edge platform. For contractors the lesson is the interface: access, formwork and bracket platforms are separate temporary works items, even when one supplier coordinates the drawings.",
+      "tags": [
+        "Temporary works",
+        "Scaffolding",
+        "Formwork",
+        "Falsework",
+        "Interface",
+        "BS 5975"
+      ],
+      "linkedinReady": "An access scaffold is not the formwork. On a tall wall pour they meet, and that meeting is a designed interface.\n\nOn 29 September 2026 Scaffmag reported PERI UK supplying access scaffold, wall formwork and high-level platforms for Balfour Beatty VINCI’s Birmingham Spur Dive-Under. The reinforced concrete walls rise to 11 m. PERI UP Flex platforms are used for reinforcement. VARIO girder formwork is set with closer girder, waler and tie spacing for the taller pours. Pressure sensors on selected pours are compared with the pressures calculated at design stage. Once the walls are complete, SCS brackets anchored to the concrete carry the roof-slab edge platform, so the platform is not brought up from the ground and ties do not pass through the finished face.\n\nA supplier coordinating its own scaffold and formwork drawings is useful. It is not the project temporary works procedure. Each system still needs a brief, a design basis, a check and a permit before load. The scaffold must not be asked to carry pour load it was not designed for. The bracket platform must not be loaded before the anchor concrete is accepted. Sensors are a control on the assumed pressure, not a substitute for the design.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Formwork #Scaffolding #BS5975 #Falsework",
+      "body": [
+        {
+          "h": "What was reported",
+          "p": "On 29 September 2026 Scaffmag reported that PERI UK is supplying temporary works equipment for the Birmingham Spur Dive-Under, delivered by Balfour Beatty VINCI as part of HS2 Delta Junction, north-east of Birmingham. The structure lets one high-speed line pass beneath another. Its main reinforced concrete walls rise to 11 m. PERI UP Flex modular scaffolding is providing access and support around the high wall sections, and access platforms from that system are being used by teams installing reinforcement to the 11 m walls. Scaffmag records that PERI says its scaffold and formwork designs were coordinated by its engineering teams before arriving on site, to reduce clashes between the temporary works systems. For the wall pours, Balfour Beatty VINCI is using PERI VARIO girder wall formwork, which can be configured with closer spacing between girders, walers and ties for the loads from the taller pours. Concrete pressure sensors have been installed on selected wall pours so the team can monitor loads on the formwork and compare them with the pressures calculated at design stage. The wider package described includes MAXIMO panel formwork for foundation works and BECOSTOP stop ends where reinforcement congestion made conventional timber stop ends difficult. As work moves to the roof slab, PERI SCS brackets can be anchored directly to the completed 11 m walls to create high-level working platforms for reinforcement and to support the formwork at the roof-slab edge. Scaffmag records that this removes the need for the working platform to be supported from ground level and avoids ties passing through the finished concrete. Dan Biggs, senior sales engineer at PERI UK, is quoted on the practical benefit of taking accessories, scaffolding and formwork from one supplier. This briefing does not endorse that equipment. It uses the published arrangement as an interface example."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Access, formwork and a bracket platform fixed to young concrete are three temporary works items that share a face. Treating them as one “scaffold package” is how load gets into the wrong member. An access scaffold to BS EN 12811-1 is there to carry people, materials for the stated duty and the environmental actions in its design. It is not, by that fact, falsework or formwork to BS EN 12812 or the formwork sections of BS 5975. Pour pressure, tie loads and the reaction from a slab-edge form belong in the formwork design. A bracket anchored into the wall transfers that platform load into concrete whose age, strength and anchor capacity have to be in the brief. HSE’s temporary works guidance expects any temporary structure to be designed, installed and maintained for the foreseeable loads, and used only for the purpose for which it was designed. CDM 2015 still requires the work to be planned, managed and monitored. BS 5975-1:2024 is the code of practice for the management procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. A supplier coordinating its own drawings reduces clash risk. It does not appoint the project Temporary Works Coordinator, and it does not replace the design check or the permit to load. Standard does not automatically mean low risk: an 11 m wall pour, public or railway interface, and a change of support from ground scaffold to wall bracket are all reasons to confirm the category. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Register the access scaffold, the wall formwork and the bracket platform as separate items, with a named interface: who owns the shared face, the ties and the anchors.",
+            "Do not let the access scaffold carry formwork, pour pressure or slab-edge reactions unless that load is in its design and check. Duty class on a TG20 or system sheet is not a pour-load design.",
+            "Brief wall height, pour rate, concrete temperature, tie layout and the design pressure. Closer girder and tie spacing is a design output, not a site preference on the day.",
+            "If pressure sensors are used, state what they are for: comparison with the design pressure, and the action if the reading approaches the limit. A sensor is not a permit.",
+            "For brackets anchored to completed walls, hold the platform until the concrete strength, anchor type and edge distance are accepted. Do not load a bracket on concrete that has only been struck.",
+            "Changing from a ground-supported platform to a wall-anchored platform is a design change. Strike the old load path only under a permit to dismantle.",
+            "Keep the supplier’s coordinated drawings in the brief, and still have them checked under the project procedure. One supplier is not one design.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the Scaffmag report of 29 September 2026. It is a supplier project note, not a design statement, a permit or a check certificate. No pour pressures, concrete strengths or category have been taken from that report. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Scaffmag, PERI scaffolding supports major HS2 Birmingham dive-under works, 29 September 2026",
+              "url": "https://scaffmag.com/project-news/peri-scaffolding-hs2-birmingham-dive-under-works/"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            },
+            {
+              "label": "HSE, Scaffolding",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/scaffolding.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-04-freestanding-tower-wind-is-not-a-ratio",
       "date": "2026-10-04",
