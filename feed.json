@@ -1,8 +1,72 @@
 {
-  "updated": "2026-10-05T08:20:00+01:00",
+  "updated": "2026-10-06T07:45:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-06-nasc-zero-fatalities-is-not-a-design",
+      "date": "2026-10-06",
+      "kicker": "Guidance",
+      "title": "Zero member fatalities is not a scaffold design — NASC Safety Report 2026",
+      "excerpt": "NASC’s Safety Report 2026 records no operative fatalities among its contractor members in 2025, from RIDDOR returns covering 20,168 operatives employed by 332 members. Those members still reported 82 RIDDORs: an accident incident rate of 4.07 and a frequency rate of 0.21, about one RIDDOR per 470,000 hours. Twenty-eight were specified injuries and 54 were over-seven-day. Slips and trips led with 25, manual handling 20, and falls from height of persons 17. For contractors the point is the control, not the headline. A trade-body return is not a TG20 sheet, a design check or a permit to load.",
+      "tags": [
+        "Temporary works",
+        "Scaffolding",
+        "TG20",
+        "Falls from height",
+        "BS 5975",
+        "NASC"
+      ],
+      "linkedinReady": "Zero operative fatalities in a membership year is not a scaffold design, and it is not a permit to load.\n\nNASC’s Safety Report 2026 records no operative fatalities among its contractor members in 2025. The return covers 20,168 operatives employed by 332 members. Those members still reported 82 RIDDORs. The accident incident rate was 4.07 per 1,000 operatives. The frequency rate was 0.21 per 100,000 hours, about one RIDDOR per 470,000 hours. Of the 82, 28 were specified injuries and 54 were over-seven-day. Slips and trips on the same level were the largest group, 25. Manual handling was 20. Falls from height of persons were 17, and eight of the specified injuries were falls of persons.\n\nA trade-body return is a learning set. It does not appoint the Temporary Works Coordinator, match a TG20 sheet to the elevation, or accept a tie into an incomplete structure. The next incomplete floor, public pavement or sheeting change is still temporary works. Standard does not automatically mean low risk.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #TG20 #BS5975 #NASC",
+      "body": [
+        {
+          "h": "What the report records",
+          "p": "NASC’s Safety Report 2026 is based on RIDDOR returns from contractor members for the 2025 calendar year. The President’s welcome records that there were no operative fatalities among NASC contractor members in 2025. The fatalities section repeats that: there were no fatalities to operatives working for NASC contractor members in 2025. Members reported 82 RIDDORs from a combined workforce of 20,168 operatives, employed by 332 contractor members. The accident incident rate was 4.07 per 1,000 operatives and the accident frequency rate was 0.21 per 100,000 hours, which the report states corresponds to about one RIDDOR per 470,000 work hours. Of the 82, 28 were specified injuries and 54 were over-seven-day. Slips and trips on the same level were the most common cause, with 25 accidents. Manual handling was second, with 20. Falls from height of persons were third, with 17. Of the specified injuries, falls from height by persons accounted for eight (29 per cent) and slips and trips on the same level for eight (29 per cent). The report also records one incident involving a member of the public that a member reported to HSE as a RIDDOR. NASC’s review of the information supplied did not consider that it met the RIDDOR criteria, but it is included because it was reported to both HSE and NASC. No incidents involving injuries to third parties were reported. NASC states that HSE construction industry fatality statistics were the highest of all sectors in 2025, with 35 fatal injuries, and notes that NASC reporting runs January to December while HSE reporting runs April to March. Scottish Construction News reported the publication on 6 October 2026, including NASC’s statement that the report coincides with NASC Safety Day. This briefing uses the report’s own figures. It does not treat a membership audit as a project check."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "A year with no operative fatality inside a membership scheme is a performance record. It is not evidence that the next scaffold is suitable. Seventeen falls of persons, and eight specified injuries from those falls, sit in the same return as the zero. Slips and trips on the same level were the largest group, which is a platform, access and housekeeping problem as much as a harness problem. On a UK site a scaffold is temporary works: configured to the manufacturer’s instructions or a TG20 compliance sheet, or designed where it is outside that sheet, then checked and permitted under the project temporary works procedure. BS 5975-1:2024 is the code of practice for that procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. Work at Height Regulations 2005 require the work to be planned, supervised and carried out by competent people, with measures that prevent a fall where that is reasonably practicable. CDM 2015 still requires the work to be planned, managed and monitored. HSE’s scaffolding guidance expects erection, alteration and dismantling by competent people, and inspection before first use, after alteration, after an event that may have affected stability, and at intervals not exceeding seven days. NASC membership, an audit and a safety report do not replace that inspection or the permit to load. Standard does not automatically mean low risk. Public interface, incomplete structure, sheeting, loading and ties into a building that is still being altered can take a common scaffold out of a default low category. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Put every scaffold on the temporary works register, including a tied independent, a tower and a loading bay. A trade-body member supplying it does not take it off the register.",
+            "Match the elevation to the TG20 sheet or the system design. If height, ties, sheeting, loading or the supporting structure are outside the sheet, it is a designed item.",
+            "Do not treat zero fatalities in a membership year as a reason to skip the design brief, the check or the permit to load.",
+            "Falls of persons were still 17 of the 82 RIDDORs. Control open edges, incomplete lifts and strike sequence before the harness is treated as the control.",
+            "Slips and trips were the largest group. Boarding, traps, access and material on the platform belong in the inspection, not only in a toolbox talk.",
+            "A tie into a building that is being stripped, altered or not yet at strength is an interface. Accept the tie only against the structure that is actually there.",
+            "Where the public can be under or beside the scaffold, exclusion and stability are both required. One public report in the return is a reminder, not a clean sheet.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the NASC Safety Report 2026 and the Scottish Construction News report of its publication dated 6 October 2026. Membership figures and rates are as stated by NASC. They are not a site-specific risk assessment, a design check or a statement that a non-member scaffold is unsuitable. The HSE construction fatality figure is as cited by NASC, on a different reporting year. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "NASC Safety Report 2026 (2025 RIDDOR returns)",
+              "url": "https://nasc.org.uk/asset/21F5EA2B-DF4A-412D-88BBE2FED75071E0/?noRedirect=true"
+            },
+            {
+              "label": "Scottish Construction News, Zero scaffolding fatalities recorded among NASC members, 6 October 2026",
+              "url": "https://www.buildscotland.co.uk/construction-news/331193/zero-scaffolding-fatalities-recorded-among-nasc-members"
+            },
+            {
+              "label": "HSE, Scaffolding",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/scaffolding.htm"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-05-scaffold-is-not-the-formwork",
       "date": "2026-10-05",
