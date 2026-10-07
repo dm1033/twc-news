@@ -1,8 +1,72 @@
 {
-  "updated": "2026-10-06T07:45:00+01:00",
+  "updated": "2026-10-07T07:45:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-07-ladder-near-overhead-line-is-not-a-method",
+      "date": "2026-10-07",
+      "kicker": "HSE prosecutions",
+      "title": "A tower on the plan is not a method — a ladder moved under an overhead line",
+      "excerpt": "On 6 October 2026 HSE reported that Daniel Watton, trading as Inside Out Painters and Decorators Property Maintenance, was sentenced after trainee painter Connor Lambert was electrocuted at a house in Farndon on 29 July 2024. He and a colleague were moving a fully extended ladder at the gable. HSE says the ladder either touched an overhead line or came close enough for an arc. A colleague suffered burns. The original plan used a tower scaffold and ladders, including at a glass canopy. HSE found that plan neither suitable nor safe. The work then departed from it: ladders were used throughout, with Watton’s approval. He pleaded guilty to Work at Height Regulations 2005, regulation 4(1): 16 weeks, suspended for 12 months, and £10,645 costs.",
+      "tags": [
+        "Temporary works",
+        "Work at height",
+        "Overhead lines",
+        "Scaffold towers",
+        "Access",
+        "CDM"
+      ],
+      "linkedinReady": "A tower scaffold written on a plan is not a method of work. Moving a fully extended ladder at a gable, under an overhead line, is a different job.\n\nOn 6 October 2026 HSE reported the sentencing of Daniel Watton, trading as Inside Out Painters, at Warrington Magistrates’ Court. Trainee painter Connor Lambert, 24, was electrocuted on 29 July 2024 at a house in Farndon. He and a colleague were moving a fully extended ladder at the gable end. HSE says the ladder either contacted an overhead power line or came close enough for an arc. Lambert was killed. His colleague suffered burns to his hands, feet and stomach.\n\nThe original plan used a tower scaffold and ladders, including at a glass canopy. HSE found that arrangement neither suitable nor safe. The work then departed from it. Ladders were used throughout, and Watton approved that method. He pleaded guilty to regulation 4(1) of the Work at Height Regulations 2005. The court imposed 16 weeks, suspended for 12 months, and £10,645 costs.\n\nA domestic paint job is still access and, beside a line, an electrical interface. Isolation and distance come before the ladder is moved. Standard does not automatically mean low risk.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #WorkAtHeight #OverheadLines #Scaffolding #BS5975",
+      "body": [
+        {
+          "h": "What HSE reported",
+          "p": "On 6 October 2026 the Health and Safety Executive reported that Daniel Watton, 50, trading as Inside Out Painters and Decorators Property Maintenance, was sentenced at Warrington Magistrates’ Court after trainee painter Connor Lambert was electrocuted. Lambert, 24, from Market Drayton, died on 29 July 2024 while working at a house in Farndon. HSE’s investigation found that he and a colleague were moving a fully extended ladder at the gable end. During that move the ladder either came into contact with an overhead power line or came close enough for an electrical arc to form. Lambert was killed. His colleague suffered burns to his hands, feet and stomach. HSE found that the work at height had not been properly planned, supervised or carried out safely, that the equipment and methods were unsuitable, and that the risks from the overhead line had not been adequately assessed or controlled. The investigation also identified issues with the training and competence of those doing the work. The original plan used a tower scaffold and ladders to paint the exterior, including an area with a glass canopy. HSE found that approach neither suitable nor safe. In practice the work departed from the plan and ladders were used throughout. That method was approved by Watton and was also unsuitable and unsafe. He pleaded guilty to breaching regulation 4(1) of the Work at Height Regulations 2005. The court imposed 16 weeks’ imprisonment, suspended for 12 months, and ordered him to pay £10,645 in costs. HSE inspector Keeley Eves said work at height and work near overhead power lines are both high-risk activities, and that suitable equipment, a full assessment and trained, supervised workers are required. HSE does not set the sentence."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "This was a domestic painting job. The failure mode is the same one that appears on a civils site when a long object is walked under a line: the access method and the electrical interface were never one control. A tower scaffold written into a plan is temporary works equipment. It still has to be suitable for the place it stands, including a glass canopy, and it still has to be erected, altered and used by people who are competent for that configuration. A ladder used instead is a change of method. Approving that change without reassessing the line is how the original plan stops being the control. Work at Height Regulations 2005, regulation 4(1), requires the work to be properly planned, appropriately supervised and carried out in a manner which is so far as is reasonably practicable safe. Electricity at Work Regulations 1989 require electrical systems and work on or near them to be controlled so as to prevent danger. HSE’s GS6 is industry guidance on avoiding danger from overhead power lines, not a statute. CDM 2015 still requires construction work to be planned, managed and monitored where it applies, including on a domestic client project through the contractor duties. BS 5975-1:2024 is the code of practice for a temporary works procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. A mobile tower is not low risk because it is a standard product. Wind, ground, overhead lines, a canopy and a move of a long conductor all change the consequence. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Treat a tower scaffold, a podium and a ladder used for access as items on the temporary works or access register. A domestic client does not take them off the register.",
+            "Before the method is accepted, mark the overhead lines, the exclusion zone and the longest object that will be moved. A fully extended ladder is a long conductor.",
+            "Do not approve a departure from a tower to ladders without a new assessment. The original plan is not a permit for the method used on the day.",
+            "Where work near a line cannot be avoided, the hierarchy is isolation or diversion by the network operator, then distance and suitable equipment. A goalpost or barrier is a control only if it is in the brief and used.",
+            "A tower that cannot be stood clear of the line, or that cannot be erected without the ladder entering the zone, is the wrong equipment for that elevation. Do not force the sheet to fit.",
+            "Competence is part of the brief. Training and supervision for the people moving the access equipment belong in the permit, not in a card on the file.",
+            "A glass canopy, soft ground or a public footpath is an interface. The tower base and the exclusion both have to be accepted before load.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the HSE press release of 6 October 2026. It is not a design, a permit or a site-specific electrical assessment. No line voltage, clearance or tower configuration has been taken from that release, because HSE did not publish them. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "HSE, Painter and decorator sentenced after stepson electrocuted on job, 6 October 2026",
+              "url": "https://press.hse.gov.uk/2026/10/06/painter-and-decorator-sentenced-after-stepson-electrocuted-on-job/"
+            },
+            {
+              "label": "HSE, Avoiding danger from overhead power lines (GS6)",
+              "url": "https://www.hse.gov.uk/pubns/gs6.htm"
+            },
+            {
+              "label": "HSE, Working at height",
+              "url": "https://www.hse.gov.uk/work-at-height/index.htm"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-06-nasc-zero-fatalities-is-not-a-design",
       "date": "2026-10-06",
