@@ -1,8 +1,72 @@
 {
-  "updated": "2026-10-07T07:45:00+01:00",
+  "updated": "2026-10-08T07:45:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-08-ceca-pause-is-not-a-permit",
+      "date": "2026-10-08",
+      "kicker": "Guidance",
+      "title": "A pause is not a permit — CECA’s October campaign still leaves the edge and the excavation on the register",
+      "excerpt": "CECA’s Stop. Make a Change 2026 runs through October and asks organisations to pause work for sessions on serious injuries and fatalities, occupational health and mental health. The programme includes the people–plant interface. It is not a design check. HSE’s provisional 2025/26 figures, published on 1 July 2026, record 126 worker deaths. Construction accounts for 25, the largest share of any main sector. Falls from a height account for 31 worker deaths, about a quarter. Struck by a moving vehicle accounts for 24, struck by a moving object for 21, and trapped by something collapsing or overturning for 18. Those are temporary works failure modes: edge, platform, exclusion and collapse. A toolbox pause does not accept the next platform.",
+      "tags": [
+        "Temporary works",
+        "CECA",
+        "Falls from height",
+        "Plant interface",
+        "Excavations",
+        "BS 5975"
+      ],
+      "linkedinReady": "A pause in October is not a permit to load the platform, and it is not a check on the excavation.\n\nCECA’s Stop. Make a Change 2026 runs through this month. The association is asking employers, workers and clients to stop work for sessions on serious injuries and fatalities, occupational health and mental health. The programme includes the people–plant interface. That is a useful control conversation. It does not appoint the Temporary Works Coordinator, and it does not accept a drawing.\n\nHSE’s provisional figures for 2025/26, published on 1 July 2026, record 126 worker deaths. Construction accounts for 25, the largest share of any main sector. Falls from a height account for 31. Struck by a moving vehicle accounts for 24. Struck by a moving object accounts for 21. Trapped by something collapsing or overturning accounts for 18. HSE marks the year provisional, to be finalised in July 2027.\n\nThose kinds of accident sit on the temporary works register: an incomplete edge, a platform that has changed plant, an exclusion that has moved, an excavation with spoil at the crest. Standard does not automatically mean low risk.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #WorkingPlatforms #Excavations #CECA",
+      "body": [
+        {
+          "h": "What was published",
+          "p": "On 29 September 2026 the Civil Engineering Contractors Association called on organisations across the built environment to take part in Stop. Make a Change 2026. The campaign runs throughout October. CECA asks employers, workers, clients and other organisations to pause work so people can take part in sessions on three areas: serious injuries and fatalities, serious work-related health conditions, and mental health. CECA states that the campaign has run every year since 2017, involving hundreds of its members, the wider sector and clients, and reaching tens of thousands of operatives. This year’s programme includes workplace substance misuse, trauma, safe driving, drug driving, mental health, the people–plant interface, and the use of AI and video technology. CECA describes itself as representing more than 300 members across England, Scotland and Wales, delivering around £20 billion of maintenance and improvements to transport and utility networks each year. Andrew Rippington, chair of the CECA Health, Safety and Wellbeing Group, said the campaign is about making a commitment, not only taking a pause, and pointed organisations to free events and resources. The campaign page does not publish a fatality table. The figures below are HSE’s, not CECA’s."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "HSE published provisional work-related fatality statistics for 2025/26 on 1 July 2026. The release records 126 workers killed in work-related incidents. Construction accounts for 25 deaths, the largest number of any main industry sector, and agriculture, forestry and fishing for 22. Falls from a height account for 31 worker deaths, around a quarter of the total. Struck by a moving vehicle accounts for 24, struck by a moving object for 21, and trapped by something collapsing or overturning for 18. HSE states that the 2025/26 figures are provisional and will be finalised in July 2027. Excluding the pandemic years, HSE describes 2025/26 as provisionally the lowest annual total recorded. A lower national total is not a site control. For a contractor the relevant point is the kind of accident, not the ranking. A fall from an incomplete floor, a scaffold edge or a tower is temporary works and work at height. A person struck at a platform edge or in a plant exclusion is a working-platform and traffic-management interface. A collapse or overturn is the failure mode behind an unsupported excavation, a poorly founded outrigger and an unrestrained temporary structure. Work at Height Regulations 2005 require the work to be planned, supervised and carried out so far as is reasonably practicable safely. CDM 2015 requires construction work to be planned, managed and monitored. BS 5975-1:2024 is the code of practice for a temporary works procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. A campaign session is industry good practice. It is not a design, a check or a permit. Standard does not automatically mean low risk. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Use the October pause to walk the register, not only to deliver a talk. Each open edge, scaffold, platform, excavation and outrigger set-up should still have a brief, a check category and a permit status.",
+            "Do not treat a people–plant session as acceptance of the platform. A change of crane, pump, MEWP or delivery vehicle is a change of load and of exclusion.",
+            "Falls from a height remain the largest fatal accident kind in the provisional year. Incomplete floors, openings, strike sequence and scaffold edges stay on the register until the permanent protection is there.",
+            "Struck by a moving vehicle is the second largest kind. Platform edges, reversing zones and public interfaces need a drawing and a hold point, not a cone placed on the day.",
+            "Trapped by something collapsing or overturning is the excavation and temporary-stability line. Spoil at the crest, water, a missing box and an altered sequence are design changes until reviewed.",
+            "A domestic or small civils job is not exempt. The same accident kinds appear on refurbishment floors and short trenches.",
+            "AI or video used to watch an exclusion is a monitoring aid. It does not replace the competent person, the inspection or the permit to load.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the CECA campaign notice of 29 September 2026 and HSE’s provisional fatality release of 1 July 2026. The 2025/26 counts are provisional and will be finalised in July 2027. They are not a site-specific risk assessment, a design check or a statement that a pause replaces the project temporary works procedure. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "CECA, Stop. Make a Change 2026 returns across UK construction sector, 29 September 2026",
+              "url": "https://www.ceca.co.uk/stop-make-a-change-2026-returns-across-uk-construction-sector"
+            },
+            {
+              "label": "HSE, Latest annual work-related fatalities published, 1 July 2026",
+              "url": "https://press.hse.gov.uk/2026/07/01/latest-annual-work-related-fatalities-published-2/"
+            },
+            {
+              "label": "HSE, Work-related fatal injuries in Great Britain (provisional 2025/26)",
+              "url": "https://www.hse.gov.uk/statistics/fatals-overview.htm"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-07-ladder-near-overhead-line-is-not-a-method",
       "date": "2026-10-07",
