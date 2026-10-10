@@ -1,1 +1,67 @@
-PLACEHOLDER
+{
+  "updated": "2026-10-10T07:45:00+01:00",
+  "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-10-10-tyne-bridge-protection-deck",
+      "date": "2026-10-10",
+      "kicker": "Guidance",
+      "title": "A protection deck over a live bridge is temporary works — the Tyne Bridge closure is the control, not the design",
+      "excerpt": "Newcastle City Council confirmed on 8 October 2026 that the Tyne Bridge will close from 11pm on Friday 23 October until 5am on Monday 2 November so scaffolders can install an overhead protection deck ahead of main-arch restoration in early 2027. Independent scaffold legs will run along both footpaths. Twin aluminium beams will span between them. Scaffold boards and temporary carriageway lighting complete the deck. Esh Construction is the contractor. The full closure is the measure that makes erection over the carriageway possible. A protection deck that keeps a public crossing open under grit-blasting and steelwork repair is temporary works, not a traffic arrangement.",
+      "tags": [
+        "Temporary works",
+        "Scaffold",
+        "Protection deck",
+        "Public interface",
+        "Bridge works",
+        "BS 5975"
+      ],
+      "linkedinReady": "A protection deck over a live bridge is temporary works. The 10-day closure is the control that makes the erection possible, not a substitute for the design.\n\nOn 8 October 2026 Newcastle City Council confirmed the Tyne Bridge will close from 11pm on Friday 23 October until 5am on Monday 2 November. Independent scaffold legs will be installed along both footpaths, with a new arrangement on the east side to mirror the west. Twin aluminium beams will span between the footpaths to form the main structure. Scaffold boards and temporary carriageway lighting complete the deck — a working platform above and protection for the public below.\n\nEsh Construction’s construction manager said the work above the carriageway cannot be undertaken safely while the bridge remains open. Up to 70% of the deck is planned during the full closure. The rest follows in weekday overnight vehicle closures in November. A 4.95 m height restriction will apply once the deck is in place.\n\nThe legs, the beams, the boards, the lighting and the sequence are temporary works. The load path runs from the deck into the aluminium beams, into the independent legs on the footpaths, and into whatever those legs bear on. Existing parapet scaffold, wind, grit-blasting later, and the public underneath are all interfaces. A closure that is not in the temporary works procedure is only a traffic order.\n\nPut the protection deck on the register. Do not treat the half-term window as the design.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #PublicProtection #BS5975 #BridgeWorks",
+      "body": [
+        {
+          "h": "What was published",
+          "p": "On 8 October 2026 Newcastle City Council published an update confirming that the Tyne Bridge will close completely from 11pm on Friday 23 October until 5am on Monday 2 November 2026. The closure allows advanced scaffolders to work around the clock installing a protection deck above the carriageway ahead of main steel-arch restoration planned for early 2027. Independent scaffold legs will be installed along the east and west footpaths, including a new arrangement on the east side to mirror the existing west-side scaffold. Twin aluminium beams will span between the footpaths to form the main structure of the protection deck. Scaffold boards and temporary carriageway lighting will complete the installation, creating a working platform and providing protection for the works above and the public below. Up to 70 per cent of the deck is expected to be completed during the full closure. The remainder will be installed during weekday overnight vehicle closures lasting up to four weeks in November, with pedestrian and cycle access retained during those overnight periods. A 4.95 m vehicle height restriction will be introduced once the deck is in place; double-decker buses are not affected. Esh Construction is delivering the restoration for Newcastle City Council and Gateshead Council. Stephen McClean, construction manager at Esh Construction, stated that the construction of the protection deck requires extensive work above the carriageway which cannot be undertaken safely while the bridge remains open to vehicles, pedestrians and cyclists. The councils note that the programme remains on schedule to finish ahead of the bridge’s centenary in October 2028. Scaffmag reported the same arrangements on 8 October 2026."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "A protection deck spanning a live public highway, carried on independent scaffold legs and aluminium beams, is temporary works. It is not a traffic-management detail and it is not a temporary fence. The deck must carry its own self-weight, temporary construction loads, wind, and later the grit-blasting and steelwork repair operations above it, while protecting the public below. CDM 2015 requires construction work to be planned, managed and monitored. The Work at Height Regulations 2005 require work at height to be properly planned, appropriately supervised and carried out so far as is reasonably practicable safely. BS 5975-1:2024 is the code of practice for a temporary works procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. TG20:21 and the scaffold designer’s calculations are manufacturer and industry requirements where they form part of the design. The independent legs, the twin aluminium beams, the board deck, the temporary lighting, the interface with the existing west-side parapet scaffold, and the sequence of erection under a full closure are all items that belong on the temporary works register. A 10-day half-term closure is a control measure that removes public interface during the highest-risk erection phase. It is not itself the design. Standard does not automatically mean low risk. A proprietary aluminium beam with a published capacity is not low risk if the legs have no verified bearing, if the sequence leaves an incomplete span over the carriageway, or if the later height restriction is treated as a traffic sign rather than a temporary-works constraint. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Enter the protection deck, the independent legs, the aluminium beams and the temporary lighting on the temporary works register. A bridge closure order is not a register entry.",
+            "Confirm the design brief states the loads the deck must carry now and later — self-weight, temporary works loads, wind, grit-blasting plant and the public-protection requirement underneath.",
+            "Verify the bearing and fixings of the independent scaffold legs on both footpaths. Existing parapet scaffold on the west side is an interface, not a free support.",
+            "Treat the twin aluminium beams as a designed span. Do not complete the deck by placing boards across an uncalculated gap.",
+            "The full closure is the control that removes pedestrians, cyclists and vehicles during the main erection. The method statement must show that the incomplete structure is stable at every stage, including overnight.",
+            "The remaining 30% installed under overnight vehicle closures still needs a permit and an inspection regime. Pedestrian access during those nights is a public interface.",
+            "The 4.95 m height restriction is a temporary works consequence. Signage and enforcement are traffic measures; the restriction itself comes from the deck.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the Newcastle City Council update of 8 October 2026 and the Scaffmag report of the same date. It is not a design, a scaffold check or a statement that the published arrangement is adequate or inadequate. No loads, capacities or foundation values have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Newcastle City Council, Tyne Bridge closures as major milestone approaches, 8 October 2026",
+              "url": "https://new.newcastle.gov.uk/news/2026/tyne-bridge-closures-major-milestone-approaches"
+            },
+            {
+              "label": "Scaffmag, Tyne Bridge to close for overhead scaffold deck installation, 8 October 2026",
+              "url": "https://scaffmag.com/scaffolding-news/uk/tyne-bridge-overhead-scaffold-deck-installation/"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
