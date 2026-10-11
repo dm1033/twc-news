@@ -1,8 +1,67 @@
 {
-  "updated": "2026-10-10T07:45:00+01:00",
+  "updated": "2026-10-11T07:40:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-11-banstead-unsupported-trench",
+      "date": "2026-10-11",
+      "kicker": "HSE prosecutions",
+      "title": "Unsupported trench, spoil at the edge: the Banstead collapse was temporary works, not a surprise",
+      "excerpt": "On 9 September 2026 the Old Bailey sentenced Appledorn Developments Limited and T Vaughan Limited after Gheorghita Arsene, 33, was killed when an unsupported trench collapsed at Park Road, Banstead, Surrey on 24 June 2020. He was buried under approximately two tonnes of soil while working at the bottom of a deep excavation dug with a three-tonne digger to replace a damaged pipe. The joint Surrey Police and HSE investigation found no supports in the trench and excavated soil deposited immediately next to the edge. Earlier the same day a self-employed contracts manager had observed another worker in the same unsupported excavation and failed to ensure measures were in place. T Vaughan Limited was fined £650,000; Appledorn Developments Limited £500,000. The contracts manager received a suspended sentence. An unsupported excavation with a surcharge at the crest is temporary works. It is not a routine dig.",
+      "tags": [
+        "Temporary works",
+        "Excavation",
+        "Trench support",
+        "HSE prosecution",
+        "CDM 2015",
+        "BS 5975"
+      ],
+      "linkedinReady": "An unsupported trench with spoil piled at the edge is temporary works. The Banstead sentencing shows what happens when that fact is treated as optional.\n\nOn 9 September 2026 the Old Bailey sentenced principal contractor Appledorn Developments Limited and subcontractor T Vaughan Limited after Gheorghita Arsene, 33, was killed on 24 June 2020 when the walls of a deep trench collapsed at Park Road, Banstead. He was clearing soil at the bottom of an excavation dug with a three-tonne digger to replace a damaged pipe. He was buried under approximately two tonnes of soil.\n\nThe joint investigation found no supports in the trench and excavated soil deposited immediately next to the edge. Earlier the same day a self-employed contracts manager working for T Vaughan Limited had observed another worker in the same unsupported excavation. He knew measures were required. He did not ensure they were in place. T Vaughan Limited was fined £650,000. Appledorn Developments Limited was fined £500,000. The contracts manager received a 10-month sentence, suspended for 18 months.\n\nCDM 2015 requires excavations to be planned and managed so that they do not collapse. Spoil next to the crest is a surcharge. An unsupported face is a temporary works item. A contracts manager who sees the condition and walks past it is not a substitute for a design brief, a support system, a permit and an inspection. Standard does not automatically mean low risk. A shallow dig can become high consequence the moment a person is inside it.\n\nPut every excavation that a person will enter on the temporary works register. Do not treat the absence of a trench box as a saving.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Excavation #TrenchSupport #CDM2015 #BS5975",
+      "body": [
+        {
+          "h": "What happened",
+          "p": "On 9 September 2026, following a trial at the Old Bailey, principal contractor Appledorn Developments Limited and subcontractor T Vaughan Limited were convicted of breaching Section 3(1) of the Health and Safety at Work etc. Act 1974. Gheorghita Arsene, 33, died on 24 June 2020 at a site on Park Road, Banstead, Surrey when the walls of a deep trench collapsed while he was working at the bottom to replace a damaged pipe. The trench had been dug with a three-tonne digger. He was clearing soil with a shovel and a pickaxe when the sides failed. He was buried under approximately two tonnes of soil and died at the scene. A joint investigation by Surrey Police and the Health and Safety Executive found there were no supports in the trench and that excavated soil had been deposited immediately next to the edge. Earlier the same day Anthony O’Connor, a self-employed contracts manager working for T Vaughan Limited, had observed another worker in the same unsupported excavation. As an experienced contracts manager he knew suitable measures were required to prevent a collapse but failed to ensure they were implemented. T Vaughan Limited was fined £650,000 and ordered to pay costs of £40,000. Appledorn Developments Limited was fined £500,000. O’Connor pleaded guilty on 22 May 2026 to breaching Section 7 of the Health and Safety at Work etc. Act 1974 and was sentenced to 10 months’ imprisonment, suspended for 18 months, with 150 hours of unpaid work. The prosecution was brought by the Crown Prosecution Service. HSE does not set the fine."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "An excavation that a person will enter, or that can affect persons or adjacent assets if it fails, is temporary works. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase, and requires contractors to plan, manage and monitor their own work. Regulation 22 of CDM 2015 specifically addresses excavations and requires suitable and sufficient steps to prevent them from collapsing or causing a person to be buried or trapped. Spoil deposited next to the crest is a surcharge load. The absence of support is not a neutral condition; it is an unsupported temporary face. BS 5975-1:2024 is the code of practice for a temporary works procedure. It is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. The temporary works procedure should identify the excavation, require a design brief where the geometry, ground, surcharge or sequence makes a standard solution inadequate, and control the permit-to-enter and the inspection regime. Standard does not automatically mean low risk. A short trench for a pipe replacement becomes high consequence the moment a person is working at the bottom with an unsupported face and a spoil heap at the edge. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "Enter every excavation that a person will enter, or that can affect adjacent structures, services or the public, on the temporary works register. A digger ticket is not a register entry.",
+            "Confirm the design brief states depth, length, ground conditions, groundwater, existing services, adjacent structures and the surcharge from plant and spoil. Spoil must not be deposited next to the crest unless the design specifically allows it.",
+            "Do not allow entry until a suitable support system (trench box, sheets and frames, or other designed arrangement) is in place and the permit-to-enter has been issued. An unsupported face is not a temporary works solution.",
+            "The contracts manager who sees an unsupported excavation and walks past it is not the control. The control is the procedure that stops the work until the support is installed.",
+            "Inspect the support before each shift and after any event that could affect stability (heavy rain, plant movement, ground heave). Record the inspection. A daily visual glance without competence or authority is not an inspection.",
+            "If the sequence requires the support to be removed or altered to complete the pipe work, that change is a temporary works alteration. It requires review before it is made.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the HSE Media Centre press release of 9 September 2026. It is not a design, a check or a statement that any particular support system would have been adequate or inadequate on the day. No ground parameters, depths or loads have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "HSE Media Centre, Two companies and an individual sentenced after worker crushed by two tonnes of soil in trench collapse, 9 September 2026",
+              "url": "https://press.hse.gov.uk/2026/09/09/two-companies-and-an-individual-sentenced-after-worker-crushed-by-two-tonnes-of-soil-in-trench-collapse/"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            },
+            {
+              "label": "HSE, Excavations",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/excavations.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-10-tyne-bridge-protection-deck",
       "date": "2026-10-10",
