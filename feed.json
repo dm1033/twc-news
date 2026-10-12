@@ -1,8 +1,67 @@
 {
-  "updated": "2026-10-11T07:40:00+01:00",
+  "updated": "2026-10-12T07:40:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-10-12-thermal-loading-soil-volatility-propping",
+      "date": "2026-10-12",
+      "kicker": "Guidance",
+      "title": "Heat, desiccation and restrained props: climate volatility is a temporary works load",
+      "excerpt": "Ground Engineering published on 9 October 2026 an industry view by Vicky Mastoridou CEng MICE of Groundforce Shorco examining thermal loading and soil volatility in temporary works. Sustained temperatures above 30°C, desiccation cracking in clays and subsequent intense rainfall can change the ground parameters assumed at the design stage. Exposed hydraulic props, sheet piles and bracing frames absorb solar radiation; because they are restrained they convert thermal expansion into additional axial compression that consumes capacity calculated under BS EN 1997. Designers may be forced to specify denser or stronger propping, reducing working clearance. Winter or spring ground investigation is no longer a reliable basis for a heatwave construction phase.",
+      "tags": [
+        "Temporary works",
+        "Propping",
+        "Excavation support",
+        "Thermal loading",
+        "Ground conditions",
+        "BS EN 1997"
+      ],
+      "linkedinReady": "Heat and desiccation are temporary works loads. A winter ground investigation does not automatically remain valid through a 30°C+ construction summer.\n\nOn 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou CEng MICE, development manager at Groundforce Shorco. Sustained thermal loads above 30°C, widespread desiccation and shifting water tables can no longer be treated as short-term anomalies. In clay-rich soils, extended dry spells shrink and crack the ground, altering stiffness and strength. Subsequent rainfall then penetrates those cracks rapidly, causing localised softening, swelling and sudden spikes in lateral earth pressure.\n\nThe same heat acts on the temporary works themselves. Exposed hydraulic props, sheet piles and bracing frames absorb solar radiation. Because they are fully restrained between walls, walers and slabs they cannot expand freely. The restraint converts thermal energy into additional compressive axial force. That force consumes part of the resistance calculated under BS EN 1997 partial factors. The prop that was sized for earth pressure alone may now be carrying a significant thermal component. To stay within capacity the designer may need stronger or denser propping, which reduces working clearance inside the excavation.\n\nPut thermal range, solar gain and the possibility of changing ground parameters into the design brief and the inspection regime. Monitoring that cannot distinguish a thermal spike from genuine ground movement is incomplete. Standard does not automatically mean low risk. A proprietary hydraulic prop with a published capacity is not low risk if the thermal allowance was based on historic averages that the site has already exceeded.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Propping #ExcavationSupport #ThermalLoading #BSEN1997",
+      "body": [
+        {
+          "h": "What was published",
+          "p": "On 9 October 2026 Ground Engineering published an industry-view article by Vicky Mastoridou CEng MICE, development manager at Groundforce Shorco, titled Redefining geotechnical limits: thermal loading and soil volatility in temporary works. The piece argues that record-breaking heatwaves and the summer of 2026 have exposed a design vulnerability: temporary works and shoring schemes are increasingly required to operate beyond the climatic envelopes assumed at design. Sustained temperatures above 30°C, widespread desiccation and shifting water tables can no longer be treated as short-term weather anomalies. In clay-rich formations such as London Clay, extended dry spells cause shrinkage and cracking that change stiffness and strength. Subsequent intense rainfall then penetrates those cracks rapidly, producing localised softening, swelling and pore-water conditions that can spike lateral earth pressures faster than conventional models anticipate. At the same time, exposed structural steelwork — hydraulic props, sheet piles and bracing frames — absorbs direct solar radiation, driving surface temperatures above ambient. Because these members are restrained between retaining walls, walers and slabs they cannot expand freely; the restraint converts thermal energy into additional compressive axial force. That force consumes part of the structural resistance calculated under BS EN 1997 partial factors. To remain within capacity, designers may need to specify stronger or denser propping layouts, which reduces internal working clearance. The article concludes that the critical question is no longer whether a heatwave is likely, but how the temporary works will perform under the extreme event, and that ground assessment, thermal modelling and real-time monitoring should be embedded from the start."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Excavation support, propping and temporary retaining structures are temporary works. Their performance depends on both the ground parameters assumed in the design brief and the loads the support system itself must carry. CDM 2015 requires construction work to be planned, managed and monitored. BS 5975-1:2024 is the code of practice for a temporary works procedure; it is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. BS EN 1997-1 and its UK National Annex govern geotechnical design; the partial factors and load combinations used for temporary states should be those appropriate to the temporary works design, not simply copied from a permanent-works calculation. A ground investigation carried out in winter or spring does not automatically remain valid through a prolonged heatwave and subsequent rainfall. Desiccation cracking followed by rapid infiltration can change undrained strength, stiffness and pore pressures within the life of the temporary works. Thermal expansion in restrained props is an additional load case, not a secondary effect that can be ignored because the prop has a manufacturer’s capacity. Standard does not automatically mean low risk. A proprietary hydraulic prop whose capacity is stated at a reference temperature is not low risk if the site has already recorded surface temperatures that generate axial forces consuming a substantial fraction of that capacity. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "State the expected temperature range, solar-gain exposure and the possibility of changing ground parameters (desiccation, subsequent rainfall, groundwater fluctuation) in the design brief for any propping or excavation-support scheme.",
+            "Require the temporary works designer to identify the thermal load component separately from the geotechnical load and to show the residual capacity available for earth pressure.",
+            "Do not treat a winter or spring ground investigation as sufficient for a summer construction phase without a review of whether desiccation or rainfall has altered the parameters used in the design.",
+            "Where load cells or monitoring are installed, ensure the interpretation method can distinguish a thermal spike from genuine ground movement. An alert that cannot be attributed is not a control.",
+            "If denser or stronger propping is required to accommodate thermal loads, confirm that the reduced working clearance is still compatible with the plant, access and sequence in the method statement.",
+            "Inspect and re-assess after any prolonged heat or heavy rainfall that could affect either the ground or the restrained steelwork. Record the inspection. A daily visual check that does not consider temperature is incomplete.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the Ground Engineering industry-view article of 9 October 2026. It is not a design, a check or a statement that any particular propping arrangement is adequate or inadequate under thermal loading. No soil parameters, temperature ranges, prop capacities or axial forces have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Ground Engineering, Redefining geotechnical limits: thermal loading and soil volatility in temporary works, 9 October 2026",
+              "url": "https://www.geplus.co.uk/opinion/industry-view/redefining-geotechnical-limits-thermal-loading-and-soil-volatility-in-temporary-works-09-10-2026/"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            },
+            {
+              "label": "HSE, Excavations",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/excavations.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-11-banstead-unsupported-trench",
       "date": "2026-10-11",
