@@ -1,1 +1,71 @@
-PLACEHOLDER
+{
+  "updated": "2026-10-13T19:00:00+01:00",
+  "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-10-13-temporary-works-duration-risk",
+      "date": "2026-10-13",
+      "kicker": "Guidance",
+      "title": "When the programme slips the temporary works brief does not stay valid by default",
+      "excerpt": "On 9 October 2026 EE&HL Network published an insight by Marco Torri on the risk that temporary works remain in place longer than the period assumed in the design brief. HSE guidance notes that because temporary works may be in place for only a short while there is a tendency to assume they are less important. A longer life brings more weather, more nearby activity, more crew changes and more opportunities for adjacent trades to alter, load or remove elements. The load may still be checked; the period of use is often not revisited. A change in programme can affect the assumptions that justified the design, the inspection frequency and the maintenance regime.",
+      "tags": [
+        "Temporary works",
+        "Duration risk",
+        "Programme",
+        "BS 5975",
+        "HSE",
+        "Inspection",
+        "TWC"
+      ],
+      "linkedinReady": "A temporary works design is only as valid as the period of use written into the brief. When the programme slips, that period does not automatically remain valid.\n\nOn 9 October 2026 EE&HL Network published an insight by Marco Torri examining what happens when temporary works stay in place longer than planned. HSE’s temporary works guidance names the attitude behind the risk: because temporary works may be in place for only a short while, there is a tendency to assume they are less important. The same guidance notes that temporary works can be sensitive to how they are used and to work going on nearby, and that failures are often linked to loadings that were underestimated.\n\nA longer life brings more of everything: more weather, more nearby activity, more changes of crew, more opportunities for an adjacent trade to lean on a prop, remove a brace or load the structure in a way nobody considered. The load may still be checked. The period of use is often left as an unspoken assumption. Weather windows slip. Plant or crew are not ready. Another scope runs late. An open design question is deferred to site. None of these needs a single dramatic event. The temporary condition simply starts to govern decisions without anyone deciding that it should.\n\nBS 5975-1:2024 sets out the temporary works co-ordinator role as industry good practice. HSE notes there is no legal requirement to use that job title. The practical point is that coordination includes making sure temporary works are correctly installed, used, checked and maintained across their whole life, not only at design. A change in programme can affect the assumptions in the design brief. That change is worth sending back to whoever designed and checked the scheme before the works simply continue.\n\nStandard does not automatically mean low risk. A proprietary system sized for a four-week occupation is not low risk if it has already been in place for twelve weeks through two storms and three crew changes without a review of the brief. Put the expected period of use, and the trigger for review if that period is exceeded, into the design brief and the temporary works register.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #DurationRisk #Programme #BS5975 #HSE #TWC",
+      "body": [
+        {
+          "h": "What was published",
+          "p": "On 9 October 2026 EE&HL Network published an insight by Marco Torri titled When Temporary Works Stay in Place Too Long. The piece observes that temporary works design and management depend on the loads, the conditions and the anticipated period of use. The load is written down and checked. The period of use is often an assumption in the background: the supports will be there for a few weeks, the propping until the slab gains strength, the tower until the stays are in. When the programme moves, the load is still checked. The period of use is not always revisited. HSE’s guidance on temporary works names the attitude behind this: because temporary works may be in place for only a short while, there is a tendency to assume they are less important. The same guidance notes that temporary works can be sensitive to how they are used and to work going on nearby, and that failures are often linked to loadings that were underestimated. A temporary state that lasts longer than planned can meet more weather, more nearby activity, more changes of crew and more opportunities for an adjacent trade to lean on it, remove a brace or load it in a way nobody considered. Typical causes include weather windows slipping, plant or crew not being ready, another scope having to finish first, and open design or method decisions being deferred to site. Documented projects such as the Millau Viaduct (release of temporary towers dependent on stay-cable installation) and the Krk Bridge (arch halves standing on tie-backs until the crown closed) illustrate how the life of temporary works is set by something other than the temporary works themselves. HSE describes temporary works coordination as including making sure temporary works are correctly installed, used, checked and maintained across their whole life. BS 5975 sets out the temporary works co-ordinator role as industry good practice; HSE notes that there is no legal requirement to use that job title. A practical reading is that a change in programme can affect the assumptions in the temporary works brief and is worth sending back to whoever designed and checked them."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Temporary works are not a short-lived exception to the duty to plan, manage and monitor construction work. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase and requires contractors to plan, manage and monitor their own work. BS 5975-1:2024 is the code of practice for a temporary works procedure; it is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. The design brief should state the expected period of use. When that period is exceeded, or when the programme changes in a way that affects weather exposure, adjacent activities, loading or the sequence of removal, the assumptions that justified the design, the inspection frequency and the maintenance regime may no longer hold. Standard does not automatically mean low risk. A proprietary falsework or propping system whose published capacity was calculated for a defined short duration is not low risk if the actual occupation has already exceeded that duration and the brief has not been revisited. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "State the expected period of use, and the trigger for formal review if that period is exceeded, in the design brief and on the temporary works register entry.",
+            "When the programme slips, or when weather, access or an interface with another contractor extends the temporary state, treat that extension as a potential change to the temporary works. Send it back for review before the works simply continue.",
+            "Do not assume that a daily visual check remains sufficient if the duration, exposure or adjacent activity has changed. Record the inspection and note any change in conditions.",
+            "Confirm that the person inspecting has the competence and authority required by the project procedure. A glance that does not consider duration is incomplete.",
+            "If adjacent trades, plant or storage begin to interact with the temporary works in a way not considered in the original brief, stop and re-assess before the interaction becomes the norm.",
+            "At the point of removal or alteration, confirm that the permanent structure (or the next temporary state) is ready to take the load. Removal is not automatically lower risk than installation.",
+            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the EE&HL Network insight of 9 October 2026 and publicly available HSE temporary works guidance. It is not a design, a check or a statement that any particular temporary works arrangement is adequate or inadequate for an extended duration. No periods, loads or capacities have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "EE&HL Network, When Temporary Works Stay in Place Too Long, 9 October 2026",
+              "url": "https://eehl.net/insights/temporary-works-duration-risk/"
+            },
+            {
+              "label": "HSE, Temporary works FAQs",
+              "url": "https://www.hse.gov.uk/construction/faq-temporary-works.htm"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            },
+            {
+              "label": "BS 5975-1:2024, Temporary works – Management procedures for the control of temporary works. Code of practice",
+              "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
