@@ -1,131 +1,67 @@
 {
-  "updated": "2026-10-14T19:00:00+01:00",
+  "updated": "2026-10-15T07:45:00+01:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
     {
-      "id": "2026-10-14-thermal-loading-temporary-works-propping",
-      "date": "2026-10-14",
-      "kicker": "Industry",
-      "title": "Heatwaves are consuming the resistance reserve in temporary propping",
-      "excerpt": "On 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou of Groundforce Shorco on thermal loading and soil volatility in temporary works. Record heatwaves in 2026 mean temporary propping and shoring schemes are operating beyond the climatic envelopes assumed at design. Desiccation and cracking in clays such as London Clay, followed by rapid rainfall, can alter ground parameters and cause lateral earth pressures to rise faster than conventional models anticipate. Simultaneously, restrained steel props, sheet piles and bracing convert solar heating into additional compressive axial forces, consuming part of the structural resistance calculated for earth pressure alone.",
+      "id": "2026-10-15-wg-carter-unsafe-floor-fall",
+      "date": "2026-10-15",
+      "kicker": "HSE prosecutions",
+      "title": "Removing floor joists without temporary protection killed a carpenter",
+      "excerpt": "On 2 October 2026 HSE published the outcome of the W G Carter Limited prosecution. Richard “Felix” Roper, 59, died after falling through an unsafe first floor while replacing rotten joists and floorboards at a domestic property in Gloucestershire on 30 August 2022. Large parts of the first-floor structure had been stripped back, leaving open gaps; some joists were missing or unsecured. Workers continued to access the area and remove further boards. The company pleaded guilty to breaching Regulation 4(1) of the Work at Height Regulations 2005 and was fined £120,000 plus costs. After the incident it changed the method to installing joists from below and preventing access to the first floor.",
       "tags": [
         "Temporary works",
-        "Propping",
-        "Thermal loading",
-        "Soil",
-        "Excavation",
-        "BS 5975",
-        "Monitoring"
-      ],
-      "linkedinReady": "Heatwaves are no longer an anomaly on UK sites. They are changing the loads your temporary works were designed for.\n\nOn 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou of Groundforce Shorco examining thermal loading and soil volatility in temporary works. Sustained temperatures over 30\u00b0C, desiccation and cracking of clay soils such as London Clay, and the rapid rainfall that follows can alter the ground parameters assumed at design. Lateral earth pressures behind retaining structures can spike faster than conventional models anticipate.\n\nAt the same time, restrained steel props, sheet piles and bracing absorb solar radiation. Because they cannot expand freely between walls, walers and slabs, thermal energy converts into additional compressive axial forces. A prop sized for earth pressure alone can see part of its resistance reserve consumed by thermal load. The practical outcome can be denser or higher-capacity propping, with consequences for working space and access.\n\nBS 5975-1:2024 sets out the temporary works procedure as industry good practice. The design brief and the temporary works register need to capture the expected climatic envelope and the trigger for review if that envelope is exceeded. Distinguishing thermal load spikes from actual ground movement (through load-cell data and competent inspection) becomes part of the control process. A change in weather conditions that affects the assumptions in the brief is worth sending back for review before the works simply continue.\n\nStandard does not automatically mean low risk when the weather envelope has changed.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Propping #ThermalLoading #Excavation #BS5975 #HSE #TWC",
-      "body": [
-        {
-          "h": "What was published",
-          "p": "On 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou (CEng, MICE), development manager at Groundforce Shorco, titled Redefining geotechnical limits: thermal loading and soil volatility in temporary works. The piece notes that the summer of 2026 again surpassed previous temperature benchmarks, with sustained thermal loads over 30\u00b0C, widespread desiccation and shifting water tables no longer treatable as short-term weather anomalies. In clay-rich formations such as London Clay, extended dry spells can shrink and crack the ground, altering stiffness and strength. Subsequent intense rainfall can penetrate those cracks rapidly, causing localised softening, swelling and pore-water pressure changes. Lateral earth pressures behind retaining structures can therefore rise faster than conventional design models anticipate. For temporary works this means ground parameters assumed at design may not remain valid through construction. At the same time, exposed structural steelwork (hydraulic props, sheet piling, bracing frames) absorbs solar radiation, raising surface temperatures above ambient. Because these members are restrained between retaining walls, walers and slabs they cannot expand freely; thermal energy converts into additional compressive axial forces. A strut specified to resist active earth pressure must simultaneously resist geotechnical thrust and its own restrained thermal expansion, consuming part of the structural resistance calculated under partial factors. The practical consequence can be a requirement for stronger, larger or denser propping layouts, reducing working clearance. Distinguishing actual ground movement from thermal load spikes requires careful interpretation of load-cell data."
-        },
-        {
-          "h": "Why it matters for contractors",
-          "p": "Temporary works are not a short-lived exception to the duty to plan, manage and monitor construction work. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase and requires contractors to plan, manage and monitor their own work. BS 5975-1:2024 is the code of practice for a temporary works procedure; it is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project\u2019s licensed copy. When the climatic envelope assumed in the design brief is exceeded, the ground parameters, earth pressures and thermal loads that justified the scheme, the inspection frequency and the monitoring regime may no longer hold. Standard does not automatically mean low risk. A proprietary propping or shoring system whose published capacity was calculated for a defined set of ground and temperature conditions is not low risk if the actual conditions have already moved outside that envelope and the brief has not been revisited. Provisional category only \u2014 to be confirmed by the TWC and the project temporary works procedure."
-        },
-        {
-          "h": "Practical TWC and TWS control points",
-          "ul": [
-            "State the expected climatic envelope (temperature range, duration of exposure, rainfall after dry periods) and the trigger for formal review if that envelope is exceeded in the design brief and on the temporary works register entry.",
-            "When heatwave conditions, desiccation or rapid rainfall occur, treat the change as a potential alteration to the temporary works assumptions. Send it back for review before the works simply continue.",
-            "Where load cells or other instrumentation are installed, record both load and temperature so thermal spikes can be distinguished from ground movement. Do not rely on a visual check alone.",
-            "Confirm that the person inspecting has the competence and authority required by the project procedure to interpret changes in load or ground conditions.",
-            "If denser or higher-capacity propping is required to accommodate thermal load, confirm that working space, access and plant movements remain acceptable under the revised arrangement.",
-            "At the point of removal or alteration, confirm that the permanent structure (or the next temporary state) is ready to take the load under the current ground and temperature conditions.",
-            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
-          ]
-        },
-        {
-          "h": "Limitations",
-          "p": "Educational briefing only. Not for construction. Based on the Ground Engineering industry view of 9 October 2026 and publicly available HSE temporary works guidance. It is not a design, a check or a statement that any particular temporary works arrangement is adequate or inadequate under elevated temperatures or changed ground conditions. No loads, capacities, temperatures or soil parameters have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
-        },
-        {
-          "h": "Sources",
-          "sources": [
-            {
-              "label": "Ground Engineering, Redefining geotechnical limits: thermal loading and soil volatility in temporary works, Vicky Mastoridou, 9 October 2026",
-              "url": "https://www.geplus.co.uk/opinion/industry-view/redefining-geotechnical-limits-thermal-loading-and-soil-volatility-in-temporary-works-09-10-2026/"
-            },
-            {
-              "label": "HSE, Temporary works",
-              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
-            },
-            {
-              "label": "HSE, Temporary works FAQs",
-              "url": "https://www.hse.gov.uk/construction/faq-temporary-works.htm"
-            },
-            {
-              "label": "BS 5975-1:2024, Temporary works \u2013 Management procedures for the control of temporary works. Code of practice",
-              "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-13-temporary-works-duration-risk",
-      "date": "2026-10-13",
-      "kicker": "Guidance",
-      "title": "When the programme slips the temporary works brief does not stay valid by default",
-      "excerpt": "On 9 October 2026 EE&HL Network published an insight by Marco Torri on the risk that temporary works remain in place longer than the period assumed in the design brief. HSE guidance notes that because temporary works may be in place for only a short while there is a tendency to assume they are less important. A longer life brings more weather, more nearby activity, more crew changes and more opportunities for adjacent trades to alter, load or remove elements. The load may still be checked; the period of use is often not revisited. A change in programme can affect the assumptions that justified the design, the inspection frequency and the maintenance regime.",
-      "tags": [
-        "Temporary works",
-        "Duration risk",
-        "Programme",
-        "BS 5975",
+        "Work at height",
+        "Refurbishment",
+        "Floor openings",
         "HSE",
-        "Inspection",
-        "TWC"
+        "BS 5975"
       ],
-      "linkedinReady": "A temporary works design is only as valid as the period of use written into the brief. When the programme slips, that period does not automatically remain valid.\n\nOn 9 October 2026 EE&HL Network published an insight by Marco Torri examining what happens when temporary works stay in place longer than planned. HSE\u2019s temporary works guidance names the attitude behind the risk: because temporary works may be in place for only a short while, there is a tendency to assume they are less important. The same guidance notes that temporary works can be sensitive to how they are used and to work going on nearby, and that failures are often linked to loadings that were underestimated.\n\nA longer life brings more of everything: more weather, more nearby activity, more changes of crew, more opportunities for an adjacent trade to lean on a prop, remove a brace or load the structure in a way nobody considered. The load may still be checked. The period of use is often left as an unspoken assumption. Weather windows slip. Plant or crew are not ready. Another scope runs late. An open design question is deferred to site. None of these needs a single dramatic event. The temporary condition simply starts to govern decisions without anyone deciding that it should.\n\nBS 5975-1:2024 sets out the temporary works co-ordinator role as industry good practice. HSE notes there is no legal requirement to use that job title. The practical point is that coordination includes making sure temporary works are correctly installed, used, checked and maintained across their whole life, not only at design. A change in programme can affect the assumptions in the design brief. That change is worth sending back to whoever designed and checked the scheme before the works simply continue.\n\nStandard does not automatically mean low risk. A proprietary system sized for a four-week occupation is not low risk if it has already been in place for twelve weeks through two storms and three crew changes without a review of the brief. Put the expected period of use, and the trigger for review if that period is exceeded, into the design brief and the temporary works register.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #DurationRisk #Programme #BS5975 #HSE #TWC",
+      "linkedinReady": "Removing the floor you are standing on is a temporary works problem, not just a carpentry task.\n\nOn 2 October 2026 HSE reported that W G Carter Limited was fined £120,000 after Richard “Felix” Roper, 59, fell through an unsafe first floor and died. He was replacing rotten joists and floorboards at a domestic property in Gloucestershire on 30 August 2022. Large sections of the first-floor structure had been stripped back, leaving open gaps between joists. Some joists were missing or unsecured. Other workers continued to remove boards in the same area. There were insufficient measures to prevent falls. HSE and Gloucestershire Police found the work at height had not been properly planned, supervised or carried out safely. A Prohibition Notice stopped further work at height until controls were in place. The company later installed joists from below and prevented access to the first floor.\n\nWork at Height Regulations 2005 Regulation 4(1) requires work at height to be properly planned, appropriately supervised and carried out in a safe manner. In a refurbishment, the temporary state of the floor — open gaps, missing supports, sequence of removal — is a temporary works item that belongs on the register and in a design brief if the residual structure or the protection arrangement needs to be assessed. Standard does not automatically mean low risk when the working surface is being dismantled underfoot.\n\nProvisional category only — to be confirmed by the TWC and the project temporary works procedure. Do not proceed until reviewed and accepted under the project temporary works procedure.\n\nEducational only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #WorkAtHeight #Refurbishment #FloorOpenings #HSE #BS5975 #TWC",
       "body": [
         {
           "h": "What was published",
-          "p": "On 9 October 2026 EE&HL Network published an insight by Marco Torri titled When Temporary Works Stay in Place Too Long. The piece observes that temporary works design and management depend on the loads, the conditions and the anticipated period of use. The load is written down and checked. The period of use is often an assumption in the background: the supports will be there for a few weeks, the propping until the slab gains strength, the tower until the stays are in. When the programme moves, the load is still checked. The period of use is not always revisited. HSE\u2019s guidance on temporary works names the attitude behind this: because temporary works may be in place for only a short while, there is a tendency to assume they are less important. The same guidance notes that temporary works can be sensitive to how they are used and to work going on nearby, and that failures are often linked to loadings that were underestimated. A temporary state that lasts longer than planned can meet more weather, more nearby activity, more changes of crew and more opportunities for an adjacent trade to lean on it, remove a brace or load it in a way nobody considered. Typical causes include weather windows slipping, plant or crew not being ready, another scope having to finish first, and open design or method decisions being deferred to site. Documented projects such as the Millau Viaduct (release of temporary towers dependent on stay-cable installation) and the Krk Bridge (arch halves standing on tie-backs until the crown closed) illustrate how the life of temporary works is set by something other than the temporary works themselves. HSE describes temporary works coordination as including making sure temporary works are correctly installed, used, checked and maintained across their whole life. BS 5975 sets out the temporary works co-ordinator role as industry good practice; HSE notes that there is no legal requirement to use that job title. A practical reading is that a change in programme can affect the assumptions in the temporary works brief and is worth sending back to whoever designed and checked them."
+          "p": "On 2 October 2026 the Health and Safety Executive Media Centre published the outcome of the prosecution of W G Carter Limited of Appleton, Oxfordshire. Richard “Felix” Roper, a 59-year-old father of two, died after falling from the first floor of Manor Barn House, Nether Westcote, Gloucestershire, on 30 August 2022. He had been tasked with replacing damaged floor joists while other workers removed sections of flooring in the same area. Extensive repairs were under way to replace rotten floor joists and floorboards. Large parts of the first-floor structure had been stripped back, leaving open gaps between joists. Some joists were either missing altogether or had not been secured. Mr Roper fell to the concrete ground floor below, sustained severe head injuries and died in hospital the following day. A joint investigation by HSE and Gloucestershire Police found that the work at height had not been properly planned, appropriately supervised or carried out safely. Workers, including Mr Roper, were able to access areas where flooring and structural supports had been removed despite insufficient measures to prevent falls. Other workers were continuing to remove floorboards, creating and increasing the risk. Following the incident HSE served a Prohibition Notice stopping further work at height until adequate safety measures had been introduced. The company later adopted a safer method: installing floor joists from below using appropriate work-at-height equipment and preventing access to the first floor while the work was undertaken. On 24 September 2026 at Bristol Magistrates Court the company pleaded guilty to breaching Regulation 4(1) of the Work at Height Regulations 2005. It was fined £120,000 and ordered to pay costs of £5,247. HSE principal inspector James Lucas said that due to the failings of the company a man lost his life, and that every year workers are killed or suffer life-changing injuries because work at height has not been properly planned or suitable safeguards have not been put in place."
         },
         {
           "h": "Why it matters for contractors",
-          "p": "Temporary works are not a short-lived exception to the duty to plan, manage and monitor construction work. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase and requires contractors to plan, manage and monitor their own work. BS 5975-1:2024 is the code of practice for a temporary works procedure; it is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project\u2019s licensed copy. The design brief should state the expected period of use. When that period is exceeded, or when the programme changes in a way that affects weather exposure, adjacent activities, loading or the sequence of removal, the assumptions that justified the design, the inspection frequency and the maintenance regime may no longer hold. Standard does not automatically mean low risk. A proprietary falsework or propping system whose published capacity was calculated for a defined short duration is not low risk if the actual occupation has already exceeded that duration and the brief has not been revisited. Provisional category only \u2014 to be confirmed by the TWC and the project temporary works procedure."
+          "p": "Falls from height remain a leading cause of death in construction. Regulation 4(1) of the Work at Height Regulations 2005 requires every employer to ensure that work at height is properly planned, appropriately supervised and carried out in a manner that is, so far as is reasonably practicable, safe. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase and requires contractors to plan, manage and monitor their own work. In a refurbishment where the existing floor is being removed or opened, the temporary condition of that floor — open gaps, missing or unsecured joists, sequence of removal, residual load-carrying capacity of what remains, and the protection or access arrangement that replaces it — is a temporary works item. It belongs on the temporary works register. If the residual structure or the temporary protection (crash deck, boarding, edge protection, alternative access from below) needs assessment, it needs a design brief and competent design/check under the project procedure. BS 5975-1:2024 sets out a temporary works procedure as industry good practice; it is not a statute. Exact clause references should be confirmed against the project’s licensed copy. Standard does not automatically mean low risk. An arrangement that looks simple (boards being removed, joists replaced) can become high consequence when people are working on the structure that is being dismantled and there is no engineered temporary state. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
         },
         {
           "h": "Practical TWC and TWS control points",
           "ul": [
-            "State the expected period of use, and the trigger for formal review if that period is exceeded, in the design brief and on the temporary works register entry.",
-            "When the programme slips, or when weather, access or an interface with another contractor extends the temporary state, treat that extension as a potential change to the temporary works. Send it back for review before the works simply continue.",
-            "Do not assume that a daily visual check remains sufficient if the duration, exposure or adjacent activity has changed. Record the inspection and note any change in conditions.",
-            "Confirm that the person inspecting has the competence and authority required by the project procedure. A glance that does not consider duration is incomplete.",
-            "If adjacent trades, plant or storage begin to interact with the temporary works in a way not considered in the original brief, stop and re-assess before the interaction becomes the norm.",
-            "At the point of removal or alteration, confirm that the permanent structure (or the next temporary state) is ready to take the load. Removal is not automatically lower risk than installation.",
+            "Identify floor-opening, joist-removal or partial-demolition of floors as a temporary works item on the register before work starts. Do not treat it as ordinary carpentry.",
+            "The design brief should state the sequence, the residual structure that remains, the temporary protection or alternative access method, the loads (people, tools, materials), the public or occupied interface if any, and the hold points.",
+            "Prefer prevention of the fall: sequence the work so that access to the open floor is prevented, install joists or supports from below where practicable, or provide a designed temporary platform / crash deck / boarded working surface that is controlled under the procedure.",
+            "Do not allow progressive removal of boards and joists while people continue to work on the same floor without a reviewed temporary arrangement.",
+            "Edge protection, boarding or exclusion must be in place before the surface is opened. Inspection and maintenance of that temporary state belongs in the ITP or permit-to-load / permit-to-work arrangements.",
+            "After any alteration (further boards removed, joists cut, temporary boarding moved), treat it as a change that requires review before work continues.",
+            "Confirm competence of the people carrying out and supervising the work, and that the temporary arrangement has been accepted under the project temporary works procedure before access is permitted.",
             "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
           ]
         },
         {
           "h": "Limitations",
-          "p": "Educational briefing only. Not for construction. Based on the EE&HL Network insight of 9 October 2026 and publicly available HSE temporary works guidance. It is not a design, a check or a statement that any particular temporary works arrangement is adequate or inadequate for an extended duration. No periods, loads or capacities have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+          "p": "Educational briefing only. Not for construction. Based on the HSE Media Centre press release of 2 October 2026. It is not a design, a check or a statement that any particular temporary works arrangement is adequate or inadequate. No loads, residual capacities or protection designs have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
         },
         {
           "h": "Sources",
           "sources": [
             {
-              "label": "EE&HL Network, When Temporary Works Stay in Place Too Long, 9 October 2026",
-              "url": "https://eehl.net/insights/temporary-works-duration-risk/"
+              "label": "HSE Media Centre, Construction company fined £120,000 after worker dies in fall from height, 2 October 2026",
+              "url": "https://press.hse.gov.uk/2026/10/02/construction-company-fined-120000-after-worker-dies-in-fall-from-height/"
             },
             {
-              "label": "HSE, Temporary works FAQs",
-              "url": "https://www.hse.gov.uk/construction/faq-temporary-works.htm"
+              "label": "HSE, Working at height: A brief guide (INDG401)",
+              "url": "https://www.hse.gov.uk/pubns/indg401.htm"
             },
             {
               "label": "HSE, Temporary works",
               "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
             },
             {
-              "label": "BS 5975-1:2024, Temporary works \u2013 Management procedures for the control of temporary works. Code of practice",
-              "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
+              "label": "Work at Height Regulations 2005",
+              "url": "https://www.legislation.gov.uk/uksi/2005/735/contents"
             }
           ]
         }
