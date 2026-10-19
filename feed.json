@@ -1,1 +1,68 @@
-<FILE_CONTENT_HERE>
+{
+  "updated": "2026-10-19T08:00:00+01:00",
+  "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-10-19-thermal-loading-propping",
+      "date": "2026-10-19",
+      "kicker": "Geotechnical volatility",
+      "title": "Thermal spikes and soil desiccation can consume the capacity of temporary propping",
+      "excerpt": "Ground Engineering (9 October 2026) by Vicky Mastoridou CEng MICE of Groundforce Shorco examines how extreme heat and rapid wetting–drying cycles are challenging standard UK temporary works assumptions. In clay soils such as London Clay, prolonged desiccation followed by intense rainfall can produce rapid spikes in lateral earth pressure. Restrained steel props, sheet piles and bracing convert solar heating into additional compressive forces that consume the resistance reserves calculated under Eurocode 7. Design briefs, inspection regimes and monitoring need to recognise climate volatility rather than relying solely on historical averages.",
+      "tags": ["Temporary works", "Propping", "Geotechnical", "Thermal loading", "Eurocode 7", "Monitoring", "TWC"],
+      "linkedinReady": "Thermal spikes and rapid soil moisture swings are no longer a distant climate footnote for temporary propping.\n\nOn 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou CEng MICE of Groundforce Shorco. It notes that record heatwaves and extreme wetting–drying cycles are forcing temporary works and shoring schemes to operate beyond the climatic envelopes assumed in design. In clay-rich ground such as London Clay, extended dry spells cause desiccation, cracking and temporary stiffening, followed by rapid water entry when rain returns. The result can be sudden increases in lateral earth pressure on retaining structures and their temporary supports.\n\nExposed steel props, sheet piles and bracing absorb solar radiation. Because they are restrained between walls, walers and slabs they cannot expand freely. The restraint converts into additional compressive axial force. A prop sized for earth pressures can therefore see a sharp load increase purely from thermal expansion, consuming part of the resistance reserve calculated under BS EN 1997 (Eurocode 7). Distinguishing genuine ground movement from a thermal spike requires careful interpretation of load-cell data.\n\nHSE temporary works guidance requires any temporary structure to be designed, installed and maintained for foreseeable loads and used only for the purposes for which it was designed. BS 5975-1:2024 provides the management framework. When heat or rapid moisture change is foreseeable during the temporary state, it belongs in the design brief, the inspection and monitoring regime, and the triggers for review.\n\nProvisional category only — to be confirmed by the TWC and the project temporary works procedure. Do not proceed until reviewed and accepted under the project temporary works procedure.\n\nEducational only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Propping #Geotechnical #ThermalLoading #Eurocode7 #Monitoring #TWC",
+      "body": [
+        {
+          "h": "What was published",
+          "p": "On 9 October 2026 Ground Engineering published an industry view by chartered civil engineer Vicky Mastoridou (CEng, MICE), development manager at Groundforce Shorco, titled “Redefining geotechnical limits: thermal loading and soil volatility in temporary works”. The article examines the geotechnical impact of extreme heat cycles on soil mechanics and the structural implications of thermal expansion in propping systems. It observes that with the summer of 2026 again surpassing previous temperature benchmarks, sustained thermal loads over 30 °C, widespread desiccation and shifting water tables can no longer be treated as short-term weather anomalies. Historical return periods based on past climate baselines cease to offer a reliable basis when extreme events recur. In clay-rich formations such as London Clay, extended dry spells cause the ground to shrink and crack, temporarily increasing stiffness while allowing movements that can affect foundations and excavations. When intense rainfall follows, water enters the cracks rapidly, producing localised softening, swelling and changes in pore-water conditions. Lateral earth pressures behind retaining structures can therefore spike more quickly than conventional design models anticipate. For temporary works this means ground parameters assumed at design stage may not remain valid during construction. Separately, exposed structural steelwork (heavy-duty hydraulic props, sheet piling and bracing frames) absorbs solar radiation, driving surface temperatures above ambient. Because these elements are restrained between retaining walls, walers and concrete slabs they cannot expand freely. The restraint converts thermal energy into compressive axial forces. A hydraulic prop operating under static earth pressures can experience a sharp load spike purely due to thermal expansion, transferring additional loading into the retaining structure and consuming part of the resistance reserve calculated under BS EN 1997 (Eurocode 7) partial factors. To accommodate the thermal component without exceeding design resistance, stronger, larger or denser propping layouts may be required, reducing working clearance. Distinguishing actual ground movement from thermal load spikes requires careful interpretation of telemetry from load cells."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Temporary works are an engineered solution used to support or protect a structure during construction, retain the sides of an excavation, or provide access. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase and requires contractors to plan, manage and monitor their own work. HSE temporary works guidance states that the law requires any temporary structure to be designed, installed and maintained to withstand any foreseeable loads which may be imposed on it and that it be only used for the purposes for which it was designed, installed and maintained. BS 5975-1:2024 sets out management procedures for the control of temporary works as industry good practice; it is not a statute. Exact clause references should be confirmed against the project’s licensed copy. Eurocode 7 (BS EN 1997) is the basis for geotechnical design of retaining structures and their temporary support, including consideration of actions arising from temperature changes in struts or props. When extreme heat or rapid wetting–drying cycles are foreseeable during the period of use, they are not external to the temporary works design. They can alter both the geotechnical loading (earth pressures, soil strength and stiffness) and the structural demand on restrained steelwork. Standard does not automatically mean low risk when the temporary state meets conditions outside the climatic envelope assumed in the original brief. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+        },
+        {
+          "h": "Practical TWC and TWS control points",
+          "ul": [
+            "State in the design brief the expected period of use, the range of ambient and surface temperatures that may be encountered, the ground conditions (including susceptibility to desiccation or rapid wetting), and whether thermal expansion of restrained props or frames has been considered.",
+            "Where clay soils or significant seasonal moisture change are present, treat ground parameters derived from site investigation as potentially time-dependent. Flag the need for observational monitoring or review if prolonged dry spells or intense rainfall occur during the temporary state.",
+            "Require the temporary works designer to identify whether thermal actions on props, walers or bracing are significant and how they have been allowed for in capacity checks (including any reduction in available geotechnical resistance).",
+            "Where load cells or other instrumentation are installed, establish clear thresholds and a protocol for distinguishing thermal spikes from genuine ground movement before operational interventions are made.",
+            "Include heat, desiccation or rapid wetting as review triggers under the project temporary works procedure. After a period of elevated temperature or intense rainfall, inspect and, where necessary, stop and review before continued reliance on the support system.",
+            "Confirm that any denser or stronger propping required to accommodate thermal effects still provides the required working space, access and plant logistics, or that the method has been adjusted accordingly.",
+            "At permit-to-load and during routine inspection, verify that the installed arrangement matches the design assumptions, including any measures (coating, shading, hydraulic compensation or monitoring) specified to manage thermal effects.",
+            "Do not proceed until the arrangement, including thermal and moisture assumptions, has been reviewed and accepted by the competent person under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Based on the Ground Engineering industry view of 9 October 2026 and HSE temporary works guidance. It is not a design, a check or a statement that any particular temporary works arrangement is adequate or inadequate. No loads, thermal increments, soil parameters or capacities have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Ground Engineering, Redefining geotechnical limits: thermal loading and soil volatility in temporary works, Vicky Mastoridou, 9 October 2026",
+              "url": "https://www.geplus.co.uk/opinion/industry-view/redefining-geotechnical-limits-thermal-loading-and-soil-volatility-in-temporary-works-09-10-2026/"
+            },
+            {
+              "label": "HSE, Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            },
+            {
+              "label": "HSE, Temporary works FAQs",
+              "url": "https://www.hse.gov.uk/construction/faq-temporary-works.htm"
+            },
+            {
+              "label": "BS EN 1997, Eurocode 7 – Geotechnical design (actions from temperature changes in struts/props)",
+              "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules"
+            },
+            {
+              "label": "BS 5975-1:2024, Temporary works – Management procedures for the control of temporary works. Code of practice",
+              "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
