@@ -1,0 +1,68 @@
+{
+  "updated": "2026-10-23T18:00:00+01:00",
+  "source": "Temporary Works Consulting & Design Ltd — daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-10-23-banbury-partial-collapse-stability-controls",
+      "date": "2026-10-23",
+      "kicker": "Daily briefing",
+      "title": "Banbury partial collapse: a prompt to re-check temporary stability controls",
+      "excerpt": "On 21 October a building under construction in Banbury partially collapsed with scaffolding. Two workers were hospitalised. HSE is investigating. Cause is not established. The incident is a prompt to re-confirm temporary works controls on sequence, bracing and load path — the same themes that appear in recent CROSS reports.",
+      "tags": ["HSE", "Structural stability", "Scaffolding", "CROSS", "BS 5975"],
+      "linkedinReady": "On 21 October a building under construction on Lower Cherwell Street in Banbury partially collapsed with scaffolding. Nine workers were on site. Two were taken to hospital — one with head and leg injuries, one with severe injuries. HSE is investigating. No cause has been established and none is assumed here.\n\nIncidents like this are a prompt, not a verdict. Structural stability during construction is a temporary-works issue until the permanent structure can stand on its own. Sequence changes, incomplete bracing, unassessed load paths into existing elements, and items treated as “just scaffolding” or “just temporary” sit in the same control space as the CROSS reports that keep appearing.\n\nCROSS-UK Report 1479 (January 2026) is a clear recent example: a late contractor change from lifting beams in pairs to lifting them individually created a lateral-torsional buckling risk under wet concrete that took utilisation over 200% without temporary restraints. The Category II check caught it. Many changes do not.\n\nHSE’s structural stability guidance during alteration, demolition and dismantling is unchanged: temporary supports must be designed, installed and maintained for foreseeable loads, by people competent for the item. BS 5975-1:2024 and CDM 2015 Regulation 19 still require the procedure — design brief, design and check, register, permit and competent inspection — not a verbal “it will be fine”.\n\nSeparately, Build UK’s Common Assessment Standard Version 6 (effective 1 November 2026) clarifies that scaffolding and temporary works do not fall within the Building Safety Regulations unless they form part of the completed structure. NASC welcomed the distinction. Competence requirements move, not disappear. The procedural controls under BS 5975 and CDM remain.\n\nThis week, for every live item that could affect stability:\n\n- Confirm it is on the Temporary Works Register with a named TWC.\n- Ask for the design (or documented standard solution), check category, permit and last competent inspection.\n- Treat any sequence change or removal of bracing/props as a design change until the designer confirms otherwise.\n- Check the full load path, including existing structure that will take redistributed load.\n\nEducational only — not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #StructuralStability #CDM2015 #TWC",
+      "body": [
+        {
+          "h": "What has been reported",
+          "p": "On Wednesday 21 October 2026 a partial collapse involving a building under construction and associated scaffolding occurred on Lower Cherwell Street in Banbury, Oxfordshire. The site is the redevelopment of a former car sales premises into 19 apartments. Thames Valley Police stated that nine workers were on site; two sustained injuries and were taken to hospital (one with head and leg injuries, one described as severe). There were no reports of anyone trapped. HSE confirmed it is aware of the incident and an investigation is underway. No cause has been established in the published reports."
+        },
+        {
+          "h": "Why this is a temporary works prompt",
+          "p": "Until the permanent structure is self-stable, construction sequence, temporary bracing, propping, scaffolding interfaces and any alteration to the load path are temporary works. HSE guidance on structural stability during alteration, demolition and dismantling states that temporary supports must be designed, installed and maintained to withstand foreseeable loads, and that structures should never be overloaded. Items that affect stability belong on the Temporary Works Register under the project procedure (BS 5975-1:2024)."
+        },
+        {
+          "h": "Relevant CROSS learning — sequence changes",
+          "p": "CROSS-UK Report 1479 (published 13 January 2026) describes a late contractor change on a filler-beam bridge deck. Instead of lifting steel beams in connected pairs, beams were to be lifted individually. This introduced a significant temporary stability risk of lateral-torsional buckling under the weight of wet concrete. Assessment showed utilisation exceeding 200% without rotational restraint and temporary LTB restraints. The Category II checker identified the issue; temporary restraints were required. The report notes that late changes to construction sequence can introduce significant temporary stability risks and that the Temporary Works Coordinator role must ensure clarity of design responsibility at each stage."
+        },
+        {
+          "h": "Common Assessment Standard clarification",
+          "p": "Build UK has announced that Version 6 of the Common Assessment Standard takes effect on 1 November 2026. Revisions to the Building Safety section reflect that scaffolding and temporary works no longer fall within the scope of the Building Safety Regulations unless they form part of the completed structure. NASC welcomed the clarification after seeking confirmation from MHCLG. Companies will opt out of the Building Safety section where it does not apply, with a confirming statement. Competence-based questions previously in Section 7 move into the quality section so they remain required. This does not remove the need for competence or for the procedural controls in BS 5975 and CDM 2015."
+        },
+        {
+          "h": "What a competent TWC / site team should confirm this week",
+          "ul": [
+            "Every item that can affect structural stability during construction (scaffolding that is load-bearing or tied in a way that affects the permanent structure, temporary bracing, propping, sequence-critical elements) is on the Temporary Works Register with a named Temporary Works Coordinator.",
+            "There is a design or documented standard solution, an appropriate design check, a permit-to-load/use and a recent inspection by a person competent for that item.",
+            "Any proposed change to sequence, removal of bracing or props, or alteration of loading is treated as a design change and is not implemented until the temporary works designer confirms the temporary condition remains acceptable.",
+            "The full load path has been considered, including existing structure that will carry redistributed load (see also CROSS-UK Report 1539)."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "BBC News, 22 October 2026 — Two in hospital after partial building collapse in Banbury",
+              "url": "https://www.bbc.co.uk/news/articles/cke8r6qpvdmpo"
+            },
+            {
+              "label": "Construction News, 22 October 2026 — HSE investigates building collapse as two injured",
+              "url": "https://www.constructionnews.co.uk/health-and-safety/hse-investigates-building-collapse-as-two-injured-22-10-2026/"
+            },
+            {
+              "label": "CROSS-UK Report 1479, 13 January 2026 — Temporary stability risk due to construction changes on bridge deck",
+              "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-stability-risk-due-construction-changes-1479"
+            },
+            {
+              "label": "HSE — Structural stability during alteration, demolition and dismantling",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/buildings.htm"
+            },
+            {
+              "label": "NASC / CISRS, 22 October 2026 — NASC Welcomes Common Assessment Standard Changes",
+              "url": "https://cisrs.org.uk/resource/nasc-welcomes-common-assessment-standard-changes-bringing-clarity-for-scaffolding-contractors.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
