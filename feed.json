@@ -1,1 +1,60 @@
-PLACEHOLDER
+{
+  "updated": "2026-10-30T08:00:00+00:00",
+  "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-10-30-cas-v6-scaffold-temporary-works-opt-out",
+      "date": "2026-10-30",
+      "kicker": "Guidance",
+      "title": "CAS v6: scaffolding and temporary works can opt out of Building Safety section",
+      "excerpt": "From 1 November 2026, Version 6 of the Common Assessment Standard allows scaffolding and temporary works contractors to opt out of Section 7 (Building Safety) where their activities are not covered by the Building Regulations. Competence questions move to the quality section. This clarifies prequalification but does not remove CDM, BS 5975 or project temporary works procedure duties.",
+      "tags": [
+        "CAS",
+        "NASC",
+        "Temporary works",
+        "Scaffolding",
+        "Prequalification",
+        "Building Safety"
+      ],
+      "linkedinReady": "From 1 November 2026, Version 6 of the Common Assessment Standard (CAS) lets scaffolding and temporary works contractors opt out of the Building Safety section (Section 7) where their work is not covered by the Building Regulations.\n\nNASC and CISRS welcomed the change after months of confusion. Scaffolding is temporary works. Unless it forms part of the completed structure, it is not subject to the same Building Regulations requirements as permanent building work. Contractors must actively opt out and provide a statement confirming they do not undertake covered work.\n\nCompetence questions previously in Section 7 move into the quality section (Section 5) and apply to all companies. Drugs and alcohol policies and fraud prevention procedures become mandatory for everyone.\n\nFor principal contractors and TWCs this is useful clarity on prequalification, but it is not a relaxation of temporary works control. BS 5975-1:2024 procedures, design briefs, category checks, permits to load/use/strike, inspections and CDM duties remain. An opt-out from a prequalification section does not change the need for competent temporary works management on site.\n\nReview your supply-chain assessments and design briefs accordingly. Full briefing: https://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #BS5975 #CDM #NASC",
+      "body": [
+        {
+          "h": "What changed",
+          "p": "Build UK has confirmed that Version 6 of the Common Assessment Standard takes effect on 1 November 2026. Scaffolding and temporary works contractors whose activities are not covered by the Building Regulations must actively opt out of Section 7 (Building Safety) and provide a statement confirming they do not undertake work covered by those regulations. The change follows NASC correspondence with MHCLG and subsequent clarification from the Housing Minister to the Building Safety Regulator that scaffolding and temporary works are not generally within the Building Regulations governing building work unless they form part of the completed structure."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "CAS is widely used by principal contractors and clients to assess supply-chain organisational capability. The previous ambiguity created practical difficulties for scaffolding contractors completing Section 7 questions that were not relevant to temporary works. The opt-out removes that barrier. Competence-related questions move from Section 7 into the quality section (Section 5) and continue to apply to all companies. Drugs and alcohol policies and fraud prevention procedures become mandatory across the board. Companies will complete the Version 6 question set at their next certification after 1 November 2026."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Treat the CAS opt-out as a prequalification clarification only. It does not alter CDM 2015 duties, BS 5975-1:2024 temporary works procedures, or the project temporary works register.",
+            "Confirm in design briefs and appointment letters whether any element of the temporary works will form part of the permanent structure (and therefore fall under Building Regulations).",
+            "Continue to require competent temporary works design, category checking (CAT 1/2/3 as determined by the TWC), and formal permits to load, use and strike.",
+            "For scaffolding interfaces, maintain TG20 compliance checks, weekly inspections under WAHR Regulation 12 where applicable, and controlled dismantling procedures with exclusion zones.",
+            "Principal contractors should update supply-chain questionnaires to recognise the Section 7 opt-out while still verifying temporary works competence through Section 5 and project-specific evidence."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "NASC / CISRS: Welcomes Common Assessment Standard Changes (22 Oct 2026)",
+              "url": "https://cisrs.org.uk/resource/nasc-welcomes-common-assessment-standard-changes-bringing-clarity-for-scaffolding-contractors.html"
+            },
+            {
+              "label": "Scaffmag: New CAS rules let scaffold firms opt out of Building Safety section (25 Oct 2026)",
+              "url": "https://scaffmag.com/scaffolding-news/trade-associations/cas-version-6-scaffold-contractors-building-safety-opt-out/"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "This briefing is educational only and is not for construction. It is subject to project-specific verification and the project temporary works procedure. Exact requirements must be confirmed against the published Version 6 CAS question set (when available), the project’s licensed standards, and the appointed TWC. AI-generated or third-party summaries require competent review before use."
+        }
+      ]
+    }
+  ]
+}
