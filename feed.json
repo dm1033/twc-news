@@ -1,1 +1,66 @@
-PLACEHOLDER_FOR_FULL_JSON
+{
+  "updated": "2026-10-31T07:38:00+00:00",
+  "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
+  "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
+  "posts": [
+    {
+      "id": "2026-10-31-cross-1613-unauthorised-plant-platform",
+      "date": "2026-10-31",
+      "kicker": "CROSS-UK",
+      "title": "CROSS 1613: plant support platform erected before design verification",
+      "excerpt": "CROSS-UK Report 1613, published 28 October 2026, describes multiple unauthorised design changes on an industrial building extension. A steel grillage plant support platform carrying approximately 5 tonnes was installed without inclusion in the original design brief and before any design verification. The primary frame did not account for the additional load; bracing was later found to be required. Other changes included altered bracing, undesigned splices, omitted bracing and foundations without design. The case underlines that additional plant platforms and design changes are temporary works or design risk items that must be controlled under the project temporary works procedure and CDM.",
+      "tags": [
+        "CROSS-UK",
+        "Temporary works",
+        "Plant platform",
+        "Design changes",
+        "BS 5975",
+        "CDM"
+      ],
+      "linkedinReady": "A plant support platform that is not in the design brief is temporary works until it is designed and verified.\n\nCROSS-UK Report 1613, published on 28 October 2026, records a chartered structural engineer’s concerns about multiple unauthorised changes on an industrial extension. A steel grillage platform carrying approximately 5 tonnes of plant was erected before any design verification. The main frame had not been designed for the additional load. Subsequent checks required extra bracing on some posts. Other departures included altered bracing that overstressed columns, undesigned splices, omitted bracing for openings, and foundations of uniform size with no design evidence for uplift.\n\nThe Expert Panel notes that unauthorised changes create a risk that safety-critical decisions are made without technical scrutiny. Where contractors alter a design without the original designer’s approval, they assume responsibility for those changes. CDM 2015 requires coordination of design and management of design risk. Additional plant platforms, temporary stability measures and load-path changes belong on the temporary works register.\n\nIdentify them early. Do not erect them until the design brief, calculation or standard solution, and category check are in place. Educational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #CROSSUK #PlantPlatform #BS5975 #CDM",
+      "body": [
+        {
+          "h": "What was reported",
+          "p": "CROSS-UK Report 1613, published on 28 October 2026, records a chartered structural engineer’s report of multiple unauthorised changes during construction of an industrial building extension. Construction had commenced without planning approval, without a Building Regulations application, and without compliance with CDM. After a site inspection the Reporter identified numerous departures from the original design that had been implemented without consultation or design review. A steel grillage platform carrying approximately 5 tonnes of plant had been installed although it was not in the original design brief; the structure was erected before any design verification. The main steel frame had not accounted for the additional plant load. Subsequent checks showed that additional bracing was required to some posts. Other defects included alteration of gable frames to portal frames without review, an undesigned beam supporting a windpost, modified windpost head connections that transferred roof loads, bracing interrupted at a splice (leading to overstressed columns), undesigned column and windpost splices, omission of lower-level bracing for openings, uniform pad foundations with no evidence of design (inadequate for uplift in braced bays), and a retaining wall constructed without prior design."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Additional plant platforms, temporary stability bracing, load-path changes and undesigned connections are temporary works items or design-risk items under BS 5975-1:2024 and CDM 2015. Erecting them before verification places the load path outside the controlled design. The Expert Panel states that the number and extent of the changes are a significant cause for concern and that unauthorised alterations create a risk that safety-critical decisions are made without appropriate technical scrutiny. Where a contractor or others alter a design without obtaining approval from the original designer, they assume responsibility for those changes and the associated risks. Effective management of design changes relies on all dutyholders discharging their responsibilities under CDM 2015, including coordination of design and management of design risk. Seemingly minor changes can have significant implications for structural performance and temporary stability."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Treat any additional plant support platform, grillage, temporary bracing or undesigned connection as a temporary works item requiring entry on the Temporary Works Register.",
+            "Issue a design brief before erection. Do not allow the platform or altered framing to be constructed until the design (or confirmed standard solution), category check and permit-to-load are in place.",
+            "Confirm that the primary structure has been designed or checked for the additional loads and any change in load path or stability system.",
+            "Require formal design-change control: proposed changes must be reviewed and accepted by the responsible designer (or temporary works designer) before implementation.",
+            "Where design responsibilities are split, establish clear overall coordination so that the completed structure (permanent plus temporary) functions safely as a whole.",
+            "Use site inspections by a competent person (TWC or TWS) to identify departures from the approved design before they become embedded.",
+            "Record the residual risks and any remedial works required, and close the temporary works item only after verification and acceptance under the project procedure."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "CROSS-UK Report 1613: Structural safety risks arising from unauthorised design changes during construction (published 28 October 2026)",
+              "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/structural-safety-risks-arising-unauthorised-design-changes-during-construction-1613"
+            },
+            {
+              "label": "HSE: Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            },
+            {
+              "label": "HSE: Summary of CDM 2015 dutyholder duties",
+              "url": "https://www.hse.gov.uk/construction/cdm/2015/summary.htm"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact clause references in BS 5975-1:2024 and other standards to be confirmed against the project’s licensed copy. AI-generated or third-party summaries require competent review before use on site."
+        }
+      ]
+    }
+  ]
+}
