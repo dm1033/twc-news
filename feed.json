@@ -1,8 +1,70 @@
 {
-  "updated": "2026-11-01T18:58:32+00:00",
+  "updated": "2026-11-02T07:45:00+00:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-11-02-cas-v6-scaffolding-temporary-works",
+      "date": "2026-11-02",
+      "kicker": "Guidance",
+      "title": "CAS Version 6: scaffolding and temporary works can opt out of the Building Safety section",
+      "excerpt": "Build UK published Version 6 of the Common Assessment Standard on 1 November 2026. Scaffolding and temporary works are not within the Building Regulations definition of \u2018building work\u2019 unless they form part of the completed structure. Companies must actively opt out of Section 7 and provide a confirming statement. Competence questions have moved to the Quality section and still apply. Temporary works contractors should keep their BS 5975 procedure, design control and competence evidence in place for both pre-qualification and site use.",
+      "tags": [
+        "CAS",
+        "Scaffolding",
+        "Temporary works",
+        "Pre-qualification",
+        "BS 5975",
+        "Building Safety"
+      ],
+      "linkedinReady": "Scaffolding and temporary works contractors now have clearer pre-qualification rules under the Common Assessment Standard.\n\nBuild UK published Version 6 of the Common Assessment Standard on 1 November 2026. Scaffolding and temporary works are not within the scope of the Building Regulations that regulate \u201cbuilding work\u201d, unless they form part of the completed structure. Companies whose activities do not include regulated building work must actively opt out of the Building Safety section (Section 7) and provide a statement confirming this.\n\nCompetence-based questions that were previously in Section 7 have moved to the Quality section. They still have to be answered by every company going through certification. Other items, including drugs and alcohol policy and fraud prevention procedures, are now mandatory for all.\n\nThis change removes questions that were not relevant to pure temporary works activity. It does not remove the need to demonstrate competence, safety management or quality systems. Temporary works still require a controlled process under BS 5975-1:2024: design brief, competent design and check, live register, permit-to-load and competent supervision on site. Pre-qualification evidence and site control are separate duties.\n\nCompanies will complete the Version 6 question set at their next certification after 1 November 2026. Confirm the exact position with your Recognised Assessment Body and keep your temporary works procedure current.\n\nEducational briefing only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #CAS #BS5975 #PreQualification",
+      "body": [
+        {
+          "h": "What has changed",
+          "p": "Build UK published Version 6 of the Common Assessment Standard on 1 November 2026. The Building Safety section (Section 7) now operates on an active opt-out basis. Scaffolding and temporary works are not within the scope of the Building Regulations that regulate \u2018building work\u2019, unless they form part of the structure once complete. Companies that do not undertake regulated building work must opt out of Section 7 and provide a statement confirming that they do not carry out work covered by the Building Regulations. Competence-related questions previously located in Section 7 have been moved to the Quality section (Section 5) so that they are completed by all companies. Additional items, including a drugs and alcohol policy and fraud prevention procedures, are now mandatory for every company."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "The clarification removes questions that were not applicable to pure temporary works or scaffolding activity and that had created difficulty during pre-qualification. It does not reduce the requirement to demonstrate organisational capability, competence or safety and quality management. Temporary works remain subject to the project temporary works procedure under BS 5975-1:2024 and to the duties in CDM 2015. Pre-qualification evidence and the live control of design, installation, inspection and striking on site are separate. Principal contractors and clients who use the Common Assessment Standard will still expect evidence of competence and controlled temporary works processes."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Confirm with your Recognised Assessment Body whether Version 6 applies to your next certification and prepare the required opt-out statement if you do not undertake building work regulated by the Building Regulations.",
+            "Ensure competence evidence that has moved to the Quality section remains current and can be produced on request.",
+            "Keep the project temporary works procedure, Temporary Works Register, design briefs, category checks and permits independent of pre-qualification status.",
+            "Do not treat an opt-out from Section 7 as a reduction in the need for design, checking or competent supervision of temporary works on site.",
+            "Where temporary works later form part of the permanent structure, reassess whether the Building Safety section applies and record the decision.",
+            "Update supply-chain and pre-qualification files so that clients and principal contractors can see both the CAS position and the temporary works control arrangements."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "NASC / CISRS: NASC Welcomes Common Assessment Standard Changes, 22 October 2026",
+              "url": "https://cisrs.org.uk/resource/nasc-welcomes-common-assessment-standard-changes-bringing-clarity-for-scaffolding-contractors.html"
+            },
+            {
+              "label": "FIS: Updated Common Assessment Standard coming 1 November, 29 October 2026",
+              "url": "https://www.thefis.org/2026/10/29/cas-v6/"
+            },
+            {
+              "label": "Build UK: Common Assessment Standard \u2013 Building Safety Section, 23 July 2026",
+              "url": "https://builduk.org/wp-content/uploads/2026/07/Common-Assessment-Standard-Building-Safety-Section.pdf"
+            },
+            {
+              "label": "Build UK: Common Assessment Standard overview",
+              "url": "https://builduk.org/information/common-assessment-standard/"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact wording of Version 6 questions and any subsequent Build UK guidance to be confirmed against the published question set and your Recognised Assessment Body. AI-generated or third-party summaries require competent review before use on site."
+        }
+      ]
+    },
     {
       "id": "2026-11-01-hse-platform-cross-propping-banbury",
       "date": "2026-11-01",
