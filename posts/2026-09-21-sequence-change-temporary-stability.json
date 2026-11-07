@@ -1,0 +1,89 @@
+{
+  "id": "2026-09-21-sequence-change-temporary-stability",
+  "date": "2026-09-21",
+  "kicker": "CROSS and Network Rail",
+  "title": "Late sequence changes and premature strut removal: temporary conditions that redesign the structure",
+  "excerpt": "CROSS 1479 (13 January 2026): contractor switched from paired beam lifts to single beams on a 20 m filler-beam bridge deck, introducing lateral-torsional buckling risk under wet concrete (utilisation >200 %). CROSS 1388 (26 August 2025): one raking strut removed from a pipe-pile retaining wall because it obstructed the transfer slab, leaving an unsafe temporary condition. Network Rail EAN03/2025 (September 2025) now defines and requires consideration of temporary conditions. Both cases show the same control gap: sequence or site decisions that alter the assumed temporary state without TWC coordination, re-assessment or independent check.",
+  "tags": [
+    "CROSS",
+    "Temporary works",
+    "Sequence change",
+    "Lateral torsional buckling",
+    "Strut removal",
+    "Network Rail",
+    "EAN03/2025",
+    "BS 5975",
+    "CDM 2015",
+    "TWC",
+    "Stability"
+  ],
+  "linkedinReady": "A late change to the lift sequence or the quiet removal of one raking strut is not a programme tweak. It is a temporary condition that can turn a designed structure into an unstable one.\n\nCROSS-UK Safety Report 1479 (13 January 2026) records a near-miss on an approximately 20 m span filler-beam bridge deck. Shortly before Category II check the contractor switched from lifting connected beam pairs to lifting single beams. The change introduced lateral-torsional buckling risk under the wet concrete load. Unrestrained, utilisation exceeded 200 %. The permanent-works designer flagged the need for temporary LTB restraints; the contractor initially declined, then challenged the bracing again two weeks before the pour. Bracing was finally designed and installed under severe time pressure with reinforcement already fixed. Independent checking caught the issue. Network Rail subsequently issued Engineering Advice Note EAN03/2025, *A consideration of temporary conditions* (September 2025), precisely because temporary states had been under-considered.\n\nCROSS-UK Safety Report 1388 (26 August 2025) is the complementary failure mode. A retaining wall of 600 mm pipe piles with raking props was holding a slope until the transfer slab could be cast. One strut obstructed the slab work, so it was removed. An unsafe length of temporary works was created. The Expert Panel is clear: any change (authorised or not) must be agreed with the principal designer and principal contractor; the Temporary Works Coordinator must be consulted; daily coordination meetings exist to surface exactly these clashes before an operative acts.\n\nBoth reports sit inside the same control gap. The permanent works are designed for the finished state. The temporary condition is created on site by sequence change, late commercial pressure or simple obstruction. Without a named TWC who has authority, a live register, a clear brief and a permit system, the load path and the stability assumptions disappear.\n\nFor the TWC and TWS this week:\n\n- Treat any alteration to lift sequence, prop layout or construction order as a design change that requires re-assessment and independent check before it is executed.\n- Do not accept “we will sort the bracing later” or “just take that strut out for an hour”.\n- Confirm that temporary lateral-torsional restraint, plan bracing and end rotational restraint are present before wet concrete or other construction loads are applied to single beams.\n- Keep the temporary-works register current with every sequence change; the register is not a filing exercise.\n- On rail or highway interfaces, read Network Rail EAN03/2025 and the updated Health & Safety by Design guidance on temporary conditions.\n- Independent check category remains provisional until confirmed under the project temporary works procedure.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #CROSS #HSE #StructuralStability #TWC #LateralTorsionalBuckling #SequenceChange",
+  "body": [
+    {
+      "h": "What CROSS 1479 records",
+      "p": "CROSS-UK Safety Report 1479 was published on 13 January 2026. During the final stages of design for an approximately 20 m span filler-beam bridge deck, shortly before Category II check, the contractor altered the intended construction sequence. Instead of lifting steel beams in connected pairs (with precast concrete infill providing temporary stability), the beams were to be lifted individually. The change introduced a significant temporary stability concern: lateral-torsional buckling of the beams under the weight of the wet concrete. The Category II checker identified that unbraced single beams without rotational restraint at the flange ends could experience buckling under a utilisation factor of over 200 %. The permanent-works designer confirmed the assessment and notified the contractor that temporary LTB restraints were required. The contractor initially declined an offer for the permanent-works designer to design the bracing, insisting on its own temporary-works team. Approximately three months later, and only two weeks before the deck concrete pour, the contractor again challenged the need for bracing. Final bracing was designed under compressed programme, with most deck reinforcement already fixed, restricting installation space. The event was classified as a near-miss. Independent checking prevented failure."
+    },
+    {
+      "h": "What the Expert Panel added on 1479",
+      "p": "The CROSS Expert Panel notes that single beams are especially vulnerable to lateral-torsional buckling during lifting and under wet concrete, particularly where load reversal can occur. Simply providing cross-bracing between pairs is generally insufficient; plan bracing is needed to prevent both beams buckling together. The role of the Temporary Works Coordinator appears to have been under-delivered: clarity of design responsibility for temporary conditions was lacking. Communication of the need for temporary bracing was not demonstrably understood. Network Rail subsequently produced a definition of temporary conditions and published Engineering Advice Note EAN03/2025, *A consideration of temporary conditions* (September 2025). The Panel emphasises that permanent-works and temporary-works designers depend on each other and must exchange information openly."
+    },
+    {
+      "h": "What CROSS 1388 records",
+      "p": "CROSS-UK Safety Report 1388 was published on 26 August 2025. A retaining wall of 600 mm pipe piles with raking props was containing a slope until a transfer slab could be constructed. One of the raking struts obstructed the contractor’s work on the slab and was removed, creating an unsafe section of temporary works. The resident engineer instructed remedial works and required the transfer slab to be completed and the wall stabilised before controlled prop removal. The Expert Panel states that there have been numerous failures resulting from changes (authorised or otherwise) to temporary and permanent works, often with unforeseen consequences. Any proposed change must be agreed with both the principal designer and the principal contractor. If a Temporary Works Coordinator is present, that person must be consulted. The contractor is responsible for the temporary works and should have understood the reason the strut was there. Daily coordination meetings are the normal place to surface such clashes before an operative acts."
+    },
+    {
+      "h": "Network Rail temporary-conditions guidance",
+      "p": "Network Rail Engineering Advice Note EAN03/2025, issue 1, *A consideration of temporary conditions*, was published in September 2025 and is referenced in the updated Health & Safety by Design guidance on early focus on constructability and temporary works (Issue 4.1, September 2025). It defines temporary conditions as interim states that occur during alteration of existing assets or construction of new assets prior to completion of the permanent works. Not every temporary condition requires formal temporary works, but all temporary conditions must be considered in design risk assessment and coordinated between permanent-works and temporary-works designers. The guidance replaces earlier advice and aligns with BS 5975-1:2024 and BS 5975-2:2024."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "Both reports describe decisions made on site or late in the design programme that altered the assumed temporary state of the structure. In one case the lift sequence was changed for commercial and programme reasons; in the other a single prop was removed to clear a work face. In neither case was the temporary condition re-assessed through the formal temporary-works procedure before the change was executed. The permanent works were designed for the finished state. The temporary condition is created by the sequence, the plant, the props that are present or absent, and the loads that are applied before the permanent restraints exist. CDM 2015 and BS 5975-1:2024 require a named Temporary Works Coordinator, a register, a brief, design and check, inspection and permit. A verbal instruction or an unrecorded site decision is not those controls."
+    },
+    {
+      "h": "Practical TWC and TWS control points",
+      "ul": [
+        "Register any proposed change to lift sequence, beam connection status, prop layout or construction order as a temporary-works design change before it is executed.",
+        "Do not accept single-beam lifting or unrestrained beams under wet concrete without temporary lateral-torsional restraint, plan bracing and end rotational restraint verified by design and check.",
+        "Treat premature or unplanned removal of any temporary prop, strut or brace as a red-card event that requires immediate stop, re-assessment and formal permit before work continues.",
+        "Confirm that the Temporary Works Coordinator has been consulted and that the change has been agreed with the principal designer and principal contractor.",
+        "Keep the temporary-works register live; sequence changes must appear on it with the revised design status and check category.",
+        "On rail or highway interfaces, obtain and apply Network Rail EAN03/2025 and the current Health & Safety by Design temporary-conditions guidance.",
+        "Independent check category is provisional only and must be confirmed under the project temporary works procedure. Single beams under construction loads and retaining walls with incomplete propping are not default CAT 0 items.",
+        "Use daily coordination meetings to surface spatial clashes between temporary works and follow-on activities before operatives act."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Not a design, not a check and not a permit. Subject to project-specific verification of span, beam section, restraint conditions, concrete loading, ground conditions, prop forces, sequence and responsible persons, and to acceptance under the project temporary works procedure. Report IDs, dates, utilisation figures and guidance titles are taken from the cited CROSS and Network Rail pages as published; confirm against the original documents before relying on them. Exact clause references in BS 5975-1:2024, CDM 2015 and Network Rail standards are to be confirmed against the project licensed copy. AI-assisted drafting requires competent review before use on site. Do not proceed until reviewed and accepted by the competent person under the project temporary works procedure."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "CROSS-UK Report 1479 - Temporary stability risk due to construction changes on bridge deck, 13 January 2026",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-stability-risk-due-construction-changes-1479"
+        },
+        {
+          "label": "CROSS-UK Report 1388 - Temporary works strut removed prematurely, 26 August 2025",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-works-struct-removed-prematurely-1388"
+        },
+        {
+          "label": "Network Rail Engineering Advice Note EAN03/2025 - A consideration of temporary conditions, September 2025 (via Reviewing our standards)",
+          "url": "https://www.networkrail.co.uk/industry-and-commercial/third-party-investors/network-rail-is-open-for-business/reviewing-our-standards/"
+        },
+        {
+          "label": "Network Rail Health & Safety by Design Guidance - Early Focus on Constructability and Temporary Works, Issue 4.1, September 2025",
+          "url": "https://safety.networkrail.co.uk/wp-content/uploads/2025/10/HSbD-Guidance.-Early-Focus-on-Constructability-and-Temporary-Works.-Issue-4.1-22.9.2025.pdf"
+        },
+        {
+          "label": "HSE - Temporary Works",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        },
+        {
+          "label": "BS 5975-1:2024 Temporary works - Management procedures for the control of temporary works",
+          "url": "https://www.bsigroup.com/"
+        }
+      ]
+    }
+  ]
+}

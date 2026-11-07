@@ -1,0 +1,22 @@
+name: feed-integrity
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# This check reports whether the archive still generates the feeds.
+# It does not block a direct push. GitHub only withholds a push when a
+# ruleset requires this check, and no such ruleset is added here.
+
+jobs:
+  feed-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check the archive and run tests
+        run: |
+          python3 scripts/publish.py check
+          python3 -m unittest tests/test_publish.py

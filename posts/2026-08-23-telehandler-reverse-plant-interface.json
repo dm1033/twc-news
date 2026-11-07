@@ -1,0 +1,57 @@
+{
+  "id": "2026-08-23-telehandler-reverse-plant-interface",
+  "date": "2026-08-23",
+  "kicker": "HSE prosecutions",
+  "title": "Telehandler reverse fatality: plant interface still kills when site rules are bypassed",
+  "excerpt": "A self-employed telehandler driver was given a suspended sentence after reversing over a lift supervisor on a Cheshire site in June 2023. The principal contractor had provided a clear turning circle; the driver still reversed without a banksman and while using a mobile phone. Workplace transport remains a major cause of construction deaths and sits at the plant–temporary works interface.",
+  "tags": [
+    "HSE",
+    "Plant",
+    "Telehandler",
+    "Traffic management",
+    "BS 5975",
+    "Workplace transport"
+  ],
+  "linkedinReady": "A lift supervisor went to work and never came home.\n\nOn 11 June 2023 James Connolly was struck and reversed over by a telehandler on a construction site in Ince, Ellesmere Port. He was walking back from the welfare compound. Michael Nixon, a qualified and experienced telehandler operator, chose to reverse without a banksman despite a clear, unobstructed turning circle provided by the principal contractor. He was also using his mobile phone, contrary to the site rules he had signed.\n\nAt Warrington Magistrates’ Court on 11 August 2026 Nixon was sentenced to 12 weeks’ imprisonment suspended for 12 months, fined £800 and ordered to pay £2,000 costs. HSE published the prosecution on 18 August 2026.\n\nHSE Principal Inspector Laura Royales: “Workplace transport incidents remain one of the biggest causes of deaths in the workplace. It is vital that drivers follow the site rules and do not cut corners and put lives at risk.”\n\nFor contractors and TWCs this is not only a vehicle issue. Haul roads, turning circles, pedestrian segregation and plant working platforms are temporary works territory under BS 5975 and HSE guidance. A traffic management plan that exists on paper but is ignored on the ground is not control.\n\nPractical checks this week:\n• Confirm every plant operating area has a current traffic management / segregation arrangement linked to the Temporary Works Register where relevant.\n• Enforce banksman use for reversing where the site rule requires it — no exceptions for “experienced” operators.\n• Zero tolerance for mobile phone use while operating plant.\n• Walk the routes between welfare and workfaces; if pedestrians and reversing plant share space, redesign or control it.\n\nEducational only — not for construction; subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #HSE #WorkplaceTransport #PlantSafety #BS5975 #ConstructionSafety",
+  "body": [
+    {
+      "h": "What happened",
+      "p": "On the morning of 11 June 2023, 49-year-old James Connolly was working as a lift supervisor on a large construction site in Ince, Ellesmere Port. While walking back to his work area from the welfare compound he was struck and reversed over by a telehandler operated by Michael Nixon, resulting in fatal injuries. Nixon was a self-employed, qualified and experienced telehandler operator."
+    },
+    {
+      "h": "What HSE found",
+      "p": "The principal contractor had taken steps to minimise the need for reversing, including creation of a turning circle that was unobstructed at the time of the incident. Despite this, Nixon chose to reverse without the aid of a banksman. The investigation also found that he had been using his mobile phone while in control of the telehandler, contrary to the site rules he had signed up to."
+    },
+    {
+      "h": "Court outcome",
+      "p": "Michael Nixon, 46, of Deeside, Heswall, Wirral, pleaded guilty to breaching Section 3(2) of the Health and Safety at Work etc. Act 1974. He was sentenced to 12 weeks’ imprisonment, suspended for 12 months, fined £800 and ordered to pay £2,000 in costs at Warrington Magistrates’ Court on 11 August 2026. HSE published the prosecution on 18 August 2026."
+    },
+    {
+      "h": "Why this matters for temporary works control",
+      "p": "Workplace transport remains one of the largest causes of construction fatalities. Haul roads, plant access routes, turning areas and segregation arrangements are routinely treated as temporary works items under BS 5975 management procedures and HSE guidance (including HSG144). A designed or planned traffic layout that is then bypassed by operators is a control failure of the same character as an un-designed crash deck or an un-propped excavation edge. The Temporary Works Coordinator’s role includes ensuring that plant interfaces that create temporary risk are identified, controlled and inspected."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Confirm that the Temporary Works Register (or associated traffic management plan) captures plant operating areas, haul routes and pedestrian segregation where these create temporary risk.",
+        "Require and enforce banksman use for reversing wherever the site rule or risk assessment requires it — experience does not replace the control.",
+        "Treat mobile-phone use while operating plant as a serious breach; it removes the last line of awareness.",
+        "Walk the actual routes between welfare and workfaces; if pedestrians and reversing plant share uncontrolled space, redesign the layout or impose physical segregation.",
+        "Link plant working platforms, outrigger pads and edge protection of excavations adjacent to plant routes into the same temporary works procedure and permit regime."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "HSE Media Centre, 18 August 2026 — Telehandler driver sentenced over death of colleague",
+          "url": "https://press.hse.gov.uk/2026/08/18/telehandler-driver-sentenced-over-death-of-colleague/"
+        },
+        {
+          "label": "HSE guidance — The safe use of vehicles on construction sites (HSG144)",
+          "url": "https://www.hse.gov.uk/pubns/priced/hsg144.pdf"
+        }
+      ]
+    }
+  ]
+}

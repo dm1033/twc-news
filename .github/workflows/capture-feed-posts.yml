@@ -1,0 +1,33 @@
+name: capture-feed-posts
+
+on:
+  push:
+    branches: [main]
+    paths: [feed.json]
+
+# Copies genuine new posts from a rolling feed.json into posts/ and
+# archive/feed.json. It does not rewrite feed.json and it does not revert
+# a bad push. A placeholder feed is ignored. This is preservation of posts
+# that have already reached main, not a block on that push.
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture valid posts into the archive
+        run: python3 scripts/publish.py capture-feed
+      - name: Commit the archive when a new briefing was stored
+        run: |
+          git add -- posts archive/feed.json
+          if git diff --cached --quiet; then
+            echo "archive unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "fix: keep new briefings in the news archive"
+          git push origin HEAD:main

@@ -1,0 +1,50 @@
+{
+  "id": "2026-06-15-paxton-house-platform-collapse",
+  "date": "2026-06-15",
+  "kicker": "Case briefing",
+  "title": "Paxton House: a timber platform, no design, life-changing injury",
+  "excerpt": "Two firms were fined in June 2026 after a temporary wooden platform loaded with concrete debris collapsed onto a drilling operative at Paxton House in the City of London. There was no design and no calculated safe load.",
+  "tags": [
+    "Working platforms",
+    "HSE",
+    "CDM",
+    "Competence"
+  ],
+  "linkedinReady": "A temporary wooden platform loaded with concrete cores collapsed onto Steve Zschoch at Paxton House, City of London. Neck and back fractures. A bleed on the brain. Career over.\n\nWestminster Magistrates’ Court, 11 June 2026:\n• Roots Contractors Ltd — £19,333 + costs (CDM 2015 Reg 16(2))\n• Diacutt Ltd — £13,000 + costs (CDM 2015 Reg 15(2))\n\nHSE: no design, no load calculation, inspection not by a competent TWC, verbal ‘don’t overload it’ with no safe load known.\n\nIf you are collecting cores on timber over a riser, that is a designed temporary works item — or it should not be there.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #WorkingPlatforms #CDM",
+  "body": [
+    {
+      "h": "What happened",
+      "p": "On 23 February 2024, during refurbishment at Paxton House in the City of London, openings were being cut through concrete floors to form a service riser. Temporary timber platforms had been built under openings to catch 16 kg concrete cores and debris. A platform gave way. Steve Zschoch, a Diacutt drilling operative, sustained fractures to his neck and back and a bleed on the brain. He has not been able to work since. He described being ‘folded up like a concertina’."
+    },
+    {
+      "h": "The court outcome",
+      "p": "At Westminster Magistrates’ Court on 11 June 2026, Roots Contractors Ltd (principal contractor) was fined £19,333 plus £5,548 costs for breaching CDM 2015 Regulation 16(2). Diacutt Ltd was fined £13,000 plus £5,548 costs for breaching CDM 2015 Regulation 15(2). HSE published the prosecution on 15 June 2026."
+    },
+    {
+      "h": "What HSE found",
+      "ul": [
+        "No design for the temporary platforms and no calculation of a safe loading level.",
+        "An inspection form was completed but did not identify the design gap; the person completing it was not a competent Temporary Works Coordinator.",
+        "Workers had a verbal instruction to clear platforms and not overload them — with no safe load established and no effective monitoring.",
+        "RAMS were inconsistent on ‘crash decks’; coordination and supervision of who worked where (including not working directly below one another) were weak."
+      ]
+    },
+    {
+      "h": "Inspector’s statement — use this in your next TWS briefing",
+      "p": "HSE inspector Lucy Ellison-Dunn: ‘Those providing temporary works have a duty to ensure that any temporary structure is properly designed and constructed to withstand any foreseeable load that might be imposed on it. This means having appropriate arrangements in place to manage temporary works.’"
+    },
+    {
+      "h": "TWC takeaway",
+      "p": "A crash deck collecting demolition or drilling arisings is a loaded working platform. It needs a brief, a design (or a justified standard solution), a check, a permit-to-use, a posted load limit and competent inspection. ‘Don’t overload it’ is not a design. Provisional category for a platform over a live work area with public or occupied floors below is not Cat 0 by default — confirm under the project procedure."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "HSE Media Centre, 15 June 2026",
+          "url": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+        }
+      ]
+    }
+  ]
+}

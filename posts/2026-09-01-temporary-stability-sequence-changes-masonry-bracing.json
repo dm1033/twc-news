@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-01-temporary-stability-sequence-changes-masonry-bracing",
+  "date": "2026-09-01",
+  "kicker": "CROSS & temporary stability",
+  "title": "Temporary stability: sequence changes and ad-hoc bracing still create the highest risk",
+  "excerpt": "CROSS reports continue to highlight the same control failures: late changes to construction sequence that introduce lateral-torsional buckling or loss of restraint, and ad-hoc timber bracing to masonry walls with no design, calculations or competent oversight. Temporary stability belongs on the Temporary Works Register under BS 5975-1:2024 — with a design brief, appropriate check and closed hold points before the temporary condition is created.",
+  "tags": [
+    "CROSS",
+    "BS 5975",
+    "Temporary stability",
+    "Sequence change",
+    "Masonry bracing",
+    "LTB",
+    "TWC",
+    "Competence"
+  ],
+  "linkedinReady": "Temporary stability is not a “construction detail”. It is a temporary works control that must sit on the register under BS 5975-1:2024.\n\nCROSS continues to surface the same pattern. A late change to the construction sequence on a filler-beam bridge deck turned paired beams into individual members and introduced a clear lateral-torsional buckling risk under wet concrete — utilisation well over 100 % without temporary restraint. The Category II checker caught it; the subsequent scramble for bracing, commercial negotiation and restricted working space shows what happens when sequence changes are not routed through the Temporary Works Coordinator and design team early enough.\n\nSeparately, CROSS reports persistent use of ad-hoc timber bracing to masonry walls during construction. No design brief, no calculations, no competent oversight. Partially built walls remain vulnerable to modest wind, impact or construction loads. Improvised props give a false sense of security and leave both workers and duty-holders exposed.\n\nThe same control gaps appear in recent HSE outcomes: temporary platforms collecting debris with no design or calculated capacity; floors overloaded and not built to the manufacturer’s arrangement; premature loading or removal of support. In every case the item was treated as “just temporary” rather than a structure that must resist foreseeable loads under a managed procedure.\n\nFor contractors, site managers and Temporary Works Coordinators this week:\n• Capture sequence changes, single-beam lifts, masonry wall restraint and any temporary support to existing structure on the Temporary Works Register immediately.\n• Issue a design brief that states the temporary condition, loads and restraints required. Do not accept “we’ll prop it on site”.\n• Reject ad-hoc timber bracing or unassessed props. Use designed or justified standard solutions, installed and inspected by competent people, with closed permit-to-load / hold points.\n• Ensure the TWC has authority to stop work when the temporary stability assumption changes.\n• Confirm that permanent works designers and temporary works designers exchange the information needed for temporary conditions — and that independent checking covers those conditions.\n\nEducational only — not for construction; subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #CROSS #StructuralStability #TWC #ConstructionSafety #HSE",
+  "body": [
+    {
+      "h": "What CROSS is recording on temporary stability",
+      "p": "CROSS Safety Report 1479 (published January 2026) describes a late change to the intended construction sequence for an approximately 20 m span filler-beam bridge deck. Instead of lifting steel beams in connected pairs (as assumed in the permanent works design), the contractor proposed lifting them individually. This introduced a significant temporary stability concern: lateral-torsional buckling of the unbraced beams under the weight of wet concrete. Analysis showed utilisation factors exceeding 200 % without temporary restraint. The Category II checker identified the risk; the designer confirmed it and required temporary LTB restraints. Subsequent challenges to the necessity of the bracing, compressed design programmes and restricted installation space illustrate the consequences of sequence changes that are not controlled through the Temporary Works Coordinator and design interface. Network Rail has since published engineering advice on consideration of temporary conditions."
+    },
+    {
+      "h": "Ad-hoc bracing to masonry walls",
+      "p": "CROSS Safety Report 1525 (published May 2026) records ongoing concern about improvised timber bracing systems used to support masonry walls during construction. These arrangements typically lack a temporary works design, calculations or competent oversight. Partially completed masonry walls are vulnerable to overturning under relatively modest loads (wind, impact, construction activity). The reporter notes that such systems are often poorly fixed and create a false sense of security. The Expert Panel observes that temporary stability of masonry during construction is a well-recognised risk and that ad-hoc solutions should be replaced by designed or proven standard systems managed under BS 5975 procedures. Clear identification of the temporary works requirement within trade packages and defined responsibilities for design, installation and inspection are essential."
+    },
+    {
+      "h": "The recurring pattern with HSE prosecutions",
+      "p": "Recent HSE outcomes continue to show the same underlying control gaps. Temporary platforms used to collect concrete debris with no design and no calculated safe load (Paxton House, prosecution published June 2026). Floors overloaded with materials and not constructed in accordance with the manufacturer’s design, leading to collapse during bricklaying (Oldham prosecution published August 2026). Premature loading or removal of support, and unprotected openings treated as “just temporary”. In each case the temporary condition was foreseeable and the failure to place the item under a managed temporary works procedure left workers exposed and duty-holders open to enforcement."
+    },
+    {
+      "h": "What a competent contractor and TWC should check this week",
+      "ul": [
+        "Walk the Temporary Works Register against any planned sequence changes, single-member lifts, masonry wall construction and temporary support to existing structure; add missing items immediately.",
+        "Require a design brief that explicitly states the temporary condition, the loads and restraints that must be present, and the sequence constraints.",
+        "Reject ad-hoc timber bracing, unassessed props or improvised stability measures that have no design, check category or competent inspection record.",
+        "Ensure the Temporary Works Coordinator has clear authority to stop work when the temporary stability assumption changes and to require re-assessment before work continues.",
+        "Confirm information exchange between permanent works designers and temporary works designers for temporary conditions, and that independent checking covers those conditions.",
+        "Close permit-to-load / competent inspection hold points before the temporary condition is created or the structure is loaded."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "CROSS Safety Report 1479 — Temporary stability risk due to construction changes on bridge deck (13 January 2026)",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-stability-risk-due-construction-changes-1479"
+        },
+        {
+          "label": "CROSS Safety Report 1525 — Concerns with temporary bracing of masonry walls during construction (13 May 2026)",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/concerns-temporary-bracing-masonry-walls-1525"
+        },
+        {
+          "label": "HSE Media Centre, 15 June 2026 — Two firms fined after worker fractures neck during platform collapse (Paxton House)",
+          "url": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+        },
+        {
+          "label": "HSE Media Centre, 18 August 2026 — Bricklayer hospitalised for a month after fall through collapsing roof",
+          "url": "https://press.hse.gov.uk/2026/08/18/bricklayer-hospitalised-for-a-month-after-fall-through-collapsing-roof/"
+        },
+        {
+          "label": "HSE guidance — Temporary works",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact clause references and design categorisation are to be confirmed against the project’s licensed copies of the relevant standards and the project temporary works procedure."
+    }
+  ]
+}

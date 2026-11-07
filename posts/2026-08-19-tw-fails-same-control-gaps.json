@@ -1,0 +1,50 @@
+{
+  "id": "2026-08-19-tw-fails-same-control-gaps",
+  "date": "2026-08-19",
+  "kicker": "Daily briefing",
+  "title": "Temporary works failures still follow the same control gaps",
+  "excerpt": "This week’s HSE and CROSS picture is familiar: platforms used as crash decks with no design, props that ignore the existing structure, and excavations treated as a hole rather than a temporary works item. The lesson is not new kit — it is procedure, competence and load path.",
+  "tags": [
+    "HSE",
+    "CROSS",
+    "Working platforms",
+    "BS 5975"
+  ],
+  "linkedinReady": "Temporary works failures are rarely a mystery. This month’s HSE and CROSS picture repeats the same control gaps: timber platforms used as crash decks with no design or safe load, props designed in isolation from the existing structure, and excavations treated as a hole rather than a temporary works item.\n\nHSE inspector Lucy Ellison-Dunn put it plainly after the Paxton House prosecution: those providing temporary works have a duty to ensure any temporary structure is properly designed and constructed to withstand any foreseeable load.\n\nIf your TWC cannot point to a design, a check, a permit and an inspection for the item in use today — it is not controlled.\n\nRead the briefing: https://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #ConstructionSafety #TWC",
+  "body": [
+    {
+      "h": "What this week confirms",
+      "p": "Industry reporting this month has grouped recent HSE prosecutions around foreseeable construction risks: temporary platforms, excavation access and plant interface. None of these are exotic. They sit in every Temporary Works Register if the register is being used honestly."
+    },
+    {
+      "h": "The recurring failure pattern",
+      "p": "Based on published HSE and CROSS material, the same sequence keeps appearing: an item is treated as ‘just temporary’; no design brief is written; loading is assumed rather than calculated; inspection is a tick rather than a competent review; and coordination between principal contractor and specialist contractor is verbal. Standard does not automatically mean low risk — a timber crash deck over a riser shaft is a high-consequence item the moment people work beneath it."
+    },
+    {
+      "h": "What a competent TWC should do this week",
+      "ul": [
+        "Walk the live Temporary Works Register against what is actually on site — platforms, crash decks, trench access, makeshift bridges and un-designed packing.",
+        "Ask for the design, the check category, the permit-to-load/use and the last competent inspection for every item carrying people or debris.",
+        "Treat ‘verbal instruction not to overload’ as a control failure unless a safe load has been calculated and posted.",
+        "Escalate incomplete briefs: existing structure capacity, load path to foundation, and who is TWC must be named, not assumed."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "HSE press release, 15 June 2026 — Paxton House platform collapse",
+          "url": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+        },
+        {
+          "label": "Concrete Connect, 11 August 2026 — HSE cases reveal repeated control failures",
+          "url": "https://www.concreteconnect.co.uk/news/hse-cases-reveal-repeated-control-failures"
+        },
+        {
+          "label": "CROSS-UK Report 1539, 14 May 2026 — existing RC slab and beam not checked",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-works-fail-consider-possibility-concrete-failing-1539"
+        }
+      ]
+    }
+  ]
+}

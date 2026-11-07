@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-hse-trainee-scaffolder-fall-safe-zone",
+  "date": "2026-11-07",
+  "kicker": "HSE prosecutions",
+  "title": "Trainee scaffolder killed in five-metre fall: safe zones and harness use were not in place",
+  "excerpt": "Ask Scaffolding Ltd was fined £16,000 on 4 November 2026 after trainee scaffolder Michael Swales died on 5 July 2023 when he fell five metres from a partially erected scaffold near Ripon. HSE found safe zones had not been established, workers were not using harnesses or lanyards, and previous work had left guardrails missing. Scaffold erection, alteration and dismantling remain temporary works that must follow industry guidance and the project temporary works procedure.",
+  "tags": [
+    "HSE",
+    "Scaffolding",
+    "Work at height",
+    "Safe zone",
+    "BS 5975",
+    "Temporary works"
+  ],
+  "linkedinReady": "A trainee scaffolder died after falling five metres from a partially erected scaffold because safe zones were not established and harnesses were not used.\n\nOn 6 November 2026 the Health and Safety Executive reported that Ask Scaffolding Ltd pleaded guilty and was fined £16,000 (plus costs and a victim surcharge) at Leeds Magistrates’ Court on 4 November. Michael Swales was working on a residential development near Ripon on 5 July 2023. He and a colleague were erecting scaffold at the front of a two-storey house. He stood on an unsecured board and fell five metres. Emergency services attended; he died at the scene.\n\nHSE found the work did not follow industry guidance. Safe zones had not been established. Neither worker was using a harness or lanyard. A post-accident inspection showed guardrails missing where they should have been. Witnesses indicated that scaffolding work was regularly carried out without following the guidance.\n\nScaffold erection, alteration and dismantling are temporary works. Collective protection that creates a scaffolder’s safe zone is the primary control. Personal protection is required when a safe zone is not available. The arrangement must be planned, supervised and inspected under the project temporary works procedure and the Work at Height Regulations 2005. TG20:21 and BS 5975-1:2024 set the practical framework for competence, design within limits, and control of the live scaffold.\n\nConfirm the method statement matches the actual geometry and sequence. Establish the safe zone before anyone steps onto the incomplete lift. Where the safe zone cannot be maintained, require harness and lanyard use with a suitable anchor. Inspect and record. Do not treat scaffold erection as outside the Temporary Works Register.\n\nEducational briefing only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #HSE #WorkAtHeight #BS5975",
+  "body": [
+    {
+      "h": "What happened",
+      "p": "On 6 November 2026 HSE published the outcome of the prosecution of Ask Scaffolding Ltd. On 5 July 2023 trainee scaffolder Michael Swales was erecting scaffolding at the front of a two-storey house on a residential development near Ripon in North Yorkshire. He fell five metres after standing on an unsecured scaffolding board. There were inadequate measures to prevent or mitigate the fall. He died at the scene. The company pleaded guilty to breaching Regulation 4(1)(c) of the Work at Height Regulations 2005 and was fined £16,000, ordered to pay £8,000 costs and a £2,000 victim surcharge at Leeds Magistrates’ Court on 4 November 2026."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "HSE’s investigation found that the scaffolding work on the day was unsafe and did not follow industry guidance. Safe zones had not been established and neither the trainee nor his colleague was using a harness or lanyard. A post-accident inspection identified that guardrails had not been installed where required. Witnesses indicated that scaffolding work was regularly carried out without following the guidance. Scaffold erection, alteration and dismantling are temporary works. Failure to control the incomplete structure places both the scaffolders and anyone below at risk. The principal contractor and the scaffolding contractor share duties to plan, manage and monitor the work under CDM 2015 and the Work at Height Regulations 2005."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Enter scaffold erection, alteration and dismantling on the live Temporary Works Register and confirm the design category and any TG20:21 compliance sheet or bespoke design before work starts.",
+        "Require a task-specific method statement that identifies how the scaffolder’s safe zone will be created and maintained at each stage of the incomplete lift.",
+        "Where a safe zone cannot be maintained, require personal fall protection (harness and lanyard) with a suitable anchor point and confirm competence in its use.",
+        "Do not allow boards to be used as a working platform until they are secured and the required guardrails, intermediate rails and toe boards (or equivalent) are in place for that stage.",
+        "Ensure the Temporary Works Supervisor or competent scaffold inspector checks the incomplete scaffold against the method and design before the next lift or before any non-scaffold trade accesses it.",
+        "Record inspections in accordance with the Work at Height Regulations and the project procedure; close or update the register entry only after the scaffold is complete or has been dismantled under control.",
+        "Escalate any departure from the approved sequence or missing components to the TWC before work continues."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "HSE Media Centre: Scaffolding company fined after trainee scaffolder killed in five-metre fall, 6 November 2026",
+          "url": "https://press.hse.gov.uk/2026/11/06/scaffolding-company-fined-after-trainee-scaffolder-killed-in-five-metre-fall/"
+        },
+        {
+          "label": "HSE: Scaffolds – guidance on safe erection, alteration and dismantling",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/scaffoldinginfo.htm"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of TG20:21, BS EN 12811-1 and any site-specific design remain those of the appointed designers and the project temporary works procedure. AI-generated or third-party summaries require competent review before use on site."
+    }
+  ]
+}

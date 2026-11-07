@@ -1,0 +1,83 @@
+{
+  "id": "2026-09-27-scaffold-wind-ultimo-cross-1413",
+  "date": "2026-09-27",
+  "kicker": "Site news / CROSS-UK",
+  "title": "Wind on a sheeted façade is a temporary works load — not a weather inconvenience",
+  "excerpt": "ABC News and 7NEWS, 27 September 2026: a large section of scaffolding at a demolition site on Wattle Street, Ultimo, Sydney, fell onto parked cars on Saturday evening. SafeWork NSW said no one was injured, inspectors attended, and a prohibition notice was issued. CCTV shows strong winds. CROSS-UK Report 1413 (19 August 2025) asks whether out-of-service wind loads used for temporary works have been underestimated against BS EN 1991-1-6.",
+  "tags": [
+    "Scaffolding",
+    "Wind",
+    "NASC TG20",
+    "NASC TG30",
+    "CROSS-UK",
+    "Temporary works",
+    "BS 5975",
+    "Public protection",
+    "Demolition"
+  ],
+  "linkedinReady": "A sheeted scaffold on a public street is not a weather inconvenience. It is a temporary works structure with a wind load and a third-party risk.\n\nABC News and 7NEWS reported on 27 September 2026 that a large section of scaffolding at a demolition site on Wattle Street, Ultimo, Sydney, fell onto parked cars on Saturday evening. SafeWork NSW said no one was injured. Inspectors attended. A prohibition notice was issued to the site managers. CCTV showed the scaffolding giving way in strong winds and narrowly missing people in the street. The same site had a wall collapse in August that seriously injured two men. SafeWork NSW is investigating. Causes are not established in the public reporting.\n\nThat is the public face of a load case every UK contractor already has on the register: façade scaffold, debris net or sheeting, ties, and wind. CROSS-UK Report 1413 (19 August 2025) is the UK technical companion. A reporter asked whether out-of-service wind loads taken from NASC TG20, NASC TG30 or BS 5975 comply with BS EN 1991-1-6:2005, and whether temporary works wind loads have been underestimated for years. The report is a question for the industry, not a finding on any named site.\n\nFor contractors:\n- Register sheeted and debris-netted façades as temporary works, including demolition protection and pavement gantries.\n- Do not treat TG20 as automatic cover once sheeting, advertising, or extra boards go on. That is a design brief, not a catalogue pick.\n- Check ties, foundations and the existing façade they fix to — the same lesson as CROSS 1539 on props and existing structure.\n- Have a wind action: inspect after gales, drop sheeting if the procedure says so, keep the public exclusion zone real.\n- A prohibition notice after the event is not a temporary works procedure.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #Wind #TG20 #CROSSUK #BS5975",
+  "body": [
+    {
+      "h": "What was published today",
+      "p": "On 27 September 2026 ABC News reported that scaffolding at a building site on Wattle Street, Ultimo, in inner Sydney, partially collapsed onto parked cars on Saturday evening just before 18:45 local time. SafeWork NSW said no one was injured. Inspectors attended the site and issued regulatory notices, including a prohibition notice to the site managers. ABC and 7NEWS both reported that CCTV showed the scaffolding giving way in strong winds and narrowly missing people in the street. 7NEWS quoted Fire and Rescue NSW describing a large section of scaffolding across traffic lanes, about 20 metres long and 10 metres high, with two parked cars caught underneath. A neighbour told ABC there was wind, a loud sound of metal on the road, and that she believed the front structure and demolition protection panels were not secure. Macroview Projects, named by ABC as managing the development, had been contacted for comment at the time of publication. SafeWork NSW is investigating. No official finding on cause has been published."
+    },
+    {
+      "h": "Same site, earlier wall collapse",
+      "p": "ABC reported that a wall and roof at the same Ultimo site collapsed onto a nearby petrol station last month, seriously injuring two men, one in his 60s and one in his 30s. Work had only recently resumed after being halted. The building had been a rehearsal studio and was approved for demolition for a multi-storey mixed-use development. Those facts are from the same ABC article. They do not prove the cause of Saturday's scaffold failure."
+    },
+    {
+      "h": "UK technical companion: CROSS-UK 1413",
+      "p": "CROSS-UK Safety Report 1413, published 19 August 2025, is titled Are temporary works wind loads underestimated? A reporter said that out-of-service wind loads calculated from NASC TG20, NASC TG30 or BS 5975 for temporary works designs do not comply with BS EN 1991-1-6:2005, and asked whether temporary works wind loads have been underestimated for the past 30 years. The reporter stated that BS 5975:2019 and BS 5975-2:2024 adopt Clause NA.8.2 of BS EN 12812:2008, aligned with superseded CP 3 Chapter V-2 and BS 5973, and recommended amendment of BS 5975-2:2024, the NA clause, and user-selectable annual probability of exceedance in TG20 and TG30. That report is a published industry concern. It is not a finding on the Ultimo site and must not be read as one."
+    },
+    {
+      "h": "Why it matters for UK contractors",
+      "p": "Façade scaffold, pavement gantries, debris net, sheeting, advertising banners and demolition catch systems are temporary works. Wind is a design load. The public highway is part of the risk. BS 5975-1:2024 puts the item on the register, names a TWC, requires a brief that states sheeting and exposure, and requires inspection and a permit before the structure is loaded or left in service over a street. TG20 covers defined standard scaffolds. Once you add sheeting, extra boards, or a non-standard tie pattern, you have left the catalogue and you need a design. The existing wall you tie into is part of the same scheme."
+    },
+    {
+      "h": "Practical TWC and TWS control points",
+      "ul": [
+        "Register sheeted façades, demolition protection and pavement scaffolds before erection.",
+        "State sheeting, debris net, banners and boarded lifts in the design brief.",
+        "Do not assume a TG20 compliance sheet covers a sheeted or netted elevation.",
+        "Check ties and the existing structure they fix to. Opening-up if the façade is suspect.",
+        "Define a wind action in the method: inspect after gales, drop or reef sheeting if required, keep exclusion zones.",
+        "Provisional category only — confirm under the project temporary works procedure.",
+        "Hold points: brief, design or TG20 check, tie inspection, handover, inspection after severe weather, no public access under an uninspected elevation.",
+        "Do not proceed until reviewed and accepted by the competent person under the project temporary works procedure."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Not a design, not a check and not a permit. Subject to the project temporary works procedure. Facts from ABC News 27 September 2026, 7NEWS 27 September 2026, and CROSS-UK Report 1413 (19 August 2025). Confirm against those pages. No finding of cause is made here. AI-assisted drafting requires competent review before use on site."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "ABC News, 27 September 2026",
+          "url": "https://www.abc.net.au/news/2026-09-27/sydney-building-collapses-ultimo-second-time-just-weeks-apart/107201530"
+        },
+        {
+          "label": "7NEWS, 27 September 2026",
+          "url": "https://7news.com.au/news/sydney-construction-site-scaffolding-collapses-for-second-time-in-weeks-c-22934159"
+        },
+        {
+          "label": "CROSS-UK Report 1413",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/1413"
+        },
+        {
+          "label": "HSE temporary works",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        },
+        {
+          "label": "NASC TG20",
+          "url": "https://nasc.org.uk/"
+        },
+        {
+          "label": "BS 5975-1:2024",
+          "url": "https://www.bsigroup.com/"
+        }
+      ]
+    }
+  ]
+}

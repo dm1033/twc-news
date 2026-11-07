@@ -1,0 +1,47 @@
+{
+  "id": "2026-05-12-ice-hidden-in-plain-sight",
+  "date": "2026-05-12",
+  "kicker": "Guidance",
+  "title": "ICE: temporary works are still hidden in plain sight",
+  "excerpt": "The Institution of Civil Engineers’ 12 May 2026 explainer is a useful plain-English reminder for clients and site teams: falsework, formwork, platforms, hoardings and sequence are engineering, not background noise. BS 5975 exists because people died getting this wrong.",
+  "tags": [
+    "ICE",
+    "BS 5975",
+    "Training",
+    "Procedure"
+  ],
+  "linkedinReady": "ICE’s May 2026 explainer is worth sending to every client who still thinks temporary works is ‘just scaffolding’.\n\nFalsework, formwork, working platforms, hoardings, crane bases, sequence — all engineering. The TWC’s job is appointments, register, design brief, design check, permit and hold-point inspection.\n\nWe have that procedure because of collapses in the 1950s–70s, including Loddon Viaduct (1972), the Bragg Report (1975) and BS 5975 (first published 1982; split in 2024 into management and falsework design).\n\nIf your project cannot show those five steps, you do not have control. You have hope.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#ICE #BS5975 #TemporaryWorks",
+  "body": [
+    {
+      "h": "What ICE set out",
+      "p": "On 12 May 2026 ICE published a public-facing guide to temporary works: engineering solutions used to support, protect, provide or test elements while the permanent works are built. Examples include falsework, formwork, scaffolding, working platforms with edge protection, hoardings, hoists and site services. Temporary works also include the sequence of the permanent works so the structure does not become unstable mid-construction."
+    },
+    {
+      "h": "The five-step control ICE described",
+      "ul": [
+        "Appointments — named people and organisations, including the Temporary Works Coordinator.",
+        "Register — a live record of items, not a spreadsheet started at tender and never updated.",
+        "Design brief — risks, constraints, loads and what ‘done’ looks like.",
+        "Design and check — including the TWC’s confirmation that the check is appropriate.",
+        "Permit and hold points — inspected on site before load, use, alteration or strike."
+      ]
+    },
+    {
+      "h": "Why the history still matters",
+      "p": "ICE recaps the line from major accidents in the 1950s–70s, including the Loddon Viaduct collapse in 1972, through the Bragg Report (1975) to BS 5975 (first published 1982). The 2024 revision split the standard: BS 5975-1 for management procedures and BS 5975-2 for falsework design. That split is useful — but only if both parts are actually used. A design to Part 2 without Part 1 control is a drawing without a permit."
+    },
+    {
+      "h": "Use it as a toolbox talk",
+      "p": "This explainer is written for a wide audience. That makes it a good handout for clients, supervisors and graduates. Pair it with a site example from your own register: one item, one brief, one check, one permit, one inspection. Then ask: which of our live items cannot show all five?"
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "ICE, 12 May 2026 — Hidden in plain sight: a guide to temporary works",
+          "url": "https://www.ice.org.uk/news-views-insights/inside-infrastructure/a-guide-to-temporary-works"
+        }
+      ]
+    }
+  ]
+}
