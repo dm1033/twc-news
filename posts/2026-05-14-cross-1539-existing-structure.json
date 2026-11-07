@@ -1,0 +1,47 @@
+{
+  "id": "2026-05-14-cross-1539-existing-structure",
+  "date": "2026-05-14",
+  "kicker": "CROSS-UK",
+  "title": "CROSS 1539: props that never checked the existing slab and beam",
+  "excerpt": "CROSS-UK Report 1539 (14 May 2026) is a near-miss that should be mandatory reading for anyone designing propping in occupied buildings. The props could take the force. The existing RC beams and slab could not.",
+  "tags": [
+    "CROSS",
+    "Propping",
+    "Load path",
+    "Refurbishment"
+  ],
+  "linkedinReady": "CROSS-UK Report 1539 (14 May 2026) should be on every TWC’s desk this month.\n\nA defective RC column under a multi-storey block of flats was to be replaced. Characteristic load over 1,165 kN. Heavy-duty props were offered for the adjacent beams and slab.\n\nThe props were adequate. The existing structure was not. Bending and shear in the slab and beams had not been checked. Without the reporter opening-up and redesigning the scheme, a significant part of the building could have collapsed.\n\nCROSS: no TWC, no checker, props designed in isolation. Load path is not optional.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#CROSS #TemporaryWorks #Propping #StructuralSafety",
+  "body": [
+    {
+      "h": "The situation",
+      "p": "A reporter was asked to advise on temporary works to allow removal of a defective reinforced concrete column at the base of a multi-storey block of flats, to be replaced by a new steel column. Estimated characteristic load over 1,165 kN; design load around 1,590 kN. Heavy-duty props were proposed to support beams and slab either side of the column. The prop designer had not checked the existing structure."
+    },
+    {
+      "h": "Why it was unsafe",
+      "p": "The proposed props could handle the forces. The existing beams and slabs were insufficient to transfer the loads, with a risk of failure in bending and shear. The column above would have continued to load the system. The reporter identified this through opening-up works, designed a more complex temporary works system and prepared a method statement. CROSS comments that this indicates a failure of the temporary works procedure — no Temporary Works Coordinator or checking engineer appointed on a significant structure."
+    },
+    {
+      "h": "Learning outcomes (CROSS)",
+      "ul": [
+        "Always verify the full load path when introducing temporary supports — including existing beams, slabs, walls and foundations that will carry redistributed load.",
+        "Do not design props in isolation. Adequacy of the proprietary unit is not adequacy of the scheme.",
+        "Design briefs must require assessment of the existing structure where loads will be transferred.",
+        "Contractors and TWCs must ensure propping schemes are coordinated, checked and approved before installation.",
+        "Refurbishment creates complex temporary load cases. Each stage — permanent, temporary, back to permanent — must be planned."
+      ]
+    },
+    {
+      "h": "How we would treat this on a live project",
+      "p": "Provisional category only — to be confirmed by the TWC and the project temporary works procedure. A column replacement under an occupied multi-storey frame is high-consequence, unusual load path, and incomplete permanent works stability. That combination typically needs a robust brief, competent design, independent check and hold points for opening-up, prop load, and column removal. Do not proceed until reviewed and accepted by the competent person under the project temporary works procedure."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "CROSS-UK Report 1539, 14 May 2026",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-works-fail-consider-possibility-concrete-failing-1539"
+        }
+      ]
+    }
+  ]
+}

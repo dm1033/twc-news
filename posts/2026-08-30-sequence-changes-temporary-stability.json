@@ -1,0 +1,67 @@
+{
+  "id": "2026-08-30-sequence-changes-temporary-stability",
+  "date": "2026-08-30",
+  "kicker": "Daily briefing",
+  "title": "Sequence changes and temporary stability: the Category II check that still matters",
+  "excerpt": "CROSS-UK Report 1479 shows how a late contractor sequence change on a bridge deck introduced lateral-torsional buckling risk under wet concrete at over 200 % utilisation. The same control gap appears across HSE and CROSS material: sequence treated as a site decision rather than a temporary works design change. For contractors the remedy remains BS 5975 procedure — brief, design, check, hold points.",
+  "tags": [
+    "CROSS",
+    "HSE",
+    "BS 5975",
+    "Temporary stability",
+    "Sequence",
+    "Lateral torsional buckling",
+    "Bridge",
+    "Competence"
+  ],
+  "linkedinReady": "Sequence changes still create the temporary stability risks that Category II checks catch — when they are allowed to.\n\nCROSS-UK Report 1479 (January 2026) records a near-miss on an approximately 20 m span filler-beam bridge deck. Shortly before the Category II check finished, the contractor altered the intended sequence: beams were to be lifted individually instead of in connected pairs. That change introduced a significant lateral-torsional buckling risk under the weight of wet concrete. Without temporary restraints the utilisation exceeded 200 %. The checker identified it; the designer confirmed it; temporary LTB restraints were required. The report also notes that the issue resurfaced weeks later and that compressed design time for the bracing raised the chance of error.\n\nThe same pattern appears across recent CROSS and HSE material: a sequence or method change treated as a site decision rather than a temporary works design change; load paths and restraints assumed rather than verified; and hold points that are not closed before the critical load state. BS 5975-1:2024 places the Temporary Works Coordinator at the centre of identifying these items, ensuring the design brief captures the actual sequence, and holding permit-to-load / competent inspection before people, wet concrete or debris are applied.\n\nFor principal contractors, TWCs and site managers the practical controls remain:\n• Treat any change to construction sequence or support arrangement as a temporary works design change requiring review before work continues.\n• Ensure design briefs for sequence-critical frames explicitly require assessment of temporary stability modes (including lateral-torsional buckling and full load path).\n• Confirm that temporary restraints or bracing are designed, checked and installed before the load state that relies on them.\n• Close hold points before the critical pour, lift or occupancy.\n\nEducational only — not for construction; subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #CROSS #HSE #StructuralStability #ConstructionSafety #TWC",
+  "body": [
+    {
+      "h": "What CROSS Report 1479 records",
+      "p": "During the final stages of design for an approximately 20 m span filler-beam bridge deck, shortly before the Category II check was completed, the contractor altered the intended construction sequence. Instead of lifting steel beams in connected pairs, the beams were to be lifted individually. The change introduced a significant temporary stability concern: lateral-torsional buckling of the beams under the weight of wet concrete. The Category II checker identified that, if left unbraced and without rotational restraint at the ends of the flanges, the main beams could experience buckling under a utilisation factor of over 200 %. The designer confirmed the assessment and notified the contractor that temporary LTB restraints would be necessary. The report notes that the necessity of the bracing was challenged again approximately three months later, only weeks before the deck concrete was scheduled, and that the final bracing design had to be completed under compressed programme with restricted space after reinforcement had been fixed. The event was classified as a near miss."
+    },
+    {
+      "h": "Why sequence changes are temporary works design changes",
+      "p": "A change to the order of erection, lifting method or support arrangement alters the temporary load path and the restraints that are present at the critical load state. CROSS-UK Report 1479 and related material (including Network Rail’s Engineering Advice Note EAN03/2025 on temporary conditions) underline that temporary stability must be considered at every stage. When the permanent works design assumes braced pairs or continuous support that will not exist during construction, the temporary condition becomes the governing case. Treating the change as a site or commercial decision without design review leaves the Temporary Works Coordinator without a verified scheme and without closed hold points."
+    },
+    {
+      "h": "The same control gaps elsewhere in the public record",
+      "p": "Recent HSE prosecutions and other CROSS reports continue to show the same pattern: temporary platforms collecting debris with no design or calculated safe load (Paxton House, prosecution published June 2026); propping schemes that checked the props but not the existing RC beams and slab that formed the load path (CROSS-UK Report 1539, May 2026); and partial collapse during underpinning after intermediate floors and walls had been removed, destabilising the building before temporary works were in place (CROSS-UK Report 1486, November 2025). In each case the root is the same — an item treated as ‘just temporary’ rather than as a structure that must resist foreseeable loads through a verified load path under a managed procedure."
+    },
+    {
+      "h": "What a competent contractor and TWC should check this week",
+      "ul": [
+        "Identify every live sequence-critical frame, beam lift, falsework pour or support arrangement and confirm it is on the Temporary Works Register with a current design brief.",
+        "Treat any proposed change to construction sequence, lifting method or temporary restraint as a temporary works design change requiring review before work continues.",
+        "Ensure design briefs explicitly require assessment of temporary stability modes, including lateral-torsional buckling and the full load path through existing or temporary supports.",
+        "Confirm that temporary restraints or bracing are designed, checked to the appropriate category, and installed before the load state that relies on them.",
+        "Close permit-to-load / competent inspection hold points before people, wet concrete or debris are applied."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "CROSS-UK Report 1479, 13 January 2026 — Temporary stability risk due to construction changes on bridge deck",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-stability-risk-due-construction-changes-1479"
+        },
+        {
+          "label": "CROSS-UK Report 1539, 14 May 2026 — Temporary works failed to consider possibility of existing RC slab and beam failing",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-works-fail-consider-possibility-concrete-failing-1539"
+        },
+        {
+          "label": "CROSS-UK Report 1486, 20 November 2025 — Partial collapse during underpinning",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/partial-collapse-during-underpinning-1486"
+        },
+        {
+          "label": "HSE Media Centre, 15 June 2026 — Two firms fined after worker fractures neck during platform collapse (Paxton House)",
+          "url": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+        },
+        {
+          "label": "Network Rail B&S Engineering Advice Note EAN03/2025 — A consideration of temporary conditions (referenced in CROSS 1479)",
+          "url": "https://www.networkrail.co.uk/industry-and-commercial/third-party-investors/network-rail-is-open-for-business/reviewing-our-standards/"
+        }
+      ]
+    }
+  ]
+}

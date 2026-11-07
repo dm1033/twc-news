@@ -1,0 +1,4 @@
+posts/.lock
+__pycache__/
+*.pyc
+*.tmp

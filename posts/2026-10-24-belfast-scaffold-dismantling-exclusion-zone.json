@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-24-belfast-scaffold-dismantling-exclusion-zone",
+  "date": "2026-10-24",
+  "kicker": "HSE prosecutions",
+  "title": "Scaffold dismantling: exclusion zones and controlled lowering after Belfast fatality",
+  "excerpt": "On 22 October 2026, 7 Towers Scaffolding Ltd was fined £20,000 after a collection driver was fatally struck by a metal scaffold board that fell about 8 m during dismantling on a Belfast site in December 2024. HSENI found the exclusion zone was not adequately controlled so that people not involved in the dismantling could approach. The case reinforces two basic temporary works controls: planned controlled lowering of components, and a physical exclusion zone that keeps everyone else out.",
+  "tags": [
+    "Scaffolding",
+    "HSENI",
+    "Exclusion zone",
+    "Dismantling",
+    "Falling objects",
+    "BS 5975"
+  ],
+  "linkedinReady": "On 22 October 2026, 7 Towers Scaffolding Ltd was fined £20,000 at Laganside Crown Court after pleading guilty to a breach of Article 4(1) of the Health and Safety at Work (Northern Ireland) Order 1978.\n\nIn December 2024 a collection driver, Samuel Magill, was struck on the head by a metal scaffold board approximately 2.4 m long that fell about 8 m while colleagues were dismantling scaffold on a site on Lisburn Road, Belfast. He died in hospital nearly seven weeks later. HSENI found the company had not adequately controlled the exclusion zone so that people not directly involved in the dismantling could approach the work.\n\nHSENI inspector Kevin Campbell described the incident as entirely preventable. Employers must have robust procedures so that equipment and components are lowered in a controlled method, with clear instructions, and a clearly identified exclusion zone with measures that actually keep unauthorised people out.\n\nThis is temporary works management in practice. Scaffold is temporary works. Dismantling is part of the sequence. Collection drivers, other trades, visitors and the public are foreseeable. The Temporary Works Register, the design or TG20 compliance sheet, the assembly/use/dismantling plan, the permit and the competent inspection all need to cover the dismantling phase, not just the working scaffold.\n\nThis week:\n\n- Confirm every scaffold has a documented dismantling plan that includes controlled lowering (gin wheel, hoist or equivalent — not throwing) and a physical exclusion zone with marshals or barriers.\n- Brief everyone who will be near the scaffold, including drivers and collectors, on the zone and what “keep out” means.\n- Treat any change to the sequence or incomplete ties/bracing as a design change until confirmed.\n\nEducational only — not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #BS5975 #ExclusionZone #TWC",
+  "body": [
+    {
+      "h": "What has been reported",
+      "p": "On 22 October 2026, 7 Towers Scaffolding Ltd (County Antrim) was fined £20,000 at Laganside Crown Court after previously pleading guilty to a single breach of Article 4(1) of the Health and Safety at Work (Northern Ireland) Order 1978. On 18 December 2024, while a team was dismantling scaffold on a site on Lisburn Road, Belfast, a metal scaffolding board approximately 2.4 m long became dislodged from the upper part of the structure and fell about 8 m. It struck Samuel Magill, 60, a collection driver employed by the company who had arrived to collect dismantled components. He had parked on the pavement and walked toward the work area. He was struck at the outer edge of the site exclusion zone, next to the pavement. He died in hospital on 5 February 2025."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "HSENI found that the company had not sufficiently managed and controlled the exclusion zone around the scaffolding during dismantling, so that people not directly involved in the work could approach. Inspector Kevin Campbell stated the incident was entirely preventable and that employers must ensure robust procedures so equipment and components are lowered to the ground in a controlled method, with clear work instructions communicated to all relevant personnel, and a clear identified exclusion zone with measures to prevent unauthorised persons entering. Scaffold dismantling is a temporary works activity. Falling objects and people entering the drop zone are foreseeable risks under the Work at Height Regulations and CDM 2015. Collection and delivery activity must be planned into the method, not treated as separate."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Every scaffold (including system and tube-and-fitting) is entered on the Temporary Works Register with a named TWC, a design or TG20 compliance sheet, and an assembly, use and dismantling plan that specifically covers striking.",
+        "The dismantling plan requires controlled lowering of boards, tubes and fittings (gin wheel, hoist or equivalent). Throwing is not an acceptable method.",
+        "A physical exclusion zone is established below the work, clearly signed, and controlled by barriers or marshals so that drivers, other trades, visitors and the public cannot enter. The zone must account for the actual drop path, including items that can bounce or travel beyond the scaffold footprint.",
+        "Everyone who will be near the scaffold during dismantling — including collection drivers — is briefed on the zone and the method. A person whose role is to keep others out must not themselves be required to enter the zone.",
+        "Ties, bracing and platforms that maintain stability of the remaining scaffold are removed only in the planned sequence. Any departure is treated as a design change until the designer or competent person confirms the temporary condition remains acceptable.",
+        "A competent person inspects the scaffold before dismantling starts and the permit-to-dismantle (or equivalent) is issued under the project temporary works procedure."
+      ]
+    },
+    {
+      "h": "Standards and guidance",
+      "p": "BS 5975-1:2024 requires temporary works, including scaffolding, to be planned, designed (or covered by a standard solution), checked, registered and inspected. NASC TG20:21 and TG30:24 provide recognised configurations and operational guidance that include orderly dismantling from the top, retention of ties as long as possible, and the need for a plan. NASC SG4 addresses the scaffolders’ safe zone during erection and dismantling. HSE HSG150 (Health and safety in construction) addresses exclusion zones and preventing materials falling onto people. Exact clause references should be confirmed against the project’s licensed copies."
+    },
+    {
+      "h": "Limitations",
+      "p": "This briefing is educational only and is not for construction. It is based on published reports of the prosecution and does not constitute a finding on the specific site. It is subject to project-specific verification, the project temporary works procedure, and acceptance by the competent person (TWC) appointed under that procedure. AI-supported drafting requires competent review before any use on site."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "Construction News, 23 October 2026 — Scaffolding firm fined £20,000 after worker killed by falling board",
+          "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/"
+        },
+        {
+          "label": "BBC News, 22 October 2026 — Scaffolding firm fined £20,000 after employee fatally injured",
+          "url": "https://www.bbc.com/news/articles/cme8rgkk731yo"
+        },
+        {
+          "label": "HSENI — Company fined £20,000 after employee was fatally injured in work incident",
+          "url": "https://www.hseni.gov.uk/news/company-fined-ps20000-after-employee-was-fatally-injured-work-incident"
+        },
+        {
+          "label": "Scaffmag, 22 October 2026 — Belfast scaffolding firm fined after driver killed by falling board",
+          "url": "https://scaffmag.com/scaffolding-news/health-safety/belfast-scaffolding-firm-fined-after-driver-killed-by-falling-board/"
+        },
+        {
+          "label": "HSE — Health and safety in construction (HSG150)",
+          "url": "https://www.hse.gov.uk/pubns/books/hsg150.htm"
+        },
+        {
+          "label": "HSE — Temporary works",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        }
+      ]
+    }
+  ]
+}

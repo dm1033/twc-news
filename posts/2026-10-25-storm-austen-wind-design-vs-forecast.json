@@ -1,0 +1,68 @@
+{
+  "id": "2026-10-25-storm-austen-wind-design-vs-forecast",
+  "date": "2026-10-25",
+  "kicker": "Daily briefing",
+  "title": "Storm Austen: a 76 mph gust is not a temporary works design check",
+  "excerpt": "On 23 October 2026 Storm Austen produced an official Met Office peak gust of 76 mph at St Mary’s Airport on the Isles of Scilly, with 75 mph at Portland and the Needles and 74 mph at Aberporth. A recorded or forecast gust cannot be compared directly with a temporary works design wind speed. The engineering check depends on the design basis, site exposure, geometry, duration, restraints and the actual arrangement standing on site. After high winds, inspection by a competent person comes before normal use resumes.",
+  "tags": [
+    "Wind loading",
+    "Storm Austen",
+    "Scaffolding",
+    "BS 5975-2:2024",
+    "NASC SG46:24",
+    "Inspection"
+  ],
+  "linkedinReady": "Storm Austen produced an official Met Office peak gust of 76 mph at St Mary’s Airport on the Isles of Scilly on 23 October 2026, with 75 mph at Portland and the Needles and 74 mph at Aberporth. For temporary works, the useful question is not whether a scaffold, hoarding or falsework is “rated for 76 mph”.\n\nA Met Office gust is a meteorological observation. A temporary works design derives wind actions for a particular structure, location, height, terrain, geometry, exposure and period of use. Open scaffold, debris netting and full sheeting are not aerodynamically equivalent. Ties removed for façade work, added banners, altered hoarding or changed foundations can invalidate the checked arrangement.\n\nBS 5975-1:2024 governs management procedures; BS 5975-2:2024 covers falsework design and implementation (including updated treatment of adjacent tall structures, funnelling and vortex shedding). NASC SG46:24 addresses adverse weather risk assessment, stopping and resuming work, and securing structures. HSE scaffolding guidance requires inspection after high winds by a competent person before normal use resumes.\n\nBefore the next storm: confirm the temporary works register matches the site arrangement, check ties, bracing, anchors and foundations, and treat any change of sheeting or restraint as a design change until reviewed.\n\nFull briefing: https://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #Scaffolding #NASC #SiteSafety",
+  "body": [
+    {
+      "h": "What was reported",
+      "p": "Storm Austen produced an official UK peak gust of 76 mph on 23 October 2026. The Met Office recorded 76 mph at St Mary’s Airport on the Isles of Scilly, 75 mph at the Isle of Portland and Needles Old Battery, and 74 mph at Aberporth. Stronger unofficial readings were reported from some exposed coastal locations. London Construction Magazine used the event to explain why a recorded gust cannot be treated as a direct temporary works design check."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "Site teams are frequently asked whether a scaffold, hoarding, temporary roof or falsework is “rated for 70 mph” or similar. Without the design basis that question cannot be answered. Wind design accounts for site location, terrain, altitude, topography, neighbouring buildings, height, exposed area, porosity and the intended duration. An open scaffold, a scaffold with debris netting and a fully sheeted scaffold are not equivalent. Added banners, temporarily removed ties, altered hoarding panels, materials stored on platforms never designed for them, or the loss of shielding from demolition can all change the condition assumed by the original design. BS 5975-2:2024 specifically addresses effects of adjacent tall structures, funnelling and vortex shedding for falsework. The design is only valid for the arrangement that was checked."
+    },
+    {
+      "h": "Practical TWC and TWS control points",
+      "ul": [
+        "Identify temporary works particularly exposed to wind (tall scaffolds, sheeted or netted elevations, temporary roofs, hoardings, façade retention, large formwork and falsework).",
+        "Confirm that the temporary works register, approved design, inspection status and the arrangement actually standing on site still describe the same structure.",
+        "Verify that ties, bracing, anchors and foundations remain as designed. Any temporary removal of ties or restraint is a design change until the designer or competent person confirms the temporary condition remains acceptable.",
+        "Establish whether sheeting, netting, banners or other surfaces have been added or altered since the design was checked. HSE scaffolding guidance is clear that sheeting or debris netting should not be attached without informing those responsible for the design.",
+        "Secure loose materials, boards and components that could become wind-borne. Follow any structure-specific or manufacturer operating restrictions.",
+        "Before severe wind, apply the project procedure for stopping or restricting work. NASC SG46:24 addresses weather-related risk assessment, stopping and resuming scaffold operations, inspection requirements and securing structures.",
+        "After high winds (or other circumstances liable to jeopardise safety), arrange inspection by a competent person appropriate to the type and complexity of the temporary works before normal use resumes. On scaffolding this includes ties, bracing, platforms, sheeting, base plates, sole boards and any evidence of movement or settlement. Heavy rain may also affect ground conditions under foundations even where no damage is obvious above ground.",
+        "Where a design assumption has changed, or where damage or partial dismantling leaves the installed arrangement different from the approved design, refer the issue back through the project temporary works procedure rather than resolving it informally on site."
+      ]
+    },
+    {
+      "h": "Standards and guidance",
+      "p": "BS 5975-1:2024 sets out management procedures for the control of temporary works. BS 5975-2:2024 covers falsework design and implementation; BSI notes that the 2024 revision calculates maximum wind forces on a likely erection duration of one year (reduced from two years) with a ten-year return period. First-generation Eurocodes, including BS EN 1991-1-4 for wind actions, remain the applicable UK standards for buildings and civil engineering works until 30 March 2028 unless a relevant authority or project specification requires otherwise. NASC TG20:21 provides recognised scaffold configurations; TG30:24 addresses operational guidance. NASC SG46:24 addresses adverse and inclement weather. HSE scaffolding guidance requires ties to remain within safe working limits and scaffolds to be checked when substantially altered or adversely affected, including by high winds. Exact clause references should be confirmed against the project’s licensed copies."
+    },
+    {
+      "h": "Limitations",
+      "p": "This briefing is educational only and is not for construction. It is based on published Met Office observations and industry commentary. It does not constitute a finding on any specific site or temporary works arrangement. It is subject to project-specific verification, the project temporary works procedure, and acceptance by the competent person (TWC) appointed under that procedure. AI-supported drafting requires competent review before any use on site."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "Met Office, 23 October 2026 — Where were Storm Austen’s strongest wind gusts recorded?",
+          "url": "https://www.metoffice.gov.uk/blog/2026/where-were-storm-austens-strongest-wind-gusts-recorded"
+        },
+        {
+          "label": "London Construction Magazine, 23/24 October 2026 — Storm Austen Hit 76 mph: How Temporary Works Are Designed for High Winds",
+          "url": "https://www.constructionmagazine.uk/2026/10/storm-austen-temporary-works-wind-design.html"
+        },
+        {
+          "label": "NASC — SG46:24 Adverse and Inclement Weather Conditions",
+          "url": "https://nasc.org.uk/product/sg46-24.html"
+        },
+        {
+          "label": "HSE — Temporary works guidance",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        }
+      ]
+    }
+  ]
+}

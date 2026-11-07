@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-02-ukcw-digital-register-is-not-a-design",
+  "date": "2026-10-02",
+  "kicker": "Daily briefing",
+  "title": "A digital register is not a design — UKCW put temporary works on the programme, the permit is still yours",
+  "excerpt": "UK Construction Week Birmingham closed on 1 October 2026. On 30 September the published programme carried two temporary works sessions: Digitalising Temporary Works at 11:30, and Safety by Design at 13:30. Both descriptions point to planning, coordination, competency, communication, digital records and site assurance. This briefing does not report unpublished panel remarks. For contractors the control is unchanged: a digital register does not replace a design brief, an independent check, an inspection or a permit under BS 5975-1:2024 and the project temporary works procedure.",
+  "tags": [
+    "Temporary works",
+    "BS 5975",
+    "CDM 2015",
+    "TWC",
+    "Digital register",
+    "UKCW"
+  ],
+  "linkedinReady": "A digital temporary works register is not a design. A conference panel is not a permit to load.\n\nUK Construction Week Birmingham closed on 1 October 2026. On 30 September the published programme carried two temporary works sessions.\n\nAt 11:30, Digitalising Temporary Works said temporary works are still too often run through disconnected documents, emails and paper, which makes oversight harder and raises the chance of error. Speakers listed included leads from Kier Design, BAM, Mace Dragados and Costain, with Zutec. At 13:30, Safety by Design said temporary works remain one of the highest-risk aspects of construction, and pointed to planning, coordination, design, competency and site assurance. Siu Mun Li was listed among the speakers.\n\nThis briefing does not report what was said in the room.\n\nBS 5975-1:2024 is the management procedure, not a statute and not an appointment. CDM 2015 still requires the work to be planned, managed and monitored. HSE’s position has not moved: a temporary structure must be designed, installed and maintained for the foreseeable loads on it. A screen status does not replace a brief, a check, an inspection or a permit to load. The Temporary Works Coordinator still has to be able to stop the job.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #CDM2015 #TWC #SiteAssurance",
+  "body": [
+    {
+      "h": "What was on the programme",
+      "p": "UK Construction Week Birmingham ran at the NEC from 29 September to 1 October 2026. On 30 September the published programme included two temporary works sessions. Building Safer Sites: Digitalising Temporary Works ran from 11:30 to 12:15 on the Digitalisation and AI Stage. The session description says temporary works are still too often managed through disconnected documents, emails and paper-based processes, making clear oversight difficult and increasing the risk of errors on site. It says the panel would examine how digital tools can help contractors quality-check temporary works structures, standardise documentation and evidence, improve visibility, and capture, share and manage temporary works information through the project lifecycle. Speakers listed on the programme page were Alistair Ringer (Kier Design), Elliott Wilford (BAM UK and Ireland), Georgios Soldatos (Mace Dragados), Harry Seal (Zutec) and Ray Moloney (Costain). Safety by Design: Raising the Standard for Temporary Works ran from 13:30 to 14:15 on the Building Safety and Occupational Safety Stage. The session description says temporary works remain one of the highest-risk aspects of construction, and that effective planning, coordination and oversight are essential. It says the session would examine design and competency requirements, communication, digital processes and site assurance. Speakers listed were Ash Snaddon (Zealux Access Consulting), Chris Milne (Will Rudd Davidson), Purav Patel (StrucTemp LLP) and Siu Mun Li (Constructing Siu-lutions Ltd). This briefing uses only those published descriptions. It does not report what was said in the room."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "A software status, a shared folder or a paper register can all fail in the same way: the item is not on the register, the brief does not match the plant or the sequence, the check has not been done, or the permit has been treated as a formality. Moving the register onto a screen does not remove those duties. BS 5975-1:2024 remains the code of practice for the management procedure for the control of temporary works. It is not a statute, and it does not appoint a person or approve a design. CDM 2015 still requires construction work to be planned, managed and monitored, including work that can affect people other than employees. HSE’s temporary works guidance says any temporary structure must be designed, installed and maintained to withstand any foreseeable loads imposed on it, and used only for the purpose for which it was designed, installed and maintained. HSE describes appointment of a Temporary Works Coordinator, with authority to stop unsatisfactory work, as an effective way of managing that duty. Exact clause references should be confirmed against the project’s licensed copy of BS 5975-1:2024."
+    },
+    {
+      "h": "Practical TWC and TWS control points",
+      "ul": [
+        "Keep the temporary works register current whether it is digital or paper. A missing item is a missing control, not a software issue.",
+        "Do not treat a digital status as a design, an independent check or a permit to load, use or strike.",
+        "Match the design brief to the plant, geometry, sequence, ground and interfaces that will actually be used.",
+        "Give the Temporary Works Coordinator authority to stop work that is outside the brief, the check or the permit.",
+        "Inspect before first use and after alteration, weather or a change of plant. A photograph in a system is not the inspection.",
+        "Standard does not automatically mean low risk. Consequence, public interface, ground uncertainty and sequence still set the category. Provisional category only — to be confirmed by the TWC and the project temporary works procedure.",
+        "Do not implement a conference description as a project procedure. Read it back into the procedure you already have."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Not a record of unpublished remarks from either session. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "UK Construction Week, Safety by Design: Raising the Standard for Temporary Works, 30 September 2026",
+          "url": "https://www.ukconstructionweek.com/ukcw-bham-26/safety-by-design-raising-the-standard-for-temporary-works"
+        },
+        {
+          "label": "UK Construction Week, Building Safer Sites: Digitalising Temporary Works, 30 September 2026",
+          "url": "https://www.ukconstructionweek.com/ukcw-bham-26/zutec-2"
+        },
+        {
+          "label": "HSE, Temporary works",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        }
+      ]
+    }
+  ]
+}

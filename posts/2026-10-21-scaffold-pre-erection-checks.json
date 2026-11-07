@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-21-scaffold-pre-erection-checks",
+  "date": "2026-10-21",
+  "kicker": "Guidance",
+  "title": "Before the scaffold is erected: the temporary works checks that keep the load path intact",
+  "excerpt": "A 14 October 2026 Construction Magazine / London Construction Magazine article sets out the temporary works checks that should be completed before scaffolding is erected. A scaffold that is correctly designed in isolation can still be unsuitable if the ground, supporting structure, façade, services, attachments or foreseeable alterations do not match the assumptions in the design brief. BS 5975-1:2024 places the design brief at the centre of control so that interfaces, reactions and change are captured before erection begins.",
+  "tags": [
+    "Temporary works",
+    "Scaffolding",
+    "Design brief",
+    "BS 5975",
+    "Foundations",
+    "Ties",
+    "TWC"
+  ],
+  "linkedinReady": "A scaffold can be correctly designed in isolation and still be unsuitable for the site if the ground, supporting structure, façade, services or planned alterations do not match the assumptions used in that design.\n\nOn 14 October 2026 Construction Magazine / London Construction Magazine published practical guidance on the temporary works checks that matter before scaffolding is erected. The design brief under BS 5975-1:2024 is the point at which intended use, loading class, boarded lifts, loading bays, ties, sheeting, hoists, temporary roofs, ground conditions and interfaces should be captured. Maximum leg reactions must be known so that the supporting ground or structure can be assessed. Subsurface features such as basements, drains, manholes or soft patches require specific consideration rather than an assumption that the surface is adequate. Tie strategy must suit the actual façade, including openings, weak masonry or planned removals. Attachments that alter wind loading or reactions should be identified before erection, not added later. Foreseeable changes must be routed through the project temporary works procedure.\n\nHSE scaffolding guidance requires either a recognised standard configuration or a design by a competent person, and that the foundation is capable of carrying the loads. The Temporary Works Coordinator role under BS 5975 is an effective way of ensuring those requirements are coordinated.\n\nProvisional category only — to be confirmed by the TWC and the project temporary works procedure. Do not proceed until reviewed and accepted under the project temporary works procedure.\n\nEducational only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #DesignBrief #BS5975 #TWC #Foundations",
+  "body": [
+    {
+      "h": "What was published",
+      "p": "On 14 October 2026 Construction Magazine / London Construction Magazine published “Before Scaffolding Is Erected: The Temporary Works Checks That Matter”. The article states that before a scaffold is erected the project team needs to know more than its height, length and intended access route. A scaffold can be correctly designed in isolation and still be unsuitable for the site if the ground, supporting structure, façade, services, attachments or future alterations do not match the assumptions used in that design. Problems commonly arise when elements are considered separately: leg loads bearing over a basement or void, increased reactions from a loading bay, mismatched tie patterns after façade removal, or wind actions from sheeting or temporary roofs that were not in the original brief. The current management procedures for temporary works are set out in BS 5975-1:2024. For project teams operating a BS 5975 procedure, the design brief is the point where requirements and interfaces should be captured before design progresses. Pre-erection checks cover design status (compliance sheet or project-specific design and check), intended loading, maximum leg reactions, foundation condition (including subsurface features), ties and anchors matched to the actual façade, attachments that affect loading or wind, site interfaces, and a change-control process."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "Scaffolding is temporary works. HSE scaffolding guidance requires a scaffold either to follow a recognised standard configuration or, where it falls outside such a configuration, to be designed by calculation by a competent person. The foundation must be capable of carrying the scaffold and the loads placed on it; basements, drains and patches of soft ground that may collapse when loaded are specifically highlighted. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase and contractors to plan, manage and monitor their own work. BS 5975-1:2024 provides the industry framework for temporary works management procedures (it is not a statute). Exact clause references should be confirmed against the project’s licensed copy. The design brief is the control point that brings together use, loads, reactions, ground or structural support, ties, attachments and foreseeable change so that the load path from the scaffold through bases and ties into the supporting ground or structure is coherent. Standard does not automatically mean low risk when site conditions differ from the assumptions behind a standard configuration. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
+    },
+    {
+      "h": "Practical TWC and TWS control points",
+      "ul": [
+        "Capture in the design brief the intended use, loading class, boarded lifts, material storage, loading bays, ties, sheeting/netting, hoists, debris chutes, temporary roofs, ground conditions, subsurface features, façade type and any planned alterations before design or erection proceeds.",
+        "Confirm design status: either a recognised standard configuration whose assumptions are valid for the site, or a project-specific design and independent check by a competent person.",
+        "Obtain maximum leg reactions (including concentrated loads) and assess the supporting ground or structure. Treat basements, drains, manholes, voids, soft patches or recently backfilled ground as requiring specific assessment rather than assuming surface adequacy.",
+        "Verify that the tie strategy matches the actual façade, including openings, curtain walling, weak masonry or planned removals. Confirm anchor type, substrate suitability and any testing requirements.",
+        "Identify attachments (sheeting, netting, hoists, loading bays, fans, temporary roofs) as design inputs so that their effect on reactions, wind loading and restraint is allowed for before erection.",
+        "Establish change control so that any alteration to geometry, loading, restraint, exposure, foundations or supporting structure is referred to the Temporary Works Coordinator and re-checked where necessary before it is adopted.",
+        "Where the scaffold interfaces with public highways, excavations, deliveries or other temporary works, confirm licences, clearances and sequencing are compatible with the checked arrangement.",
+        "At permit-to-load or equivalent, confirm that the erected arrangement matches the design brief and checked design, including foundations, ties and attachments. Do not proceed until reviewed and accepted by the competent person under the project temporary works procedure."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Based on the Construction Magazine / London Construction Magazine article of 14 October 2026 and HSE scaffolding and temporary works guidance. It is not a design, a check or a statement that any particular scaffold arrangement is adequate or inadequate. No reactions, ground capacities or tie loads have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "Construction Magazine / London Construction Magazine, Before Scaffolding Is Erected: The Temporary Works Checks That Matter, 14 October 2026",
+          "url": "https://www.constructionmagazine.uk/2026/10/scaffolding-pre-erection-temporary-works-checks.html"
+        },
+        {
+          "label": "HSE, Scaffolding",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/scaffolding.htm"
+        },
+        {
+          "label": "HSE, Temporary works",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        },
+        {
+          "label": "BS 5975-1:2024, Temporary works – Management procedures for the control of temporary works. Code of practice",
+          "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
+        }
+      ]
+    }
+  ]
+}

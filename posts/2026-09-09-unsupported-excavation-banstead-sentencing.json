@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-09-unsupported-excavation-banstead-sentencing",
+  "date": "2026-09-09",
+  "kicker": "HSE excavation collapse lessons",
+  "title": "Unsupported trench, spoil at the edge, fatal burial: Banstead sentencing underlines excavation as temporary works",
+  "excerpt": "On 9 September 2026 the Old Bailey sentenced two firms and a contracts manager after a labourer was buried in an unsupported 10 ft trench in Banstead in 2020. No trench support, spoil piled next to the excavation, and basic precautions absent. Excavations remain temporary works and must sit on the Temporary Works Register under BS 5975-1:2024 and CDM.",
+  "tags": [
+    "HSE",
+    "Excavation",
+    "Trench support",
+    "BS 5975",
+    "TWC",
+    "CDM",
+    "Temporary works",
+    "Collapse",
+    "Competence",
+    "Spoil management"
+  ],
+  "linkedinReady": "An excavation is temporary works. If the sides are unsupported and spoil sits at the edge, the risk is not theoretical — it is the same failure mode that has killed workers for decades.\n\nOn 9 September 2026 the Old Bailey sentenced two companies and a contracts manager after the death of labourer Gheorghita Arsene, 33, in Banstead, Surrey, on 24 June 2020. He was working in an approximately 10 ft deep trench to replace a damaged pipe when a wall collapsed, burying him under tonnes of soil. Emergency services could not free him in time.\n\nCourt findings and HSE evidence showed:\n• the trench had no structural support\n• excavated spoil had been deposited immediately adjacent to the edge, adding surcharge\n• basic, well-known precautions for excavation work were not in place\n\nPrincipal contractor Appledorn Developments Limited (now in liquidation) was fined £500,000. Groundworks subcontractor T Vaughan Limited was fined £650,000 plus £40,000 costs. Contracts manager Anthony O’Connor received a 10-month suspended sentence and unpaid work. The judge noted cost-cutting at the expense of safety and systems that existed on paper but were not implemented.\n\nThis is not a new lesson. HSE and CROSS material repeatedly show that unsupported excavations, inadequate temporary support, and uncontrolled surcharge from spoil remain recurring causes of collapse and serious injury. Under CDM 2015 the principal contractor must plan, manage and monitor the construction phase so that work is carried out without risks to health or safety so far as is reasonably practicable, and must ensure the stability of any structure (including temporary ones) is not compromised. BS 5975-1:2024 sets out the management procedures that turn those duties into a live Temporary Works Register, competent Temporary Works Coordinator oversight, design or accepted standard solutions, and verified installation before people enter the excavation.\n\nFor contractors, site managers and Temporary Works Coordinators:\n\n• Treat every excavation that requires support, or that could affect adjacent structures or people, as an item on the Temporary Works Register.\n• Do not dig until the support system (or an accepted standard solution with documented capacity) has been designed or selected, checked to the appropriate category, and permitted.\n• Keep spoil, plant and materials outside the zone of influence; surcharge is a design load.\n• Ensure the person authorising entry or completing inspections is competent for that class of temporary works.\n• Close the relevant hold points before operatives enter the trench.\n\nEducational only — not for construction; subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #HSE #Excavation #TrenchSupport #TWC #CDM #ConstructionSafety #StructuralStability #Collapse",
+  "body": [
+    {
+      "h": "What happened in Banstead",
+      "p": "On 24 June 2020 at a site on Park Road, Banstead, Surrey, where an old care home was being demolished for a new purpose-built facility, labourer Gheorghita Arsene (known as Geo), 33, was working in an approximately 10 ft (3 m) deep trench to replace a damaged pipe. He was clearing soil with hand tools when, without warning, at least one trench wall collapsed. He was buried under approximately two tonnes of soil. Colleagues and emergency services attempted rescue but could not free him in time; he was pronounced dead at the scene. The incident was investigated by the Health and Safety Executive."
+    },
+    {
+      "h": "What the court and HSE found",
+      "p": "Health and safety inspectors established that the trench had no structural supports and that excavated spoil had been deposited unsafely close to the edge, increasing the risk of collapse. Basic precautions known to protect workers from the well-recognised risks of excavation work were absent. After a three-month trial at the Old Bailey, principal contractor Appledorn Developments Limited and groundworks subcontractor T Vaughan Limited were found guilty of failing to discharge their duties under the Health and Safety at Work etc. Act 1974. Contracts manager Anthony O’Connor pleaded guilty to the same charge."
+    },
+    {
+      "h": "Sentencing on 9 September 2026",
+      "p": "Judge Judy Khan KC sentenced Appledorn Developments Limited (by then in liquidation) to a £500,000 fine, stating there had been cost-cutting at the expense of safety and a desire to get the works done quickly and cheaply. T Vaughan Limited was fined £650,000 plus £40,000 costs; the judge noted that systems were in place on paper but had not been sufficiently adhered to or implemented, and allowed six years to pay. Anthony O’Connor, 42, of Romford, was sentenced to 10 months’ custody suspended for 18 months and 150 hours’ unpaid work; the judge found he had actual foresight of the risk of harm. An HSE spokesperson described the death as both horrifying and preventable."
+    },
+    {
+      "h": "Control lessons under BS 5975-1:2024 and CDM",
+      "p": "An unsupported excavation with surcharge from spoil at the crest is a classic temporary works failure mode. Excavations that require support, or that could affect the stability of adjacent ground, structures or people, belong on the Temporary Works Register. They require competent Temporary Works Coordinator oversight, design or an accepted standard solution with documented capacity, installation verification, and a closed permit or hold point before people enter. CDM 2015 places duties on the principal contractor to plan, manage and monitor, and to ensure structural stability is not compromised. BS 5975-1:2024 provides the procedural framework. Verbal assurances, paper systems that are not implemented, and the assumption that “it will be fine for a short dig” do not discharge those duties. The same pattern appears in other recent HSE cases and CROSS reports involving platforms, props and masonry: temporary works treated as informal site kit rather than structures subject to formal control."
+    },
+    {
+      "h": "Sources",
+      "p": "BBC News, “Firms fined as workman dies after being buried alive in Banstead”, 9 September 2026. Construction Enquirer, “Worker died under two tonnes of soil in trench collapse”, 9 September 2026. The Independent and other contemporaneous reports of the Old Bailey sentencing. Health and Safety at Work etc. Act 1974. Construction (Design and Management) Regulations 2015. BS 5975-1:2024 Temporary works — Management procedures for the control of temporary works. HSE guidance on temporary works and excavation (hse.gov.uk)."
+    }
+  ]
+}

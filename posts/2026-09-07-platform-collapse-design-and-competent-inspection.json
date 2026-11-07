@@ -1,0 +1,30 @@
+{
+  "id": "2026-09-07-platform-collapse-design-and-competent-inspection",
+  "date": "2026-09-07",
+  "kicker": "HSE platform collapse lessons",
+  "title": "No design, no calculated load, incompetent inspection: the Paxton House platform collapse",
+  "excerpt": "HSE’s June 2026 prosecution of the Paxton House temporary platform collapse underlines a recurring control failure: temporary structures used without design, without a calculated safe load, and inspected by someone who was not a competent Temporary Works Coordinator. BS 5975-1:2024 and CDM require the opposite — a live register, competent oversight and verified capacity before use.",
+  "tags": [
+    "HSE",
+    "BS 5975",
+    "Working platforms",
+    "CDM",
+    "Competence",
+    "TWC",
+    "Design",
+    "Inspection",
+    "Crash deck",
+    "Temporary works"
+  ],
+  "linkedinReady": "A temporary platform is still a structure. If it carries load, it needs design, a calculated capacity, and a competent person to inspect it before use.\n\nHSE’s June 2026 prosecution of the Paxton House case makes the point plainly. During refurbishment in the City of London, temporary wooden platforms were built under openings being cut through concrete floors. Debris and 16 kg cores accumulated. On 23 February 2024 a platform gave way, collapsing onto a drilling operative who was working directly beneath it. He sustained fractures to his neck and back and a bleed on the brain; he has not returned to construction work.\n\nHSE found:\n• no design for the platforms\n• no calculation of a safe loading level\n• an inspection form completed by someone who was not a competent Temporary Works Coordinator\n• verbal instructions to “clear the platforms and not overload them” with no known safe load and no monitoring that the instruction was followed\n\nRoots Contractors Ltd (principal contractor) was fined £19,333 plus costs for breaching CDM 2015 Regulation 16(2). Diacutt Ltd was fined £13,000 plus costs for breaching Regulation 15(2). The hearing was at Westminster Magistrates’ Court on 11 June 2026; HSE published the outcome on 15 June 2026.\n\nThe same control gaps appear across recent CROSS reports and other HSE cases: temporary works treated as informal site kit rather than structures subject to BS 5975-1:2024 management procedures. Proprietary props, timber platforms, crash decks and debris boards are only as safe as the full load path and the process that puts them into service.\n\nFor contractors, site managers and Temporary Works Coordinators:\n\n• Put every temporary platform, crash deck or load-bearing board on the Temporary Works Register. “Simple” does not mean exempt.\n• Require a design (or a standard solution with documented capacity) and a calculated safe load before the item is used.\n• Ensure the person completing inspections is competent for that class of temporary works — availability is not competence.\n• Close the permit-to-load / hold point before operatives work under or on the structure.\n• Monitor that debris is cleared to the design load; a verbal instruction without a number and without checking is not control.\n\nEducational only — not for construction; subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #BS5975 #HSE #CROSS #WorkingPlatforms #TWC #CDM #ConstructionSafety #StructuralStability #Competence",
+  "body": [
+    {
+      "h": "What happened at Paxton House",
+      "p": "On 23 February 2024, during a refurbishment project at Paxton House in the City of London, openings were being cut through five concrete floors to form a service riser. Principal contractor Roots Contractors Ltd instructed carpenters to build temporary wooden platforms under the openings to collect 16 kg concrete cores and debris. A drilling operative working for Diacutt Ltd was cutting an opening on the third floor, directly beneath one of the platforms, when it collapsed. Debris and the platform fell onto him. He described being “folded up like a concertina.” Injuries included fractures to the neck and back and a bleed on the brain. He has not returned to work in construction."
+    },
+    {
+      "h": "What HSE found",
+      "p": "There was no design for the temporary platforms and no calculation of a safe loading level. An inspection form was completed by someone who was not a competent Temporary Works Coordinator. Verbal instructions to clear the platforms of concrete and not overload them existed without a known safe load and without monitoring. HSE also found deficiencies in planning, managing and monitoring of the work."
+    }
+  ]
+}

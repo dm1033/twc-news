@@ -1,0 +1,46 @@
+{
+  "id": "2026-08-11-hse-repeated-control-failures",
+  "date": "2026-08-11",
+  "kicker": "HSE prosecutions",
+  "title": "Three HSE cases, one message: foreseeable risks were not controlled",
+  "excerpt": "Concrete Connect’s 11 August review of three HSE prosecutions is worth circulating to every TWS and site manager. A timber platform, a rainwater-filled excavation and an unprotected edge to plant movement — all foreseeable, all temporary works territory.",
+  "tags": [
+    "HSE",
+    "Excavations",
+    "Working platforms",
+    "Plant"
+  ],
+  "linkedinReady": "Three recent HSE prosecutions. Three different sites. The same lesson.\n\nA timber crash deck with no design. An excavation with makeshift, unsecured timber bridges and no lighting. A dumper into an unprotected excavation after seat belts were disabled.\n\nThese are not ‘accidents’. They are failures to plan, manage and monitor construction work — and they sit squarely in temporary works control.\n\nIf your inspection only looks at the branded scaffold and ignores the timber platform, the plank over the trench and the edge next to plant, you are inspecting the paperwork, not the risk.\n\nBriefing: https://www.temporaryworksconsulting.com/news.html\n\n#HSE #TemporaryWorks #CDM2015 #ExcavationSafety",
+  "body": [
+    {
+      "h": "The three cases",
+      "p": "Reporting on 11 August 2026 grouped three HSE prosecutions: the Paxton House timber platform collapse (incident 23 February 2024; fines confirmed June 2026); a labourer drowned after falling into a rainwater-filled foundation excavation at Bovingdon, where unsecured makeshift timber bridges without handrails were used; and a one-tonne dumper overturn into an unprotected excavation after workers had been instructed not to wear seat belts."
+    },
+    {
+      "h": "Why this is temporary works, not just ‘H&S’",
+      "p": "Crash decks, excavation access, trench bridging and vehicle-edge protection are temporary works items. They belong on the register, they need a design or a documented standard solution, they need a permit and they need inspection by someone competent for that item. CDM 2015 duties on planning, managing and monitoring construction work are not discharged by a RAMS that nobody supervised."
+    },
+    {
+      "h": "Practical control points",
+      "ul": [
+        "Add crash decks, debris platforms and ‘temporary boarding’ to the Temporary Works Register — they are structures that carry load.",
+        "Ban makeshift excavation bridges. If people must cross, specify a designed or proprietary access with edge protection, bearing and inspection.",
+        "Protect excavations against plant and people. An open edge next to a dumper is a temporary works and traffic-management item.",
+        "Check that the person signing inspections is actually competent for the item — not merely available."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "Concrete Connect, 11 August 2026",
+          "url": "https://www.concreteconnect.co.uk/news/hse-cases-reveal-repeated-control-failures"
+        },
+        {
+          "label": "HSE press release, 15 June 2026",
+          "url": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+        }
+      ]
+    }
+  ]
+}
