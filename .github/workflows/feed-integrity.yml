@@ -5,9 +5,11 @@ on:
   push:
     branches: [main]
 
-# This check reports whether the archive still generates the feeds.
-# It does not block a direct push. GitHub only withholds a push when a
-# ruleset requires this check, and no such ruleset is added here.
+# Reports whether the archive still generates the feeds and whether
+# feed.json passes the same validation as the restore job (JSON, schema,
+# placeholder text, minimum length, newest first). It does not block a
+# direct push and it does not rewrite main. The repair is
+# restore-feed.yml, which runs after a bad feed.json has landed.
 
 jobs:
   feed-integrity:
@@ -19,4 +21,4 @@ jobs:
       - name: Check the archive and run tests
         run: |
           python3 scripts/publish.py check
-          python3 -m unittest tests/test_publish.py
+          python3 -m unittest discover -s tests -v

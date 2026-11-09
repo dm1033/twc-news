@@ -35,4 +35,17 @@ The live Netlify file /assets/news/feed.json is a separate 31-post fallback date
 Never delete a post. Never replace a stored id with a shorter body.
 On push failure, stop. Do not retry by writing placeholder text into a feed file.
 
-This override does not block a direct push. A token that can push_files to main can still upload a bad feed.json until a GitHub ruleset refuses direct pushes, with nobody bypassing it.
+This override does not block a direct push. A token that can push_files to main can still upload a file, and GitHub accepts that write before any check runs.
+
+What does run, on the push that already landed, is `.github/workflows/restore-feed.yml`. It does not use this override and it does not need `scripts/publish.py add`. It reads `feed.json` and rejects the push's file when any of these are true:
+
+- it is not JSON, or it is not the feed object (`updated`, `source`, `disclaimer`, `posts`)
+- any post fails the schema, including a body shorter than a real briefing
+- the file contains placeholder text, including PLACEHOLDER, PLACEHOLDER_FIX, "insert the full content here", "too large for this example", and "full string from the file"
+- the posts are not newest-first, or an id is repeated
+- a stored briefing has been replaced by a shorter body
+- there are fewer than 20 posts while 20 or more briefings are already in `posts/`
+
+On that failure the workflow keeps any new post in the file that is itself a complete briefing, rebuilds `feed.json` from `posts/` (newest 20), pushes that file to main, and opens a GitHub issue. It will not write a briefing that was not in the file. The 2026-11-08 CROSS 1588 commit subjects did not leave a post anywhere in this repo. Publish that briefing again with `python3 scripts/publish.py add` if it should appear. Do not retry by pushing the placeholder note.
+
+A valid 20-post `feed.json` that includes one new complete briefing is left as you pushed it. Also push `posts/<id>.json` for that briefing in the same commit so the archive has it. Do not push `feed.json` in the website repositories until the production page reads `archive/feed.json` and keeps the longer copy of each id. This guard only repairs `dm1033/twc-news`.

@@ -34,23 +34,43 @@ python3 scripts/publish.py add path/to/post.json
 python3 scripts/publish.py capture-feed
 python3 scripts/publish.py rebuild
 python3 scripts/publish.py check
+python3 scripts/publish.py guard
 ```
 
 `add` locks the archive, refuses placeholder and stub posts, and will not replace a stored briefing with a shorter body. A second post on the same Europe/London `date` with the same title or the same first source URL is rejected. The same source URL on a later date is kept: later briefings cite the same HSE and CROSS reports. Concurrent adds of different posts both remain.
 
 `capture-feed` copies any genuine new post out of the rolling `feed.json` into the archive. Placeholder text, empty lists, and unreadable JSON are ignored. It does not rewrite `feed.json` and it does not delete history.
 
-`posts/` and `archive/feed.json` were filled from every `feed.json` that still parsed in git. The fullest genuine body was kept. There is no recoverable briefing text for 4, 5, or 6 November 2026: those commits are placeholder files, and no story was written for them.
+`check` fails when `archive/feed.json` is not the full archive, when `feed.json` fails the rules below, or when a rolling post is not already archived. `guard` applies those feed rules and rebuilds a bad `feed.json` from `posts/`. A window of 20 valid posts that includes one new complete briefing is left as it is. Run `guard` locally before a direct push if you are not using `add`.
 
-The pasteable task change is `publisher/SAFETY_OVERRIDE.txt`. It is not installed. Until someone installs it, the existing task can still push a 20-post or placeholder `feed.json` to `main`.
+`posts/` and `archive/feed.json` were filled from every `feed.json` that still parsed in git. The fullest genuine body was kept. There is no recoverable briefing text for 4, 5, or 6 November 2026: those commits are placeholder files, and no story was written for them. There is also no recoverable briefing for 8 November 2026. Three commits that day (`4eca8d1`, `19be357`, `6650f27`, subjects "News: 2026-11-08 CROSS 1588 sequence change splice") replaced `feed.json` with `PLACEHOLDER`, then `PLACEHOLDER_FIX`, then a 147-byte non-JSON note. That note is not in `posts/`, `archive/feed.json`, `feed.meta.json`, or any older `feed.json`. It was not reconstructed from the commit subject. Publish that briefing again with `add` if it should be on the site.
 
-## What this does not protect
+`feed.json` on this branch is again the newest 20 archived briefings, newest first, through `2026-11-07-hse-trainee-scaffolder-fall-safe-zone`. The other 50 stay in `posts/` and `archive/feed.json`. The public file is that 20-post window so the daily task is not handed the whole archive (that size is what the task has been replacing with placeholder text).
 
-A direct `push_files` to `main` updates `https://raw.githubusercontent.com/dm1033/twc-news/main/feed.json` as soon as GitHub accepts it. `news.js` then renders that JSON if it parses. The `feed-integrity` workflow only reports status. It does not refuse the push. The capture workflow stores new valid posts after they have already landed; it is not a revert and it is not prevention.
+The pasteable task change is `publisher/SAFETY_OVERRIDE.txt`. Pasting it into the publisher is optional. The validation below does not depend on it.
 
-No rule here stops the same credentials from deleting `posts/` or `archive/feed.json` on a later push. Commits that damaged `feed.json` were made as David John Miller, so a bypass granted to that account does not contain the publisher. Finding and disabling that writer is still required.
+## Validation on every push
 
-The rolling window stays at 20 posts so the current task can keep reading `feed.json` without being handed the whole archive (that size is what the task has been replacing with placeholder text). The window committed here is the 20 newest briefings, through 11 October 2026. Eleven of those were not in the live 20-post or 31-post files (`2026-11-03` and 11–21 October, with no 16 October post ever recovered). Eleven older posts leave the GitHub window; each is already the same body on the live 31-post fallback, so the current page does not swap in a shorter copy. Together that is 43 posts the current page can show. The other 27 stay only in `posts/` and `archive/feed.json` until the page below is changed.
+A direct `push_files` to `main` updates `https://raw.githubusercontent.com/dm1033/twc-news/main/feed.json` as soon as GitHub accepts it. `news.js` renders that JSON when it parses, and skips it when it does not. The 8 November note did not parse, so the site stayed on its own copy, whose newest item on the 7 November check was 2026-11-02. Readers then missed every briefing that existed only on GitHub, including 2026-11-03 and 2026-11-07.
+
+`scripts/publish.py add` never saw those commits. The publisher writes the file through the GitHub contents API. The check that matters is the one GitHub runs after the push, in `.github/workflows/restore-feed.yml`. It calls `python3 scripts/publish.py guard`.
+
+`feed.json` must:
+
+- parse as one JSON object with `updated`, `source`, `disclaimer`, and `posts`
+- use the post schema in `scripts/publish.py` (`id`, `date`, `kicker`, `title`, `excerpt`, `tags`, `linkedinReady`, `body`), with a real body rather than a stub
+- contain no placeholder text. The rejects include `PLACEHOLDER`, `PLACEHOLDER_FIX`, "insert the full content here", "too large for this example", and "full string from the file", including when that note is wrapped in JSON
+- list distinct ids, newest first
+- not replace a stored briefing with a shorter body
+- contain at least 20 posts once 20 briefings are archived. The floor is the archive size when that is smaller. One post, or an empty list, is rejected while this archive has 70
+
+A file that fails is not left on `main`. The job copies any new post that is itself a complete briefing into `posts/`, rebuilds the newest 20 from that archive, pushes the repair, and opens a GitHub issue. It does not compose a briefing to fill a gap. A valid 20-post file that includes one new complete briefing is left as pushed. Put `posts/<id>.json` in that same commit so the archive keeps it.
+
+Pull requests and pushes also run `.github/workflows/feed-integrity.yml` (`check` and the unit tests). A red check still does not stop GitHub accepting the push. `restore-feed.yml` is the repair. `capture-feed-posts.yml` still only archives genuine posts; it does not rewrite `feed.json`.
+
+This is the repair GitHub can actually apply to this publisher. The writes are contents-API commits by the account that owns the repository, so a ruleset that required a check would not hold: that account can bypass rulesets, and the 8 November commits were made by it. A ruleset that blocked direct pushes would also block the legitimate daily `push_files`. The gap that remains is time. The bad file is what `raw.githubusercontent.com` serves until the job finishes, and that host can cache the bad response for a few minutes. The repair is pushed with the Actions `GITHUB_TOKEN`. GitHub does not start a new workflow from that token, so the job validates the rebuilt JSON before it commits and the repair cannot loop. If a later rule stops that token from pushing, the job opens an issue and the feed-integrity check stays red.
+
+No rule here stops those same credentials from deleting `posts/` or `archive/feed.json`. If the archive is gone as well as the feed, the job puts back the last `feed.json` in git that still validates, and it does not invent the missing post files. Finding and disabling a writer that deletes history is still required. This guard only repairs `dm1033/twc-news`. It does not protect `feed.json` in the website repositories.
 
 ## Production change required
 
@@ -82,4 +102,4 @@ Do not rebuild `#news-data` or `assets/news/feed.json` from the rolling 20-post 
 
 ## Checks
 
-`python3 scripts/publish.py check` confirms `archive/feed.json` is the full archive, newest first, and that `feed.json` is a valid window of at most 20 archived posts. `.github/workflows/feed-integrity.yml` runs that check and the unit tests on pull requests and on pushes to `main`. A red check does not unpublish a file that is already on `main`.
+`python3 scripts/publish.py check` confirms `archive/feed.json` is the full archive, newest first, and that `feed.json` is a valid window of the newest posts (20 once that many exist) with no placeholder text. `python3 scripts/publish.py guard` does that validation and, locally, rewrites a bad `feed.json` from `posts/`. `.github/workflows/feed-integrity.yml` runs `check` and the unit tests on pull requests and on pushes to `main`. `.github/workflows/restore-feed.yml` runs `guard` after a push to `main` that changes `feed.json`, and pushes a repair when the file fails. A red integrity check does not unpublish a file by itself. The restore job does.
