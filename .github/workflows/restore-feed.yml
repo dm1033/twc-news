@@ -1,0 +1,98 @@
+name: restore-feed
+
+# Validates feed.json after a push has already reached main. A contents-API
+# write does not run scripts/publish.py, and GitHub accepts it before any
+# check. This job is the repair: a file that does not parse, fails the
+# schema, carries placeholder text, shortens a stored briefing, or has
+# fewer posts than the rolling window is rebuilt from posts/ and pushed
+# back. An issue is opened so the missing briefing is republished.
+#
+# A ruleset cannot stop the account that owns this repo, and a rule that
+# blocked direct pushes would also block the daily publisher. The bad
+# file is public until this job finishes. raw.githubusercontent.com can
+# cache it for a few minutes after that.
+#
+# The repair commit uses GITHUB_TOKEN. GitHub does not start workflows
+# from that token, which is what stops a loop. The script validates the
+# rebuilt file before the commit.
+
+on:
+  push:
+    branches: [main]
+    paths: [feed.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: news-feed-main
+  cancel-in-progress: false
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Restore feed.json when this push fails validation
+        id: restore
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          action="unrestored"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/publish.py guard > guard-result.json
+            action=$(python3 -c 'import json; print(json.load(open("guard-result.json"))["action"])')
+            if [ "$action" != "restored" ]; then
+              echo "action=$action" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git add -- feed.json posts archive/feed.json
+            if git diff --cached --quiet; then
+              echo "action=none" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git commit -m "fix: restore feed.json after a push that failed validation"
+            if git push origin HEAD:main; then
+              echo "action=restored" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "action=unrestored" >> "$GITHUB_OUTPUT"
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("guard-result.json")
+          result = json.loads(path.read_text(encoding="utf-8"))
+          result["action"] = "unrestored"
+          result.setdefault("problems", []).append(
+              "the restored feed.json could not be pushed to main"
+          )
+          path.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+          PY
+          echo "push of the restored feed failed" >&2
+          exit 1
+
+      - name: Open an issue for the rejected feed
+        if: always() && (steps.restore.outputs.action == 'restored' || steps.restore.outputs.action == 'unrestored')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          body=$(python3 scripts/publish.py guard-issue guard-result.json "${{ github.sha }}")
+          title="feed.json failed validation and was restored"
+          number=$(gh issue list --repo "${{ github.repository }}" --state open --search "in:title ${title}" --json number --jq '.[0].number')
+          if [ -n "$number" ] && [ "$number" != "null" ]; then
+            gh issue comment --repo "${{ github.repository }}" "$number" --body "$body" || echo "could not comment on the existing issue"
+          else
+            gh issue create --repo "${{ github.repository }}" --title "$title" --body "$body" || echo "could not open an issue"
+          fi

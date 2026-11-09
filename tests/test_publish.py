@@ -168,11 +168,20 @@ class RepositoryTests(unittest.TestCase):
         self.assertIn("2026-11-03", dates)
         self.assertIn("2026-10-11", dates)
         self.assertIn("2026-05-12", dates)
-        for absent in ("2026-11-04", "2026-11-05", "2026-11-06"):
+        for absent in ("2026-11-04", "2026-11-05", "2026-11-06", "2026-11-08"):
             self.assertNotIn(absent, dates)
         window = json.loads((ROOT / "feed.json").read_text(encoding="utf-8"))
-        self.assertLessEqual(len(window["posts"]), 20)
+        archived = json.loads((ROOT / "archive" / "feed.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(window["posts"]), 20)
+        self.assertEqual(
+            [post["id"] for post in window["posts"]],
+            [post["id"] for post in archived["posts"][:20]],
+        )
         self.assertEqual(window["posts"][0]["id"], "2026-11-07-hse-trainee-scaffolder-fall-safe-zone")
+        self.assertNotIn("2026-11-08", {post["date"] for post in window["posts"]})
+        before = (ROOT / "feed.json").read_bytes()
+        self.assertEqual(publish.guard(ROOT)["action"], "none")
+        self.assertEqual((ROOT / "feed.json").read_bytes(), before)
 
 
 if __name__ == "__main__":
