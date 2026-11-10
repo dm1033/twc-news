@@ -1,0 +1,82 @@
+name: publish-feed
+
+# Publishing a briefing is one small file: posts/<id>.json. This job runs on
+# the push that already landed. It takes in new post files (and genuine posts
+# the older publisher instructions left in feed.json), removes anything that
+# is not a briefing, and writes archive/feed.json, feed.json and latest.json
+# from posts/. The scheduled publisher is never asked to write those files:
+# feed.json is too large for it, and it was committing placeholder text in
+# its place.
+#
+# The job is green when main ends up valid and either a briefing came in or
+# nothing was wrong with the push. It is red when the push carried something
+# that is not a briefing and nothing was published. The feeds are put back
+# from posts/ either way, so a red run means "today's briefing is missing",
+# not "the site is broken".
+#
+# One job does the whole pass, so a capture and a repair cannot race each
+# other. The commit it pushes uses GITHUB_TOKEN. GitHub does not start
+# workflows from that token, which is what stops a loop.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - feed.json
+      - latest.json
+      - "posts/**"
+      - "archive/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: news-feed-main
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Take in the push and regenerate the feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/sync-main.sh origin main
+          python3 scripts/publish.py sync-report sync-result.json | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Open an issue for what was refused
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f sync-result.json ] || exit 0
+          refused=$(python3 -c 'import json; print(len(json.load(open("sync-result.json")).get("rejected") or []))')
+          [ "$refused" != "0" ] || exit 0
+          body=$(python3 scripts/publish.py sync-issue sync-result.json "${{ github.sha }}")
+          title="feed.json failed validation and was restored"
+          number=$(gh issue list --repo "${{ github.repository }}" --state open --search "in:title ${title}" --json number --jq '.[0].number')
+          if [ -n "$number" ] && [ "$number" != "null" ]; then
+            gh issue comment --repo "${{ github.repository }}" "$number" --body "$body" || echo "could not comment on the existing issue"
+          else
+            gh issue create --repo "${{ github.repository }}" --title "$title" --body "$body" || echo "could not open an issue"
+          fi
+
+      - name: Check what main now serves
+        run: |
+          python3 scripts/publish.py check
+          python3 -m unittest discover -s tests -v
+
+      - name: Fail when the push published nothing
+        run: python3 scripts/publish.py sync-verdict sync-result.json

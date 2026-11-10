@@ -182,30 +182,50 @@ class GuardTests(unittest.TestCase):
 
 
 class WorkflowTests(unittest.TestCase):
-    def test_restore_workflow_repairs_main_and_can_open_an_issue(self):
-        text = (ROOT / ".github" / "workflows" / "restore-feed.yml").read_text(encoding="utf-8")
+    def _workflow(self, name: str) -> str:
+        return (ROOT / ".github" / "workflows" / name).read_text(encoding="utf-8")
+
+    def test_publish_workflow_takes_in_posts_and_repairs_main(self):
+        text = self._workflow("publish-feed.yml")
         self.assertIn("branches: [main]", text)
-        self.assertIn("paths: [feed.json]", text)
+        for path in ("feed.json", "latest.json", '"posts/**"', '"archive/**"'):
+            self.assertIn(f"- {path}", text)
         self.assertIn("workflow_dispatch:", text)
         self.assertIn("contents: write", text)
         self.assertIn("issues: write", text)
-        self.assertIn("python3 scripts/publish.py guard", text)
-        self.assertIn("guard-issue", text)
+        self.assertIn("scripts/sync-main.sh origin main", text)
+        self.assertIn("sync-issue", text)
+        self.assertIn("python3 scripts/publish.py check", text)
+        self.assertIn("sync-verdict", text)
         self.assertIn("news-feed-main", text)
         self.assertNotIn("--force", text)
         self.assertNotIn("pull_request:", text)
 
+    def test_one_job_writes_main_so_a_capture_and_a_repair_cannot_race(self):
+        workflows = sorted(path.name for path in (ROOT / ".github" / "workflows").glob("*.yml"))
+        self.assertEqual(workflows, ["feed-integrity.yml", "publish-feed.yml"])
+        self.assertNotIn("contents: write", self._workflow("feed-integrity.yml"))
+
     def test_pull_requests_run_the_same_validation(self):
-        text = (ROOT / ".github" / "workflows" / "feed-integrity.yml").read_text(encoding="utf-8")
+        text = self._workflow("feed-integrity.yml")
         self.assertIn("pull_request:", text)
         self.assertIn("branches: [main]", text)
         self.assertIn("python3 scripts/publish.py check", text)
         self.assertIn("unittest discover -s tests", text)
 
-    def test_capture_workflow_shares_the_guard_queue(self):
-        text = (ROOT / ".github" / "workflows" / "capture-feed-posts.yml").read_text(encoding="utf-8")
-        self.assertIn("news-feed-main", text)
-        self.assertIn("git rebase origin/main", text)
+    def test_a_feed_push_is_checked_after_it_is_regenerated_not_before(self):
+        # A new posts/<id>.json is not in the feeds until publish-feed has run.
+        text = self._workflow("feed-integrity.yml")
+        ignored = text[text.index("paths-ignore:"):text.index("workflow_dispatch:")]
+        for path in ("feed.json", "latest.json", '"posts/**"', '"archive/**"'):
+            self.assertIn(f"- {path}", ignored)
+
+    def test_push_script_retries_on_the_new_tip_and_never_forces(self):
+        text = (ROOT / "scripts" / "sync-main.sh").read_text(encoding="utf-8")
+        self.assertIn("set -euo pipefail", text)
+        self.assertIn('git reset --quiet --hard "$remote/$branch"', text)
+        self.assertIn("python3 scripts/publish.py sync", text)
+        self.assertNotIn("--force", text)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,76 @@
+{
+  "updated": "2026-11-07T07:45:00+00:00",
+  "count": 70,
+  "latest": [
+    {
+      "id": "2026-11-07-hse-trainee-scaffolder-fall-safe-zone",
+      "date": "2026-11-07",
+      "kicker": "HSE prosecutions",
+      "title": "Trainee scaffolder killed in five-metre fall: safe zones and harness use were not in place",
+      "source": "https://press.hse.gov.uk/2026/11/06/scaffolding-company-fined-after-trainee-scaffolder-killed-in-five-metre-fall/"
+    },
+    {
+      "id": "2026-11-03-hse-staines-roof-hot-works",
+      "date": "2026-11-03",
+      "kicker": "HSE prosecutions",
+      "title": "No hot-works permit and single escape route: roof welding fire on 14-storey apartment",
+      "source": "https://press.hse.gov.uk/2026/10/30/pictured-aftermath-of-apartment-roof-blaze-workers-lucky-to-escape-from/"
+    },
+    {
+      "id": "2026-11-02-cas-v6-scaffolding-temporary-works",
+      "date": "2026-11-02",
+      "kicker": "Guidance",
+      "title": "CAS Version 6: scaffolding and temporary works can opt out of the Building Safety section",
+      "source": "https://cisrs.org.uk/resource/nasc-welcomes-common-assessment-standard-changes-bringing-clarity-for-scaffolding-contractors.html"
+    },
+    {
+      "id": "2026-11-01-hse-platform-cross-propping-banbury",
+      "date": "2026-11-01",
+      "kicker": "HSE / CROSS-UK",
+      "title": "No design, incomplete load path, ongoing investigation: temporary works control still matters",
+      "source": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+    },
+    {
+      "id": "2026-10-31-cross-1613-unauthorised-plant-platform",
+      "date": "2026-10-31",
+      "kicker": "CROSS-UK",
+      "title": "CROSS 1613: plant support platform erected before design verification",
+      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/structural-safety-risks-arising-unauthorised-design-changes-during-construction-1613"
+    },
+    {
+      "id": "2026-10-30-cas-v6-scaffold-temporary-works-opt-out",
+      "date": "2026-10-30",
+      "kicker": "Guidance",
+      "title": "CAS v6: scaffolding and temporary works can opt out of Building Safety section",
+      "source": "https://cisrs.org.uk/resource/nasc-welcomes-common-assessment-standard-changes-bringing-clarity-for-scaffolding-contractors.html"
+    },
+    {
+      "id": "2026-10-27-scaffold-dismantling-exclusion-zone",
+      "date": "2026-10-27",
+      "kicker": "HSENI prosecutions",
+      "title": "Scaffold dismantling: exclusion zone and controlled lowering failed — a fatal board fall",
+      "source": "https://www.hseni.gov.uk/news/company-fined-ps20000-after-employee-was-fatally-injured-work-incident"
+    },
+    {
+      "id": "2026-10-25-storm-austen-wind-design-vs-forecast",
+      "date": "2026-10-25",
+      "kicker": "Daily briefing",
+      "title": "Storm Austen: a 76 mph gust is not a temporary works design check",
+      "source": "https://www.metoffice.gov.uk/blog/2026/where-were-storm-austens-strongest-wind-gusts-recorded"
+    },
+    {
+      "id": "2026-10-24-belfast-scaffold-dismantling-exclusion-zone",
+      "date": "2026-10-24",
+      "kicker": "HSE prosecutions",
+      "title": "Scaffold dismantling: exclusion zones and controlled lowering after Belfast fatality",
+      "source": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/"
+    },
+    {
+      "id": "2026-10-23-banbury-partial-collapse-stability-controls",
+      "date": "2026-10-23",
+      "kicker": "Daily briefing",
+      "title": "Banbury partial collapse: a prompt to re-check temporary stability controls",
+      "source": "https://www.bbc.co.uk/news/articles/cke8r6qpvdmpo"
+    }
+  ]
+}

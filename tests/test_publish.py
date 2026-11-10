@@ -156,29 +156,36 @@ class ArchiveTests(unittest.TestCase):
 
 
 class RepositoryTests(unittest.TestCase):
-    def test_committed_archive_matches_recoverable_history(self):
+    def test_committed_archive_keeps_every_recoverable_briefing(self):
+        """Holds however many briefings are published after this was written."""
         publish.check(ROOT)
         recovered = publish.genuine_posts_from_git(ROOT)
         archived = publish.load_archive(ROOT)
-        recovered_ids = {post["id"] for post in recovered}
-        self.assertEqual(len(recovered), 70)
-        self.assertEqual(recovered_ids, set(archived))
-        dates = {post["date"] for post in recovered}
-        self.assertIn("2026-11-07", dates)
-        self.assertIn("2026-11-03", dates)
-        self.assertIn("2026-10-11", dates)
+        # Nothing that ever parsed in feed.json has been dropped.
+        self.assertGreaterEqual(len(archived), 70)
+        self.assertLessEqual({post["id"] for post in recovered}, set(archived))
+        for known in (
+            "2026-11-07-hse-trainee-scaffolder-fall-safe-zone",
+            "2026-11-03-hse-staines-roof-hot-works",
+            "2026-10-11-banstead-unsupported-trench",
+        ):
+            self.assertIn(known, archived)
+        dates = {post["date"] for post in archived.values()}
         self.assertIn("2026-05-12", dates)
+        # No briefing text exists for these days. They were placeholder commits.
         for absent in ("2026-11-04", "2026-11-05", "2026-11-06", "2026-11-08"):
             self.assertNotIn(absent, dates)
         window = json.loads((ROOT / "feed.json").read_text(encoding="utf-8"))
-        archived = json.loads((ROOT / "archive" / "feed.json").read_text(encoding="utf-8"))
+        full = json.loads((ROOT / "archive" / "feed.json").read_text(encoding="utf-8"))
+        latest = json.loads((ROOT / "latest.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(full["posts"]), len(archived))
         self.assertEqual(len(window["posts"]), 20)
         self.assertEqual(
             [post["id"] for post in window["posts"]],
-            [post["id"] for post in archived["posts"][:20]],
+            [post["id"] for post in full["posts"][:20]],
         )
-        self.assertEqual(window["posts"][0]["id"], "2026-11-07-hse-trainee-scaffolder-fall-safe-zone")
-        self.assertNotIn("2026-11-08", {post["date"] for post in window["posts"]})
+        self.assertEqual(latest["count"], len(archived))
+        self.assertEqual(latest["latest"][0]["id"], window["posts"][0]["id"])
         before = (ROOT / "feed.json").read_bytes()
         self.assertEqual(publish.guard(ROOT)["action"], "none")
         self.assertEqual((ROOT / "feed.json").read_bytes(), before)

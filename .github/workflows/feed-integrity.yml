@@ -1,15 +1,25 @@
 name: feed-integrity
 
+# Runs the feed check and the unit tests on pull requests, and on pushes to
+# main that change the code. It does not rewrite main.
+#
+# A push that changes the feed itself (feed.json, latest.json, posts/,
+# archive/) is left to publish-feed.yml. That job regenerates the feeds
+# first and then runs this same check on what main serves afterwards.
+# Checking the pushed commit instead would report a state that is replaced
+# seconds later: a new posts/<id>.json is not in the feeds until that job
+# has run.
+
 on:
   pull_request:
   push:
     branches: [main]
-
-# Reports whether the archive still generates the feeds and whether
-# feed.json passes the same validation as the restore job (JSON, schema,
-# placeholder text, minimum length, newest first). It does not block a
-# direct push and it does not rewrite main. The repair is
-# restore-feed.yml, which runs after a bad feed.json has landed.
+    paths-ignore:
+      - feed.json
+      - latest.json
+      - "posts/**"
+      - "archive/**"
+  workflow_dispatch:
 
 jobs:
   feed-integrity:
