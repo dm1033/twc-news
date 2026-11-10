@@ -1,8 +1,68 @@
 {
-  "updated": "2026-11-07T07:45:00+00:00",
+  "updated": "2026-11-10T19:00:00+00:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-11-10-cross-1588-bridge-girder-lifting-sequence",
+      "date": "2026-11-10",
+      "kicker": "CROSS-UK",
+      "title": "CROSS 1588: changing the bridge girder lift sequence altered the splice load path",
+      "excerpt": "CROSS-UK Report 1588 (3 November 2026) records a proposed change from sequential in-situ splicing of braced girder pairs to a single ground-spliced lift. The permanent works designer had assumed friction-grip behaviour; the temporary works proposal relied on plate shift and end-bearing. The conflict was caught before the lift because the contractor’s engineering team engaged the permanent works designer under BS 5975 and PAS 8811 processes.",
+      "tags": [
+        "CROSS-UK",
+        "Temporary works",
+        "Bridge erection",
+        "Load path",
+        "Design assumptions",
+        "BS 5975",
+        "CDM"
+      ],
+      "linkedinReady": "A change to the lift sequence can rewrite the permanent works assumptions.\n\nCROSS-UK Report 1588, published 3 November 2026, describes a 60 m steel girder bridge. The permanent works designer had designed on the basis that three girder sections would be braced in pairs, lifted, and spliced sequentially in situ. The contractor, with their temporary works designer, proposed instead to splice the three sections on the ground and undertake a single lift, with lifting points near the splices.\n\nThe permanent works calculation assumed the bolted splices would maintain friction-grip behaviour. The single-lift proposal relied on the connection plates shifting to engage the bolts in end bearing. Had it proceeded unchallenged, movement could have damaged the prepared faying surfaces, reducing long-term slip resistance and potentially affecting fatigue performance over the 120-year design life. The issue was identified because the contractor’s team followed the review processes in BS 5975 and PAS 8811 and engaged the permanent works designer before construction.\n\nUnder CDM 2015, specifying or modifying a construction method carries designer duties. Temporary conditions can be more onerous than the completed structure. Connections are frequent interfaces between permanent and temporary works designers. Confirm the permanent works assumptions (load path, connection behaviour, construction sequence) are explicit in the design brief. When the temporary works proposal changes that sequence, refer it back. Enter the lift, the temporary bracing or supports, and the splice condition on the live Temporary Works Register. Do not treat a practical-looking alternative lift as automatically compatible with the permanent works design.\n\nEducational briefing only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #CROSS #BS5975 #CDM #BridgeErection",
+      "body": [
+        {
+          "h": "What was reported",
+          "p": "CROSS-UK Report 1588, published 3 November 2026, concerns a proposed change to the construction sequence for erection of a 60 m steel girder bridge. The permanent works designer had designed the bridge on the basis that three girder sections would be braced in pairs, lifted, and spliced sequentially in situ after installation onto the supports. The contractor, working with their temporary works designer, proposed instead to splice the three sections together on the ground and undertake a single lift. The lifting points for the fully spliced girder were located near the spliced connections. This altered the loads expected to be transferred through the splice connections during installation."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "A review by the permanent works designer identified that the permanent works calculation report assumed the bolted splice connections would maintain friction-grip behaviour. The single-lift proposal relied on the connection plates at the splice locations shifting during the lift to engage the bolts in end bearing. Had the proposal proceeded without challenge, movement at the splice interfaces could have damaged the prepared faying surfaces, reducing long-term slip resistance. While the bridge may have remained stable during erection, the permanent structural performance could have been compromised, with potential effects on fatigue performance over the structure’s 120-year design life. The critical permanent works assumptions were documented in the calculations but were not explicitly communicated through a risk register or clear notes on a drawing. The conflict was identified only because the contractor’s engineering team followed the review processes recommended in BS 5975 and PAS 8811 and engaged the permanent works designer before construction commenced. Under the Construction (Design and Management) Regulations 2015, anyone specifying or modifying a construction method assumes designer responsibilities and must consider the consequences for both temporary and permanent works."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Require the design brief for any major lift or erection sequence to state the permanent works designer’s assumed construction sequence, connection behaviour (e.g. friction-grip vs bearing) and any constraints on temporary loading or movement.",
+            "Enter the lift, temporary bracing or supports, and the temporary condition of the splices on the live Temporary Works Register before any alternative sequence is developed.",
+            "Where the temporary works proposal changes the sequence, load path or support arrangement assumed by the permanent works designer, refer the proposal back for assessment before acceptance.",
+            "Confirm that the temporary works design package addresses the behaviour of critical connections during the temporary condition and that any change in connection behaviour is explicitly accepted.",
+            "Treat a practical-looking alternative (ground assembly and single lift) as a design change that requires coordination, not merely a method change.",
+            "Record the engagement with the permanent works designer and the outcome in the temporary works file so the interface is auditable.",
+            "Do not proceed with the revised lift until the permanent works implications have been resolved and the register entry updated."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "CROSS-UK Report 1588: Bridge girder lifting sequence change affects splice connection performance, 3 November 2026",
+              "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/bridge-girder-lifting-sequence-change-affects-splice-connection-1588"
+            },
+            {
+              "label": "BS 5975-1:2024 Temporary works – Management procedures for the control of temporary works. Code of practice",
+              "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
+            },
+            {
+              "label": "HSE: Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, PAS 8811, CDM 2015 and any project-specific design remain those of the appointed designers and the project temporary works procedure. AI-generated or third-party summaries require competent review before use on site."
+        }
+      ]
+    },
     {
       "id": "2026-11-07-hse-trainee-scaffolder-fall-safe-zone",
       "date": "2026-11-07",
