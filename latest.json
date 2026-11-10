@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-07T07:45:00+00:00",
-  "count": 70,
+  "updated": "2026-11-10T07:45:00+00:00",
+  "count": 71,
   "latest": [
+    {
+      "id": "2026-11-10-cross-1588-bridge-girder-lifting-sequence",
+      "date": "2026-11-10",
+      "kicker": "CROSS-UK",
+      "title": "CROSS 1588: changing the bridge girder lift sequence altered the splice load path",
+      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/bridge-girder-lifting-sequence-change-affects-splice-connection-1588"
+    },
     {
       "id": "2026-11-07-hse-trainee-scaffolder-fall-safe-zone",
       "date": "2026-11-07",
@@ -64,13 +71,6 @@
       "kicker": "HSE prosecutions",
       "title": "Scaffold dismantling: exclusion zones and controlled lowering after Belfast fatality",
       "source": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/"
-    },
-    {
-      "id": "2026-10-23-banbury-partial-collapse-stability-controls",
-      "date": "2026-10-23",
-      "kicker": "Daily briefing",
-      "title": "Banbury partial collapse: a prompt to re-check temporary stability controls",
-      "source": "https://www.bbc.co.uk/news/articles/cke8r6qpvdmpo"
     }
   ]
 }
