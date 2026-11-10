@@ -3,21 +3,23 @@
 
 posts/<id>.json is the last-known-good copy of each briefing.
 archive/feed.json is the full feed generated from those files.
-feed.json is a rolling window of the newest briefings. The scheduled
-publisher is instructed to overwrite feed.json (and the same path in
-two other repos) with at most 20 posts. This script never deletes a
-stored briefing to satisfy that window.
+feed.json is a rolling window of the newest briefings.
+latest.json is a small index of the newest briefings for the publisher.
 
-The commands here are the supported publishing entry point. A direct
-push of feed.json does not run them. `.github/workflows/restore-feed.yml`
-runs `guard` on the push that already landed and puts the rolling
-window back when that file fails validation.
+Publishing a briefing is one small file: posts/<id>.json. The scheduled
+publisher cannot reliably write a file the size of feed.json, so it is
+not asked to. `.github/workflows/publish-feed.yml` runs `sync` on the
+push that already landed: it takes in new post files (and genuine posts
+left in feed.json by the older instructions), removes anything that is
+not a briefing, and regenerates the three feed files from posts/. This
+script never deletes a stored briefing and never composes one.
 """
 
 from __future__ import annotations
 
 import argparse
 import fcntl
+import itertools
 import json
 import os
 import re
@@ -28,6 +30,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ROLLING_LIMIT = 20
+LATEST_LIMIT = 10
 MIN_BODY_TEXT = 800
 POST_KEYS = ("id", "date", "kicker", "title", "excerpt", "tags", "linkedinReady", "body")
 BODY_KEYS = ("h", "p", "ul", "sources")
@@ -63,6 +66,8 @@ PLACEHOLDER_MARKERS = (
     "placeholder_fix",
 )
 FEED_KEYS = ("updated", "source", "disclaimer", "posts")
+# A post file written by an assistant is sometimes wrapped in a markdown fence.
+CODE_FENCE = re.compile(r"\A```[A-Za-z]*[ \t]*\n(.*)\n```\Z", re.S)
 UPDATED_RE = re.compile(
     r"^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(?:\+00:00|Z)$"
 )
@@ -256,6 +261,35 @@ def feed_document(posts: list[dict], meta: dict) -> dict:
     }
 
 
+def latest_document(posts: list[dict]) -> dict:
+    """Small index of the newest briefings.
+
+    The publisher reads this instead of feed.json to see what is already
+    out: the date and first source URL are what its duplicate test needs.
+    """
+    ordered = sort_posts(posts)
+    newest = ordered[0]["date"] if ordered else "1970-01-01"
+    return {
+        "updated": f"{newest}T07:45:00+00:00",
+        "count": len(ordered),
+        "latest": [
+            {
+                "id": post["id"],
+                "date": post["date"],
+                "kicker": post["kicker"],
+                "title": post["title"],
+                "source": top_source_url(post),
+            }
+            for post in ordered[:LATEST_LIMIT]
+        ],
+    }
+
+
+def longer(candidate: dict, current: dict) -> bool:
+    """True when candidate carries more briefing text than current."""
+    return len(body_text(candidate)) > len(body_text(current))
+
+
 def parse_feed_text(raw: str) -> dict:
     stripped = raw.strip()
     if not stripped or _placeholder_text(stripped) or stripped[0] not in "{[":
@@ -370,6 +404,7 @@ def write_archive(root: Path, posts: dict[str, dict], *, rolling: bool = True) -
             raise FeedError(f"refusing to delete {path.name}")
     ordered = sort_posts(list(posts.values()))
     _atomic_write(root / "archive" / "feed.json", dumps(feed_document(ordered, meta)))
+    _atomic_write(root / "latest.json", dumps(latest_document(ordered)))
     if rolling:
         _atomic_write(root / "feed.json", dumps(feed_document(ordered[:ROLLING_LIMIT], meta)))
 
@@ -419,7 +454,7 @@ def merge_post(existing: dict[str, dict], incoming: dict) -> str:
             return "duplicate"
         existing[post["id"]] = post
         return "added"
-    if body_text(post) > body_text(current):
+    if longer(post, current):
         existing[post["id"]] = post
         return "replaced"
     return "kept"
@@ -506,10 +541,19 @@ def check(root: Path) -> None:
         stored = archive.get(post["id"])
         if stored is None:
             raise FeedError(f"feed.json post {post['id']} is not in the archive")
-        if body_text(post) > body_text(stored):
+        if longer(post, stored):
             raise FeedError(f"feed.json copy of {post['id']} is fuller than the archive")
         if post["date"] != stored["date"]:
             raise FeedError(f"feed.json date for {post['id']} does not match the archive")
+    latest_path = root / "latest.json"
+    if not latest_path.is_file():
+        raise FeedError("latest.json is missing")
+    try:
+        latest = json.loads(latest_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise FeedError(f"latest.json is not JSON ({exc.msg})") from exc
+    if latest != latest_document(ordered):
+        raise FeedError("latest.json is not the generated index")
 
 
 def consumer_merge(documents: list[str]) -> dict:
@@ -535,7 +579,7 @@ def consumer_merge(documents: list[str]) -> dict:
             except FeedError:
                 continue
             current = chosen.get(post["id"])
-            if current is None or body_text(post) > body_text(current):
+            if current is None or longer(post, current):
                 chosen[post["id"]] = post
     posts = sort_posts(list(chosen.values()))
     return {"updated": updated, "posts": posts}
@@ -722,6 +766,322 @@ def guard_issue_body(result: dict, commit: str | None = None) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _git_versions(root: Path, relative: str, limit: int = 40):
+    """Committed copies of one path, newest first. Nothing outside a repository."""
+    try:
+        log = subprocess.run(
+            ["git", "-C", str(root), "log", f"-{limit}", "--format=%H", "--", relative],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return
+    for rev in log.stdout.split():
+        show = subprocess.run(
+            ["git", "-C", str(root), "show", f"{rev}:{relative}"],
+            capture_output=True,
+        )
+        if show.returncode == 0:
+            yield show.stdout.decode("utf-8", errors="replace")
+
+
+def _genuine_posts(text: str) -> dict[str, dict]:
+    """Every post in a feed document that is itself a complete briefing."""
+    try:
+        document = parse_feed_text(text)
+    except FeedError:
+        return {}
+    found: dict[str, dict] = {}
+    for raw_post in document["posts"]:
+        try:
+            post = normalize_post(raw_post)
+        except FeedError:
+            continue
+        found[post["id"]] = post
+    return found
+
+
+def _stored_snapshot(root: Path) -> dict[str, dict]:
+    """Briefings main held before this push: the last generated archive.
+
+    archive/feed.json on disk is used while it still holds briefings. A
+    push can overwrite that file too, so the newest committed copy that
+    does is the fallback. Post files are measured against this set, which
+    is what stops a push deleting or shortening a stored briefing.
+    """
+    path = root / "archive" / "feed.json"
+    on_disk = [path.read_text(encoding="utf-8", errors="replace")] if path.is_file() else []
+    for text in itertools.chain(on_disk, _git_versions(root, "archive/feed.json")):
+        stored = _genuine_posts(text)
+        if stored:
+            return stored
+    return {}
+
+
+def _posts_in_file(text: str) -> tuple[list[dict], str | None]:
+    """Briefings in a pushed post file, and why anything else was refused.
+
+    The file should be one post object. A list of posts, or a feed object
+    wrapped around them, is read the same way: the content is what
+    matters, and each briefing is stored under its own id afterwards.
+    """
+    stripped = text.lstrip("\ufeff").strip()
+    fenced = CODE_FENCE.match(stripped)
+    if fenced:
+        stripped = fenced.group(1).strip()
+    if not stripped or _placeholder_text(stripped) or stripped[0] not in "{[":
+        return [], "file is empty or placeholder text"
+    try:
+        value = json.loads(stripped)
+    except json.JSONDecodeError as exc:
+        return [], f"file is not JSON ({exc.msg})"
+    if isinstance(value, dict) and isinstance(value.get("posts"), list):
+        candidates = value["posts"]
+    elif isinstance(value, list):
+        candidates = value
+    else:
+        candidates = [value]
+    if not candidates:
+        return [], "file holds no post"
+    posts: list[dict] = []
+    problem = None
+    for candidate in candidates:
+        try:
+            posts.append(normalize_post(candidate))
+        except FeedError as exc:
+            problem = problem or str(exc)
+    return posts, problem
+
+
+def sync(root: Path) -> dict:
+    """Take in what a push left on main, then regenerate the feeds.
+
+    New briefings arrive as posts/<id>.json. Genuine posts found in
+    feed.json are taken in as well, because that is where the older
+    publisher instructions put them, and a short feed.json holding only
+    the new briefing is treated as that briefing rather than as a fault.
+
+    Anything that is not a briefing is refused: placeholder text, a stub,
+    a file that does not parse. A stored briefing that a push deleted or
+    shortened is put back. archive/feed.json, feed.json and latest.json
+    are then written from posts/, so main is left publishable whatever
+    arrived. Nothing here composes a briefing.
+
+    `ok` is false when something was refused and no briefing came in:
+    the push was an attempt to publish, and nothing was published.
+    """
+    with archive_lock(root):
+        stored = _stored_snapshot(root)
+        posts = dict(stored)
+        rejected: list[dict] = []
+        duplicates: list[dict] = []
+        replaced: list[str] = []
+        restored: list[str] = []
+        incoming: list[tuple[str, dict]] = []
+        on_disk: dict[str, dict] = {}
+
+        posts_dir = root / "posts"
+        posts_dir.mkdir(parents=True, exist_ok=True)
+        for path in sorted(posts_dir.glob("*.json")):
+            relative = f"posts/{path.name}"
+            found, problem = _posts_in_file(path.read_text(encoding="utf-8", errors="replace"))
+            if problem:
+                rejected.append({"path": relative, "problem": problem})
+            if not found and path.stem not in stored:
+                # A briefing this file held before the push, if it ever held one.
+                for earlier in _git_versions(root, relative):
+                    found, _ = _posts_in_file(earlier)
+                    if found:
+                        break
+            elif len(found) == 1 and found[0]["id"] == path.stem and not problem:
+                on_disk[path.stem] = found[0]
+            incoming.extend((relative, post) for post in found)
+
+        feed_path = root / "feed.json"
+        raw = feed_path.read_text(encoding="utf-8", errors="replace") if feed_path.is_file() else ""
+        feed_posts: list[dict] = []
+        feed_problem = None
+        try:
+            document = parse_feed_text(raw)
+        except FeedError as exc:
+            feed_problem = str(exc)
+        else:
+            stub = None
+            for raw_post in document["posts"]:
+                try:
+                    feed_posts.append(normalize_post(raw_post))
+                except FeedError as exc:
+                    stub = stub or str(exc)
+            hit = marker_in(raw)
+            short = shortened_ids(feed_posts, stored)
+            if hit:
+                feed_problem = f"feed contains placeholder text ({hit})"
+            elif stub:
+                feed_problem = f"feed carries a post that is not a briefing ({stub})"
+            elif short:
+                feed_problem = "feed shortens stored briefings: " + ", ".join(short)
+        if feed_problem:
+            rejected.append({"path": "feed.json", "problem": feed_problem})
+        incoming.extend(("feed.json", post) for post in feed_posts)
+
+        for source, post in incoming:
+            current = posts.get(post["id"])
+            if current is None:
+                other = duplicate_of(posts, post) if stored else None
+                if other is not None:
+                    duplicates.append({"path": source, "id": post["id"], "of": other["id"]})
+                    continue
+                posts[post["id"]] = post
+            elif longer(post, current):
+                posts[post["id"]] = post
+                if post["id"] in stored and post["id"] not in replaced:
+                    replaced.append(post["id"])
+
+        refused_paths = {entry["path"] for entry in rejected}
+        for post_id, post in stored.items():
+            relative = f"posts/{post_id}.json"
+            current = on_disk.get(post_id)
+            if current is not None and not longer(post, current):
+                continue
+            restored.append(post_id)
+            if relative in refused_paths:
+                continue
+            what = "was replaced by a shorter copy" if current is not None else "was deleted"
+            rejected.append({"path": relative, "problem": f"stored briefing {what}"})
+
+        if not posts:
+            rejected.append({"path": "posts/", "problem": "no briefing is stored anywhere this job can read"})
+            return {
+                "ok": False,
+                "action": "unrestored",
+                "published": [],
+                "replaced": [],
+                "restored": [],
+                "duplicates": duplicates,
+                "rejected": rejected,
+                "posts": 0,
+                "newest": None,
+            }
+
+        for path in posts_dir.glob("*.json"):
+            if path.stem not in posts:
+                path.unlink()
+        write_archive(root, posts)
+        check(root)
+
+        ordered = sort_posts(list(posts.values()))
+        published = [post["id"] for post in ordered if post["id"] not in stored]
+        return {
+            "ok": bool(published) or not rejected,
+            "action": "published" if published else ("restored" if rejected else "none"),
+            "published": published,
+            "replaced": replaced,
+            "restored": restored,
+            "duplicates": duplicates,
+            "rejected": rejected,
+            "posts": len(posts),
+            "newest": ordered[0]["id"],
+        }
+
+
+def sync_subject(result: dict) -> str:
+    """Commit subject for the feeds a sync regenerated."""
+    published = result.get("published") or []
+    if published:
+        more = f" and {len(published) - 1} more" if len(published) > 1 else ""
+        return f"News: publish {published[0]}{more}"
+    if result.get("rejected"):
+        return "fix: restore the feed after a push that failed validation"
+    return "chore: regenerate the feeds from posts/"
+
+
+def sync_report(result: dict) -> str:
+    """Plain summary of one sync, for the workflow run page."""
+    published = result.get("published") or []
+    rejected = result.get("rejected") or []
+    lines = []
+    if published:
+        lines.append("**Published:** " + ", ".join(f"`{item}`" for item in published))
+    elif rejected:
+        lines.append("**No briefing was published.** The push did not contain one.")
+    else:
+        lines.append("Nothing new to publish. The feeds match `posts/`.")
+    if rejected:
+        lines.append("")
+        lines.append("Refused:")
+        for entry in rejected:
+            lines.append(f"- `{entry['path']}`: {entry['problem']}")
+    for entry in result.get("duplicates") or []:
+        lines.append("")
+        lines.append(
+            f"`{entry['id']}` from `{entry['path']}` repeats `{entry['of']}` "
+            "(same date, same title or first source) and was not added."
+        )
+    if result.get("replaced"):
+        lines.append("")
+        lines.append("Fuller copy stored for: " + ", ".join(f"`{item}`" for item in result["replaced"]))
+    if result.get("restored"):
+        lines.append("")
+        lines.append("Stored briefings put back: " + ", ".join(f"`{item}`" for item in result["restored"]))
+    if result.get("newest"):
+        lines.append("")
+        lines.append(f"The archive holds {result['posts']} briefings. The newest is `{result['newest']}`.")
+    return "\n".join(lines) + "\n"
+
+
+def sync_issue_body(result: dict, commit: str | None = None) -> str:
+    """Markdown for the issue opened when a push is refused.
+
+    The body names what was refused and what was put back. It does not
+    include or invent briefing text.
+    """
+    lines = ["A push to `main` put something on the news feed that is not a briefing.", ""]
+    lines.append(sync_report(result).rstrip("\n"))
+    lines.append("")
+    if result.get("action") == "unrestored":
+        lines.append("The feed could not be regenerated. `main` may still be serving the refused file.")
+    else:
+        lines.append(
+            "`feed.json`, `archive/feed.json` and `latest.json` were written again from `posts/`. "
+            "This job did not write a briefing."
+        )
+    lines.append("")
+    lines.append(
+        "To publish a briefing, add one file, `posts/<id>.json`, holding the whole briefing as one "
+        "JSON object. Do not write `feed.json`. Do not push a placeholder or a note that the content "
+        "will follow. The publisher's instructions are in `publisher/PUBLISHER_PROMPT.txt`."
+    )
+    if result.get("restored"):
+        lines.append("")
+        lines.append(
+            "To remove a briefing on purpose, delete its file and run "
+            "`python3 scripts/publish.py rebuild` in the same commit."
+        )
+    if commit:
+        lines.append("")
+        lines.append(f"Triggering commit: `{commit}`.")
+    return "\n".join(lines) + "\n"
+
+
+def sync_verdict(result: dict) -> tuple[int, str]:
+    """Exit code and GitHub annotations for one sync."""
+    lines = []
+    for entry in result.get("rejected") or []:
+        lines.append(f"::warning title=Refused {entry['path']}::{entry['problem']}")
+    published = result.get("published") or []
+    if published:
+        lines.append("::notice title=Briefing published::" + ", ".join(published))
+    if result.get("ok"):
+        return 0, "\n".join(lines) + ("\n" if lines else "")
+    lines.append(
+        "::error title=No briefing was published::The push did not contain a briefing, so nothing "
+        "new is on the site. The feed was put back from posts/. The publisher must add one file, "
+        "posts/<id>.json. See publisher/PUBLISHER_PROMPT.txt."
+    )
+    return 1, "\n".join(lines) + "\n"
+
+
 def genuine_posts_from_git(root: Path) -> list[dict]:
     """Longest genuine copy of every briefing that ever parsed in feed.json."""
     log = subprocess.run(
@@ -778,17 +1138,23 @@ def main(argv: list[str] | None = None) -> int:
     issue = sub.add_parser("guard-issue")
     issue.add_argument("result", type=Path)
     issue.add_argument("commit", nargs="?", default=None)
+    sub.add_parser("sync")
+    for name in ("sync-subject", "sync-report", "sync-verdict"):
+        sub.add_parser(name).add_argument("result", type=Path)
+    sync_issue = sub.add_parser("sync-issue")
+    sync_issue.add_argument("result", type=Path)
+    sync_issue.add_argument("commit", nargs="?", default=None)
     args = parser.parse_args(argv)
     root = args.root.resolve()
     try:
         if args.command == "check":
             check(root)
             archive = load_archive(root)
-            print(f"ok {len(archive)} archived posts; feed.json window {ROLLING_LIMIT}")
+            print(f"ok {len(archive)} archived posts; feed.json window {min(ROLLING_LIMIT, len(archive))}")
         elif args.command == "rebuild":
             with archive_lock(root):
                 write_archive(root, load_archive(root))
-            print("rebuilt archive/feed.json and the rolling feed.json")
+            print("rebuilt archive/feed.json, latest.json and the rolling feed.json")
         elif args.command == "materialise-history":
             count = materialise_history(root)
             print(f"archived {count} briefings")
@@ -805,6 +1171,22 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "guard-issue":
             result = json.loads(args.result.read_text(encoding="utf-8"))
             print(guard_issue_body(result, args.commit), end="")
+        elif args.command == "sync":
+            result = sync(root)
+            print(json.dumps(result, indent=2))
+            return 0 if result.get("action") != "unrestored" else 1
+        elif args.command in ("sync-subject", "sync-report", "sync-verdict", "sync-issue"):
+            result = json.loads(args.result.read_text(encoding="utf-8"))
+            if args.command == "sync-subject":
+                print(sync_subject(result))
+            elif args.command == "sync-report":
+                print(sync_report(result), end="")
+            elif args.command == "sync-issue":
+                print(sync_issue_body(result, args.commit), end="")
+            else:
+                code, text = sync_verdict(result)
+                print(text, end="")
+                return code
     except FeedError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1

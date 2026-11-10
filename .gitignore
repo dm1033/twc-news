@@ -2,3 +2,4 @@ posts/.lock
 __pycache__/
 *.pyc
 *.tmp
+sync-result.json

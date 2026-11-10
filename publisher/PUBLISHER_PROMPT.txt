@@ -1,0 +1,96 @@
+TWC NEWS TAB PUBLISHER — HOW TO PUBLISH
+Paste this over every earlier rule about reading or writing feed.json.
+It changes only how a finished briefing is published. Choosing the story and
+writing it stay as they are.
+
+You publish a briefing by adding ONE small new file to ONE repository.
+
+    Repository:  dm1033/twc-news
+    Branch:      main
+    File:        posts/<id>.json
+    Content:     the briefing, as one JSON object (about 4 to 14 KB)
+
+That is the whole job. GitHub then builds feed.json, archive/feed.json and
+latest.json from the posts/ folder within about a minute, and the website
+reads them. You never write those three files.
+
+
+STEP 1. See what is already published
+
+Read latest.json from dm1033/twc-news (branch main), or fetch
+https://raw.githubusercontent.com/dm1033/twc-news/main/latest.json
+
+It is small. It lists the ten newest briefings: id, date, kicker, title and
+first source URL. Do not read feed.json or archive/feed.json. They are large
+and you do not need them.
+
+
+STEP 2. Decide whether to publish (use today's date in Europe/London)
+
+- If latest.json already lists a briefing dated today, stop. Publish nothing.
+- If your story's main source URL is the "source" of the newest briefing in
+  latest.json, choose a different story, or stop.
+- A source that appears on an older briefing with a different date is fine.
+
+
+STEP 3. Write the briefing as one JSON object
+
+Use exactly these eight keys and no others:
+
+{
+  "id": "2026-11-10-cross-1588-girder-lift-sequence",
+  "date": "2026-11-10",
+  "kicker": "CROSS-UK",
+  "title": "One sentence, 240 characters at most",
+  "excerpt": "Two or three sentences that summarise the briefing.",
+  "tags": ["CROSS-UK", "Lifting", "Temporary works"],
+  "linkedinReady": "The LinkedIn post text for this briefing.",
+  "body": [
+    {"h": "What was reported", "p": "The full account, in complete sentences."},
+    {"h": "Why it matters for contractors", "p": "The full explanation."},
+    {"h": "Practical TWC and TWS control points", "ul": ["First point.", "Second point."]},
+    {"h": "Sources", "sources": [{"label": "Name of the source and its date", "url": "https://..."}]},
+    {"h": "Limitations", "p": "Educational briefing only. Not for construction. ..."}
+  ]
+}
+
+Rules the file is checked against:
+- "id" is today's date, then a short slug: lowercase letters, digits and
+  hyphens only. The file name is the id plus ".json".
+- "date" is today's date, YYYY-MM-DD, and "id" starts with it.
+- "kicker" is 80 characters at most. "tags" is 1 to 24 short strings.
+- "body" is a list of 1 to 30 blocks. A block may use only "h", "p", "ul"
+  and "sources". Each source has a "label" and an http or https "url".
+- The body is the complete briefing: at least 800 characters of real text.
+- No other keys anywhere.
+
+
+STEP 4. Publish
+
+Make ONE commit to dm1033/twc-news on branch main that adds ONE file,
+posts/<id>.json. The content is the JSON object from step 3, written out in
+full in the tool call.
+
+Commit message:  News: <date> <short title>
+
+
+NEVER
+
+- Never write feed.json, archive/feed.json or latest.json, in this repository
+  or in any other. Do not push a feed file to dm1033/twc-website or
+  dm1033/twc-netlify-clean-pages.
+- Never push a placeholder, a note, a file path, "see /tmp/...", or a promise
+  that the content will follow. If you cannot write the whole briefing into
+  the tool call, publish nothing and say so.
+- Never change or delete a file that is already in posts/.
+- Never retry a failed push with shorter or different content. Stop and
+  report the error.
+
+
+STEP 5. Confirm
+
+Wait about a minute, then read latest.json again. Your briefing's id should
+be the first entry. If it is not, report that and stop. Do not push again.
+
+A file that is not a complete briefing is removed automatically, the feed is
+put back, the run on GitHub fails, and nothing new appears on the site.
