@@ -1,8 +1,67 @@
 {
-  "updated": "2026-11-10T07:45:00+00:00",
+  "updated": "2026-11-11T08:15:00+00:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-11-11-msf-mobile-scaffold-collapse-three-decks",
+      "date": "2026-11-11",
+      "kicker": "Guidance",
+      "title": "Marine Safety Forum Alert 26-17: three-tier mobile scaffold collapsed three decks while being moved",
+      "excerpt": "Marine Safety Forum Safety Alert 26-17 (28 October 2026) records a high-potential incident on an offshore support vessel. A three-tier mobile scaffold with seized wheels was dragged then lifted near a skylight and collapsed three deck levels to the main deck. No exclusion zone had been established. No injuries occurred because no one was below. The alert requires scaffolds to be confirmed fit before movement and Stop Work when risk increases.",
+      "tags": [
+        "Scaffolding",
+        "Mobile scaffold",
+        "Dropped objects",
+        "Exclusion zone",
+        "Temporary works",
+        "Offshore"
+      ],
+      "linkedinReady": "A three-tier mobile scaffold with seized wheels was dragged then lifted and collapsed three decks onto the main deck of an offshore support vessel.\\n\\nMarine Safety Forum Safety Alert 26-17, published 28 October 2026, describes the Bosun and an AB repositioning the unit near a provisions-crane pedestal. Because the wheels were seized it was dragged rather than rolled. When it reached a raised metal plate beside a skylight the crew lifted it to continue the move. It became unstable and fell three deck levels. No exclusion or drop zone had been established on the lower deck. No one was below and no injuries were sustained.\\n\\nThe alert identifies that the scaffold was not confirmed fit for movement, the risk of moving a multi-tier unit was underestimated, planning and reassessment were insufficient, controls including exclusion were not implemented, and Stop Work was not applied when the task became difficult.\\n\\nMobile scaffolds used for access, inspection or light temporary works must be confirmed fit (wheels free, brakes effective, locking pins secure) before any move. Height and stability must suit the location and the competence of the team. Establish an exclusion or drop zone before the move starts. If the unit will not roll freely, or the path changes, pause and reassess. Enter the scaffold and the movement task on the Temporary Works Register where the project procedure requires it. Do not treat a routine reposition as outside temporary works control.\\n\\nEducational briefing only. Not for construction. Subject to the project temporary works procedure.\\n\\nhttps://www.temporaryworksconsulting.com/news.html\\n\\n#TemporaryWorks #Scaffolding #MobileScaffold #DroppedObjects #StopWork",
+      "body": [
+        {
+          "h": "What was reported",
+          "p": "Marine Safety Forum Safety Alert 26-17, published 28 October 2026, records a high-potential incident on an offshore support vessel. A three-tier mobile scaffolding unit was being repositioned near the provisions-crane pedestal by the Bosun and an AB. Because the wheels were seized, the scaffold was dragged rather than rolled. When the unit reached a raised metal plate near a skylight it was lifted to continue the movement. It became unstable and collapsed, falling three deck levels to the main deck. No exclusion or drop zone had been established on the lower deck. No personnel were present below and no injuries were sustained. The alert does not name the vessel, operator or exact date of the incident."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Mobile scaffolds are temporary works equipment. Moving a multi-tier unit changes its stability and introduces a falling-object risk to anyone below. Seized wheels, ineffective brakes or unsecured locking pins increase the chance of loss of control. Lifting the unit over an obstruction further reduces stability. The absence of an exclusion zone meant the only reason there were no injuries was that no one happened to be below at the time. The same conditions can arise on a construction site when a mobile tower is repositioned for access, inspection or light work without a documented method, a confirmed fit-for-movement check, or a controlled drop zone. Under the Work at Height Regulations 2005 and the project temporary works procedure, the activity must be planned, supervised and controlled. BS 5975-1:2024 provides the management framework for temporary works, including items that may appear routine."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Confirm the mobile scaffold is fit for movement before any handling: wheels free to roll, brakes effective, locking pins secured, overall stability adequate for the height and location.",
+            "Enter the mobile scaffold and any planned repositioning on the live Temporary Works Register where the project procedure requires it, and confirm the design category or manufacturer limits.",
+            "Require a task-specific method that identifies the path, any obstacles, the competence of the team and how an exclusion or drop zone will be established and maintained on levels below.",
+            "Do not drag a unit with seized wheels or lift it over obstructions without a reassessment and, if necessary, a revised method or additional controls.",
+            "Apply Stop Work if the task becomes difficult, the path changes, or the unit will not move as expected; reassess before continuing.",
+            "Ensure the Temporary Works Supervisor or a competent person verifies the exclusion zone and the condition of the scaffold before the move starts.",
+            "Record the check and the outcome so the temporary works file remains auditable."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Marine Safety Forum Safety Alert 26-17: Scaffolding Unit Collapse – Hi Potential Incident, 28 October 2026",
+              "url": "https://www.marinesafetyforum.org/safety-alerts/scaffolding-unit-collapse-hi-potential-incident/"
+            },
+            {
+              "label": "Marine Safety Forum Safety Alert 26-17 PDF",
+              "url": "https://www.marinesafetyforum.org/wp-content/uploads/2026/10/msf-safety-alert-26.17.pdf"
+            },
+            {
+              "label": "HSE: Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, the Work at Height Regulations 2005, TG20:21 and any manufacturer instructions or project-specific design remain those of the appointed designers and the project temporary works procedure. AI-generated or third-party summaries require competent review before use on site."
+        }
+      ]
+    },
     {
       "id": "2026-11-10-cross-1588-bridge-girder-lifting-sequence",
       "date": "2026-11-10",
@@ -1212,65 +1271,6 @@
             {
               "label": "BS 5975-1:2024, Temporary works – Management procedures for the control of temporary works. Code of practice",
               "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-12-thermal-loading-soil-volatility-propping",
-      "date": "2026-10-12",
-      "kicker": "Guidance",
-      "title": "Heat, desiccation and restrained props: climate volatility is a temporary works load",
-      "excerpt": "Ground Engineering published on 9 October 2026 an industry view by Vicky Mastoridou CEng MICE of Groundforce Shorco examining thermal loading and soil volatility in temporary works. Sustained temperatures above 30°C, desiccation cracking in clays and subsequent intense rainfall can change the ground parameters assumed at the design stage. Exposed hydraulic props, sheet piles and bracing frames absorb solar radiation; because they are restrained they convert thermal expansion into additional axial compression that consumes capacity calculated under BS EN 1997. Designers may be forced to specify denser or stronger propping, reducing working clearance. Winter or spring ground investigation is no longer a reliable basis for a heatwave construction phase.",
-      "tags": [
-        "Temporary works",
-        "Propping",
-        "Excavation support",
-        "Thermal loading",
-        "Ground conditions",
-        "BS EN 1997"
-      ],
-      "linkedinReady": "Heat and desiccation are temporary works loads. A winter ground investigation does not automatically remain valid through a 30°C+ construction summer.\n\nOn 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou CEng MICE, development manager at Groundforce Shorco. Sustained thermal loads above 30°C, widespread desiccation and shifting water tables can no longer be treated as short-term anomalies. In clay-rich soils, extended dry spells shrink and crack the ground, altering stiffness and strength. Subsequent rainfall then penetrates those cracks rapidly, causing localised softening, swelling and sudden spikes in lateral earth pressure.\n\nThe same heat acts on the temporary works themselves. Exposed hydraulic props, sheet piles and bracing frames absorb solar radiation. Because they are fully restrained between walls, walers and slabs they cannot expand freely. The restraint converts thermal energy into additional compressive axial force. That force consumes part of the resistance calculated under BS EN 1997 partial factors. The prop that was sized for earth pressure alone may now be carrying a significant thermal component. To stay within capacity the designer may need stronger or denser propping, which reduces working clearance inside the excavation.\n\nPut thermal range, solar gain and the possibility of changing ground parameters into the design brief and the inspection regime. Monitoring that cannot distinguish a thermal spike from genuine ground movement is incomplete. Standard does not automatically mean low risk. A proprietary hydraulic prop with a published capacity is not low risk if the thermal allowance was based on historic averages that the site has already exceeded.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Propping #ExcavationSupport #ThermalLoading #BSEN1997",
-      "body": [
-        {
-          "h": "What was published",
-          "p": "On 9 October 2026 Ground Engineering published an industry-view article by Vicky Mastoridou CEng MICE, development manager at Groundforce Shorco, titled Redefining geotechnical limits: thermal loading and soil volatility in temporary works. The piece argues that record-breaking heatwaves and the summer of 2026 have exposed a design vulnerability: temporary works and shoring schemes are increasingly required to operate beyond the climatic envelopes assumed at design. Sustained temperatures above 30°C, widespread desiccation and shifting water tables can no longer be treated as short-term weather anomalies. In clay-rich formations such as London Clay, extended dry spells cause shrinkage and cracking that change stiffness and strength. Subsequent intense rainfall then penetrates those cracks rapidly, producing localised softening, swelling and pore-water conditions that can spike lateral earth pressures faster than conventional models anticipate. At the same time, exposed structural steelwork — hydraulic props, sheet piles and bracing frames — absorbs direct solar radiation, driving surface temperatures above ambient. Because these members are restrained between retaining walls, walers and slabs they cannot expand freely; the restraint converts thermal energy into additional compressive axial force. That force consumes part of the structural resistance calculated under BS EN 1997 partial factors. To remain within capacity, designers may need to specify stronger or denser propping layouts, which reduces internal working clearance. The article concludes that the critical question is no longer whether a heatwave is likely, but how the temporary works will perform under the extreme event, and that ground assessment, thermal modelling and real-time monitoring should be embedded from the start."
-        },
-        {
-          "h": "Why it matters for contractors",
-          "p": "Excavation support, propping and temporary retaining structures are temporary works. Their performance depends on both the ground parameters assumed in the design brief and the loads the support system itself must carry. CDM 2015 requires construction work to be planned, managed and monitored. BS 5975-1:2024 is the code of practice for a temporary works procedure; it is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. BS EN 1997-1 and its UK National Annex govern geotechnical design; the partial factors and load combinations used for temporary states should be those appropriate to the temporary works design, not simply copied from a permanent-works calculation. A ground investigation carried out in winter or spring does not automatically remain valid through a prolonged heatwave and subsequent rainfall. Desiccation cracking followed by rapid infiltration can change undrained strength, stiffness and pore pressures within the life of the temporary works. Thermal expansion in restrained props is an additional load case, not a secondary effect that can be ignored because the prop has a manufacturer’s capacity. Standard does not automatically mean low risk. A proprietary hydraulic prop whose capacity is stated at a reference temperature is not low risk if the site has already recorded surface temperatures that generate axial forces consuming a substantial fraction of that capacity. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
-        },
-        {
-          "h": "Practical TWC and TWS control points",
-          "ul": [
-            "State the expected temperature range, solar-gain exposure and the possibility of changing ground parameters (desiccation, subsequent rainfall, groundwater fluctuation) in the design brief for any propping or excavation-support scheme.",
-            "Require the temporary works designer to identify the thermal load component separately from the geotechnical load and to show the residual capacity available for earth pressure.",
-            "Do not treat a winter or spring ground investigation as sufficient for a summer construction phase without a review of whether desiccation or rainfall has altered the parameters used in the design.",
-            "Where load cells or monitoring are installed, ensure the interpretation method can distinguish a thermal spike from genuine ground movement. An alert that cannot be attributed is not a control.",
-            "If denser or stronger propping is required to accommodate thermal loads, confirm that the reduced working clearance is still compatible with the plant, access and sequence in the method statement.",
-            "Inspect and re-assess after any prolonged heat or heavy rainfall that could affect either the ground or the restrained steelwork. Record the inspection. A daily visual check that does not consider temperature is incomplete.",
-            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
-          ]
-        },
-        {
-          "h": "Limitations",
-          "p": "Educational briefing only. Not for construction. Based on the Ground Engineering industry-view article of 9 October 2026. It is not a design, a check or a statement that any particular propping arrangement is adequate or inadequate under thermal loading. No soil parameters, temperature ranges, prop capacities or axial forces have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
-        },
-        {
-          "h": "Sources",
-          "sources": [
-            {
-              "label": "Ground Engineering, Redefining geotechnical limits: thermal loading and soil volatility in temporary works, 9 October 2026",
-              "url": "https://www.geplus.co.uk/opinion/industry-view/redefining-geotechnical-limits-thermal-loading-and-soil-volatility-in-temporary-works-09-10-2026/"
-            },
-            {
-              "label": "HSE, Temporary works",
-              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
-            },
-            {
-              "label": "HSE, Excavations",
-              "url": "https://www.hse.gov.uk/construction/safetytopics/excavations.htm"
             }
           ]
         }
