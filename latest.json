@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-10T07:45:00+00:00",
-  "count": 71,
+  "updated": "2026-11-11T07:45:00+00:00",
+  "count": 72,
   "latest": [
+    {
+      "id": "2026-11-11-msf-mobile-scaffold-collapse-three-decks",
+      "date": "2026-11-11",
+      "kicker": "Guidance",
+      "title": "Marine Safety Forum Alert 26-17: three-tier mobile scaffold collapsed three decks while being moved",
+      "source": "https://www.marinesafetyforum.org/safety-alerts/scaffolding-unit-collapse-hi-potential-incident/"
+    },
     {
       "id": "2026-11-10-cross-1588-bridge-girder-lifting-sequence",
       "date": "2026-11-10",
@@ -64,13 +71,6 @@
       "kicker": "Daily briefing",
       "title": "Storm Austen: a 76 mph gust is not a temporary works design check",
       "source": "https://www.metoffice.gov.uk/blog/2026/where-were-storm-austens-strongest-wind-gusts-recorded"
-    },
-    {
-      "id": "2026-10-24-belfast-scaffold-dismantling-exclusion-zone",
-      "date": "2026-10-24",
-      "kicker": "HSE prosecutions",
-      "title": "Scaffold dismantling: exclusion zones and controlled lowering after Belfast fatality",
-      "source": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/"
     }
   ]
 }

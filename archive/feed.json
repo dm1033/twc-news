@@ -1,8 +1,67 @@
 {
-  "updated": "2026-11-10T07:45:00+00:00",
+  "updated": "2026-11-11T07:45:00+00:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-11-11-msf-mobile-scaffold-collapse-three-decks",
+      "date": "2026-11-11",
+      "kicker": "Guidance",
+      "title": "Marine Safety Forum Alert 26-17: three-tier mobile scaffold collapsed three decks while being moved",
+      "excerpt": "Marine Safety Forum Safety Alert 26-17 (28 October 2026) records a high-potential incident on an offshore support vessel. A three-tier mobile scaffold with seized wheels was dragged then lifted near a skylight and collapsed three deck levels to the main deck. No exclusion zone had been established. No injuries occurred because no one was below. The alert requires scaffolds to be confirmed fit before movement and Stop Work when risk increases.",
+      "tags": [
+        "Scaffolding",
+        "Mobile scaffold",
+        "Dropped objects",
+        "Exclusion zone",
+        "Temporary works",
+        "Offshore"
+      ],
+      "linkedinReady": "A three-tier mobile scaffold with seized wheels was dragged then lifted and collapsed three decks onto the main deck of an offshore support vessel.\\n\\nMarine Safety Forum Safety Alert 26-17, published 28 October 2026, describes the Bosun and an AB repositioning the unit near a provisions-crane pedestal. Because the wheels were seized it was dragged rather than rolled. When it reached a raised metal plate beside a skylight the crew lifted it to continue the move. It became unstable and fell three deck levels. No exclusion or drop zone had been established on the lower deck. No one was below and no injuries were sustained.\\n\\nThe alert identifies that the scaffold was not confirmed fit for movement, the risk of moving a multi-tier unit was underestimated, planning and reassessment were insufficient, controls including exclusion were not implemented, and Stop Work was not applied when the task became difficult.\\n\\nMobile scaffolds used for access, inspection or light temporary works must be confirmed fit (wheels free, brakes effective, locking pins secure) before any move. Height and stability must suit the location and the competence of the team. Establish an exclusion or drop zone before the move starts. If the unit will not roll freely, or the path changes, pause and reassess. Enter the scaffold and the movement task on the Temporary Works Register where the project procedure requires it. Do not treat a routine reposition as outside temporary works control.\\n\\nEducational briefing only. Not for construction. Subject to the project temporary works procedure.\\n\\nhttps://www.temporaryworksconsulting.com/news.html\\n\\n#TemporaryWorks #Scaffolding #MobileScaffold #DroppedObjects #StopWork",
+      "body": [
+        {
+          "h": "What was reported",
+          "p": "Marine Safety Forum Safety Alert 26-17, published 28 October 2026, records a high-potential incident on an offshore support vessel. A three-tier mobile scaffolding unit was being repositioned near the provisions-crane pedestal by the Bosun and an AB. Because the wheels were seized, the scaffold was dragged rather than rolled. When the unit reached a raised metal plate near a skylight it was lifted to continue the movement. It became unstable and collapsed, falling three deck levels to the main deck. No exclusion or drop zone had been established on the lower deck. No personnel were present below and no injuries were sustained. The alert does not name the vessel, operator or exact date of the incident."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Mobile scaffolds are temporary works equipment. Moving a multi-tier unit changes its stability and introduces a falling-object risk to anyone below. Seized wheels, ineffective brakes or unsecured locking pins increase the chance of loss of control. Lifting the unit over an obstruction further reduces stability. The absence of an exclusion zone meant the only reason there were no injuries was that no one happened to be below at the time. The same conditions can arise on a construction site when a mobile tower is repositioned for access, inspection or light work without a documented method, a confirmed fit-for-movement check, or a controlled drop zone. Under the Work at Height Regulations 2005 and the project temporary works procedure, the activity must be planned, supervised and controlled. BS 5975-1:2024 provides the management framework for temporary works, including items that may appear routine."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Confirm the mobile scaffold is fit for movement before any handling: wheels free to roll, brakes effective, locking pins secured, overall stability adequate for the height and location.",
+            "Enter the mobile scaffold and any planned repositioning on the live Temporary Works Register where the project procedure requires it, and confirm the design category or manufacturer limits.",
+            "Require a task-specific method that identifies the path, any obstacles, the competence of the team and how an exclusion or drop zone will be established and maintained on levels below.",
+            "Do not drag a unit with seized wheels or lift it over obstructions without a reassessment and, if necessary, a revised method or additional controls.",
+            "Apply Stop Work if the task becomes difficult, the path changes, or the unit will not move as expected; reassess before continuing.",
+            "Ensure the Temporary Works Supervisor or a competent person verifies the exclusion zone and the condition of the scaffold before the move starts.",
+            "Record the check and the outcome so the temporary works file remains auditable."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Marine Safety Forum Safety Alert 26-17: Scaffolding Unit Collapse – Hi Potential Incident, 28 October 2026",
+              "url": "https://www.marinesafetyforum.org/safety-alerts/scaffolding-unit-collapse-hi-potential-incident/"
+            },
+            {
+              "label": "Marine Safety Forum Safety Alert 26-17 PDF",
+              "url": "https://www.marinesafetyforum.org/wp-content/uploads/2026/10/msf-safety-alert-26.17.pdf"
+            },
+            {
+              "label": "HSE: Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, the Work at Height Regulations 2005, TG20:21 and any manufacturer instructions or project-specific design remain those of the appointed designers and the project temporary works procedure. AI-generated or third-party summaries require competent review before use on site."
+        }
+      ]
+    },
     {
       "id": "2026-11-10-cross-1588-bridge-girder-lifting-sequence",
       "date": "2026-11-10",
