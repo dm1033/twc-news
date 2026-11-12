@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-11T07:45:00+00:00",
-  "count": 72,
+  "updated": "2026-11-12T07:45:00+00:00",
+  "count": 73,
   "latest": [
+    {
+      "id": "2026-11-12-hse-fragile-barn-roof-fall-aj-riley",
+      "date": "2026-11-12",
+      "kicker": "HSE prosecutions",
+      "title": "HSE: company fined £20,000 after worker falls through fragile barn roof",
+      "source": "https://press.hse.gov.uk/2026/11/05/construction-and-landscaping-company-fined-after-worker-falls-through-fragile-barn-roof/"
+    },
     {
       "id": "2026-11-11-msf-mobile-scaffold-collapse-three-decks",
       "date": "2026-11-11",
@@ -64,13 +71,6 @@
       "kicker": "HSENI prosecutions",
       "title": "Scaffold dismantling: exclusion zone and controlled lowering failed — a fatal board fall",
       "source": "https://www.hseni.gov.uk/news/company-fined-ps20000-after-employee-was-fatally-injured-work-incident"
-    },
-    {
-      "id": "2026-10-25-storm-austen-wind-design-vs-forecast",
-      "date": "2026-10-25",
-      "kicker": "Daily briefing",
-      "title": "Storm Austen: a 76 mph gust is not a temporary works design check",
-      "source": "https://www.metoffice.gov.uk/blog/2026/where-were-storm-austens-strongest-wind-gusts-recorded"
     }
   ]
 }

@@ -1,8 +1,67 @@
 {
-  "updated": "2026-11-11T07:45:00+00:00",
+  "updated": "2026-11-12T07:45:00+00:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-11-12-hse-fragile-barn-roof-fall-aj-riley",
+      "date": "2026-11-12",
+      "kicker": "HSE prosecutions",
+      "title": "HSE: company fined £20,000 after worker falls through fragile barn roof",
+      "excerpt": "AJ Riley Landscapes and Building Limited was fined £20,000 at Warrington Magistrates’ Court on 3 November 2026 after employee Josh Huddleston fell approximately 10 metres through a fragile barn roof on 24 February 2025 while replacing a damaged skylight. He suffered fractures to his ribs, vertebrae and pelvis. HSE found inadequate planning of the work and insufficient training so that workers were not competent in the control measures identified in the company’s risk assessment. Breach of Section 2(1) of the Health and Safety at Work etc. Act 1974.",
+      "tags": [
+        "HSE",
+        "Fragile roof",
+        "Work at height",
+        "Planning",
+        "Competence",
+        "Temporary works"
+      ],
+      "linkedinReady": "A worker replacing a skylight fell approximately 10 metres through a fragile barn roof because the work was not adequately planned and the control measures in the risk assessment were not backed by competent training.\n\nHSE press release of 5 November 2026 records that AJ Riley Landscapes and Building Limited was fined £20,000 (plus £4,955 costs) at Warrington Magistrates’ Court on 3 November 2026. Employee Josh Huddleston, 47, suffered fractures to his ribs, vertebrae and pelvis on 24 February 2025. The investigation found the company had failed to plan the work adequately and to ensure appropriate measures were in place to prevent a fall through the fragile roof. Workers had not received sufficient training to be competent in the use of the control measures identified in the company’s own risk assessment. The company pleaded guilty to breaching Section 2(1) of the Health and Safety at Work etc. Act 1974.\n\nFalls from height remain a leading cause of workplace fatalities. Work on fragile roofs (including skylights and rooflights) is a well-known high-consequence activity. Under the Work at Height Regulations 2005 the work must be properly planned, appropriately supervised and carried out by competent people, with suitable and sufficient measures to prevent a fall. HSE guidance on working on roofs (HSG33) sets out the hierarchy of controls. For temporary works purposes, any access system, temporary cover, staging, crawl boards, netting or edge protection used to allow work on or near a fragile surface must be entered on the Temporary Works Register, briefed against a design or manufacturer limits, and confirmed competent before use. A risk assessment that lists controls is not enough if the people doing the work have not been trained and verified as competent to apply them.\n\nDo not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #HSE #FragileRoof #WorkAtHeight #Competence",
+      "body": [
+        {
+          "h": "What was reported",
+          "p": "HSE press release dated 5 November 2026 records that AJ Riley Landscapes and Building Limited of Caton, Lancashire, was fined £20,000 and ordered to pay £4,955 in costs at Warrington Magistrates’ Court on 3 November 2026. Employee Josh Huddleston, 47, was replacing a damaged skylight on the roof of a barn on 24 February 2025 when he fell approximately 10 metres through the fragile roof. He suffered fractures to his ribs, vertebrae and pelvis. An HSE investigation found that the company had failed to adequately plan the work and ensure appropriate control measures were in place to prevent a fall through the fragile roof. The investigation also found that workers had not received sufficient training to ensure they were competent in the use of the control measures identified in the company’s risk assessment. The company pleaded guilty to breaching Section 2(1) of the Health and Safety at Work etc. Act 1974. HSE inspector Matthew Shepherd noted that the risks of working at height on fragile roof surfaces are well known and that the incident could have been prevented through proper planning, risk assessment and effective control measures."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Fragile roofs and rooflights are a classic high-consequence work-at-height hazard. A fall of approximately 10 metres produced serious fractures; the outcome could easily have been fatal. The HSE findings point to two linked failures: inadequate planning of the work (so that suitable measures were not in place) and insufficient training so that workers were not competent to apply the controls listed in the company’s own risk assessment. Under the Work at Height Regulations 2005, work at height must be properly planned, appropriately supervised and carried out by competent people, and suitable and sufficient measures must be taken to prevent a fall. CDM 2015 places duties on contractors to plan, manage and monitor construction work so that it is carried out without risks to health and safety. For temporary works, any system used to provide access, distribute load, cover openings or protect against falls (crawl boards, temporary staging, netting, edge protection, covers) falls within the project temporary works procedure and BS 5975-1:2024 management framework. A paper risk assessment is not a substitute for a planned method, competent people and verified controls."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Treat work on or near fragile roofs or rooflights as a temporary works activity requiring a design brief or confirmed standard solution, entry on the live Temporary Works Register, and acceptance under the project procedure before work starts.",
+            "Confirm the hierarchy of controls from HSG33 and the Work at Height Regulations 2005 has been applied: avoid the work if possible; otherwise use a safe system that prevents falls (e.g. roof ladders, crawl boards, temporary covers, netting, edge protection) rather than relying solely on personal fall-arrest.",
+            "Require the method statement or temporary works design to identify the specific fragile elements (skylights, cement sheets, rooflights), the access route, the load-spreading measures and how persons are prevented from stepping on unsupported fragile material.",
+            "Verify competence: the people carrying out the work must have received sufficient training in the control measures identified and must be supervised by a competent person. A risk assessment listing controls is not evidence of competence.",
+            "Ensure any temporary access equipment, covers or netting is suitable for the load, installed in accordance with the design or manufacturer instructions, and inspected before use.",
+            "Hold a permit-to-work or equivalent authorisation under the project temporary works procedure before anyone steps onto the roof. Do not allow work to start on the basis of an unreviewed method.",
+            "Record the planning, the competence check, the inspection of temporary measures and the acceptance so the file is auditable."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "HSE Media Centre: Construction and landscaping company fined after worker falls through fragile barn roof, 5 November 2026",
+              "url": "https://press.hse.gov.uk/2026/11/05/construction-and-landscaping-company-fined-after-worker-falls-through-fragile-barn-roof/"
+            },
+            {
+              "label": "HSE: Working on roofs (HSG33)",
+              "url": "https://www.hse.gov.uk/pubns/books/hsg33.htm"
+            },
+            {
+              "label": "HSE: Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of the Work at Height Regulations 2005, CDM 2015, BS 5975-1:2024, HSG33 and any manufacturer instructions or project-specific design remain those of the appointed designers and the project temporary works procedure. AI-generated or third-party summaries require competent review before use on site."
+        }
+      ]
+    },
     {
       "id": "2026-11-11-msf-mobile-scaffold-collapse-three-decks",
       "date": "2026-11-11",
