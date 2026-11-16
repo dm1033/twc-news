@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-16-bsr-scaffolder-shortage-cladding",
+  "date": "2026-11-16",
+  "kicker": "Guidance",
+  "title": "BSR chair: specialist scaffolder shortage must not force unsuitable contractors on cladding remediation",
+  "excerpt": "On 12 November 2026 Lord Roe, Chair of the Building Safety Regulator, told the Public Bill Committee examining the Building Safety (Remediation of Unsafe Cladding etc) Bill that a shortage of specialist scaffolders and façade engineers remains profound. He said enforcement powers would be used pragmatically so that applicants are not forced to engage poor or unskilled contractors simply because none with the right competence is available in their area. The comments underline that temporary works competence for cladding remediation scaffolds cannot be compromised by programme or supply pressure.",
+  "tags": [
+    "BSR",
+    "Scaffolding",
+    "Cladding remediation",
+    "Competence",
+    "Temporary works",
+    "Building safety"
+  ],
+  "linkedinReady": "Specialist scaffolder availability is now a stated constraint on cladding remediation enforcement.\n\nOn 12 November 2026 Lord Roe, Chair of the Building Safety Regulator, gave evidence to the Public Bill Committee on the Building Safety (Remediation of Unsafe Cladding etc) Bill. He confirmed that the shortage of specialist contractors and façade engineers remains significant. When asked whether enough qualified workers exist, he answered no. He added that if an applicant cannot secure a specialist scaffolder or the right façade engineer, the BSR would need to be pragmatic in chasing the application. Otherwise, he said, applicants could be forced toward poor or unskilled contractors. He described the skills gap as built over decades and noted that the regulator itself competes for the same limited pool of specialists.\n\nFor contractors this is a temporary works issue. Cladding remediation scaffolds are high-consequence temporary works: they must support workers, materials and plant at height on occupied or partially occupied buildings, often with complex load paths, edge protection, netting and public interface. Competence of the scaffolding contractor, the design of the temporary works, and the temporary works procedure (design brief, register entry, check category, permit) remain essential under BS 5975-1:2024 and CDM 2015. A pragmatic regulator approach does not relax the duty to use competent people and a verified temporary works system. Do not accept an unsuitable scaffolder simply to meet a remediation programme. Confirm the contractor’s competence, the design category and the independent check before any erection starts.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #BuildingSafety #BSR #Competence",
+  "body": [
+    {
+      "h": "What was reported",
+      "p": "On 12 November 2026 Lord Roe, Chair of the Building Safety Regulator, gave evidence to the Public Bill Committee examining the Building Safety (Remediation of Unsafe Cladding etc) Bill. He stated that the shortage of specialist contractors and façade engineers remains profound. When asked by Lewis Cocking MP whether the industry had enough qualified workers, he answered no. He said the skills problem had been built over decades through under-investment in construction skills and would take time to reverse. He added that the BSR would use its enforcement powers but would need to be pragmatic: if an applicant cannot obtain a specialist scaffolder because none is available in their area, or cannot find the right façade engineer, the regulator would adjust how it chases the application so as not to force engagement with poor or unskilled contractors. He noted that the BSR itself is competing for the same small pool of specialist engineers."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "Cladding remediation on buildings over 11 m is a major programme. The access system is temporary works. Specialist scaffolding for these projects is not generic access; it involves complex configurations, public protection, load management for materials and plant, and interfaces with occupied buildings. Lord Roe’s evidence places the availability of competent scaffolders and façade engineers explicitly inside the enforcement discussion. A pragmatic approach by the regulator does not create an exemption from existing duties. Under CDM 2015 contractors must plan, manage and monitor the work. Under the project temporary works procedure and BS 5975-1:2024 the scaffolding design, its check category, the competence of the scaffolding contractor and the Temporary Works Supervisor must still be verified. Programme pressure or supply shortage cannot justify accepting an unsuitable contractor or an unverified temporary works arrangement."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Treat the cladding remediation scaffold as a temporary works item requiring a design brief that covers height, configuration, loading (workers, materials, plant, wind), public interface, occupied building constraints and any special requirements for façade access.",
+        "Confirm the scaffolding contractor’s competence for the specific class of work (complex external remediation scaffolds) before appointment; do not rely on general CISRS cards alone if the project procedure requires additional evidence.",
+        "Enter the scaffold on the live Temporary Works Register with the correct design category and required check category (provisional category only — to be confirmed by the TWC).",
+        "Require a verified temporary works design (or confirmed standard solution where appropriate) and the independent check before any permit-to-erect or permit-to-load is issued.",
+        "Do not allow programme or remediation-target pressure to override the requirement for a competent contractor and an accepted temporary works arrangement.",
+        "Document the competence assessment and the decision path so that the temporary works file remains auditable if the regulator later reviews the project.",
+        "If a specialist scaffolder is genuinely unavailable, escalate the issue through the project temporary works procedure and the client; do not proceed with an alternative that lacks the required competence."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "Construction News: Skills shortage may blunt BSR cladding crackdown, 13 November 2026",
+          "url": "https://www.constructionnews.co.uk/buildings/building-safety/skills-shortage-undermines-crackdown-on-worst-blockers-in-building-safety-13-11-2026/"
+        },
+        {
+          "label": "ScaffMag: BSR warns of scaffolder shortages in cladding work, 15 November 2026",
+          "url": "https://scaffmag.com/scaffolding-news/construction/bsr-scaffolder-shortages-cladding-enforcement/"
+        },
+        {
+          "label": "Hansard: Building Safety (Remediation of Unsafe Cladding etc) Bill (First sitting), 12 November 2026",
+          "url": "https://hansard.parliament.uk/Commons/2026-11-12/debates/05f576ad-528e-4980-a810-17be312792b8/BuildingSafetyRemediationOfUnsafeCladdingEtcBillFirstSitting"
+        },
+        {
+          "label": "Inside Housing: BSR chair: shortage of specialist contractors ‘profound’ in tackling cladding crisis, 13 November 2026",
+          "url": "https://www.insidehousing.co.uk/news/shortage-of-specialist-contractors-still-profound-in-tackling-cladding-crisis-bsr-chair-warns-99645"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, CDM 2015, the Building Safety Act and any project-specific design or regulator guidance remain those of the appointed designers, the project temporary works procedure and the relevant competent persons. AI-generated or third-party summaries require competent review before use on site."
+    }
+  ]
+}
