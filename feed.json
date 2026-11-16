@@ -1,8 +1,71 @@
 {
-  "updated": "2026-11-12T07:45:00+00:00",
+  "updated": "2026-11-16T07:45:00+00:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-11-16-bsr-scaffolder-shortage-cladding",
+      "date": "2026-11-16",
+      "kicker": "Guidance",
+      "title": "BSR chair: specialist scaffolder shortage must not force unsuitable contractors on cladding remediation",
+      "excerpt": "On 12 November 2026 Lord Roe, Chair of the Building Safety Regulator, told the Public Bill Committee examining the Building Safety (Remediation of Unsafe Cladding etc) Bill that a shortage of specialist scaffolders and façade engineers remains profound. He said enforcement powers would be used pragmatically so that applicants are not forced to engage poor or unskilled contractors simply because none with the right competence is available in their area. The comments underline that temporary works competence for cladding remediation scaffolds cannot be compromised by programme or supply pressure.",
+      "tags": [
+        "BSR",
+        "Scaffolding",
+        "Cladding remediation",
+        "Competence",
+        "Temporary works",
+        "Building safety"
+      ],
+      "linkedinReady": "Specialist scaffolder availability is now a stated constraint on cladding remediation enforcement.\n\nOn 12 November 2026 Lord Roe, Chair of the Building Safety Regulator, gave evidence to the Public Bill Committee on the Building Safety (Remediation of Unsafe Cladding etc) Bill. He confirmed that the shortage of specialist contractors and façade engineers remains significant. When asked whether enough qualified workers exist, he answered no. He added that if an applicant cannot secure a specialist scaffolder or the right façade engineer, the BSR would need to be pragmatic in chasing the application. Otherwise, he said, applicants could be forced toward poor or unskilled contractors. He described the skills gap as built over decades and noted that the regulator itself competes for the same limited pool of specialists.\n\nFor contractors this is a temporary works issue. Cladding remediation scaffolds are high-consequence temporary works: they must support workers, materials and plant at height on occupied or partially occupied buildings, often with complex load paths, edge protection, netting and public interface. Competence of the scaffolding contractor, the design of the temporary works, and the temporary works procedure (design brief, register entry, check category, permit) remain essential under BS 5975-1:2024 and CDM 2015. A pragmatic regulator approach does not relax the duty to use competent people and a verified temporary works system. Do not accept an unsuitable scaffolder simply to meet a remediation programme. Confirm the contractor’s competence, the design category and the independent check before any erection starts.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #BuildingSafety #BSR #Competence",
+      "body": [
+        {
+          "h": "What was reported",
+          "p": "On 12 November 2026 Lord Roe, Chair of the Building Safety Regulator, gave evidence to the Public Bill Committee examining the Building Safety (Remediation of Unsafe Cladding etc) Bill. He stated that the shortage of specialist contractors and façade engineers remains profound. When asked by Lewis Cocking MP whether the industry had enough qualified workers, he answered no. He said the skills problem had been built over decades through under-investment in construction skills and would take time to reverse. He added that the BSR would use its enforcement powers but would need to be pragmatic: if an applicant cannot obtain a specialist scaffolder because none is available in their area, or cannot find the right façade engineer, the regulator would adjust how it chases the application so as not to force engagement with poor or unskilled contractors. He noted that the BSR itself is competing for the same small pool of specialist engineers."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Cladding remediation on buildings over 11 m is a major programme. The access system is temporary works. Specialist scaffolding for these projects is not generic access; it involves complex configurations, public protection, load management for materials and plant, and interfaces with occupied buildings. Lord Roe’s evidence places the availability of competent scaffolders and façade engineers explicitly inside the enforcement discussion. A pragmatic approach by the regulator does not create an exemption from existing duties. Under CDM 2015 contractors must plan, manage and monitor the work. Under the project temporary works procedure and BS 5975-1:2024 the scaffolding design, its check category, the competence of the scaffolding contractor and the Temporary Works Supervisor must still be verified. Programme pressure or supply shortage cannot justify accepting an unsuitable contractor or an unverified temporary works arrangement."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Treat the cladding remediation scaffold as a temporary works item requiring a design brief that covers height, configuration, loading (workers, materials, plant, wind), public interface, occupied building constraints and any special requirements for façade access.",
+            "Confirm the scaffolding contractor’s competence for the specific class of work (complex external remediation scaffolds) before appointment; do not rely on general CISRS cards alone if the project procedure requires additional evidence.",
+            "Enter the scaffold on the live Temporary Works Register with the correct design category and required check category (provisional category only — to be confirmed by the TWC).",
+            "Require a verified temporary works design (or confirmed standard solution where appropriate) and the independent check before any permit-to-erect or permit-to-load is issued.",
+            "Do not allow programme or remediation-target pressure to override the requirement for a competent contractor and an accepted temporary works arrangement.",
+            "Document the competence assessment and the decision path so that the temporary works file remains auditable if the regulator later reviews the project.",
+            "If a specialist scaffolder is genuinely unavailable, escalate the issue through the project temporary works procedure and the client; do not proceed with an alternative that lacks the required competence."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Construction News: Skills shortage may blunt BSR cladding crackdown, 13 November 2026",
+              "url": "https://www.constructionnews.co.uk/buildings/building-safety/skills-shortage-undermines-crackdown-on-worst-blockers-in-building-safety-13-11-2026/"
+            },
+            {
+              "label": "ScaffMag: BSR warns of scaffolder shortages in cladding work, 15 November 2026",
+              "url": "https://scaffmag.com/scaffolding-news/construction/bsr-scaffolder-shortages-cladding-enforcement/"
+            },
+            {
+              "label": "Hansard: Building Safety (Remediation of Unsafe Cladding etc) Bill (First sitting), 12 November 2026",
+              "url": "https://hansard.parliament.uk/Commons/2026-11-12/debates/05f576ad-528e-4980-a810-17be312792b8/BuildingSafetyRemediationOfUnsafeCladdingEtcBillFirstSitting"
+            },
+            {
+              "label": "Inside Housing: BSR chair: shortage of specialist contractors ‘profound’ in tackling cladding crisis, 13 November 2026",
+              "url": "https://www.insidehousing.co.uk/news/shortage-of-specialist-contractors-still-profound-in-tackling-cladding-crisis-bsr-chair-warns-99645"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, CDM 2015, the Building Safety Act and any project-specific design or regulator guidance remain those of the appointed designers, the project temporary works procedure and the relevant competent persons. AI-generated or third-party summaries require competent review before use on site."
+        }
+      ]
+    },
     {
       "id": "2026-11-12-hse-fragile-barn-roof-fall-aj-riley",
       "date": "2026-11-12",
@@ -1202,70 +1265,6 @@
             {
               "label": "Work at Height Regulations 2005",
               "url": "https://www.legislation.gov.uk/uksi/2005/735/contents"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-14-thermal-loading-temporary-works-propping",
-      "date": "2026-10-14",
-      "kicker": "Industry",
-      "title": "Heatwaves are consuming the resistance reserve in temporary propping",
-      "excerpt": "On 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou of Groundforce Shorco on thermal loading and soil volatility in temporary works. Record heatwaves in 2026 mean temporary propping and shoring schemes are operating beyond the climatic envelopes assumed at design. Desiccation and cracking in clays such as London Clay, followed by rapid rainfall, can alter ground parameters and cause lateral earth pressures to rise faster than conventional models anticipate. Simultaneously, restrained steel props, sheet piles and bracing convert solar heating into additional compressive axial forces, consuming part of the structural resistance calculated for earth pressure alone.",
-      "tags": [
-        "Temporary works",
-        "Propping",
-        "Thermal loading",
-        "Soil",
-        "Excavation",
-        "BS 5975",
-        "Monitoring"
-      ],
-      "linkedinReady": "Heatwaves are no longer an anomaly on UK sites. They are changing the loads your temporary works were designed for.\n\nOn 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou of Groundforce Shorco examining thermal loading and soil volatility in temporary works. Sustained temperatures over 30°C, desiccation and cracking of clay soils such as London Clay, and the rapid rainfall that follows can alter the ground parameters assumed at design. Lateral earth pressures behind retaining structures can spike faster than conventional models anticipate.\n\nAt the same time, restrained steel props, sheet piles and bracing absorb solar radiation. Because they cannot expand freely between walls, walers and slabs, thermal energy converts into additional compressive axial forces. A prop sized for earth pressure alone can see part of its resistance reserve consumed by thermal load. The practical outcome can be denser or higher-capacity propping, with consequences for working space and access.\n\nBS 5975-1:2024 sets out the temporary works procedure as industry good practice. The design brief and the temporary works register need to capture the expected climatic envelope and the trigger for review if that envelope is exceeded. Distinguishing thermal load spikes from actual ground movement (through load-cell data and competent inspection) becomes part of the control process. A change in weather conditions that affects the assumptions in the brief is worth sending back for review before the works simply continue.\n\nStandard does not automatically mean low risk when the weather envelope has changed.\n\nEducational only. Not for construction. Subject to the project temporary works procedure.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Propping #ThermalLoading #Excavation #BS5975 #HSE #TWC",
-      "body": [
-        {
-          "h": "What was published",
-          "p": "On 9 October 2026 Ground Engineering published an industry view by Vicky Mastoridou (CEng, MICE), development manager at Groundforce Shorco, titled Redefining geotechnical limits: thermal loading and soil volatility in temporary works. The piece notes that the summer of 2026 again surpassed previous temperature benchmarks, with sustained thermal loads over 30°C, widespread desiccation and shifting water tables no longer treatable as short-term weather anomalies. In clay-rich formations such as London Clay, extended dry spells can shrink and crack the ground, altering stiffness and strength. Subsequent intense rainfall can penetrate those cracks rapidly, causing localised softening, swelling and pore-water pressure changes. Lateral earth pressures behind retaining structures can therefore rise faster than conventional design models anticipate. For temporary works this means ground parameters assumed at design may not remain valid through construction. At the same time, exposed structural steelwork (hydraulic props, sheet piling, bracing frames) absorbs solar radiation, raising surface temperatures above ambient. Because these members are restrained between retaining walls, walers and slabs they cannot expand freely; thermal energy converts into additional compressive axial forces. A strut specified to resist active earth pressure must simultaneously resist geotechnical thrust and its own restrained thermal expansion, consuming part of the structural resistance calculated under partial factors. The practical consequence can be a requirement for stronger, larger or denser propping layouts, reducing working clearance. Distinguishing actual ground movement from thermal load spikes requires careful interpretation of load-cell data."
-        },
-        {
-          "h": "Why it matters for contractors",
-          "p": "Temporary works are not a short-lived exception to the duty to plan, manage and monitor construction work. CDM 2015 requires the principal contractor to plan, manage and monitor the construction phase and requires contractors to plan, manage and monitor their own work. BS 5975-1:2024 is the code of practice for a temporary works procedure; it is not a statute and it does not appoint a person. Exact clause references should be confirmed against the project’s licensed copy. When the climatic envelope assumed in the design brief is exceeded, the ground parameters, earth pressures and thermal loads that justified the scheme, the inspection frequency and the monitoring regime may no longer hold. Standard does not automatically mean low risk. A proprietary propping or shoring system whose published capacity was calculated for a defined set of ground and temperature conditions is not low risk if the actual conditions have already moved outside that envelope and the brief has not been revisited. Provisional category only — to be confirmed by the TWC and the project temporary works procedure."
-        },
-        {
-          "h": "Practical TWC and TWS control points",
-          "ul": [
-            "State the expected climatic envelope (temperature range, duration of exposure, rainfall after dry periods) and the trigger for formal review if that envelope is exceeded in the design brief and on the temporary works register entry.",
-            "When heatwave conditions, desiccation or rapid rainfall occur, treat the change as a potential alteration to the temporary works assumptions. Send it back for review before the works simply continue.",
-            "Where load cells or other instrumentation are installed, record both load and temperature so thermal spikes can be distinguished from ground movement. Do not rely on a visual check alone.",
-            "Confirm that the person inspecting has the competence and authority required by the project procedure to interpret changes in load or ground conditions.",
-            "If denser or higher-capacity propping is required to accommodate thermal load, confirm that working space, access and plant movements remain acceptable under the revised arrangement.",
-            "At the point of removal or alteration, confirm that the permanent structure (or the next temporary state) is ready to take the load under the current ground and temperature conditions.",
-            "Do not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
-          ]
-        },
-        {
-          "h": "Limitations",
-          "p": "Educational briefing only. Not for construction. Based on the Ground Engineering industry view of 9 October 2026 and publicly available HSE temporary works guidance. It is not a design, a check or a statement that any particular temporary works arrangement is adequate or inadequate under elevated temperatures or changed ground conditions. No loads, capacities, temperatures or soil parameters have been calculated here. Subject to project-specific verification and acceptance under the project temporary works procedure. AI-assisted drafting requires competent review before use on site."
-        },
-        {
-          "h": "Sources",
-          "sources": [
-            {
-              "label": "Ground Engineering, Redefining geotechnical limits: thermal loading and soil volatility in temporary works, Vicky Mastoridou, 9 October 2026",
-              "url": "https://www.geplus.co.uk/opinion/industry-view/redefining-geotechnical-limits-thermal-loading-and-soil-volatility-in-temporary-works-09-10-2026/"
-            },
-            {
-              "label": "HSE, Temporary works",
-              "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
-            },
-            {
-              "label": "HSE, Temporary works FAQs",
-              "url": "https://www.hse.gov.uk/construction/faq-temporary-works.htm"
-            },
-            {
-              "label": "BS 5975-1:2024, Temporary works – Management procedures for the control of temporary works. Code of practice",
-              "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
             }
           ]
         }
