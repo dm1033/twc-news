@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-16T07:45:00+00:00",
-  "count": 74,
+  "updated": "2026-11-17T07:45:00+00:00",
+  "count": 75,
   "latest": [
+    {
+      "id": "2026-11-17-cross-sequence-temporary-stability",
+      "date": "2026-11-17",
+      "kicker": "CROSS learning",
+      "title": "Sequence changes and temporary stability: CROSS learning for contractors",
+      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/partial-collapse-during-underpinning-1486"
+    },
     {
       "id": "2026-11-16-bsr-scaffolder-shortage-cladding",
       "date": "2026-11-16",
@@ -64,13 +71,6 @@
       "kicker": "CROSS-UK",
       "title": "CROSS 1613: plant support platform erected before design verification",
       "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/structural-safety-risks-arising-unauthorised-design-changes-during-construction-1613"
-    },
-    {
-      "id": "2026-10-30-cas-v6-scaffold-temporary-works-opt-out",
-      "date": "2026-10-30",
-      "kicker": "Guidance",
-      "title": "CAS v6: scaffolding and temporary works can opt out of Building Safety section",
-      "source": "https://cisrs.org.uk/resource/nasc-welcomes-common-assessment-standard-changes-bringing-clarity-for-scaffolding-contractors.html"
     }
   ]
 }

@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-17-cross-sequence-temporary-stability",
+  "date": "2026-11-17",
+  "kicker": "CROSS learning",
+  "title": "Sequence changes and temporary stability: CROSS learning for contractors",
+  "excerpt": "CROSS-UK Report 1486 records a partial collapse of underpinning after intermediate floors and walls were removed before excavation. Report 1479 records a near-miss on a filler-beam bridge deck when a late change to lift beams individually created a lateral-torsional buckling risk under wet concrete. Both highlight the need to route sequence changes through the Temporary Works Coordinator, confirm the temporary condition on the register, and maintain clear communication between permanent and temporary works designers under BS 5975-1:2024 and CDM 2015 Regulation 19.",
+  "tags": [
+    "CROSS",
+    "Temporary works",
+    "Structural stability",
+    "Sequence changes",
+    "BS 5975",
+    "Underpinning",
+    "Bridge construction",
+    "TWC"
+  ],
+  "linkedinReady": "Sequence changes can remove the stability the permanent design assumed. CROSS reports show the pattern clearly.\n\nCROSS-UK Report 1486 (published 20 November 2025) describes a partial collapse of underpinning overnight. Before excavation for a new section of underpinning, the principal contractor had removed portions of intermediate internal floors and walls to create workspace. Those elements had been providing restraint and load path. The building became unstable. The permanent works designer had already flagged the risk and asked for a temporary works design and close collaboration. No one was injured, but the Expert Panel noted the absence of an effective Temporary Works Coordinator role under BS 5975-1:2024 and the potential for HSE enforcement on the creation of risk, not only on harm.\n\nCROSS-UK Report 1479 (published 13 January 2026) covers a late contractor change on a filler-beam bridge deck. Instead of lifting beams in connected pairs with precast concrete infill for temporary stability, beams were to be lifted individually. The Category II checker identified a risk of lateral-torsional buckling under wet concrete, with utilisation potentially exceeding 200%. Temporary LTB restraints became necessary. The issue was re-opened close to the pour, responsibility for the bracing design was unclear for a period, and the final design had to be produced under time pressure with reinforcement already fixed. Network Rail later issued engineering advice on temporary conditions.\n\nThese reports sit alongside recent HSE prosecutions in which temporary platforms and blockwork walls collapsed because there was no design, no calculation of loading, and no temporary works procedure or competent coordinator in place. CDM 2015 Regulation 19 requires that any new or existing structure is prevented from becoming unstable or remaining in a temporary state of weakness, and that temporary supports are designed, installed and maintained for the loads they will see. The duty is strict: if it is practicable, it must be done.\n\nFor principal contractors and Temporary Works Coordinators the practical controls remain straightforward:\n\n- Treat any proposed change to sequence, removal of permanent elements, or alteration of temporary bracing as a change that must come through the Temporary Works Coordinator before work proceeds.\n- Confirm that the temporary condition (including intermediate stages and overnight states) has been designed or checked, entered on the live Temporary Works Register with the correct category, and accepted under the project procedure.\n- Do not remove floors, walls, props or bracing that form part of the current load path until the designer has confirmed the revised temporary works arrangement is in place and permitted.\n- Require clear communication of design assumptions and restraints between permanent works and temporary works teams. Independent checking of change proposals remains essential.\n- Where the permanent structure is being modified (underpinning, openings, partial demolition), the design brief must address both the structure itself and any adjacent buildings or highways that could be affected by movement.\n\nCause of the October 2026 partial collapse of the building and scaffolding under construction on Cherwell Street in Banbury remains under HSE investigation. No determination has been published. The incident continues to illustrate why sequence, bracing and load-path controls must be verified before work starts and again whenever the planned sequence changes.\n\nDo not proceed until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #StructuralStability #CROSS #BS5975 #HSE #TWC",
+  "body": [
+    {
+      "h": "What was reported",
+      "p": "CROSS-UK Report 1486 (published 20 November 2025) records a partial collapse of a section of underpinning overnight outside working hours. The collapse occurred during excavation for a new section of the underpinning process. Prior to the underpinning work the principal contractor had removed portions of intermediate internal floors and walls to create more workspace. These actions effectively destabilised the building. The permanent works designer had previously notified the client of the risks of removing critical permanent elements ahead of foundation work and had instructed that a temporary works design be commissioned with close collaboration with the principal contractor. The Expert Panel highlighted the importance of a clearly defined and agreed sequence, the potential loss of lateral restraint or load-bearing capacity from removed elements, the need for coordination between permanent and temporary works designers, and the likely value of a competent Temporary Works Coordinator fulfilling duties under BS 5975-1:2024. The Panel also noted that underpinning requires particular care with excavations left open overnight and that the event may justify HSE enforcement action on the creation of risk of harm. CDM 2015 Regulation 19 requires all practicable steps to ensure that any new or existing structure does not become unstable or remain in a temporary state of weakness, and that temporary supports are designed, installed and maintained to withstand foreseeable loads."
+    },
+    {
+      "h": "Related CROSS learning on sequence change",
+      "p": "CROSS-UK Report 1479 (published 13 January 2026) describes a late contractor change during design of an approximately 20 m span filler-beam bridge deck. Instead of lifting steel beams in connected pairs (with concrete precast between pairs to provide temporary stability), the beams were to be lifted individually. The Category II checker identified that the main beams, if left unbraced and without rotational restraint at the ends of the flanges, could experience lateral-torsional buckling under the weight of wet concrete with a utilisation factor over 200%. Temporary LTB restraints were therefore required. The contractor’s temporary works design team initially took responsibility, but the necessity of the bracing was challenged again close to the pour. The final bracing design had to be produced under compressed programme with reinforcement already fixed. The Expert Panel noted vulnerability of single beams to LTB (including during lifting with possible load reversal), that plan bracing is generally required in addition to cross-bracing, the importance of clear communication of temporary conditions, and the value of independent checking. Network Rail subsequently produced a definition of temporary conditions and issued B&S Engineering advice note EAN03/2025 in September 2025."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "Both reports illustrate the same temporary works failure mode: a change to sequence or removal of elements alters the temporary load path or restraint that the design (or previous stage) had assumed. In one case the outcome was a partial collapse; in the other it was identified as a near-miss by the independent checker. Recent HSE prosecutions involving collapsed temporary platforms and blockwork walls have similarly found absence of design, absence of loading calculations, and absence of a temporary works procedure or appointed coordinator. Under the project temporary works procedure and BS 5975-1:2024 any item that affects structural stability during construction must be entered on the Temporary Works Register, briefed against a design or confirmed standard solution, and subject to the required check category and permit regime. CDM 2015 places duties on principal contractors to plan, manage and monitor the work. Sequence changes and removal of permanent elements are classic points at which those duties are tested."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Treat any proposed change to construction sequence, removal of permanent structural elements (floors, walls, beams), or alteration/removal of temporary bracing or props as a formal change that must be routed through the Temporary Works Coordinator before work proceeds.",
+        "Confirm that the temporary condition at every intermediate stage (including overnight and weather-exposed states) has been designed or checked by a competent person, entered on the live Temporary Works Register with the correct provisional design and check category, and accepted under the project procedure.",
+        "Do not allow removal of floors, walls, props or bracing that currently form part of the load path until the designer has confirmed that the revised temporary works arrangement is in place, checked and permitted.",
+        "Require explicit communication of design assumptions, required restraints and temporary conditions between the permanent works designer, temporary works designer and TWC. Independent checking of change proposals remains essential.",
+        "For underpinning, openings or partial demolition, ensure the design brief addresses both the structure being modified and any adjacent buildings, highways or services that could be affected by movement or loss of support.",
+        "Document the change control decision, the temporary works file entry and the permit status so the arrangement remains auditable.",
+        "If programme or commercial pressure is cited as a reason to proceed without the verified temporary works arrangement, escalate through the project temporary works procedure and the client; do not proceed."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "CROSS-UK Report 1486: Partial collapse during underpinning, 20 November 2025",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/partial-collapse-during-underpinning-1486"
+        },
+        {
+          "label": "CROSS-UK Report 1479: Temporary stability risk due to construction changes on bridge deck, 13 January 2026",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/temporary-stability-risk-due-construction-changes-1479"
+        },
+        {
+          "label": "HSE: Construction company fined after worker crushed by collapsing wall (temporary works not designed or managed), 16 December 2025",
+          "url": "https://press.hse.gov.uk/2025/12/16/construction-company-fined-after-worker-crushed-by-collapsing-wall/"
+        },
+        {
+          "label": "HSE: Two firms fined after worker fractures neck during platform collapse (no design for temporary platforms), 15 June 2026",
+          "url": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
+        },
+        {
+          "label": "BBC News: Banbury partial collapse investigation ongoing (HSE statement), 17 November 2026",
+          "url": "https://www.bbc.co.uk/news/articles/cwgklxdy3xjno"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, CDM 2015, any project-specific design or regulator guidance remain those of the appointed designers, the project temporary works procedure and the relevant competent persons. Cause of the Banbury incident has not been determined. AI-generated or third-party summaries require competent review before use on site."
+    }
+  ]
+}
