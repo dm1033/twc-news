@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-17T07:45:00+00:00",
-  "count": 75,
+  "updated": "2026-11-18T07:45:00+00:00",
+  "count": 76,
   "latest": [
+    {
+      "id": "2026-11-18-ciria-108-low-carbon-formwork-pressure",
+      "date": "2026-11-18",
+      "kicker": "Guidance",
+      "title": "CIRIA Report 108 and modern concretes: formwork pressure assumptions require project-specific review",
+      "source": "https://www.pv-consulting.co.uk/blog/low-carbon-concrete-formwork-pressure-ciria-108"
+    },
     {
       "id": "2026-11-17-cross-sequence-temporary-stability",
       "date": "2026-11-17",
@@ -64,13 +71,6 @@
       "kicker": "HSE / CROSS-UK",
       "title": "No design, incomplete load path, ongoing investigation: temporary works control still matters",
       "source": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
-    },
-    {
-      "id": "2026-10-31-cross-1613-unauthorised-plant-platform",
-      "date": "2026-10-31",
-      "kicker": "CROSS-UK",
-      "title": "CROSS 1613: plant support platform erected before design verification",
-      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/structural-safety-risks-arising-unauthorised-design-changes-during-construction-1613"
     }
   ]
 }
