@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-19-banbury-scaffolding-residual-risk",
+  "date": "2026-11-19",
+  "kicker": "Site safety",
+  "title": "Banbury: residual risk after further deterioration of collapsed scaffolding",
+  "excerpt": "Cherwell District Council’s 18 November 2026 inspection of the Cherwell Street site found a significant risk of further structural failure and closed the road while protective fencing was installed. Oxfordshire County Council then said work had addressed the deteriorated collapsed scaffolding and that two-way traffic would return from the afternoon of 19 November, with part of the carriageway still unavailable beside the scaffold. No cause of the 21 October collapse has been published. Residual risk, public interface and exclusion zones remain temporary works controls until the investigation and the making-safe works are closed.",
+  "tags": [
+    "Scaffold",
+    "Temporary stability",
+    "Public interface",
+    "Banbury",
+    "BS 5975",
+    "CDM"
+  ],
+  "linkedinReady": "Collapsed scaffolding that has deteriorated further is still a temporary works and public-interface problem.\n\nOn 18 November 2026 Cherwell District Council reported that a council-led structural inspection of the building affected by the Cherwell Street, Banbury scaffolding collapse found a significant risk of further structural failure. The road was closed on the night of 17 November while additional protective fencing was installed against debris falling onto the highway. The adjacent garage was advised to close to the public, and residents of adjoining flats were advised to move vehicles from the nearest part of the car park. The council said it is working with the developer, structural engineers and Oxfordshire County Council, and that it will use enforcement powers if needed.\n\nOxfordshire County Council, in a statement timed 13:16 on 18 November, said the overnight closure followed an inspection showing that the collapsed scaffolding had deteriorated further. It said work had been undertaken to address that issue and that Cherwell Street would return to two-way working from the afternoon of Thursday 19 November. Part of the normal road space stays unavailable because it is immediately beside the scaffolding. The road first closed on 21 October, was partially reopened on 30 October, and from the evening of 11 November the open section was southbound only.\n\nNothing in either statement establishes the cause of the original collapse. HSE’s investigation, noted in earlier briefings, is separate from these traffic decisions. For contractors the control point is unchanged: a damaged scaffold and an incomplete structure beside a live highway need a current exclusion zone, a competent inspection, and acceptance under the project temporary works procedure before anyone treats the site as stable.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffold #BS5975 #CDM #PublicInterface",
+  "body": [
+    {
+      "h": "What was reported",
+      "p": "On 18 November 2026 Cherwell District Council published an update on the Cherwell Street site in Banbury, the building affected by the scaffolding collapse the previous month. The council said a council-led structural inspection and survey had identified that the current condition of the building presents a significant risk of further structural failure. As a precaution, Cherwell Street was closed on the night of Tuesday 17 November. The council said the closure would remain while additional protective fencing was installed to mitigate the risk of debris falling onto the public highway. It contacted the adjacent garage and recommended immediate closure of those premises to the public, and advised residents of the adjoining flats to remove vehicles from the section of the car park nearest the site. The council said it is working with the building developer, structural engineers, Oxfordshire County Council and other agencies, will keep monitoring the site, and will take enforcement action necessary to protect the public and secure it. Councillor Chris Aramini-Brant, Portfolio Holder for Planning and Enforcement, said the inspection was on Tuesday afternoon and that the priority is working with the developer so the site is made safe."
+    },
+    {
+      "h": "What the highway authority then decided",
+      "p": "Oxfordshire County Council published a highways update at 13:16 UK time on 18 November 2026. It said Cherwell Street had to close overnight on 17/18 November after a Cherwell District Council safety inspection showed that the condition of the collapsed scaffolding had further deteriorated. The county council said work had been undertaken to address that issue and that the route can reopen to both northbound and southbound traffic. Northbound use is to resume from the afternoon of Thursday 19 November. Part of the normal road space will remain unavailable because of its immediate proximity to the scaffolding site. The same note records the earlier sequence: the road closed on 21 October when the scaffolding collapse occurred; it was partially opened both ways late on 30 October after Cherwell District Council advised that this could safely happen; and from the evening of Wednesday 11 November the open section was designated southbound only, with northbound traffic diverted via George Street, Marlborough Road, Horse Fair and North Bar Street, and Lower Cherwell Street restricted to a left turn onto Cherwell Street. The county statement does not withdraw the district council’s finding of significant risk of further structural failure. It is a decision about traffic, after work on the deteriorated scaffold, with a reduced carriageway left in place beside the site."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "A scaffold that has already collapsed, and a building the local authority has assessed as presenting a significant risk of further structural failure, are not a completed permanent-works condition. Until the structure can stand without temporary support and the investigation is closed, stability, exclusion and the public interface remain temporary works matters under BS 5975-1:2024 and CDM 2015. The new public facts are the further deterioration, the precautionary closure, the fencing against falling debris, the advice to the neighbouring garage and flats, and a partial reopening that still keeps road space out of use beside the scaffold. None of those statements gives a cause for the 21 October collapse, and none should be read as a design check or a permit to load, alter or strike any remaining scaffold. Where a damaged temporary structure stands next to a live highway, the consequence of a further failure includes people who are not on the site. That is why the exclusion zone, the inspection by a competent person, and a current decision under the project temporary works procedure matter more than the traffic bulletin."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Treat a collapsed or deteriorated scaffold, and any incomplete structure it is tied to or standing against, as still inside the temporary works procedure. Do not assume a highway reopening means the structure has been accepted as stable.",
+        "Keep a physical exclusion zone that matches the current risk of falling debris, including neighbouring premises and parked vehicles, and record who set it and on what inspection.",
+        "Re-inspect after any further deterioration, high wind, or making-safe works, and do not reuse an inspection from before the condition changed.",
+        "Separate the traffic management decision from the temporary works decision. A reduced carriageway beside the scaffold is a remaining public interface, not evidence that the scaffold can be altered, loaded or removed.",
+        "Do not publish or adopt a cause. The 21 October collapse remains without a published finding. Briefings and toolbox talks should stay with the controls: design brief, competent inspection, register, permit and interface with the permanent works.",
+        "Do not proceed with erection, alteration, loading or striking until the arrangement has been reviewed and accepted by the competent person under the project temporary works procedure."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "Oxfordshire County Council: Short closure of Cherwell Street to end (18 November 2026, 13:16 UK)",
+          "url": "https://news.oxfordshire.gov.uk/short-closure-of-cherwell-street-to-end-and-bring-return-for-north-and-southbound-traffic/"
+        },
+        {
+          "label": "Cherwell District Council: further safety concerns at Cherwell Street (published 18 November 2026)",
+          "url": "https://www.cherwell.gov.uk/news/article/1364/council-takes-immediate-action-following-further-safety-concerns-at-cherwell-street-site"
+        },
+        {
+          "label": "Oxfordshire County Council: Update on Cherwell Street, Banbury",
+          "url": "https://news.oxfordshire.gov.uk/update-on-cherwell-street-banbury/"
+        },
+        {
+          "label": "HSE: Temporary works guidance",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, CDM 2015 and any project-specific design or regulator guidance remain those of the appointed designers, the project temporary works procedure and the relevant competent persons. No cause of the 21 October 2026 collapse is stated or implied. The highway reopening is reported only as the county council described it, and it does not replace a competent temporary works inspection. AI-generated or third-party summaries require competent review before use on site."
+    }
+  ]
+}
