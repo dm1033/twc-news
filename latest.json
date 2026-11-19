@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-18T07:45:00+00:00",
-  "count": 76,
+  "updated": "2026-11-19T07:45:00+00:00",
+  "count": 77,
   "latest": [
+    {
+      "id": "2026-11-19-banbury-scaffolding-residual-risk",
+      "date": "2026-11-19",
+      "kicker": "Site safety",
+      "title": "Banbury: residual risk after further deterioration of collapsed scaffolding",
+      "source": "https://news.oxfordshire.gov.uk/short-closure-of-cherwell-street-to-end-and-bring-return-for-north-and-southbound-traffic/"
+    },
     {
       "id": "2026-11-18-ciria-108-low-carbon-formwork-pressure",
       "date": "2026-11-18",
@@ -64,13 +71,6 @@
       "kicker": "Guidance",
       "title": "CAS Version 6: scaffolding and temporary works can opt out of the Building Safety section",
       "source": "https://cisrs.org.uk/resource/nasc-welcomes-common-assessment-standard-changes-bringing-clarity-for-scaffolding-contractors.html"
-    },
-    {
-      "id": "2026-11-01-hse-platform-cross-propping-banbury",
-      "date": "2026-11-01",
-      "kicker": "HSE / CROSS-UK",
-      "title": "No design, incomplete load path, ongoing investigation: temporary works control still matters",
-      "source": "https://press.hse.gov.uk/2026/06/15/two-firms-fined-after-worker-fractures-neck-during-platform-collapse/"
     }
   ]
 }
