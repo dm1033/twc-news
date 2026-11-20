@@ -7,12 +7,12 @@ Public JSON feed for the News tab on [temporaryworksconsulting.com/news.html](ht
 One small new file:
 
 ```
-dm1033/twc-news   main   posts/<id>.json
+dm1033/twc-news   main   incoming/<id>.json
 ```
 
-The file is the briefing as one JSON object, about 4 to 14 KB. Nothing else is written by the publisher. `.github/workflows/publish-feed.yml` runs on that push and writes `archive/feed.json`, `feed.json` and `latest.json` from `posts/`, usually within a minute.
+`posts/<id>.json` is accepted as well. The file is the briefing as one JSON object, about 4 to 14 KB. Nothing else is written by the publisher. `.github/workflows/publish-feed.yml` runs on that push, stores the briefing under `posts/`, and writes `archive/feed.json`, `feed.json` (newest 20) and `latest.json`. A recoverable imperfect file is repaired. A placeholder is restored and the run fails.
 
-The exact instructions for the scheduled **TWC News Tab Publisher** are in [`publisher/PUBLISHER_PROMPT.txt`](publisher/PUBLISHER_PROMPT.txt). They have to be pasted into the publisher by its owner. Nothing in this repository can change them, and until they are pasted the publisher keeps following its old rules.
+The format is [`PUBLISHING.md`](PUBLISHING.md). The text to paste into the scheduled **TWC News Tab Publisher** is [`publisher/PUBLISHER_PROMPT.txt`](publisher/PUBLISHER_PROMPT.txt). Nothing in this repository can change the task the publisher is already running, and until that text is pasted the publisher keeps following its old rules.
 
 ### Why it works this way
 
@@ -41,7 +41,8 @@ The run's summary page lists what was published and what was refused.
 
 | Path | Role |
 | --- | --- |
-| `posts/<id>.json` | One briefing each. The only thing the publisher writes. The stored copy of record. |
+| `incoming/<id>.json` | Drop folder. The publisher writes one briefing here. Removed after it is merged. |
+| `posts/<id>.json` | One briefing each. The stored copy of record. |
 | `archive/feed.json` | Every briefing, newest first. Generated from `posts/`. |
 | `feed.json` | The newest 20 briefings. Generated from `posts/`. The website fetches this URL. |
 | `latest.json` | The ten newest briefings as id, date, kicker, title and first source URL. Generated. About 4 KB. The publisher reads this for its duplicate test instead of the feed. |
@@ -55,7 +56,8 @@ A post is accepted when it has exactly the keys `id`, `date`, `kicker`, `title`,
 
 Taken in:
 
-- a new `posts/<id>.json`
+- a new `incoming/<id>.json` or `posts/<id>.json`
+- a single briefing object, a list of them, or the same wrapped in a markdown fence, including when it was written to `feed.json`. Unknown keys are dropped, duplicate ids keep the longer body, and the public file is rebuilt as the newest 20
 - a post file with the wrong name, or wrapped in a list or a `{"posts": [...]}` object. It is stored under its own id
 - a genuine post inside `feed.json`, including a short `feed.json` that holds only the new briefing. That is where the old instructions put it, so it is treated as a publish and not as a fault
 - a fuller copy of a stored briefing. The longer body is kept
@@ -90,7 +92,7 @@ python3 -m unittest discover -s tests      # includes an end-to-end run against 
 
 | Workflow | Runs on | Does |
 | --- | --- | --- |
-| `publish-feed.yml` | a push to `main` that changes `posts/`, `feed.json`, `archive/` or `latest.json` | `sync`, commits the regenerated feeds, opens an issue for anything refused, then runs `check` and the tests on what `main` now serves |
+| `publish-feed.yml` | a push to `main` that changes `incoming/`, `posts/`, `feed.json`, `archive/` or `latest.json` | `sync`, commits the regenerated feeds, opens an issue for anything refused, then runs `check` and the tests on what `main` now serves |
 | `feed-integrity.yml` | pull requests, and pushes to `main` that change code | `check` and the tests |
 
 `feed-integrity` does not run on a push that only changes the feed. A new `posts/<id>.json` is not in the feeds until `publish-feed` has regenerated them, so checking the pushed commit would report a state that is replaced seconds later. `publish-feed` runs the same check afterwards.
@@ -105,6 +107,7 @@ The commit that job pushes uses the Actions `GITHUB_TOKEN`. GitHub does not star
 - A ruleset cannot stop the account that owns the repository, and a rule that blocked direct pushes would block the publisher too. Repair after the push is what GitHub can apply here.
 - This job only repairs `dm1033/twc-news`. The old instructions also wrote `assets/news/feed.json` in `dm1033/twc-website` and `dm1033/twc-netlify-clean-pages`. Those repositories are not visible from here. The new instructions tell the publisher to stop writing them.
 - There is no recoverable briefing text for 4, 5, 6, 8, 9 or 10 November 2026. Those commits were placeholders and no story was stored for them.
+- There is no recoverable briefing text for the evenings of 13, 14 or 15 November 2026 either. The commits (`582ea4b`, `ea192f7`, `02f3846`, `528d6b4`, `2320c1f`) replaced `feed.json` with `PLACEHOLDER`, `PLACEHOLDER_AGAIN`, `PLACEHOLDER_WILL_REPLACE`, or a 149-byte note pointing at a local file. The guard logged `feed is empty or placeholder text` and restored the previous window. The same strings are not in `dm1033/twc-website`. The commit subjects name the stories; the bodies were never pushed.
 
 ## Background: checks made on 7 November 2026
 

@@ -19,6 +19,7 @@ on:
       - latest.json
       - "posts/**"
       - "archive/**"
+      - "incoming/**"
   workflow_dispatch:
 
 jobs:

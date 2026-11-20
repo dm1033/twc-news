@@ -94,6 +94,18 @@ class GuardTests(unittest.TestCase):
         self.assertEqual(window["posts"][0]["id"], "2026-03-01-item-21")
         self.assertNotIn("2026-01-01-item-1", {post["id"] for post in window["posts"]})
 
+    def test_guard_keeps_a_bare_post_written_in_place_of_the_feed(self):
+        self._fill(20)
+        new = briefing(21, "2026-03-01", "https://example.com/21")
+        (self.tmp / "feed.json").write_text(json.dumps(new), encoding="utf-8")
+        result = publish.guard(self.tmp)
+        self.assertEqual(result["action"], "restored")
+        self.assertEqual(result["salvaged"]["added"], ["2026-03-01-item-21"])
+        window = json.loads((self.tmp / "feed.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(window["posts"]), 20)
+        self.assertEqual(window["posts"][0]["id"], "2026-03-01-item-21")
+        publish.check(self.tmp)
+
     def test_guard_does_not_touch_a_full_window_with_a_new_post(self):
         self._fill(20)
         new = briefing(21, "2026-03-01", "https://example.com/21")
@@ -188,7 +200,7 @@ class WorkflowTests(unittest.TestCase):
     def test_publish_workflow_takes_in_posts_and_repairs_main(self):
         text = self._workflow("publish-feed.yml")
         self.assertIn("branches: [main]", text)
-        for path in ("feed.json", "latest.json", '"posts/**"', '"archive/**"'):
+        for path in ("feed.json", "latest.json", '"posts/**"', '"archive/**"', '"incoming/**"'):
             self.assertIn(f"- {path}", text)
         self.assertIn("workflow_dispatch:", text)
         self.assertIn("contents: write", text)
@@ -217,7 +229,7 @@ class WorkflowTests(unittest.TestCase):
         # A new posts/<id>.json is not in the feeds until publish-feed has run.
         text = self._workflow("feed-integrity.yml")
         ignored = text[text.index("paths-ignore:"):text.index("workflow_dispatch:")]
-        for path in ("feed.json", "latest.json", '"posts/**"', '"archive/**"'):
+        for path in ("feed.json", "latest.json", '"posts/**"', '"archive/**"', '"incoming/**"'):
             self.assertIn(f"- {path}", ignored)
 
     def test_push_script_retries_on_the_new_tip_and_never_forces(self):
@@ -225,6 +237,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("set -euo pipefail", text)
         self.assertIn('git reset --quiet --hard "$remote/$branch"', text)
         self.assertIn("python3 scripts/publish.py sync", text)
+        self.assertIn("incoming", text)
         self.assertNotIn("--force", text)
 
 

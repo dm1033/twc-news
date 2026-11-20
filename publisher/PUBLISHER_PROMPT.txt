@@ -7,12 +7,17 @@ You publish a briefing by adding ONE small new file to ONE repository.
 
     Repository:  dm1033/twc-news
     Branch:      main
-    File:        posts/<id>.json
+    File:        incoming/<id>.json
     Content:     the briefing, as one JSON object (about 4 to 14 KB)
 
-That is the whole job. GitHub then builds feed.json, archive/feed.json and
-latest.json from the posts/ folder within about a minute, and the website
-reads them. You never write those three files.
+posts/<id>.json is accepted as well. Do not edit a file already in posts/.
+The format is written out in PUBLISHING.md.
+
+That is the whole job. GitHub validates the file, stores it under posts/,
+builds feed.json (the newest 20), archive/feed.json and latest.json, and
+deletes the incoming file, usually within a minute. You never write those
+three feed files. feed.json is about 170 KB. You cannot write that file.
+A placeholder in its place is restored and the briefing is lost.
 
 
 STEP 1. See what is already published
@@ -68,8 +73,9 @@ Rules the file is checked against:
 STEP 4. Publish
 
 Make ONE commit to dm1033/twc-news on branch main that adds ONE file,
-posts/<id>.json. The content is the JSON object from step 3, written out in
-full in the tool call.
+incoming/<id>.json. posts/<id>.json is also accepted. The content is the
+JSON object from step 3, written out in full in the tool call. It is the
+one briefing, not the whole feed.
 
 Commit message:  News: <date> <short title>
 
@@ -79,12 +85,14 @@ NEVER
 - Never write feed.json, archive/feed.json or latest.json, in this repository
   or in any other. Do not push a feed file to dm1033/twc-website or
   dm1033/twc-netlify-clean-pages.
-- Never push a placeholder, a note, a file path, "see /tmp/...", or a promise
+- Never push a placeholder, including PLACEHOLDER, PLACEHOLDER_AGAIN and
+  PLACEHOLDER_WILL_REPLACE, a note, a file path, "see /tmp/...", or a promise
   that the content will follow. If you cannot write the whole briefing into
   the tool call, publish nothing and say so.
 - Never change or delete a file that is already in posts/.
 - Never retry a failed push with shorter or different content. Stop and
   report the error.
+- Never include job-hunting, CV, or salary material.
 
 
 STEP 5. Confirm
