@@ -1,12 +1,17 @@
 name: publish-feed
 
-# Publishing a briefing is one small file: posts/<id>.json. This job runs on
-# the push that already landed. It takes in new post files (and genuine posts
-# the older publisher instructions left in feed.json), removes anything that
-# is not a briefing, and writes archive/feed.json, feed.json and latest.json
-# from posts/. The scheduled publisher is never asked to write those files:
-# feed.json is too large for it, and it was committing placeholder text in
-# its place.
+# Publishing a briefing is one small file: incoming/<id>.json or
+# posts/<id>.json. This job runs on the push that already landed. It
+# normalises and merges what arrived (a single post, a list, a fenced
+# document, unknown keys, duplicate ids, a window that is not 20), removes
+# anything that is not a briefing, and writes archive/feed.json, feed.json
+# and latest.json from posts/. The scheduled publisher is never asked to
+# write those files: feed.json is too large for it, and it was committing
+# placeholder text in its place.
+#
+# This job is the guard. An unrecoverable push (placeholder text, a stub,
+# a file that does not parse, a deleted or shortened stored briefing) is
+# restored from posts/ and the run fails. Recoverable briefings are kept.
 #
 # The job is green when main ends up valid and either a briefing came in or
 # nothing was wrong with the push. It is red when the push carried something
@@ -26,6 +31,7 @@ on:
       - latest.json
       - "posts/**"
       - "archive/**"
+      - "incoming/**"
   workflow_dispatch:
 
 permissions:

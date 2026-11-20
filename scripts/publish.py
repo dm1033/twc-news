@@ -6,13 +6,16 @@ archive/feed.json is the full feed generated from those files.
 feed.json is a rolling window of the newest briefings.
 latest.json is a small index of the newest briefings for the publisher.
 
-Publishing a briefing is one small file: posts/<id>.json. The scheduled
-publisher cannot reliably write a file the size of feed.json, so it is
-not asked to. `.github/workflows/publish-feed.yml` runs `sync` on the
-push that already landed: it takes in new post files (and genuine posts
-left in feed.json by the older instructions), removes anything that is
-not a briefing, and regenerates the three feed files from posts/. This
-script never deletes a stored briefing and never composes one.
+Publishing a briefing is one small file: incoming/<id>.json or
+posts/<id>.json. The scheduled publisher cannot reliably write a file
+the size of feed.json, so it is not asked to. `.github/workflows/publish-feed.yml`
+runs `sync` on the push that already landed. sync is the normalise-and-merge
+step: it validates what arrived, keeps a recoverable briefing (a single
+post, a list, a fenced document, unknown keys, duplicate ids, or a window
+that is not 20), drops anything that is not a briefing, and regenerates
+the three feed files from posts/. A placeholder or other unrecoverable
+file is restored from posts/. This script never deletes a stored briefing
+and never composes one.
 """
 
 from __future__ import annotations
@@ -483,19 +486,19 @@ def capture_feed(root: Path, feed_text: str | None = None) -> dict:
         existing = load_archive(root)
         before = set(existing)
         raw = feed_text if feed_text is not None else (root / "feed.json").read_text(encoding="utf-8")
-        try:
-            document = parse_feed_text(raw)
-        except FeedError:
-            return {"added": [], "replaced": [], "kept": [], "skipped": ["feed ignored"]}
+        found, problem = _posts_in_file(raw)
+        if not found:
+            return {"added": [], "replaced": [], "kept": [], "skipped": [problem or "feed ignored"]}
         added, replaced, kept, skipped = [], [], [], []
-        for raw_post in document["posts"]:
+        if problem:
+            skipped.append(problem)
+        for post in found:
             try:
-                outcome = merge_post(existing, raw_post)
+                outcome = merge_post(existing, post)
             except FeedError as exc:
-                label = raw_post.get("id") if isinstance(raw_post, dict) else "?"
-                skipped.append(f"{label}: {exc}")
+                skipped.append(f"{post.get('id', '?')}: {exc}")
                 continue
-            post_id = raw_post.get("id") if isinstance(raw_post, dict) else "?"
+            post_id = post["id"]
             if outcome == "added":
                 added.append(post_id)
             elif outcome == "replaced":
@@ -819,17 +822,88 @@ def _stored_snapshot(root: Path) -> dict[str, dict]:
     return {}
 
 
-def _posts_in_file(text: str) -> tuple[list[dict], str | None]:
-    """Briefings in a pushed post file, and why anything else was refused.
+def _json_kind(text: str) -> str:
+    """How a pushed document is shaped, after a BOM or fence is removed."""
+    unwrapped = _unwrap(text)
+    if not unwrapped or unwrapped[:1] not in "{[":
+        return "text"
+    try:
+        value = json.loads(unwrapped)
+    except json.JSONDecodeError:
+        return "text"
+    if isinstance(value, dict) and isinstance(value.get("posts"), list):
+        return "feed"
+    if isinstance(value, list):
+        return "list"
+    if isinstance(value, dict):
+        return "post"
+    return "text"
 
-    The file should be one post object. A list of posts, or a feed object
-    wrapped around them, is read the same way: the content is what
-    matters, and each briefing is stored under its own id afterwards.
-    """
+
+def _unwrap(text: str) -> str:
+    """Drop a leading BOM and one markdown fence around a pushed file."""
     stripped = text.lstrip("\ufeff").strip()
     fenced = CODE_FENCE.match(stripped)
     if fenced:
         stripped = fenced.group(1).strip()
+    return stripped
+
+
+def _without_unknown(raw):
+    """Copy a post keeping only keys the public feed is allowed to store.
+
+    An extra key is recoverable: the briefing is kept and the key is
+    dropped. A missing required key is not recoverable and still fails
+    in normalize_post. The public feed is written from the cleaned copy.
+    """
+    if not isinstance(raw, dict):
+        return raw
+    cleaned = {key: raw[key] for key in POST_KEYS if key in raw}
+    body = raw.get("body")
+    if isinstance(body, list):
+        blocks = []
+        for block in body:
+            if not isinstance(block, dict):
+                blocks.append(block)
+                continue
+            kept = {key: block[key] for key in BODY_KEYS if key in block}
+            sources = kept.get("sources")
+            if isinstance(sources, list):
+                kept["sources"] = [
+                    {key: source[key] for key in SOURCE_KEYS if key in source}
+                    if isinstance(source, dict)
+                    else source
+                    for source in sources
+                ]
+            blocks.append(kept)
+        cleaned["body"] = blocks
+    return cleaned
+
+
+def _prefer_longer(posts: list[dict]) -> list[dict]:
+    """One copy of each id: the body with more briefing text."""
+    chosen: dict[str, dict] = {}
+    order: list[str] = []
+    for post in posts:
+        post_id = post["id"]
+        current = chosen.get(post_id)
+        if current is None:
+            order.append(post_id)
+            chosen[post_id] = post
+        elif longer(post, current):
+            chosen[post_id] = post
+    return [chosen[post_id] for post_id in order]
+
+
+def _posts_in_file(text: str) -> tuple[list[dict], str | None]:
+    """Briefings in a pushed file, and why anything else was refused.
+
+    The file should be one post object. A list of posts, or a feed object
+    wrapped around them, is read the same way. A BOM, a markdown fence,
+    and unknown keys are removed. Duplicate ids keep the longer body.
+    Each briefing is stored under its own id afterwards.
+    """
+    stripped = _unwrap(text)
     if not stripped or _placeholder_text(stripped) or stripped[0] not in "{[":
         return [], "file is empty or placeholder text"
     try:
@@ -848,19 +922,21 @@ def _posts_in_file(text: str) -> tuple[list[dict], str | None]:
     problem = None
     for candidate in candidates:
         try:
-            posts.append(normalize_post(candidate))
+            posts.append(normalize_post(_without_unknown(candidate)))
         except FeedError as exc:
             problem = problem or str(exc)
-    return posts, problem
+    return _prefer_longer(posts), problem
 
 
 def sync(root: Path) -> dict:
     """Take in what a push left on main, then regenerate the feeds.
 
-    New briefings arrive as posts/<id>.json. Genuine posts found in
-    feed.json are taken in as well, because that is where the older
-    publisher instructions put them, and a short feed.json holding only
-    the new briefing is treated as that briefing rather than as a fault.
+    New briefings arrive as incoming/<id>.json or posts/<id>.json.
+    Genuine posts found in feed.json are taken in as well, including a
+    file that holds only the new briefing, a list of briefings, or one
+    post object. That is where the older instructions put them. Unknown
+    keys are dropped, duplicate ids keep the longer body, and the public
+    file is rewritten as the newest 20.
 
     Anything that is not a briefing is refused: placeholder text, a stub,
     a file that does not parse. A stored briefing that a push deleted or
@@ -878,8 +954,10 @@ def sync(root: Path) -> dict:
         duplicates: list[dict] = []
         replaced: list[str] = []
         restored: list[str] = []
+        repaired: list[str] = []
         incoming: list[tuple[str, dict]] = []
         on_disk: dict[str, dict] = {}
+        drop_incoming: list[Path] = []
 
         posts_dir = root / "posts"
         posts_dir.mkdir(parents=True, exist_ok=True)
@@ -898,29 +976,41 @@ def sync(root: Path) -> dict:
                 on_disk[path.stem] = found[0]
             incoming.extend((relative, post) for post in found)
 
+        incoming_dir = root / "incoming"
+        if incoming_dir.is_dir():
+            for path in sorted(incoming_dir.glob("*.json")):
+                relative = f"incoming/{path.name}"
+                found, problem = _posts_in_file(path.read_text(encoding="utf-8", errors="replace"))
+                if problem:
+                    rejected.append({"path": relative, "problem": problem})
+                incoming.extend((relative, post) for post in found)
+                drop_incoming.append(path)
+
         feed_path = root / "feed.json"
         raw = feed_path.read_text(encoding="utf-8", errors="replace") if feed_path.is_file() else ""
-        feed_posts: list[dict] = []
+        feed_posts, extract_problem = _posts_in_file(raw)
+        kind = _json_kind(raw)
+        hit = marker_in(raw)
+        short = shortened_ids(feed_posts, stored)
         feed_problem = None
-        try:
-            document = parse_feed_text(raw)
-        except FeedError as exc:
-            feed_problem = str(exc)
-        else:
-            stub = None
-            for raw_post in document["posts"]:
-                try:
-                    feed_posts.append(normalize_post(raw_post))
-                except FeedError as exc:
-                    stub = stub or str(exc)
-            hit = marker_in(raw)
-            short = shortened_ids(feed_posts, stored)
-            if hit:
-                feed_problem = f"feed contains placeholder text ({hit})"
-            elif stub:
-                feed_problem = f"feed carries a post that is not a briefing ({stub})"
-            elif short:
-                feed_problem = "feed shortens stored briefings: " + ", ".join(short)
+        if hit:
+            feed_problem = f"feed contains placeholder text ({hit})"
+        elif short:
+            feed_problem = "feed shortens stored briefings: " + ", ".join(short)
+        elif extract_problem and kind == "feed":
+            feed_problem = f"feed carries a post that is not a briefing ({extract_problem})"
+        elif extract_problem and feed_posts:
+            feed_problem = f"feed carries a post that is not a briefing ({extract_problem})"
+        elif not feed_posts:
+            if extract_problem == "file is empty or placeholder text":
+                feed_problem = "feed is empty or placeholder text"
+            else:
+                feed_problem = extract_problem or "feed is empty or placeholder text"
+        elif kind != "feed" or raw.startswith("\ufeff") or CODE_FENCE.match(raw.lstrip("\ufeff").strip()):
+            repaired.append(
+                "feed.json was not a clean 20-post feed; the briefing in it was merged "
+                "and the public file was rebuilt as the newest 20 posts"
+            )
         if feed_problem:
             rejected.append({"path": "feed.json", "problem": feed_problem})
         incoming.extend(("feed.json", post) for post in feed_posts)
@@ -950,6 +1040,9 @@ def sync(root: Path) -> dict:
             what = "was replaced by a shorter copy" if current is not None else "was deleted"
             rejected.append({"path": relative, "problem": f"stored briefing {what}"})
 
+        for path in drop_incoming:
+            path.unlink(missing_ok=True)
+
         if not posts:
             rejected.append({"path": "posts/", "problem": "no briefing is stored anywhere this job can read"})
             return {
@@ -960,6 +1053,7 @@ def sync(root: Path) -> dict:
                 "restored": [],
                 "duplicates": duplicates,
                 "rejected": rejected,
+                "repaired": repaired,
                 "posts": 0,
                 "newest": None,
             }
@@ -980,6 +1074,7 @@ def sync(root: Path) -> dict:
             "restored": restored,
             "duplicates": duplicates,
             "rejected": rejected,
+            "repaired": repaired,
             "posts": len(posts),
             "newest": ordered[0]["id"],
         }
@@ -1007,6 +1102,11 @@ def sync_report(result: dict) -> str:
         lines.append("**No briefing was published.** The push did not contain one.")
     else:
         lines.append("Nothing new to publish. The feeds match `posts/`.")
+    if result.get("repaired"):
+        lines.append("")
+        lines.append("Repaired before publishing:")
+        for item in result["repaired"]:
+            lines.append(f"- {item}")
     if rejected:
         lines.append("")
         lines.append("Refused:")
@@ -1048,9 +1148,10 @@ def sync_issue_body(result: dict, commit: str | None = None) -> str:
         )
     lines.append("")
     lines.append(
-        "To publish a briefing, add one file, `posts/<id>.json`, holding the whole briefing as one "
-        "JSON object. Do not write `feed.json`. Do not push a placeholder or a note that the content "
-        "will follow. The publisher's instructions are in `publisher/PUBLISHER_PROMPT.txt`."
+        "To publish a briefing, add one file, `incoming/<id>.json` or `posts/<id>.json`, holding the "
+        "whole briefing as one JSON object. Do not write `feed.json`. Do not push a placeholder or a "
+        "note that the content will follow. The format is in `PUBLISHING.md` and "
+        "`publisher/PUBLISHER_PROMPT.txt`."
     )
     if result.get("restored"):
         lines.append("")

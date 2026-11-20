@@ -18,6 +18,10 @@ for attempt in 1 2 3 4; do
   git reset --quiet --hard "$remote/$branch"
   python3 scripts/publish.py sync > "$result"
   git add -A -- feed.json latest.json posts archive/feed.json
+  # incoming/ is the drop folder. Stage deletions after a file is merged.
+  if git ls-files --error-unmatch incoming >/dev/null 2>&1 || [ -d incoming ]; then
+    git add -A -- incoming
+  fi
   if git diff --cached --quiet; then
     exit 0
   fi

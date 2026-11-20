@@ -256,6 +256,110 @@ class SyncTests(unittest.TestCase):
         self.assertNotIn("CROSS", body)
 
 
+class RepairTests(unittest.TestCase):
+    """Imperfect pushes are merged. The evening placeholder commits are not."""
+
+    # feed.json as committed on the evenings of 13, 14 and 15 November 2026.
+    EVENING = (
+        "PLACEHOLDER",
+        "PLACEHOLDER_AGAIN",
+        "PLACEHOLDER_WILL_REPLACE",
+        "See full content in local updated_feed.json - this is a placeholder for the full JSON "
+        "which includes the new post prepended to the existing 20 posts.",
+    )
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp)
+        fill(self.tmp, 21)
+
+    def test_evening_placeholder_commits_publish_nothing(self):
+        before = (self.tmp / "feed.json").read_bytes()
+        for pushed in self.EVENING:
+            (self.tmp / "feed.json").write_text(pushed, encoding="utf-8")
+            result = publish.sync(self.tmp)
+            self.assertFalse(result["ok"], pushed)
+            self.assertEqual(result["published"], [])
+            self.assertEqual(result["action"], "restored")
+            self.assertIn("placeholder", result["rejected"][0]["problem"])
+            self.assertEqual((self.tmp / "feed.json").read_bytes(), before)
+
+    def test_a_single_post_object_in_feed_json_is_merged_into_the_window(self):
+        extra = dict(NEW)
+        extra["slug"] = "not-a-feed-key"
+        extra["body"] = [dict(block) for block in NEW["body"]]
+        extra["body"][0] = dict(extra["body"][0], note="drop me")
+        (self.tmp / "feed.json").write_text(json.dumps(extra), encoding="utf-8")
+        result = publish.sync(self.tmp)
+        self.assertTrue(result["ok"])
+        self.assertEqual(result["published"], [NEW["id"]])
+        self.assertEqual(result["rejected"], [])
+        self.assertTrue(result["repaired"])
+        ids = feed_ids(self.tmp)
+        self.assertEqual((ids[0], len(ids)), (NEW["id"], 20))
+        stored = json.loads((self.tmp / "posts" / f"{NEW['id']}.json").read_text(encoding="utf-8"))
+        self.assertNotIn("slug", stored)
+        self.assertNotIn("note", stored["body"][0])
+        publish.check(self.tmp)
+
+    def test_fenced_list_dedupes_to_the_longer_body_and_sorts(self):
+        older = briefing(1, "2026-01-21", "https://example.com/01/21")
+        short = briefing(99, "2026-02-01", "https://example.com/cross/1588", body="Temporary works control " * 40)
+        long = briefing(99, "2026-02-01", "https://example.com/cross/1588", body="Temporary works control " * 90)
+        payload = "```json\n" + json.dumps([short, older, long]) + "\n```\n"
+        (self.tmp / "feed.json").write_text(payload, encoding="utf-8")
+        result = publish.sync(self.tmp)
+        self.assertEqual(result["published"], [NEW["id"]])
+        self.assertEqual(result["rejected"], [])
+        stored = publish.load_archive(self.tmp)[NEW["id"]]
+        self.assertEqual(len(publish.body_text(stored)), len(publish.body_text(long)))
+        ids = feed_ids(self.tmp)
+        self.assertEqual(ids[0], NEW["id"])
+        self.assertEqual(len(ids), 20)
+        self.assertEqual(ids, sorted(ids, reverse=True))
+        publish.check(self.tmp)
+
+    def test_more_than_twenty_posts_are_merged_and_the_window_stays_twenty(self):
+        archive = list(publish.load_archive(self.tmp).values())
+        shuffled = list(reversed(archive)) + [NEW]
+        meta = publish.load_meta(self.tmp)
+        document = publish.feed_document(shuffled, meta)
+        document["posts"] = list(reversed(document["posts"]))
+        (self.tmp / "feed.json").write_text(json.dumps(document), encoding="utf-8")
+        result = publish.sync(self.tmp)
+        self.assertEqual(result["published"], [NEW["id"]])
+        self.assertEqual(result["rejected"], [])
+        self.assertEqual(len(publish.load_archive(self.tmp)), 22)
+        self.assertEqual(len(feed_ids(self.tmp)), 20)
+        self.assertEqual(feed_ids(self.tmp)[0], NEW["id"])
+        publish.check(self.tmp)
+
+    def test_incoming_file_is_published_and_removed(self):
+        folder = self.tmp / "incoming"
+        folder.mkdir()
+        (folder / "today.json").write_text(json.dumps(NEW), encoding="utf-8")
+        result = publish.sync(self.tmp)
+        self.assertEqual(result["published"], [NEW["id"]])
+        self.assertEqual(result["rejected"], [])
+        self.assertFalse((folder / "today.json").exists())
+        self.assertTrue((self.tmp / "posts" / f"{NEW['id']}.json").is_file())
+        self.assertEqual(feed_ids(self.tmp)[0], NEW["id"])
+        self.assertEqual(len(feed_ids(self.tmp)), 20)
+        publish.check(self.tmp)
+
+    def test_incoming_placeholder_is_removed_and_the_feed_is_restored(self):
+        before = (self.tmp / "feed.json").read_bytes()
+        folder = self.tmp / "incoming"
+        folder.mkdir()
+        (folder / "note.json").write_text("PLACEHOLDER_WILL_REPLACE", encoding="utf-8")
+        result = publish.sync(self.tmp)
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["published"], [])
+        self.assertFalse((folder / "note.json").exists())
+        self.assertEqual((self.tmp / "feed.json").read_bytes(), before)
+        self.assertEqual(len(publish.load_archive(self.tmp)), 21)
+
+
 class PublisherPromptTests(unittest.TestCase):
     """The instructions handed to the publisher must describe what sync accepts."""
 
@@ -294,9 +398,18 @@ class PublisherPromptTests(unittest.TestCase):
 
     def test_it_asks_for_one_post_file_and_no_feed_file(self):
         self.assertIn("posts/<id>.json", self.text)
+        self.assertIn("incoming/<id>.json", self.text)
         self.assertIn("latest.json", self.text)
         self.assertIn("Never write feed.json, archive/feed.json or latest.json", self.text)
         self.assertIn("Do not read feed.json or archive/feed.json", self.text)
+        spec = (ROOT / "PUBLISHING.md").read_text(encoding="utf-8")
+        self.assertIn("incoming/<id>.json", spec)
+        self.assertIn("posts/<id>.json", spec)
+        self.assertIn(f"at least {publish.MIN_BODY_TEXT} characters", spec)
+        self.assertIn("newest 20", spec)
+        self.assertIn("CV, or salary", spec)
+        for key in publish.POST_KEYS:
+            self.assertIn(f'"{key}"', spec)
         # The old instructions told it to rewrite the whole feed in three repositories.
         self.assertNotIn("prepend", self.text)
         self.assertFalse((ROOT / "publisher" / "SAFETY_OVERRIDE.txt").exists())
@@ -383,6 +496,23 @@ class PipelineTests(unittest.TestCase):
         commits = len(self._remote_log())
         self.assertEqual(self._job()["action"], "none")
         self.assertEqual(len(self._remote_log()), commits)
+
+    def test_an_incoming_file_is_merged_on_the_remote_and_removed(self):
+        folder = self.publisher / "incoming"
+        folder.mkdir()
+        self._publisher_pushes(
+            f"incoming/{NEW['id']}.json", json.dumps(NEW), "News: 2026-02-01 girder lift sequence splice"
+        )
+        result = self._job()
+        self.assertEqual(result["published"], [NEW["id"]])
+        feed = json.loads(self._remote_file("feed.json"))
+        self.assertEqual((feed["posts"][0]["id"], len(feed["posts"])), (NEW["id"], 20))
+        missing = self._run(
+            self.tmp, "git", "--git-dir", str(self.remote), "cat-file", "-e", f"main:incoming/{NEW['id']}.json",
+            check=False,
+        )
+        self.assertNotEqual(missing.returncode, 0)
+        self.assertIn(NEW["id"], self._remote_file(f"posts/{NEW['id']}.json"))
 
     def test_placeholder_push_is_repaired_on_the_remote_and_fails_the_run(self):
         good = self._remote_file("feed.json")
