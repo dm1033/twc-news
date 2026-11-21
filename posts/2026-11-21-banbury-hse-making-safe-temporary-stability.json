@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-21-banbury-hse-making-safe-temporary-stability",
+  "date": "2026-11-21",
+  "kicker": "HSE update",
+  "title": "Banbury: HSE working urgently with contractors to make the site safe",
+  "excerpt": "BBC reported on 20 November 2026 that HSE is working urgently with the contractors on the Cherwell Street, Banbury site to make it safe after the 21 October partial collapse of a building under construction and associated scaffolding. Cherwell District Council’s inspection found a significant risk of further structural failure; northbound lanes remain closed. No cause has been established. Making a damaged structure and scaffold safe is itself a temporary works control under BS 5975-1:2024 and CDM 2015.",
+  "tags": [
+    "HSE",
+    "Scaffold",
+    "Temporary stability",
+    "Banbury",
+    "BS 5975",
+    "CDM",
+    "Public interface"
+  ],
+  "linkedinReady": "Making a collapsed structure and scaffold safe is still temporary works.\n\nOn 20 November 2026 the BBC reported that a Health and Safety Executive spokesperson said HSE is “working urgently with the contractors on site as they seek to make it safe” after the partial collapse of an apartment block under construction and associated scaffolding on Cherwell Street, Banbury on 21 October. Two of the nine workers present were taken to hospital. The cause has not been established; HSE’s investigation continues.\n\nCherwell District Council’s inspection identified a significant risk of further structural failure. Protective fencing was installed and the lanes nearest the site remain closed for public safety. The road closure itself is a matter for the local authorities.\n\nFor contractors the control point is unchanged. Until the structure can stand without temporary support, residual risk of further failure is managed through the project temporary works procedure: design brief for any making-safe works, verified load path and exclusion zones, Temporary Works Register entry, competent inspection and acceptance under BS 5975-1:2024. CDM 2015 Regulation 19 requires practicable steps to ensure the structure does not collapse where it may become unstable or is in a temporary state of weakness. HSE’s advice to the contractor does not replace those duties.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #HSE #Scaffold #BS5975 #CDM #StructuralStability",
+  "body": [
+    {
+      "h": "What was reported",
+      "p": "The BBC published on 20 November 2026 that the Health and Safety Executive has said it is working urgently to help make the site of a partial building collapse safe. An apartment block under construction on the A4260 Cherwell Street in Banbury partly collapsed alongside scaffolding on 21 October. Thames Valley Police reported nine workers on site at the time, with two taken to hospital. A local councillor had accused HSE of holding the town to ransom over delays in the clear-up. An HSE spokesperson responded that it was “working urgently with the contractors on site as they seek to make it safe”, that the road closure is a matter for the local council, and that HSE realises this is a difficult situation for residents and businesses. Cherwell District Council’s inspectors had found the building presented a significant risk of further structural failure. Protective fencing was installed to mitigate the risk of falling debris. The lanes furthest from the site are open; those closer remain closed until the site is made safe. No published statement establishes the cause of the original collapse."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "A partial collapse of a building under construction and its scaffolding leaves a residual risk of further failure. The works required to make the site safe — temporary support, exclusion, controlled dismantling or stabilisation — are temporary works. They must be managed under the project temporary works procedure and BS 5975-1:2024. CDM 2015 Regulation 19 requires that all practicable steps are taken to ensure that any new or existing structure does not collapse if, due to the carrying out of construction work, it may become unstable or is in a temporary state of weakness or instability. Any temporary support must be designed, installed and maintained to withstand foreseeable loads and used only for the purpose for which it was designed. HSE’s investigation and its advice to the contractor sit alongside, not instead of, the principal contractor’s duties to plan, manage and monitor the work and to appoint a competent Temporary Works Coordinator where required. Public interface and exclusion zones remain part of that control until the permanent condition is restored and accepted."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Treat all making-safe works (propping, bracing, exclusion fencing, controlled removal) as temporary works items on the Temporary Works Register. Provisional category only — to be confirmed under the project procedure; escalate where residual collapse risk, public interface or incomplete structure are present.",
+        "Require a design brief that records the current condition of the structure and scaffold, residual risks identified by inspection, loads the temporary supports must carry, exclusion zones, sequence of works and the criteria for acceptance before any reduction in exclusion.",
+        "Do not rely on an earlier design or inspection once the structure has changed. A post-collapse condition needs a fresh assessment of load path and stability.",
+        "Coordinate with the local authorities on public exclusion and road management, but do not treat a highway decision as a substitute for a competent temporary works acceptance.",
+        "Hold points for inspection after any temporary support is installed and before any further loading, dismantling or public access is restored.",
+        "Close the temporary works item only when the structure has been verified as stable without the temporary measures, or when the measures have been formally accepted as the residual control."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "BBC News: HSE ‘working urgently’ on Banbury building site collapse clean-up (20 November 2026)",
+          "url": "https://www.bbc.co.uk/news/articles/cwx2ek5my4meo"
+        },
+        {
+          "label": "Banbury Guardian: Cherwell Street disruption — northbound lanes remain closed due to risk of collapse (20 November 2026)",
+          "url": "https://www.banburyguardian.co.uk/news/cherwell-steet-banbury-council-building-safety-oxfordshire-9363288"
+        },
+        {
+          "label": "HSE: Temporary works guidance",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        },
+        {
+          "label": "HSE: Structural stability during alteration, demolition and dismantling",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/stability.htm"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, CDM 2015 and any project-specific design or regulator guidance remain those of the appointed designers, the project temporary works procedure and the relevant competent persons. The cause of the Banbury collapse has not been established in published statements. No design, check or permit is implied by this briefing. AI-generated or third-party summaries require competent review before use on site."
+    }
+  ]
+}

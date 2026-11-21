@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-20T07:45:00+00:00",
-  "count": 78,
+  "updated": "2026-11-21T07:45:00+00:00",
+  "count": 79,
   "latest": [
+    {
+      "id": "2026-11-21-banbury-hse-making-safe-temporary-stability",
+      "date": "2026-11-21",
+      "kicker": "HSE update",
+      "title": "Banbury: HSE working urgently with contractors to make the site safe",
+      "source": "https://www.bbc.co.uk/news/articles/cwx2ek5my4meo"
+    },
     {
       "id": "2026-11-20-manchester-alan-turing-way-mine-shaft-temporary-works",
       "date": "2026-11-20",
@@ -64,13 +71,6 @@
       "kicker": "HSE prosecutions",
       "title": "Trainee scaffolder killed in five-metre fall: safe zones and harness use were not in place",
       "source": "https://press.hse.gov.uk/2026/11/06/scaffolding-company-fined-after-trainee-scaffolder-killed-in-five-metre-fall/"
-    },
-    {
-      "id": "2026-11-03-hse-staines-roof-hot-works",
-      "date": "2026-11-03",
-      "kicker": "HSE prosecutions",
-      "title": "No hot-works permit and single escape route: roof welding fire on 14-storey apartment",
-      "source": "https://press.hse.gov.uk/2026/10/30/pictured-aftermath-of-apartment-roof-blaze-workers-lucky-to-escape-from/"
     }
   ]
 }
