@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-21T07:45:00+00:00",
-  "count": 79,
+  "updated": "2026-11-22T07:45:00+00:00",
+  "count": 80,
   "latest": [
+    {
+      "id": "2026-11-22-cross-1588-sequence-change-splice-connection",
+      "date": "2026-11-22",
+      "kicker": "CROSS learning",
+      "title": "Sequence changes and permanent connections: CROSS 1588 learning for contractors",
+      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/bridge-girder-lifting-sequence-change-affects-splice-connection-1588"
+    },
     {
       "id": "2026-11-21-banbury-hse-making-safe-temporary-stability",
       "date": "2026-11-21",
@@ -64,13 +71,6 @@
       "kicker": "CROSS-UK",
       "title": "CROSS 1588: changing the bridge girder lift sequence altered the splice load path",
       "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/bridge-girder-lifting-sequence-change-affects-splice-connection-1588"
-    },
-    {
-      "id": "2026-11-07-hse-trainee-scaffolder-fall-safe-zone",
-      "date": "2026-11-07",
-      "kicker": "HSE prosecutions",
-      "title": "Trainee scaffolder killed in five-metre fall: safe zones and harness use were not in place",
-      "source": "https://press.hse.gov.uk/2026/11/06/scaffolding-company-fined-after-trainee-scaffolder-killed-in-five-metre-fall/"
     }
   ]
 }
