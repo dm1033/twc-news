@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-22T07:45:00+00:00",
-  "count": 80,
+  "updated": "2026-11-23T07:45:00+00:00",
+  "count": 81,
   "latest": [
+    {
+      "id": "2026-11-23-cross-1589-cavity-wall-instability",
+      "date": "2026-11-23",
+      "kicker": "CROSS learning",
+      "title": "Cavity wall close to collapse: emergency remedial works are temporary works",
+      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/cavity-wall-instability-caused-restraint-and-movement-issues-1589"
+    },
     {
       "id": "2026-11-22-cross-1588-sequence-change-splice-connection",
       "date": "2026-11-22",
@@ -64,13 +71,6 @@
       "kicker": "Guidance",
       "title": "Marine Safety Forum Alert 26-17: three-tier mobile scaffold collapsed three decks while being moved",
       "source": "https://www.marinesafetyforum.org/safety-alerts/scaffolding-unit-collapse-hi-potential-incident/"
-    },
-    {
-      "id": "2026-11-10-cross-1588-bridge-girder-lifting-sequence",
-      "date": "2026-11-10",
-      "kicker": "CROSS-UK",
-      "title": "CROSS 1588: changing the bridge girder lift sequence altered the splice load path",
-      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/bridge-girder-lifting-sequence-change-affects-splice-connection-1588"
     }
   ]
 }

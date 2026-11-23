@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-23-cross-1589-cavity-wall-instability",
+  "date": "2026-11-23",
+  "kicker": "CROSS learning",
+  "title": "Cavity wall close to collapse: emergency remedial works are temporary works",
+  "excerpt": "CROSS-UK Report 1589 (11 November 2026) records inspection of a six-storey coastal RC-framed building where the outer leaf of a brick cavity wall had displaced outwards by about 60 mm, leaving it without adequate support on the floor slab. The wall was close to collapse. The reporter specified emergency remedial works to make the area safe. Differential movement, limited bearing, possible wall-tie failure and wind vulnerability were identified. Contractors treating emergency propping or restraint as temporary works under BS 5975-1:2024.",
+  "tags": [
+    "CROSS",
+    "Temporary works",
+    "Propping",
+    "Masonry stability",
+    "BS 5975",
+    "CDM",
+    "Remediation"
+  ],
+  "linkedinReady": "Emergency remedial works to a wall close to collapse are temporary works.\n\nCROSS-UK Report 1589 (published 11 November 2026) describes inspection of a six-storey reinforced concrete framed building in an exposed coastal location. The outer leaf of brickwork was supported on approximately 50 mm of bearing at the floor slabs. In one location the outer leaf had displaced outwards by around 60 mm, leaving it without adequate support from the slab below. The wall was close to collapse. The reporter specified emergency remedial works to make the area safe.\n\nNo movement was observed in the inner leaf, raising questions about the presence or condition of wall ties. Differential movement between the shrinking concrete frame and expanding brickwork, limited bearing, absence of adequate movement joints, and possible long-standing wind vulnerability were all identified. The Expert Panel notes that limited bearing and ineffective ties can allow the outer leaf to lose support, and that any remedial works must consider the full wall system.\n\nFor contractors the control is the same as any high-consequence temporary support. Emergency propping, temporary restraint or controlled dismantling belongs on the Temporary Works Register. It needs a design brief that records the current condition, residual risk of further movement, loads the temporary supports must carry, and the sequence for making safe. The Temporary Works Coordinator coordinates design, independent check where required, and acceptance under the project procedure before the works proceed. CDM 2015 Regulation 19 requires practicable steps to ensure the structure does not collapse where it is in a temporary state of weakness.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #CROSS #BS5975 #CDM #Masonry #Propping #StructuralStability",
+  "body": [
+    {
+      "h": "What was reported",
+      "p": "CROSS-UK Report 1589 (published 11 November 2026) records a Chartered Structural Engineer’s inspection of a six-storey building in an exposed coastal location following significant observed movement. The building comprises a reinforced concrete frame clad with brickwork. The outer leaf of brickwork was supported on approximately 50 mm of bearing at the floor slabs, with slip bricks used to conceal the slab edges. In one location the brickwork had displaced outwards by around 60 mm, leaving it without adequate support from the slab below. The wall was close to collapse and the reporter specified emergency remedial works to make the area safe. Inside the building there was no evidence of movement of the inner leaf, which may indicate the absence or failure of the wall ties. The reporter attributes the defects to differential movement (concrete frames tend to shrink after construction while brickwork expands), potentially leading to compression, bowing or buckling. Recent hot weather is believed to have exacerbated the problem. The reporter was also informed that cavity walls on the south elevation had previously been rebuilt after part of the original walls were reportedly blown outwards during the Great Storm of 1987, suggesting a long-standing vulnerability to wind loading. The Expert Panel comments that the reported movement resulted in the outer leaf becoming displaced and losing adequate support, that limited bearing and the condition of wall ties (possibly corroded in a coastal location) require investigation, and that the wider building should be assessed rather than only the local panel."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "A wall that has already lost support and is close to collapse presents an immediate residual risk. The emergency remedial works required to make the area safe — temporary propping, restraint, exclusion or controlled intervention — are temporary works. They must be managed under the project temporary works procedure and BS 5975-1:2024. CDM 2015 Regulation 19 requires that all practicable steps are taken to ensure that any new or existing structure does not collapse if, due to the carrying out of construction work, it may become unstable or is in a temporary state of weakness or instability. Any temporary support must be designed, installed and maintained to withstand foreseeable loads and used only for the purpose for which it was designed. The interface with the permanent works (bearing, ties, movement joints, wind resistance) must be confirmed before the temporary works are loaded or altered. Public interface and exclusion zones remain part of that control until the permanent condition is restored and accepted."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Treat all emergency remedial works (propping, temporary restraint, exclusion fencing, controlled removal or stabilisation) as temporary works items on the Temporary Works Register. Provisional category only — to be confirmed under the project procedure; escalate where residual collapse risk, public interface, incomplete structure or unknown wall-tie condition are present.",
+        "Require a design brief that records the current condition of the wall (displacement, bearing remaining, observed movement of inner leaf), residual risks identified by inspection, loads the temporary supports must carry, exclusion zones, sequence of works and the criteria for acceptance before any reduction in exclusion or further intervention.",
+        "Do not rely on an earlier design or inspection once the wall has moved. A post-displacement condition needs a fresh assessment of load path, restraint and residual capacity.",
+        "Confirm that the temporary works design addresses both the immediate making-safe of the displaced panel and the effect on the remainder of the wall system. Changes intended to accommodate movement can affect wind resistance.",
+        "Coordinate the interface formally. The Temporary Works Coordinator ensures the permanent works designer or competent structural engineer is engaged and that the design responsibility matrix is clear before the temporary works proceed.",
+        "Hold points for review of the making-safe method, acceptance of the temporary works, and inspection before any propping is loaded or exclusion is reduced."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "CROSS-UK Report 1589: Cavity wall instability caused by restraint and movement issues (11 November 2026)",
+          "url": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/cavity-wall-instability-caused-restraint-and-movement-issues-1589"
+        },
+        {
+          "label": "BS 5975-1:2024 Temporary works – Management procedures for the control of temporary works. Code of practice",
+          "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
+        },
+        {
+          "label": "HSE: Temporary works guidance",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporary-works.htm"
+        },
+        {
+          "label": "CDM 2015",
+          "url": "https://www.legislation.gov.uk/uksi/2015/51/contents"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Exact requirements of BS 5975-1:2024, CDM 2015 and any project-specific design or regulator guidance remain those of the appointed designers, the project temporary works procedure and the relevant competent persons. The report is a confidential CROSS submission; identifiable details have been removed. No design, check or permit is implied by this briefing. AI-generated or third-party summaries require competent review before use on site."
+    }
+  ]
+}
