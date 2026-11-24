@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-23T07:45:00+00:00",
-  "count": 81,
+  "updated": "2026-11-24T07:45:00+00:00",
+  "count": 82,
   "latest": [
+    {
+      "id": "2026-11-24-cisrs-cscs-alliance-scaffolder-competence",
+      "date": "2026-11-24",
+      "kicker": "Guidance",
+      "title": "CISRS remains in CSCS Alliance: scaffolder competence clarity for temporary works",
+      "source": "https://nasc.org.uk/resource/cisrs-agrees-new-deal-with-clc-and-cscs.html"
+    },
     {
       "id": "2026-11-23-cross-1589-cavity-wall-instability",
       "date": "2026-11-23",
@@ -64,13 +71,6 @@
       "kicker": "HSE prosecutions",
       "title": "HSE: company fined £20,000 after worker falls through fragile barn roof",
       "source": "https://press.hse.gov.uk/2026/11/05/construction-and-landscaping-company-fined-after-worker-falls-through-fragile-barn-roof/"
-    },
-    {
-      "id": "2026-11-11-msf-mobile-scaffold-collapse-three-decks",
-      "date": "2026-11-11",
-      "kicker": "Guidance",
-      "title": "Marine Safety Forum Alert 26-17: three-tier mobile scaffold collapsed three decks while being moved",
-      "source": "https://www.marinesafetyforum.org/safety-alerts/scaffolding-unit-collapse-hi-potential-incident/"
     }
   ]
 }
