@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-24T07:45:00+00:00",
-  "count": 82,
+  "updated": "2026-11-25T07:45:00+00:00",
+  "count": 83,
   "latest": [
+    {
+      "id": "2026-11-25-hse-construction-fatality-statistics-temporary-works",
+      "date": "2026-11-25",
+      "kicker": "HSE statistics",
+      "title": "HSE 2025/26 construction statistics: falls and collapses remain key temporary works risks",
+      "source": "https://www.hse.gov.uk/statistics/assets/docs/construction.pdf"
+    },
     {
       "id": "2026-11-24-cisrs-cscs-alliance-scaffolder-competence",
       "date": "2026-11-24",
@@ -64,13 +71,6 @@
       "kicker": "Guidance",
       "title": "BSR chair: specialist scaffolder shortage must not force unsuitable contractors on cladding remediation",
       "source": "https://www.constructionnews.co.uk/buildings/building-safety/skills-shortage-undermines-crackdown-on-worst-blockers-in-building-safety-13-11-2026/"
-    },
-    {
-      "id": "2026-11-12-hse-fragile-barn-roof-fall-aj-riley",
-      "date": "2026-11-12",
-      "kicker": "HSE prosecutions",
-      "title": "HSE: company fined £20,000 after worker falls through fragile barn roof",
-      "source": "https://press.hse.gov.uk/2026/11/05/construction-and-landscaping-company-fined-after-worker-falls-through-fragile-barn-roof/"
     }
   ]
 }

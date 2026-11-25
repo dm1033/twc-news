@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-25-hse-construction-fatality-statistics-temporary-works",
+  "date": "2026-11-25",
+  "kicker": "HSE statistics",
+  "title": "HSE 2025/26 construction statistics: falls and collapses remain key temporary works risks",
+  "excerpt": "HSE Construction statistics in Great Britain, 2026 (published 19 November 2026) record 25 worker fatalities in construction in 2025/26, below the five-year average of 37. Over 2021/22–2025/26 falls from height accounted for 52% of construction fatalities, with workers trapped by something collapsing or overturning at 11%. Contractors should treat scaffolds, temporary platforms, propping and stability measures as controlled temporary works under BS 5975-1:2024.",
+  "tags": [
+    "HSE",
+    "Temporary works",
+    "Falls from height",
+    "Structural stability",
+    "BS 5975",
+    "Scaffolding",
+    "CDM"
+  ],
+  "linkedinReady": "HSE figures show construction still carries a disproportionate share of fatal risk. Temporary works controls matter.\n\nThe HSE Construction statistics in Great Britain, 2026 (published 19 November 2026) record 25 fatal injuries to workers in the construction sector in 2025/26. That is below the annual average of 37 over the five years 2021/22 to 2025/26. The fatal injury rate for construction was 1.78 per 100,000 workers over that five-year period — around 4.6 times the all-industry rate.\n\nOver those five years, falls from height accounted for 52% of construction fatalities. Workers trapped by something collapsing or overturning accounted for 11%. Struck by moving or falling objects was 12%. These categories frequently involve temporary works: scaffolds, edge protection, temporary platforms, falsework, propping and temporary stability measures while the permanent structure is incomplete.\n\nRecent HSE prosecutions and CROSS reports continue to show the same pattern — temporary structures without design, without verified load path, or without a live Temporary Works Register entry. BS 5975-1:2024 and CDM 2015 Regulation 19 require that temporary conditions are planned, designed, checked and supervised so that structures do not become unstable.\n\nThe statistics are a prompt to check that every scaffold, loading platform, prop or temporary bracing on your site is on the register, has a design brief or recognised standard solution, is inspected, and is controlled by a competent Temporary Works Coordinator.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #HSE #BS5975 #FallsFromHeight #StructuralStability #Scaffolding #CDM",
+  "body": [
+    {
+      "h": "What the statistics show",
+      "p": "The Health and Safety Executive published Construction statistics in Great Britain, 2026 on 19 November 2026. The report records 25 fatal injuries to workers in the construction sector in 2025/26 (provisional). This compares with an annual average of 37 fatalities over the five-year period 2021/22 to 2025/26. The fatal injury rate for construction was 1.78 per 100,000 workers over that five-year period, approximately 4.6 times the rate across all industries. Across the same five years, falls from height accounted for 52% of construction fatalities, workers struck by moving or falling objects 12%, workers trapped by something collapsing or overturning 11%, struck by moving vehicles 10%, and contact with electricity 8%. Non-fatal injury estimates average around 48,000 construction workers per year over the three years to 2025/26. An estimated 84,000 construction workers were suffering from work-related ill health over the same three-year period."
+    },
+    {
+      "h": "Why it matters for contractors",
+      "p": "Falls from height and collapses or overturning remain leading causes of fatal injury in construction. Both frequently arise where temporary works are involved: scaffolding and edge protection for access and work at height; temporary platforms and loading bays; falsework and formwork; propping of incomplete or altered structures; temporary stability measures during erection or demolition sequences. HSE guidance and recent prosecutions continue to emphasise that temporary structures must be designed, installed and maintained to withstand foreseeable loads and used only for the purpose for which they were designed. CDM 2015 Regulation 19 requires practicable steps to ensure that any new or existing structure does not collapse where construction work may make it unstable or leave it in a temporary state of weakness. BS 5975-1:2024 sets out the management procedures — design brief, Temporary Works Register, independent check where required, permit-to-use and competent coordination — that keep those temporary conditions under control."
+    },
+    {
+      "h": "Practical TWC / TWS control points",
+      "ul": [
+        "Treat all scaffolds, temporary platforms, edge protection, falsework, formwork, propping and temporary bracing as temporary works items on the Temporary Works Register. Provisional category only — to be confirmed under the project procedure.",
+        "Confirm each item has either a verified design brief and design, or falls within a recognised standard solution (for example TG20:21 for scaffolds where applicable), with the relevant documentation available on site.",
+        "Require inspection by a competent person before first use and after alteration, adverse weather or any event that could affect stability. Hold a permit-to-use only when the Temporary Works Coordinator or Supervisor is satisfied.",
+        "For any sequence that removes permanent elements or changes the load path (demolition, alteration, staged erection), ensure the temporary condition is assessed, designed where necessary, and communicated between permanent and temporary works designers.",
+        "Do not allow loading or striking of temporary works without the relevant permit. Incomplete load paths and unauthorised sequence changes remain common findings in CROSS reports and HSE investigations.",
+        "Review the register regularly against the current programme. Statistics record residual risk; the control is live supervision under the project temporary works procedure."
+      ]
+    },
+    {
+      "h": "Sources",
+      "sources": [
+        {
+          "label": "HSE: Construction statistics in Great Britain, 2026 (published 19 November 2026)",
+          "url": "https://www.hse.gov.uk/statistics/assets/docs/construction.pdf"
+        },
+        {
+          "label": "GOV.UK: Health and Safety statistics: 2025 to 2026 annual release (19 November 2026)",
+          "url": "https://www.gov.uk/government/statistics/health-and-safety-statistics-2025-to-2026-annual-release"
+        },
+        {
+          "label": "HSE: Temporary works",
+          "url": "https://www.hse.gov.uk/construction/safetytopics/temporaryworks.htm"
+        },
+        {
+          "label": "BS 5975-1:2024 Temporary works – Management procedures for the control of temporary works. Code of practice",
+          "url": "https://knowledge.bsigroup.com/products/temporary-works-management-procedures-for-the-control-of-temporary-works-code-of-practice"
+        },
+        {
+          "label": "CDM 2015 Regulation 19 – Stability of structures",
+          "url": "https://www.legislation.gov.uk/uksi/2015/51/regulation/19"
+        }
+      ]
+    },
+    {
+      "h": "Limitations",
+      "p": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure. Statistics are provisional where indicated and derived from RIDDOR and Labour Force Survey data as published by HSE. Exact requirements of BS 5975-1:2024, CDM 2015, the Work at Height Regulations 2005 and any client or principal contractor procedures remain those of the appointed designers, the project temporary works procedure and the relevant competent persons. AI-generated or third-party summaries require competent review before use on site."
+    }
+  ]
+}
