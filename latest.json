@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-25T07:45:00+00:00",
-  "count": 83,
+  "updated": "2026-11-26T07:45:00+00:00",
+  "count": 84,
   "latest": [
+    {
+      "id": "2026-11-26-banbury-partial-collapse-residual-risk",
+      "date": "2026-11-26",
+      "kicker": "HSE update",
+      "title": "Banbury partial collapse: residual structural risk remains a temporary works control",
+      "source": "https://www.bbc.co.uk/news/articles/cwx2ek5my4meo"
+    },
     {
       "id": "2026-11-25-hse-construction-fatality-statistics-temporary-works",
       "date": "2026-11-25",
@@ -64,13 +71,6 @@
       "kicker": "CROSS learning",
       "title": "Sequence changes and temporary stability: CROSS learning for contractors",
       "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/partial-collapse-during-underpinning-1486"
-    },
-    {
-      "id": "2026-11-16-bsr-scaffolder-shortage-cladding",
-      "date": "2026-11-16",
-      "kicker": "Guidance",
-      "title": "BSR chair: specialist scaffolder shortage must not force unsuitable contractors on cladding remediation",
-      "source": "https://www.constructionnews.co.uk/buildings/building-safety/skills-shortage-undermines-crackdown-on-worst-blockers-in-building-safety-13-11-2026/"
     }
   ]
 }
