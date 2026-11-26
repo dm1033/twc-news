@@ -85,9 +85,11 @@ class SyncTests(unittest.TestCase):
             self.assertEqual((self.tmp / "feed.json").read_bytes(), before)
             publish.check(self.tmp)
             code, text = publish.sync_verdict(result)
-            self.assertEqual(code, 1)
-            self.assertIn("No briefing was published", text)
+            # A refused push is a warning; the daily check reports a missing day.
+            self.assertEqual(code, 0)
+            self.assertIn("::warning title=Nothing new from this push::", text)
             self.assertIn("posts/<id>.json", text)
+            self.assertNotIn("::error", text)
             self.assertEqual(
                 publish.sync_subject(result),
                 "fix: restore the feed after a push that failed validation",
@@ -360,6 +362,43 @@ class RepairTests(unittest.TestCase):
         self.assertEqual(len(publish.load_archive(self.tmp)), 21)
 
 
+class TodayCheckTests(unittest.TestCase):
+    """daily-briefing-check.yml: red only when the day has no briefing."""
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp)
+        fill(self.tmp, 3)
+        self.newest = json.loads((self.tmp / "latest.json").read_text(encoding="utf-8"))["latest"][0]
+
+    def test_a_day_with_a_briefing_passes(self):
+        code, text = publish.today_check(self.tmp, self.newest["date"])
+        self.assertEqual(code, 0)
+        self.assertIn(self.newest["id"], text)
+
+    def test_a_day_without_a_briefing_fails_and_names_the_newest(self):
+        code, text = publish.today_check(self.tmp, "2099-01-01")
+        self.assertEqual(code, 1)
+        self.assertIn("::error title=No briefing for 2099-01-01::", text)
+        self.assertIn(f"The newest is dated {self.newest['date']}", text)
+
+    def test_the_day_is_the_london_calendar_day(self):
+        from datetime import datetime, timezone
+        # 23:30 UTC on 1 July is 00:30 on 2 July in London (BST).
+        self.assertEqual(publish.london_today(datetime(2026, 7, 1, 23, 30, tzinfo=timezone.utc)), "2026-07-02")
+        # 23:30 UTC on 1 December is still 1 December in London (GMT).
+        self.assertEqual(publish.london_today(datetime(2026, 12, 1, 23, 30, tzinfo=timezone.utc)), "2026-12-01")
+
+    def test_the_command_line_exit_code_is_the_verdict(self):
+        ok = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "publish.py"), "--root", str(self.tmp), "today-check",
+             "--date", self.newest["date"]], capture_output=True, text=True)
+        missing = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "publish.py"), "--root", str(self.tmp), "today-check",
+             "--date", "2099-01-01"], capture_output=True, text=True)
+        self.assertEqual((ok.returncode, missing.returncode), (0, 1), ok.stderr + missing.stderr)
+
+
 class PublisherPromptTests(unittest.TestCase):
     """The instructions handed to the publisher must describe what sync accepts."""
 
@@ -514,7 +553,7 @@ class PipelineTests(unittest.TestCase):
         self.assertNotEqual(missing.returncode, 0)
         self.assertIn(NEW["id"], self._remote_file(f"posts/{NEW['id']}.json"))
 
-    def test_placeholder_push_is_repaired_on_the_remote_and_fails_the_run(self):
+    def test_placeholder_push_is_repaired_on_the_remote_and_only_warns(self):
         good = self._remote_file("feed.json")
         self._publisher_pushes("feed.json", PUSHED_NOTE, "News: 2026-11-10 CROSS 1588 girder lift sequence splice")
         self.assertEqual(self._remote_file("feed.json"), PUSHED_NOTE)
@@ -523,8 +562,8 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(self._remote_file("feed.json"), good)
         self.assertEqual(self._remote_log()[0], "fix: restore the feed after a push that failed validation")
         verdict = self._run(self.runner, "python3", "scripts/publish.py", "sync-verdict", "sync-result.json", check=False)
-        self.assertEqual(verdict.returncode, 1)
-        self.assertIn("No briefing was published", verdict.stdout)
+        self.assertEqual(verdict.returncode, 0)
+        self.assertIn("Nothing new from this push", verdict.stdout)
 
     def test_a_publisher_commit_that_lands_mid_run_is_taken_in(self):
         self._publisher_pushes("feed.json", PUSHED_PLACEHOLDER, "News: first attempt")

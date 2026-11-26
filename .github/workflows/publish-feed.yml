@@ -11,13 +11,13 @@ name: publish-feed
 #
 # This job is the guard. An unrecoverable push (placeholder text, a stub,
 # a file that does not parse, a deleted or shortened stored briefing) is
-# restored from posts/ and the run fails. Recoverable briefings are kept.
+# restored from posts/. Recoverable briefings are kept.
 #
-# The job is green when main ends up valid and either a briefing came in or
-# nothing was wrong with the push. It is red when the push carried something
-# that is not a briefing and nothing was published. The feeds are put back
-# from posts/ either way, so a red run means "today's briefing is missing",
-# not "the site is broken".
+# A refused push is a warning, not a failure: the publisher usually tries
+# again within a minute, and on many days it pushed three placeholders before
+# the briefing, each one a red run and an issue comment. The job is red only
+# when main is not valid after the sync. Whether the day's briefing arrived
+# is checked once a day by daily-briefing-check.yml.
 #
 # One job does the whole pass, so a capture and a repair cannot race each
 # other. The commit it pushes uses GITHUB_TOKEN. GitHub does not start
@@ -36,7 +36,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency:
   group: news-feed-main
@@ -62,27 +61,10 @@ jobs:
           bash scripts/sync-main.sh origin main
           python3 scripts/publish.py sync-report sync-result.json | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Open an issue for what was refused
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          [ -f sync-result.json ] || exit 0
-          refused=$(python3 -c 'import json; print(len(json.load(open("sync-result.json")).get("rejected") or []))')
-          [ "$refused" != "0" ] || exit 0
-          body=$(python3 scripts/publish.py sync-issue sync-result.json "${{ github.sha }}")
-          title="feed.json failed validation and was restored"
-          number=$(gh issue list --repo "${{ github.repository }}" --state open --search "in:title ${title}" --json number --jq '.[0].number')
-          if [ -n "$number" ] && [ "$number" != "null" ]; then
-            gh issue comment --repo "${{ github.repository }}" "$number" --body "$body" || echo "could not comment on the existing issue"
-          else
-            gh issue create --repo "${{ github.repository }}" --title "$title" --body "$body" || echo "could not open an issue"
-          fi
-
       - name: Check what main now serves
         run: |
           python3 scripts/publish.py check
           python3 -m unittest discover -s tests -v
 
-      - name: Fail when the push published nothing
+      - name: Report what the push published or refused
         run: python3 scripts/publish.py sync-verdict sync-result.json

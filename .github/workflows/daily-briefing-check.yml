@@ -1,0 +1,50 @@
+name: daily-briefing-check
+
+# One check a day, after the evening publisher (about 19:00 UK time). It is
+# red only when no briefing dated today (Europe/London) has reached
+# latest.json, and then it adds one note to the open "No news briefing"
+# issue, or opens it. publish-feed.yml no longer fails or comments for each
+# refused push; this is the one signal that a day's briefing is missing.
+#
+# 21:30 UTC is 21:30 in winter and 22:30 in summer in London, the same day
+# either way.
+
+on:
+  schedule:
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  today:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Is there a briefing dated today?
+        run: python3 scripts/publish.py today-check
+
+      - name: Note the missing day on the issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          day=$(TZ=Europe/London date +%F)
+          newest=$(python3 -c 'import json; e=json.load(open("latest.json"))["latest"]; print(e[0]["date"] if e else "none")')
+          title="No news briefing was published"
+          body="No briefing dated ${day} (Europe/London) is in latest.json at $(date -u +%H:%M) UTC. The newest briefing is dated ${newest}. Refused pushes, if any, are listed as warnings on that day's publish-feed runs: ${{ github.server_url }}/${{ github.repository }}/actions/workflows/publish-feed.yml"
+          number=$(gh issue list --repo "${{ github.repository }}" --state open --search "in:title ${title}" --json number --jq '.[0].number')
+          if [ -n "$number" ] && [ "$number" != "null" ]; then
+            gh issue comment --repo "${{ github.repository }}" "$number" --body "$body" || echo "could not comment on the existing issue"
+          else
+            gh issue create --repo "${{ github.repository }}" --title "$title" --body "$body" || echo "could not open an issue"
+          fi

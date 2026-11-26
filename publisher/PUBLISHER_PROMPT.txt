@@ -101,4 +101,4 @@ Wait about a minute, then read latest.json again. Your briefing's id should
 be the first entry. If it is not, report that and stop. Do not push again.
 
 A file that is not a complete briefing is removed automatically, the feed is
-put back, the run on GitHub fails, and nothing new appears on the site.
+put back, and nothing new appears on the site.

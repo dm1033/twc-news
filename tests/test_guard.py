@@ -204,9 +204,10 @@ class WorkflowTests(unittest.TestCase):
             self.assertIn(f"- {path}", text)
         self.assertIn("workflow_dispatch:", text)
         self.assertIn("contents: write", text)
-        self.assertIn("issues: write", text)
         self.assertIn("scripts/sync-main.sh origin main", text)
-        self.assertIn("sync-issue", text)
+        # A refused push no longer comments on an issue; the daily check does, once a day.
+        self.assertNotIn("issues: write", text)
+        self.assertNotIn("sync-issue", text)
         self.assertIn("python3 scripts/publish.py check", text)
         self.assertIn("sync-verdict", text)
         self.assertIn("news-feed-main", text)
@@ -215,8 +216,19 @@ class WorkflowTests(unittest.TestCase):
 
     def test_one_job_writes_main_so_a_capture_and_a_repair_cannot_race(self):
         workflows = sorted(path.name for path in (ROOT / ".github" / "workflows").glob("*.yml"))
-        self.assertEqual(workflows, ["feed-integrity.yml", "publish-feed.yml"])
+        self.assertEqual(workflows, ["daily-briefing-check.yml", "feed-integrity.yml", "publish-feed.yml"])
         self.assertNotIn("contents: write", self._workflow("feed-integrity.yml"))
+        self.assertNotIn("contents: write", self._workflow("daily-briefing-check.yml"))
+
+    def test_the_daily_check_runs_once_a_day_after_the_evening_publisher(self):
+        text = self._workflow("daily-briefing-check.yml")
+        self.assertIn('cron: "30 21 * * *"', text)
+        self.assertIn("workflow_dispatch:", text)
+        self.assertIn("contents: read", text)
+        self.assertIn("issues: write", text)
+        self.assertIn("python3 scripts/publish.py today-check", text)
+        self.assertIn("if: failure()", text)
+        self.assertNotIn("git push", text)
 
     def test_pull_requests_run_the_same_validation(self):
         text = self._workflow("feed-integrity.yml")
