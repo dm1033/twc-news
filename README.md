@@ -10,7 +10,7 @@ One small new file:
 dm1033/twc-news   main   incoming/<id>.json
 ```
 
-`posts/<id>.json` is accepted as well. The file is the briefing as one JSON object, about 4 to 14 KB. Nothing else is written by the publisher. `.github/workflows/publish-feed.yml` runs on that push, stores the briefing under `posts/`, and writes `archive/feed.json`, `feed.json` (newest 20) and `latest.json`. A recoverable imperfect file is repaired. A placeholder is restored and the run fails.
+`posts/<id>.json` is accepted as well. The file is the briefing as one JSON object, about 4 to 14 KB. Nothing else is written by the publisher. `.github/workflows/publish-feed.yml` runs on that push, stores the briefing under `posts/`, and writes `archive/feed.json`, `feed.json` (newest 20) and `latest.json`. A recoverable imperfect file is repaired. A placeholder is restored and the run shows a warning.
 
 The format is [`PUBLISHING.md`](PUBLISHING.md). The text to paste into the scheduled **TWC News Tab Publisher** is [`publisher/PUBLISHER_PROMPT.txt`](publisher/PUBLISHER_PROMPT.txt). Nothing in this repository can change the task the publisher is already running, and until that text is pasted the publisher keeps following its old rules.
 
@@ -32,10 +32,12 @@ So the publisher now writes one briefing, and the feed files are generated here.
 
 `publish-feed` runs on every push to `main` that touches `posts/`, `feed.json`, `archive/` or `latest.json`.
 
-- **Green**: `main` is valid, and either a briefing was published or nothing was wrong with the push.
-- **Red**: the push carried something that is not a briefing, and nothing was published. The feeds were still put back from `posts/`, so the site is intact. Red means today's briefing is missing. An issue is opened, or a comment added to the open one, naming what was refused.
+- **Green**: `main` is valid. A briefing was published, or the push was refused and the feeds were put back from `posts/`. A refused push shows as a warning, not a failure: the publisher usually tries again within a minute, and on many days it pushed two or three placeholders before the briefing.
+- **Red**: `main` is not valid after the sync. That is a real fault.
 
-The run's summary page lists what was published and what was refused.
+The run's summary page and its warnings list what was published and what was refused.
+
+`daily-briefing-check` runs at 21:30 UTC, after the evening publisher. It is red when no briefing dated that day (Europe/London) is in `latest.json`, and it adds one comment to the open "No news briefing was published" issue, or opens it. That is the one signal that a day's briefing is missing.
 
 ## Files
 

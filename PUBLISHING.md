@@ -64,7 +64,7 @@ Exactly these keys, and no others. Unknown keys are removed; a missing key is re
 
 ## What is refused
 
-The public files are restored from `posts/` and the run fails. Nothing new is published.
+The public files are restored from `posts/` and the run shows a warning. Nothing new is published from that push. If no briefing dated that day has arrived by 21:30 UTC, `daily-briefing-check` fails and notes it on an issue.
 
 - Placeholder text, including `PLACEHOLDER`, `PLACEHOLDER_AGAIN`, `PLACEHOLDER_WILL_REPLACE`, an empty file, or a note that the full JSON is in a local file.
 - A file that is not JSON.

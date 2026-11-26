@@ -29,11 +29,14 @@ import re
 import subprocess
 import sys
 from contextlib import contextmanager
+from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 ROLLING_LIMIT = 20
 LATEST_LIMIT = 10
+LONDON = ZoneInfo("Europe/London")
 MIN_BODY_TEXT = 800
 POST_KEYS = ("id", "date", "kicker", "title", "excerpt", "tags", "linkedinReady", "body")
 BODY_KEYS = ("h", "p", "ul", "sources")
@@ -1166,21 +1169,54 @@ def sync_issue_body(result: dict, commit: str | None = None) -> str:
 
 
 def sync_verdict(result: dict) -> tuple[int, str]:
-    """Exit code and GitHub annotations for one sync."""
+    """Exit code and GitHub annotations for one sync.
+
+    A refused push is a warning, not a failure. The publisher usually tries
+    again within a minute, and the feed is put back from posts/ either way,
+    so a red run per refused push only reported noise. Whether the day's
+    briefing arrived is checked once a day by `today-check`
+    (.github/workflows/daily-briefing-check.yml). A main that is not valid
+    after the sync still fails the run, in the `check` step.
+    """
     lines = []
     for entry in result.get("rejected") or []:
         lines.append(f"::warning title=Refused {entry['path']}::{entry['problem']}")
     published = result.get("published") or []
     if published:
         lines.append("::notice title=Briefing published::" + ", ".join(published))
-    if result.get("ok"):
-        return 0, "\n".join(lines) + ("\n" if lines else "")
-    lines.append(
-        "::error title=No briefing was published::The push did not contain a briefing, so nothing "
-        "new is on the site. The feed was put back from posts/. The publisher must add one file, "
-        "posts/<id>.json. See publisher/PUBLISHER_PROMPT.txt."
+    if not result.get("ok"):
+        lines.append(
+            "::warning title=Nothing new from this push::The push did not contain a briefing, so "
+            "nothing new is on the site from it. The feed was put back from posts/. The publisher "
+            "should add one file, incoming/<id>.json or posts/<id>.json. See "
+            "publisher/PUBLISHER_PROMPT.txt. The daily briefing check fails if no briefing for "
+            "the day arrives."
+        )
+    return 0, "\n".join(lines) + ("\n" if lines else "")
+
+
+def london_today(now: datetime | None = None) -> str:
+    """Today's date in Europe/London, the calendar the briefings are dated by."""
+    now = now or datetime.now(timezone.utc)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=timezone.utc)
+    return now.astimezone(LONDON).date().isoformat()
+
+
+def today_check(root: Path, day: str | None = None) -> tuple[int, str]:
+    """Exit code and annotation: is a briefing dated `day` in latest.json?"""
+    day = day or london_today()
+    latest = json.loads((root / "latest.json").read_text(encoding="utf-8"))
+    entries = latest.get("latest") or []
+    found = [entry["id"] for entry in entries if entry.get("date") == day]
+    if found:
+        return 0, f"::notice title=Briefing published for {day}::" + ", ".join(found) + "\n"
+    newest = entries[0]["date"] if entries else "none"
+    return 1, (
+        f"::error title=No briefing for {day}::latest.json has no briefing dated {day} "
+        f"(Europe/London). The newest is dated {newest}. Any refused pushes are listed as "
+        "warnings on that day's publish-feed runs.\n"
     )
-    return 1, "\n".join(lines) + "\n"
 
 
 def genuine_posts_from_git(root: Path) -> list[dict]:
@@ -1242,6 +1278,8 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("sync")
     for name in ("sync-subject", "sync-report", "sync-verdict"):
         sub.add_parser(name).add_argument("result", type=Path)
+    today = sub.add_parser("today-check")
+    today.add_argument("--date", default=None, help="YYYY-MM-DD; default is today in Europe/London")
     sync_issue = sub.add_parser("sync-issue")
     sync_issue.add_argument("result", type=Path)
     sync_issue.add_argument("commit", nargs="?", default=None)
@@ -1276,6 +1314,10 @@ def main(argv: list[str] | None = None) -> int:
             result = sync(root)
             print(json.dumps(result, indent=2))
             return 0 if result.get("action") != "unrestored" else 1
+        elif args.command == "today-check":
+            code, text = today_check(root, args.date)
+            print(text, end="")
+            return code
         elif args.command in ("sync-subject", "sync-report", "sync-verdict", "sync-issue"):
             result = json.loads(args.result.read_text(encoding="utf-8"))
             if args.command == "sync-subject":
