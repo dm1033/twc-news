@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-26T07:45:00+00:00",
-  "count": 84,
+  "updated": "2026-11-27T07:45:00+00:00",
+  "count": 85,
   "latest": [
+    {
+      "id": "2026-11-27-hackney-scaffolding-flue-interface",
+      "date": "2026-11-27",
+      "kicker": "Daily briefing",
+      "title": "Scaffolding and sealed sheeting over boiler flues: temporary works interface in an occupied building",
+      "source": "https://hackneycitizen.co.uk/2026/11/26/finn-house-hoxton-scaffolding-boiler-flues-gas-emergency/"
+    },
     {
       "id": "2026-11-26-banbury-partial-collapse-residual-risk",
       "date": "2026-11-26",
@@ -64,13 +71,6 @@
       "kicker": "Guidance",
       "title": "CIRIA Report 108 and modern concretes: formwork pressure assumptions require project-specific review",
       "source": "https://www.pv-consulting.co.uk/blog/low-carbon-concrete-formwork-pressure-ciria-108"
-    },
-    {
-      "id": "2026-11-17-cross-sequence-temporary-stability",
-      "date": "2026-11-17",
-      "kicker": "CROSS learning",
-      "title": "Sequence changes and temporary stability: CROSS learning for contractors",
-      "source": "https://www.cross-safety.org/uk/safety-information/cross-safety-report/partial-collapse-during-underpinning-1486"
     }
   ]
 }

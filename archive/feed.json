@@ -1,8 +1,72 @@
 {
-  "updated": "2026-11-26T07:45:00+00:00",
+  "updated": "2026-11-27T07:45:00+00:00",
   "source": "Temporary Works Consulting & Design Ltd daily briefing automation",
   "disclaimer": "Educational briefing only. Not for construction. Subject to project-specific verification and acceptance under the project temporary works procedure.",
   "posts": [
+    {
+      "id": "2026-11-27-hackney-scaffolding-flue-interface",
+      "date": "2026-11-27",
+      "kicker": "Daily briefing",
+      "title": "Scaffolding and sealed sheeting over boiler flues: temporary works interface in an occupied building",
+      "excerpt": "Reports on 26 November 2026 describe scaffolding and sealed plastic sheeting erected across boiler flues at Finn House, a five-storey occupied block in Hoxton, Hackney. Cadent engineers isolated gas meters after identifying a risk of carbon monoxide build-up. The building was described as unsafe for residents until the scaffolding is modified or removed and flues confirmed safe. Contractors working on or adjacent to occupied buildings must treat scaffold design, sheeting and service interfaces as controlled temporary works under BS 5975-1:2024 and CDM 2015.",
+      "tags": [
+        "Temporary works",
+        "Scaffolding",
+        "Occupied buildings",
+        "Interfaces",
+        "Carbon monoxide",
+        "BS 5975",
+        "CDM"
+      ],
+      "linkedinReady": "Scaffolding over boiler flues in an occupied building is a temporary works interface, not just an access issue.\n\nReports published on 26 November 2026 describe scaffolding and sealed plastic sheeting placed across boiler flues at Finn House, a five-storey occupied residential block on Bevenden Street in Hoxton, Hackney. On 3 November a private engineer examining a vibrating boiler called Cadent. Engineers found the scaffold and sheeting were restricting air intake and ventilation, raising the risk of carbon monoxide build-up. Cadent isolated the gas meters. A spokesperson confirmed the scaffolding blocking the flues had made the building “unsafe for residents” and that meters would remain isolated until the scaffolding is modified or removed and the flue systems confirmed as safe and compliant.\n\nAny scaffold, sheeting, or temporary enclosure that can affect existing building services, ventilation or means of escape in an occupied structure is temporary works. It belongs on the Temporary Works Register. The design brief must identify existing flues, vents, windows and escape routes. CDM 2015 Regulation 19 requires practicable steps so that construction work does not leave a structure unstable or in a temporary state of weakness. The same principle applies to the safe operation of permanent services that keep occupants safe.\n\nPractical controls: survey and mark all flues and vents before design; keep them clear or provide an agreed temporary alternative; inspect after erection and after any sheeting is added; record the interface on the register; and stop work if occupants report boiler or ventilation problems.\n\nEducational briefing only. Not for construction.\n\nhttps://www.temporaryworksconsulting.com/news.html\n\n#TemporaryWorks #Scaffolding #OccupiedBuildings #CDM #BS5975 #CarbonMonoxide",
+      "body": [
+        {
+          "h": "What has been reported",
+          "p": "Local Democracy Reporter coverage published on 26 November 2026 describes an emergency callout on or around 3 November 2026 at Finn House, a five-storey occupied residential block on Bevenden Street in Hoxton, Hackney. Scaffolding and sealed plastic sheeting had been erected across boiler flues. Cadent gas emergency engineers attended after a private engineer reported a boiler vibrating severely. They found that the scaffold and sheeting were restricting oxygen intake and ventilation into the flats, raising the risk of carbon monoxide building up. Cadent isolated the gas meters. A Cadent spokesperson confirmed the callout and stated that the scaffolding blocking the flues had made the building “unsafe for residents”. The spokesperson added that the gas meters would remain isolated until the scaffolding is modified or removed and the flue systems can be confirmed as safe and compliant. The works are associated with a rooftop extension. No HSE prosecution has been reported in connection with this incident at the time of writing."
+        },
+        {
+          "h": "Why it matters for contractors",
+          "p": "Scaffolding is temporary works. When it is erected against an occupied building, its design, ties, sheeting, debris netting and any temporary enclosures can affect existing permanent services, ventilation paths, flues, windows, means of escape and occupant safety. Blocking boiler flues creates a foreseeable risk of carbon monoxide accumulation. This is an interface between temporary works and the existing building that must be identified, designed and controlled. CDM 2015 Regulation 19 requires that all practicable steps are taken to ensure that any new or existing structure does not collapse if, due to the carrying out of construction work, it may become unstable or is in a temporary state of weakness or instability. The same duty to plan, manage and monitor construction work so as not to create risk to persons extends to the safe continued operation of building services that protect occupants. BS 5975-1:2024 expects temporary works to be managed through a formal procedure, with a design brief that captures interfaces, a register, and competent supervision."
+        },
+        {
+          "h": "Practical TWC / TWS control points",
+          "ul": [
+            "Include existing building services (boiler flues, vents, extract ducts, windows used for ventilation or escape) in the temporary works design brief before scaffold design is issued.",
+            "Survey and mark the location of all flues and ventilation terminals on the elevation; do not cover them with boards, sheeting or debris netting without an agreed temporary arrangement.",
+            "Record the scaffold, sheeting and any service interface on the Temporary Works Register. Provisional category only — to be confirmed by the TWC and project temporary works procedure.",
+            "Inspect after erection and after any subsequent addition of sheeting or netting. Confirm clearances are maintained.",
+            "Brief the site team that reports of boiler malfunction, unusual vibration, or occupant complaints about ventilation or heating must be escalated immediately to the TWC and the principal contractor.",
+            "Where the building remains occupied, coordinate with the building manager and, where gas appliances are affected, ensure any isolation or temporary provision is carried out by a competent person.",
+            "Do not proceed with further temporary works that could worsen the interface until the condition is reviewed and accepted under the project temporary works procedure."
+          ]
+        },
+        {
+          "h": "Sources",
+          "sources": [
+            {
+              "label": "Hackney Citizen, 26 November 2026: Hoxton block’s boilers shut down after builders’ scaffolding blocked gas flues",
+              "url": "https://hackneycitizen.co.uk/2026/11/26/finn-house-hoxton-scaffolding-boiler-flues-gas-emergency/"
+            },
+            {
+              "label": "MyLondon / Local Democracy Reporter, 26 November 2026: Scaffolding blunder on Hackney housing block leads to toxic gas emergency",
+              "url": "https://www.mylondon.news/news/east-london-news/scaffolding-blunder-hackney-housing-block-34960833"
+            },
+            {
+              "label": "HSE: Temporary works",
+              "url": "https://www.hse.gov.uk/construction/safetytopics/temporaryworks.htm"
+            },
+            {
+              "label": "HSE: Carbon monoxide",
+              "url": "https://www.hse.gov.uk/carbonmonoxide/"
+            }
+          ]
+        },
+        {
+          "h": "Limitations",
+          "p": "Educational briefing only. Not for construction use. Subject to project-specific verification and acceptance under the project temporary works procedure. Facts are drawn from the named published reports. No cause of any wider incident has been determined. Exact clause references should be confirmed against the project’s licensed copy of the relevant standard."
+        }
+      ]
+    },
     {
       "id": "2026-11-26-banbury-partial-collapse-residual-risk",
       "date": "2026-11-26",
